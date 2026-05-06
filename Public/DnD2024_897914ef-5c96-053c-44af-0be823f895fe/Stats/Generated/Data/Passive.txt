@@ -3122,7 +3122,7 @@ data "PriorityOrder" "11002"
 data "Properties" "Highlighted"
 data "BoostContext" "OnCreate;OnShortRest;OnLongRest"
 data "BoostConditions" "ClassLevelHigherOrEqualThan(2,'Warlock',context.Source);"
-data "Boosts" "UnlockSpell(Target_Jump,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);"
+data "Boosts" "UnlockSpell(Target_Jump);"
 
 new entry "RepellingBlast"
 type "PassiveData"

@@ -4322,7 +4322,7 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h2d4bd307g5d48gebb2g299bg828ff537fd3c" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11002" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Jump,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Jump);" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(2,'Warlock',context.Source);" />
       </fields>
