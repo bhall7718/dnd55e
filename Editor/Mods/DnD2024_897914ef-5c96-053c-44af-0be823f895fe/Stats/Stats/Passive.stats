@@ -6457,6 +6457,8 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5cc813aagcb96gf7f3g42e4g17b7234b86eb" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_DualWielder_OffhandAttack);" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

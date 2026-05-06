@@ -4675,6 +4675,8 @@ using "DualWielder_BonusAC"
 data "DisplayName" "h720a62a8g5de9g9909gb1cagf61131cf2df9;1"
 data "Description" "h5cc813aagcb96gf7f3g42e4g17b7234b86eb;1"
 data "PriorityOrder" "700"
+data "BoostContext" ""
+data "BoostConditions" ""
 data "Boosts" "UnlockSpell(Target_DualWielder_OffhandAttack);"
 
 new entry "DungeonDelver"
