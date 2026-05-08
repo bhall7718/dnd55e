@@ -7986,6 +7986,94 @@
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_829" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d2ccbe64-0dfe-46ac-8082-ba7ac88782ce" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1e84493e-aeff-4d0e-b3ae-6c2187245d23" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Artificer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="13" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_832" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c3ddb082-5ab1-49d3-9b81-a857f4e9b4fd" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1e84493e-aeff-4d0e-b3ae-6c2187245d23" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Artificer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="14" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_833" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5e59e4c6-6df7-4b46-869a-101eda2c7ebb" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1e84493e-aeff-4d0e-b3ae-6c2187245d23" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Artificer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="15" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_834" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7f36bfd2-6ebf-4564-93ab-5b6ac084d73a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1e84493e-aeff-4d0e-b3ae-6c2187245d23" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Artificer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="16" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_835" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e7f9e9b7-cc80-469a-99f3-32b0268023ad" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1e84493e-aeff-4d0e-b3ae-6c2187245d23" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Artificer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="17" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_836" />
+        <field name="UUID" type="IdTableFieldDefinition" value="81c1cba6-379c-4197-97e5-4f0952b861ae" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1e84493e-aeff-4d0e-b3ae-6c2187245d23" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Artificer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="18" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_837" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d08e8c99-ceee-4a50-9aca-379a74f9fb11" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1e84493e-aeff-4d0e-b3ae-6c2187245d23" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Artificer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="19" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_838" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0652ddea-f984-4476-8378-674f94aab165" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1e84493e-aeff-4d0e-b3ae-6c2187245d23" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Artificer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="20" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF00BFFF" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_807" />
@@ -8261,6 +8349,94 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_830" />
+        <field name="UUID" type="IdTableFieldDefinition" value="bd2ed052-a17f-4f97-8c18-03ae17ef0f58" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="13" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_839" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7a516f86-344b-4a28-8242-0323d1d6d577" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="14" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_840" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8ea0a781-4fa9-4d47-adbe-fde113f138da" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="15" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_841" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b43cff97-4be7-482d-8a16-fb29f5b98766" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="16" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_842" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9a2bfeb2-452d-48ec-9a7f-30331c6f74eb" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="17" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_843" />
+        <field name="UUID" type="IdTableFieldDefinition" value="564a462d-d1b8-4148-b59a-780a2f69f396" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="18" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_844" />
+        <field name="UUID" type="IdTableFieldDefinition" value="465b1578-a2dd-476a-b4ac-d3955332b5f3" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="19" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_845" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8987fae5-5b1f-4d5b-979c-5ef6cda3a6a7" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="20" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
       </fields>
     </stat_object>
     <stat_object color="#FF800000" is_substat="false">
@@ -8611,6 +8787,94 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);" />
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_831" />
+        <field name="UUID" type="IdTableFieldDefinition" value="df69ffac-024d-4ade-835b-7aafcd5a24eb" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bd529197-9010-417b-90dc-e6cbf2568cce" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="13" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_846" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9d0b07c0-3e08-4026-9b20-45f1a86e998f" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bd529197-9010-417b-90dc-e6cbf2568cce" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="14" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_847" />
+        <field name="UUID" type="IdTableFieldDefinition" value="13739b04-8007-48d1-8b39-134e57407bd8" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bd529197-9010-417b-90dc-e6cbf2568cce" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="15" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_848" />
+        <field name="UUID" type="IdTableFieldDefinition" value="eaf61ae1-48a3-4f69-b4b6-a8918fceff76" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bd529197-9010-417b-90dc-e6cbf2568cce" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="16" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_849" />
+        <field name="UUID" type="IdTableFieldDefinition" value="15285f32-26e0-4996-9c2c-b0f29e3590c3" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bd529197-9010-417b-90dc-e6cbf2568cce" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="17" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_850" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2fccea84-6ae5-434c-a50f-7314efc1d15b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bd529197-9010-417b-90dc-e6cbf2568cce" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="18" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_851" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4a4409e5-37a1-44a0-aad7-4d13c1fc3283" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bd529197-9010-417b-90dc-e6cbf2568cce" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="19" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_852" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7ea740a2-9521-4753-a85d-3ea018a387ec" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bd529197-9010-417b-90dc-e6cbf2568cce" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="20" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);" />
       </fields>
     </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">
