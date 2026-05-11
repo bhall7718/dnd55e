@@ -3647,13 +3647,13 @@
         <field name="Name" type="NameTableFieldDefinition" value="PhantomSteed" />
         <field name="Level" type="IntegerTableFieldDefinition" value="3" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Illusion" enumeration_type_name="SpellSchool" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(PHANTOM_STEED,100,10);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(PHANTOM_STEED,100,100);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Ally() and not Dead();" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_PhantomSteed" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he922cbadga1cagc50eg44aagb22738ab6296" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7d1b5755g3943g8854gdc14g83c3921a9c89" version="1" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PHANTOM_STEED,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PHANTOM_STEED,100,100);" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Summon_FindFamiliar_L1to3" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Summon_FindFamiliar_L1to3" />
