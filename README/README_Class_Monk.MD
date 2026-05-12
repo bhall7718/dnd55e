@@ -17,16 +17,20 @@
 - Level 9: Acrobatic Movement
 - Level 10: Heightened Focus
 - Level 10: Self-Restoration
+## Elements
+- Level 3: Elemental Attunement
+- Level 6: Elemental Burst
+- Level 11: Stride of the Elements
+## Kensei
+- Level 3: Path of the Kensei
+- Level 6: One with the Blade
+- Level 11: Sharpen the Blade
 ## Mercy
 - Level 3: Hand of Harm
 - Level 3: Hand of Healing
 - Level 3: Implements of Mercy
 - Level 6: Physician’s Touch
 - Level 11: Flurry of Healing and Harm
-## Elements
-- Level 3: Elemental Attunement
-- Level 6: Elemental Burst
-- Level 11: Stride of the Elements
 ## Open Hand
 - Level 3: Open Hand Technique
 - Level 6: Wholeness of Body

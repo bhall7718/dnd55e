@@ -2966,6 +2966,86 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(FlurryOfHealingAndHarm,1,0);UnlockSpell(Target_FlurryOfHealing);UnlockSpell(Target_FlurryOfHarm);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(FlurryOfHealingAndHarm,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(FlurryOfHealingAndHarm,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(FlurryOfHealingAndHarm,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(FlurryOfHealingAndHarm,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(FlurryOfHealingAndHarm,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(FlurryOfHealingAndHarm,1,0);" />
       </fields>
     </stat_object>
+    <stat_object color="#FF008B8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2cbe6c00-b39c-4150-9350-994f4ca5fc63" />
+        <field name="Name" type="NameTableFieldDefinition" value="__KENSEI__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c7886c34-b495-443a-99c0-fac1b7e298b8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kensei_3_KenseiWeapons" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0858dcb4gdc85g9618g56bfg2d778b0aaa09" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h34484d96g7172ge149g0e7ag80b49d0406be" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveAction_DefensiveDualist" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Rapiers);Proficiency(Longswords);Proficiency(Longbows);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="476b4e29-45d3-4c1f-b896-c8c7211d702f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kensei_3_AgileParry" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf85cf240g294egdc88g9a7bgc4dace0ece7a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0911042bg0e3cg93efgeb4eg47025adf7586" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DefensiveFlourish_Melee" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeUnarmedAttack() or IsMeleeWeaponAttack();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,AGILE_PARRY,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5b59c90a-1cbf-41b4-8130-41ff1b4ce328" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kensei_3_KenseisShot" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he2295183g33c5g9814g52d8g80811e5ec84a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h05735036ge53dgb166gd088g232b4ce9dad9" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Steady_Ranged" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_KenseisShot);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="61876e53-63b6-455a-aa5c-a7172b84e7f4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kensei_6_MagicKenseiWeapons" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1dff0d2fgf8b2g562egc63egd2c7a23bebd3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h999af44ag3306g0613g152bg4450c24fc0c2" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveAction_DefensiveDualist" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6406" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreResistance(Slashing, Resistant);IgnoreResistance(Piercing, Resistant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="46e3dbb4-aeaa-4c1c-a6f0-9246d365086b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kensei_6_DeftStrike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4beea7d7g7a52g8f66gd6d9g18d9606087f3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6d7740ccgef54gda0fgd2b3g349933c85fcb" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_SlashingFlourish_Melee" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6406" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_DeftStrike);ActionResource(DeftStrike,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="df70e1ed-bd84-4ea7-8984-128fe2a3a564" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kensei_11_SharpenTheBlade" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hee1c032egf866gfdcfg9cfdg173e654a3625" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9f1e6475gc9fcgf100g58dbg0d0896886dfb" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_SacredWeapon" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6411" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_SharpenTheBlade);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFA500" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8fe4a910-8e68-47eb-9068-dc3f6273b033" />

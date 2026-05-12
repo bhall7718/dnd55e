@@ -135,6 +135,20 @@
                     <attribute id="UUID" type="guid" value="0d0197f0-2602-4811-ab78-583ea21362b5"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2871d8a1gc38dg55beg842agaf4d3298bdd3" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Balm"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="378af9c4-9b0d-44e4-a789-29f1673d22f3"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h90bafc33g2849g9ffbg6757g0471be69d9b7" version="1"/>
+                    <attribute id="Name" type="FixedString" value="HiddenPaths"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="8045b053-783c-41e8-8d7c-e4afa80b839a"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__FIGHTER__"/>
                     <attribute id="UUID" type="guid" value="ac956088-3d34-40bb-a9ab-af07e762175a"/>
                 </node>
@@ -586,18 +600,12 @@
                     <attribute id="UUID" type="guid" value="014d6340-84cf-4d14-b5a4-4b3f5886f8ba"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h2871d8a1gc38dg55beg842agaf4d3298bdd3" version="1"/>
-                    <attribute id="Name" type="FixedString" value="Balm"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="378af9c4-9b0d-44e4-a789-29f1673d22f3"/>
-                </node>
-                <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h90bafc33g2849g9ffbg6757g0471be69d9b7" version="1"/>
-                    <attribute id="Name" type="FixedString" value="HiddenPaths"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="8045b053-783c-41e8-8d7c-e4afa80b839a"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h9f0d8d5cgc3dag8cb5g882bg29b913bcd705" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="DeftStrike"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="de9419a9-8064-48fc-bd0c-2cae48564cde"/>
                 </node>
             </children>
         </node>

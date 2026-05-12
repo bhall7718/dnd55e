@@ -2248,6 +2248,46 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;WholenessOfBody:1;" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1a199942-086f-4cc5-af45-7c28ad7a2402" />
+        <field name="Name" type="NameTableFieldDefinition" value="KenseisShot" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e5f53776-a4e4-4af3-a294-ccafbc8e84d2" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(KENSEIS_SHOT,100,1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9a555b37g7fb4g96dcgf889g2b4ef90a9487" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h37c2f505g74b4gdbc0gdcaagf075f1ac1bdb" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(KENSEIS_SHOT,100,1);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="IsWeaponOfProficiencyGroup('Longbows|Shortbows', GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand))" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnEquip;OnUnequip" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f573d920-28f1-46c6-9328-21895b00358c" />
+        <field name="Name" type="NameTableFieldDefinition" value="SharpenTheBlade" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(IsWeaponOfProficiencyGroup('Daggers|Longswords|Rapiers|Scimitars|Shortswords|Sickles', GetActiveWeapon())):ApplyEquipmentStatus(MainHand, SHARPEN_THE_BLADE, 100, 10);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_SacredWeapon" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h670a676agfd61g80b8ga8b3ga28b64195781" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h01b344bfgb2ffg91fcg0c56gee5f0fb1bf6f" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SHARPEN_THE_BLADE, 100, 10);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Buff_Shillelagh_L0" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Buff_Shillelagh_L0" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;KiPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;,,;35b644cf-5c13-4407-9dc1-23bf4309216e,,;823e3ddf-c670-41ef-b7b4-9f4a4e38300b,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="WeaponType" type="EnumerationListTableFieldDefinition" value="Melee" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="IsWeaponOfProficiencyGroup('Daggers|Longswords|Rapiers|Scimitars|Shortswords|Sickles', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand))" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnEquip;OnUnequip" enumeration_type_name="StatusEvent" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="9342eaf4-6a20-44c6-a740-863b0f9c2475" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="fa88f7ad-1ef6-4913-8166-573d1248d907" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFA500" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="db1ab0d0-21c9-4aa6-a587-f7341fc6731f" />

@@ -315,6 +315,17 @@
         <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_87" />
+        <field name="UUID" type="IdTableFieldDefinition" value="de9419a9-8064-48fc-bd0c-2cae48564cde" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="DeftStrike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9f0d8d5cgc3dag8cb5g882bg29b913bcd705" version="1" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Turn" />
+        <field name="IsHidden" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF006400" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_13" />

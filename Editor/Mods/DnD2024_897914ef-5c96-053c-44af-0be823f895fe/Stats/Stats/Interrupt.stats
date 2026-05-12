@@ -352,6 +352,22 @@
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db3d130e-e5f4-460a-b6a9-560742f58049" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_DeftStrike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha09da56fgad39g287dg78e1gbdfa8485c663" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc101109bg0b5bg828eg9185ged74f68e424e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_SlashingFlourish_Melee" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Self(context.Source,context.Observer) and not Self() and IsWeaponAttack() and not IsKillingBlow() and IsHit() and Character() and not AnyEntityIsItem();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):DealDamage(LevelMapValue(MartialArts), MainMeleeWeaponDamageType);IF(IsRangedAttack()):DealDamage(LevelMapValue(MartialArts), MainRangedWeaponDamageType);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="KiPoint:1;DeftStrike:1;" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFA500" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="362ca22e-3033-471b-a08d-aed956ee49c0" />
