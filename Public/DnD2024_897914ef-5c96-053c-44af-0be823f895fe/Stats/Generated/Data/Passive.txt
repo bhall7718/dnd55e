@@ -3195,7 +3195,7 @@ data "PriorityOrder" "11005"
 data "Properties" "Highlighted"
 data "BoostContext" "OnCreate;OnShortRest;OnLongRest"
 data "BoostConditions" "HasPassive('PactOfTheBlade_Hex',context.Source) and ClassLevelHigherOrEqualThan(5,'Warlock',context.Source);"
-data "Boosts" "UnlockSpell(Target_Smite_Eldritch,MostPowerful);"
+data "Boosts" "UnlockSpell(Target_Smite_Eldritch,MostPowerfull,e9127b70-22b7-42a1-b172-d02f828f260a);"
 
 new entry "BookOfAncientSecrets"
 type "PassiveData"
