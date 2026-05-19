@@ -869,6 +869,7 @@ data "StackId" "DARKNESS_CASTER"
 data "TickType" "StartTurn"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "OnApplyFunctors" "ApplyStatus(SELF,DARKNESS_RECAST,100,10)"
+data "OnRemoveFunctors" "RemoveStatus(DARKNESS_RECAST)"
 
 new entry "DARKNESS_CASTER_RECAST"
 type "StatusData"
