@@ -3440,7 +3440,7 @@ data "Description" "h870b18d3g13d8ge83dg1253gf5261403acb2;1"
 data "Icon" "GenericIcon_DamageType_Radiant"
 data "PriorityOrder" "11206"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "IF(IsSpell() and IsDamageTypeFire()):DamageBonus(max(0, CharismaModifier));IF(IsSpell() and IsDamageTypeRadiant()):DamageBonus(max(0, CharismaModifier));"
+data "Boosts" "IF(IsSpell() and IsDamageTypeFire()):DamageBonus(max(0, CharismaModifier));IF(IsSpell() and IsDamageTypeRadiant()):DamageBonus(max(0, CharismaModifier));Resistance(Radiant,Resistant);"
 
 new entry "Celestial_10_CelestialResilience"
 type "PassiveData"

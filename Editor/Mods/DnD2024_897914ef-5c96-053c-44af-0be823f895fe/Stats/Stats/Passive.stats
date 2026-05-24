@@ -4744,7 +4744,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Radiant" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11206" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsSpell() and IsDamageTypeFire()):DamageBonus(max(0, CharismaModifier));IF(IsSpell() and IsDamageTypeRadiant()):DamageBonus(max(0, CharismaModifier));" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsSpell() and IsDamageTypeFire()):DamageBonus(max(0, CharismaModifier));IF(IsSpell() and IsDamageTypeRadiant()):DamageBonus(max(0, CharismaModifier));Resistance(Radiant,Resistant);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
