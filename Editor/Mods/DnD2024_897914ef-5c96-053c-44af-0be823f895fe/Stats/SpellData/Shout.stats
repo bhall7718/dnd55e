@@ -1311,7 +1311,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1b50f564-278a-4c10-82ee-873fd4cbe4d9" />
         <field name="Name" type="NameTableFieldDefinition" value="FontOfInspiration" />
-        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_FontOfInspiration_1;" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_FontOfInspiration_1;Shout_FontOfInspiration_2;Shout_FontOfInspiration_3;Shout_FontOfInspiration_4;Shout_FontOfInspiration_5;Shout_FontOfInspiration_6;" />
         <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Bard_RestoreBardicInspiration" />
@@ -1354,7 +1354,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="FontOfInspiration_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0c898def-ec08-4da8-b5d7-0dff521a2070" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:2;" />
-        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_FontOfInspiration" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
       </fields>
     </stat_object>
