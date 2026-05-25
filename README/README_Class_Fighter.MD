@@ -45,3 +45,8 @@
 - Level 3: Giant’s Might
 - Level 7: Runic Shield
 - Level 10: Great Stature
+## Viking
+- Level 3: Seaborne
+- Level 3: Viking Weapon Mastery
+- Level 7: Savage Charge
+- Level 10: Call of the Northlands

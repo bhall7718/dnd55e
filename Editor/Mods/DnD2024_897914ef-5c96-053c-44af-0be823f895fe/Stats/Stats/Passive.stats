@@ -2640,6 +2640,62 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FFA0522D" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b0573751-6b4c-43dc-b2cf-e9e29c77d6ad" />
+        <field name="Name" type="NameTableFieldDefinition" value="__VIKING__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="89427f54-fede-4dfb-ac70-09f5e0f21cc4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Viking_3_Seaborne" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf32997c7gc211gb313g3fbcg48944959ce8d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc84e5f2cg37c3g238bgb1b6g73db07b36581" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Song_TheQueensHighSeas" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(SavingThrow,Strength);Advantage(SavingThrow,Dexterity);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="636257c2-3d71-4f0f-8c62-724cd073761d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Viking_3_VikingWeaponMastery" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0365a5ccg5ec9g7487g0f4fga94912c1e111" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h268f496ag5b58g49c9g3c99ga0cd4839f89f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_RecklessAttack" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(VikingWeaponMastery(context.Source)):CharacterWeaponDamage(ProficiencyBonus);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="022a9748-65b4-479f-9332-48289b246d9c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Viking_7_SavageCharge" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4fa40dc4g9c70g921bg8267gaeb44665f760" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h06128f4dg8b4fg7ee1gbb06gbcef6e2bdfac" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Mobile_CounterAttackOfOpportunity" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5507" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and IsHit();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,SAVAGE_CHARGE,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1cf6e258-05f3-4f08-bb06-220b39274812" />
+        <field name="Name" type="NameTableFieldDefinition" value="Viking_10_CallOfTheNorthlands" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8e6c5eccg23b9gc208g91f9gd9f773d69192" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h318d1b8eg0580g3d5cgacf3g81c76726bcd3" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ElementalAdept_Cold" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5510" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(SizeEqualOrGreater(Size.Large)):Advantage(AttackRoll);Resistance(Cold,Resistant);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF008B8B" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="608a56c7-9d33-485c-a11f-d75a940fd8bf" />

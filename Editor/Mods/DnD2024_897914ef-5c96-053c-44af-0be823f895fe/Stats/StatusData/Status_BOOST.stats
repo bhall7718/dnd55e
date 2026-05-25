@@ -2412,6 +2412,17 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Ability, Strength);Advantage(SavingThrow, Strength);CharacterWeaponDamage(1d8);ObjectSize(+1);ScaleMultiplier(1.33);CharacterUnarmedDamage(1d8);CarryCapacityMultiplier(1.25);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6ed100a4-7cfc-460c-9f5e-189863e8c0c3" />
+        <field name="Name" type="NameTableFieldDefinition" value="SAVAGE_CHARGE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h765b9461g9506gb734gcb45gfb2796d10549" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ff7efe3g2f98g2386g3e31g16cac67905a4" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Mobile_CounterAttackOfOpportunity" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SAVAGE_CHARGE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Dash_BonusAction_SavageCharge);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF008B8B" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="39ed4673-c749-4248-963c-700038f953f0" />

@@ -1,0 +1,10 @@
+function VikingWeaponMastery(entity)
+    local entity = entity or context.Source
+    local weapon = context.AttackWeapon
+
+    local isBattleaxes = Tagged('WPN_BATTLEAXES', weapon)
+    local isLongswords = Tagged('WPN_LONGSWORDS', weapon)
+    local isSpear = Tagged('WPN_SPEAR', weapon)
+
+    return isBattleaxes | isLongswords | isSpear
+end

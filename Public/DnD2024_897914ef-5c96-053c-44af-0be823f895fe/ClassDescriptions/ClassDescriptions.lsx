@@ -740,6 +740,19 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="4"/>
                     <attribute id="UUID" type="guid" value="d84e3f76-0e56-4344-9454-ba167a286bdb"/>
                 </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="he18e2299gab76g9494gca06g85d28e4049b1" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb9127c70g1995gf222g6ab6g02340332c0ad" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Viking"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="241461f3-7cb5-4fc3-abdf-d56b869e3757"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="b400e0f2-7824-4c8c-aebb-6124500e6988"/>
+                </node>
             </children>
         </node>
     </region>

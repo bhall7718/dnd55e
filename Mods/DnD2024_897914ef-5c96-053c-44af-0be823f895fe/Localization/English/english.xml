@@ -3533,4 +3533,16 @@ The damage becomes 4d6 when you reach Monster Hunter level 11.</content>
   <content contentuid="h664f7fdag1793g4256gd73cga50bae7c538a" version="1">War Caster: Vengeful Blade</content>
   <content contentuid="h67a39d88g2da4ga80bg2675g4c2a3e61a8ce" version="1">War Caster: Shocking Grasp</content>
   <content contentuid="h58d3ea5cg20f9gc47cg638cg148f2229c69f" version="1">Cast a spell at a creature moving out of range.</content>
+  <content contentuid="hb9127c70g1995gf222g6ab6g02340332c0ad" version="1">Viking</content>
+  <content contentuid="he18e2299gab76g9494gca06g85d28e4049b1" version="1">Vikings are battle-hardened warriors and sailors who ply the seas of the Northlands for glory and plunder. As followers of the Reaver’s Way, they have their own sense of honor, yet they can be merciless in times of raiding and war. Vikings are known for their prowess with the spear and axe, and for their belief that they can earn a special place in the halls of the dead through their deeds of valor in battle.</content>
+  <content contentuid="hf32997c7gc211gb313g3fbcg48944959ce8d" version="1">Level 3: Seaborne</content>
+  <content contentuid="hc84e5f2cg37c3g238bgb1b6g73db07b36581" version="1">You are used to being aboard rocking ships and other vehicles. You have Advantage on all Strength and Dexterity saving throws and checks to avoid being pushed, having the Prone condition, or otherwise being moved against your will.</content>
+  <content contentuid="h0365a5ccg5ec9g7487g0f4fga94912c1e111" version="1">Level 3: Viking Weapon Mastery</content>
+  <content contentuid="h268f496ag5b58g49c9g3c99ga0cd4839f89f" version="1">If you have Weapon Mastery with a Battleaxe, Longsword, or Spear, you can add your Proficiency Bonus to a damage roll with that weapon.</content>
+  <content contentuid="h4fa40dc4g9c70g921bg8267gaeb44665f760" version="1">Level 7: Savage Charge</content>
+  <content contentuid="h06128f4dg8b4fg7ee1gbb06gbcef6e2bdfac" version="1">As an Attack action, make a single melee attack. If the attack hits, you can use a Bonus Action to take the Dash action. Movement granted by this Dash action does not provoke Opportunity Attacks.</content>
+  <content contentuid="h765b9461g9506gb734gcb45gfb2796d10549" version="1">Savage Charge</content>
+  <content contentuid="h2ff7efe3g2f98g2386g3e31g16cac67905a4" version="1">You can use a Bonus Action to take the Dash action. Movement granted by this Dash action does not provoke Opportunity Attacks.</content>
+  <content contentuid="h8e6c5eccg23b9gc208g91f9gd9f773d69192" version="1">Level 10: Call of the Northlands</content>
+  <content contentuid="h318d1b8eg0580g3d5cgacf3g81c76726bcd3" version="1">You are accustomed to the harsh conditions and vicious monsters of the Northlands. You have Resistance to Cold damage. You have Advantage on attack rolls against Dragons, Giants, and Large or bigger creatures.</content>
 </contentList>

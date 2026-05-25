@@ -2337,6 +2337,9 @@
                                 <node id="SubClass">
                                     <attribute id="Object" type="guid" value="3d9e9113-46c7-4c81-bb20-93ad097588bc"/>
                                 </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="b400e0f2-7824-4c8c-aebb-6124500e6988"/>
+                                </node>
                             </children>
                         </node>
                     </children>
@@ -7796,6 +7799,30 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Viking"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Viking_3_Seaborne;Viking_3_VikingWeaponMastery"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="241461f3-7cb5-4fc3-abdf-d56b869e3757"/>
+                    <attribute id="UUID" type="guid" value="241461f3-7cb5-4fc3-abdf-d56b869e3757"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="Viking"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Viking_7_SavageCharge"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="241461f3-7cb5-4fc3-abdf-d56b869e3757"/>
+                    <attribute id="UUID" type="guid" value="28fed356-ea84-4940-a78f-d62546df740e"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="Viking"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Viking_10_CallOfTheNorthlands"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="241461f3-7cb5-4fc3-abdf-d56b869e3757"/>
+                    <attribute id="UUID" type="guid" value="3b9c6d5a-93c6-4334-acc1-674de80fbed6"/>
                 </node>
             </children>
         </node>
