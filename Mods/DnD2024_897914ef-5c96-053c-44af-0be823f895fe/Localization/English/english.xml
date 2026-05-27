@@ -3548,4 +3548,6 @@ The damage becomes 4d6 when you reach Monster Hunter level 11.</content>
   <content contentuid="haa63297agabf6g8665gd863gccf514e607f5" version="1">Surprised</content>
   <content contentuid="h5a9a1666gd0c6gb6d5g9f5dga7c149830daa" version="1">Surprised</content>
   <content contentuid="hd31e4d13g939ag101eg9e56g93956331fc9c" version="1">Each creature of your choice in a 5-foot-radius Sphere centered on a point within range must succeed on a Wisdom saving throw or have the Incapacitated condition until the end of its next turn, at which point it must repeat the save. If the target fails the second save, the target has the Unconscious condition for the duration. The spell ends on a target if it takes damage or someone within 5 feet of it takes an action to shake it out of the spell’s effect.</content>
+  <content contentuid="h1311946eg0f6eg3884gb766ga518b4884a4d" version="1">Surprised</content>
+  <content contentuid="hdaea4751gf57bg4b28g0266g1e1630af444e" version="1">Cannot take &lt;LSTag Tooltip="Action"&gt;actions&lt;/LSTag&gt; or reactions.</content>
 </contentList>
