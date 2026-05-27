@@ -1539,6 +1539,21 @@
                     <attribute id="UUID" type="guid" value="ae58e7e6-ec07-488f-b8d4-dfe40bb4346e"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 BattleSmith Level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_Heroism;Shout_Shield_Wizard;Target_SteelDefender"/>
+                    <attribute id="UUID" type="guid" value="39e366a2-9be2-4867-af1c-76f30039f59e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 BattleSmith Level 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_Smite_Branding_Container;Target_WardingBond"/>
+                    <attribute id="UUID" type="guid" value="078df756-59cf-4ca8-8058-2e9ef820baf5"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 BattleSmith Level 9"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Zone_ConjureBarrage;Target_ArcaneJolt"/>
+                    <attribute id="UUID" type="guid" value="4dff084a-e169-4bf0-acf3-a1eaf7da4f32"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="__GUNSLINGER__"/>
                     <attribute id="UUID" type="guid" value="84011a1a-eff3-4e7f-8954-1f9c97bd44e4"/>
                 </node>
@@ -1670,19 +1685,19 @@
                     <attribute id="UUID" type="guid" value="582ed05c-c6fa-4d6f-99f9-efcc9de769f9"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 BattleSmith Level 3"/>
-                    <attribute id="Spells" type="LSString" value="Target_Heroism;Shout_Shield_Wizard;Target_SteelDefender"/>
-                    <attribute id="UUID" type="guid" value="39e366a2-9be2-4867-af1c-76f30039f59e"/>
+                    <attribute id="Name" type="FixedString" value="Ice Elf Level 1"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_RayOfFrost"/>
+                    <attribute id="UUID" type="guid" value="c92b0cf3-1496-43a7-a4ad-4eb7e2fdc78f"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 BattleSmith Level 5"/>
-                    <attribute id="Spells" type="LSString" value="Target_Smite_Branding_Container;Target_WardingBond"/>
-                    <attribute id="UUID" type="guid" value="078df756-59cf-4ca8-8058-2e9ef820baf5"/>
+                    <attribute id="Name" type="FixedString" value="Ice Elf Level 3"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_IceKnife"/>
+                    <attribute id="UUID" type="guid" value="f881aa4b-eeb6-4604-8cea-d5884ab70a76"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 BattleSmith Level 9"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Zone_ConjureBarrage;Target_ArcaneJolt"/>
-                    <attribute id="UUID" type="guid" value="4dff084a-e169-4bf0-acf3-a1eaf7da4f32"/>
+                    <attribute id="Name" type="FixedString" value="Ice Elf Level 5"/>
+                    <attribute id="Spells" type="LSString" value="Zone_GustOfWind"/>
+                    <attribute id="UUID" type="guid" value="b768acdf-937d-4d12-a84d-1dbf064dd092"/>
                 </node>
             </children>
         </node>

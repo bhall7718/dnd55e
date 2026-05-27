@@ -2246,6 +2246,27 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c92b0cf3-1496-43a7-a4ad-4eb7e2fdc78f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Ice Elf Level 1" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_RayOfFrost" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f881aa4b-eeb6-4604-8cea-d5884ab70a76" />
+        <field name="Name" type="NameTableFieldDefinition" value="Ice Elf Level 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_IceKnife" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b768acdf-937d-4d12-a84d-1dbf064dd092" />
+        <field name="Name" type="NameTableFieldDefinition" value="Ice Elf Level 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Zone_GustOfWind" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="01f43aaa-1641-419d-bfd2-1dff1f033a52" />
         <field name="Name" type="NameTableFieldDefinition" value="Drow Level 5" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_Darkness" />

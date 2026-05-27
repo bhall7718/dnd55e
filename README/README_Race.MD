@@ -45,6 +45,10 @@
 - Level 1: Wizard Cantrip
 - Level 3: Faerie Fire
 - Level 5: Misty Step
+### Ice Elf
+- Level 1: Ray of Frost
+- Level 3: Ice Knife
+- Level 5: Gust of Wind
 ### Wood Elf
 - Level 1: Speed: 35 feet
 - Level 3: Longstrider

@@ -86,6 +86,13 @@
                     <attribute id="SelectorId" type="FixedString" value="ElfKeenSenses"/>
                     <attribute id="UUID" type="guid" value="a27df203-fe31-402d-b04b-bff6ca783047"/>
                 </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h97af1d74g3b7ega7c6g7dceg969a03ccef68" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h1bcfb060g8de9ga777gb7c0gf7094b81c5f0" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="50faf06c-c294-450a-abe8-26bba3482118"/>
+                    <attribute id="Type" type="FixedString" value="IceElf"/>
+                    <attribute id="UUID" type="guid" value="9479c89f-0d1b-44ef-a8c1-25f481588d34"/>
+                </node>
             </children>
         </node>
     </region>

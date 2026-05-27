@@ -122,5 +122,15 @@
         <field name="SelectorId" type="FixedStringTableFieldDefinition" value="ElfKeenSenses" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9479c89f-0d1b-44ef-a8c1-25f481588d34" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1bcfb060g8de9ga777gb7c0gf7094b81c5f0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h97af1d74g3b7ega7c6g7dceg969a03ccef68" version="1" />
+        <field name="Type" type="FixedStringTableFieldDefinition" value="IceElf" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="50faf06c-c294-450a-abe8-26bba3482118" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
