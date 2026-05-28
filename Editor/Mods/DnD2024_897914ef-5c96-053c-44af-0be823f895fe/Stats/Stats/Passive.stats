@@ -3438,11 +3438,14 @@
         <field name="UUID" type="IdTableFieldDefinition" value="50721b7a-0cbe-4c6a-b87e-8d31bf268b11" />
         <field name="Name" type="NameTableFieldDefinition" value="FeyWanderer_3_DreadfulStrikes" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h28c5c053g608eg5d6cg49bdg9f3b8000ddfc" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9d7e1bf3g8ce5g97cdg6455g9d50ab2376ba" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9d7e1bf3g8ce5g97cdg6455g9d50ab2376ba" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_FeyPresence" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8403" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsWeaponAttack()):CharacterWeaponDamage(LevelMapValue(FeyWanderer),Psychic);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('DREADFULSTRIKE_DAMAGE_TAKEN',context.Target)):CharacterWeaponDamage(LevelMapValue(FeyWanderer),Psychic);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DREADFULSTRIKE_DAMAGE_TAKEN,100,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3513,11 +3516,14 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f75175d6-c0fc-435f-8d62-615e39067c12" />
         <field name="Name" type="NameTableFieldDefinition" value="WinterWalker_3_FirigidExplorer" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha112c9d1gc29dg2a81g78e9g5ee83dc15b44" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdf72a045g6802g6864g7289gb8715a4c18b6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdf72a045g6802g6864g7289gb8715a4c18b6" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_NaturalExplorer_WastelandWanderer_Cold" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsWeaponAttack()):CharacterWeaponDamage(LevelMapValue(FeyWanderer),Cold);IgnoreResistance(Cold,Resistant);Resistance(Cold,Resistant);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('POLARSTRIKE_DAMAGE_TAKEN',context.Target)):CharacterWeaponDamage(LevelMapValue(FeyWanderer),Cold);IgnoreResistance(Cold,Resistant);Resistance(Cold,Resistant);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(POLARSTRIKE_DAMAGE_TAKEN,100,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

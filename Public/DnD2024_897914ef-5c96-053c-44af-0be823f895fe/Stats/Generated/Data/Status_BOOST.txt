@@ -2399,6 +2399,18 @@ data "Icon" "Spell_Abjuration_ProtectionFromEnergy_Cold"
 data "StackId" "FORTIFYING_SOUL"
 data "Boosts" "Tag(FRIGHTENED_ADV);"
 
+new entry "DREADFULSTRIKE_DAMAGE_TAKEN"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "DREADFULSTRIKE_DAMAGE_TAKEN"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "POLARSTRIKE_DAMAGE_TAKEN"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "POLARSTRIKE_DAMAGE_TAKEN"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
 new entry "__ROGUE__"
 type "StatusData"
 data "StatusType" "BOOST"

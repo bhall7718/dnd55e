@@ -2990,6 +2990,22 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(FRIGHTENED_ADV);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="116a6eaf-85af-4b63-9b2d-1260ca16fb34" />
+        <field name="Name" type="NameTableFieldDefinition" value="DREADFULSTRIKE_DAMAGE_TAKEN" />
+        <field name="StackId" type="StringTableFieldDefinition" value="DREADFULSTRIKE_DAMAGE_TAKEN" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0a19891-73f8-4687-84c2-174fda2651fe" />
+        <field name="Name" type="NameTableFieldDefinition" value="POLARSTRIKE_DAMAGE_TAKEN" />
+        <field name="StackId" type="StringTableFieldDefinition" value="POLARSTRIKE_DAMAGE_TAKEN" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF483D8B" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="39e698f0-48ae-4ed4-9252-450f0affe63c" />
