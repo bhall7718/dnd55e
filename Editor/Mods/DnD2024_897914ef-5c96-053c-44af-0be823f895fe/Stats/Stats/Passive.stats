@@ -7070,7 +7070,7 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="HasAttackDamageDoneForType(DamageType.Bludgeoning);" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasAttackDamageDoneForType(DamageType.Bludgeoning) and IsWeaponAttack();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Strength, ManeuverSaveDC())):ApplyStatus(DAZED,100,1);" />
       </fields>
     </stat_object>
@@ -7082,7 +7082,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f24fc73ge6b5g8e1fg0b3eg4216fa3191e9" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5f23ece1gd28eg37b5gb2f7g57554d7c8da9" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_MagicItem_PierceTheWeak" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="HasAttackDamageDoneForType(DamageType.Piercing);" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasAttackDamageDoneForType(DamageType.Piercing) and IsWeaponAttack();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Constitution, ManeuverSaveDC())):ApplyStatus(GAPING_WOUND,100,1);" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
       </fields>
@@ -7095,7 +7095,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h540810fdg8dc8g2211g0121gd8e6f4397c51" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfd222472gd8acg6b69g6068g2840b34f0315" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_MagicItem_SlashTheWeak" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="HasAttackDamageDoneForType(DamageType.Slashing);" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasAttackDamageDoneForType(DamageType.Slashing) and IsWeaponAttack();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Strength, ManeuverSaveDC())):ApplyStatus(BLEEDING,100,2);" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
       </fields>
