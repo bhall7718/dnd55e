@@ -2303,10 +2303,28 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2cdb12e9-7b79-4340-b884-f074d7247ecd" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="88b7f25a-fb34-4b95-be3b-25c22f4f341e" />
+        <field name="Name" type="NameTableFieldDefinition" value="__RACE__" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="0d2aa5de-b8c7-45ef-9c98-b61c99b5729f" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d86596ee-dac6-4063-a7ec-16de1d6c605f" />
+        <field name="Name" type="NameTableFieldDefinition" value="TerrifyingLunge_Slayer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="66fb9eca-b9ee-4edd-b46f-47f46968f8fc" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Strength, ManeuverSaveDC(), AdvantageOnOrinFear())" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;Movement:3;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b31570d7-164a-4713-8fd4-dc2d62fdb50c" />
+        <field name="Name" type="NameTableFieldDefinition" value="TerrifyingLunge_Slayer_10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="84b968ca-7ac6-4c0c-a59b-7f169cbcf2e8" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Strength, ManeuverSaveDC(), AdvantageOnOrinFear())" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;Movement:3;" />
       </fields>
     </stat_object>
   </stat_objects>

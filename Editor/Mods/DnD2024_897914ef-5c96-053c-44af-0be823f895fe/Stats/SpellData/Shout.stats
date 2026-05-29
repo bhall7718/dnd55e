@@ -3297,6 +3297,141 @@
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Ranged" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FFCD5C5C" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb64fd7d-7ecd-4f93-89c5-71292120c040" />
+        <field name="Name" type="NameTableFieldDefinition" value="__MONSTER HUNTER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="982660d5-7402-42c9-8f0e-b03aed7a0d3a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mutations_AcidBlood" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2f0d1be4g0c48gc8dag5d46gb63613816d4b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcae93600g722fg2de2g2f0fg60184d7ba2f0" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Acid" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="daffe3cb-0dc5-46ab-81df-4ec590beedb7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mutations_Acumen" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfb4b4347g41f8gc00fg03eagf4da78649103" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h55f2832cg60b4gcd10g11f2g30f9e75aa0b9" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_EnhanceAbility_OwlsWisdom" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="67be7b33-5b15-46f0-94ce-37da886db1e4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mutations_Flight" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0332a04eg8429g6f00gada3gf49674ee7d97" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd356b0cdg39beg042eg81feg07e80f4dede3" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monster_GiantEagle_Fly" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="15be4f43-c7e9-477f-a9d1-611c45b7d469" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mutations_Infused" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2eddaae5gd399g869eg1cdag9e9a178e24d8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2c602649g9292g91d9g709bg07327682e721" version="1" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_Mutations_Infused_1;Shout_Mutations_Infused_2;Shout_Mutations_Infused_3;Shout_Mutations_Infused_4;Shout_Mutations_Infused_5;Shout_Mutations_Infused_6;" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_ElementalWeapon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db0fb101-c763-4a8c-ab56-0e17b53a5b32" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mutations_Infused_1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haa67fd1eg0ed5g498egc4f2g2b0c0638ff09" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="15be4f43-c7e9-477f-a9d1-611c45b7d469" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_Mutations_Infused" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_ElementalCleaver_Acid" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b7e37a7e-216b-40ec-81b6-1f93c42b5573" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mutations_Infused_2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h19df2915gdc32g0dd3g5c76gef59b78ad51f" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="db0fb101-c763-4a8c-ab56-0e17b53a5b32" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_ElementalCleaver_Cold" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="afc6f73b-7018-4e13-9757-907f02f1b514" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mutations_Infused_3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb78a3ecdg7a33g2a60g7ee1g414456631317" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="db0fb101-c763-4a8c-ab56-0e17b53a5b32" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_ElementalCleaver_Fire" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5f0e696d-a026-4980-b14c-c1ce73c1aea1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mutations_Infused_4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7953e4c5g1403g5956g4511gc857d6b9ce40" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="db0fb101-c763-4a8c-ab56-0e17b53a5b32" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_ElementalCleaver_Lightning" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f0a3d0c2-e6ea-4916-aa30-4d56c34b7811" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mutations_Infused_5" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9937e5c1g20b9gf010g9a9ag5025bbaebac2" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="db0fb101-c763-4a8c-ab56-0e17b53a5b32" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Poison_Melee" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bcd09fce-0c88-4554-9387-0788858c9973" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mutations_Infused_6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6537ee84g1c9egec99gef96g0dc4308fed8c" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="db0fb101-c763-4a8c-ab56-0e17b53a5b32" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_ElementalCleaver_Thunder" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="96c272b3-de39-493f-be11-9e09c22870ce" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mutations_Invisibility" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5eb0c1fbg30ddg233fgb6c8gefbdb310cc80" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9dbb965ag2bcegf72bg5bb2gc4f359dca388" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_Invisibility" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2f3c23f6-4ea5-4e97-9685-e1714d46edec" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mutations_Might" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd01b6b25g66b1g66d5gcfaag271f0d12728a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h95627a66gf92eg2d99g31e2ge9a622a94222" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Slam" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d51bbe93-d5c7-4e65-98a0-ac4a46f1ffd0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mutations_Regeneration" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf72e3943ga838g8a6eg437fgf3e3b4cf0bde" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8a5acea8g48afg5d80g2670g4f92b9e54c1e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Durable" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90d058cd-1d05-4629-8119-0a3e82ef3bf6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Mutations_Resistance" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h14ef410eg91c7g8763gfe5bge988b17c4434" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha9065fa0gda11g9fbag0a9fgd56f197c42ac" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_Stoneskin" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d9003a82-f63d-4c4e-99ed-6fa48c42a7e4" />
@@ -4007,6 +4142,14 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DREAM_KNOWLEDGE_CHARISMA,100,-1);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h76b975b4g225dg6d93g8391g805c6fe94d75" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DREAM_KNOWLEDGE_CHARISMA,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eb068f83-9507-479e-b4f3-cbb6a163b75c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Sacrifice_Slayer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9ce805a4-a6bd-4579-9f6d-42ea3cf62893" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution,ManeuverSaveDC());" />
       </fields>
     </stat_object>
   </stat_objects>

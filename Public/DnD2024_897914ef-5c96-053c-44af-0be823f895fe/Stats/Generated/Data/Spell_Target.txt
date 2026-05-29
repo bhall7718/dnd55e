@@ -7427,6 +7427,18 @@ data "DisplayName" "he859361dg2b9agac3fg2bdcg3f27f7143f6a;1"
 data "Description" "h352899a3g7e44g14c0g1466gcef7fe4c478f;1"
 data "TooltipAttackSave" ""
 
+new entry "Target_BloodBath_Slayer"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_BloodBath_Slayer"
+data "SpellRoll" "not SavingThrow(Ability.Constitution, ManeuverSaveDC())"
+
+new entry "Target_BloodBath_Slayer_10"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_BloodBath_Slayer_10"
+data "SpellRoll" "not SavingThrow(Ability.Constitution, ManeuverSaveDC())"
+
 new entry "Target___NPC__"
 type "SpellData"
 data "SpellType" "Target"

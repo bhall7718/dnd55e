@@ -477,6 +477,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6b338658-6303-47ba-92b8-f651ed2a345f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Slayer_DeathGrowl" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a132dc7e-d731-42fb-af23-a9b96a744fcc" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution,ManeuverSaveDC(),AdvantageOnOrinFear())" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4e246dcf-93e3-4be4-86b2-668a52124ffc" />
         <field name="Name" type="NameTableFieldDefinition" value="__MAGIC ITEM__" />
       </fields>

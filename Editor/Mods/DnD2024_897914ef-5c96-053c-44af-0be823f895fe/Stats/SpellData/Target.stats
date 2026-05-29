@@ -8786,6 +8786,22 @@
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="66a0f37e-9aa1-4acc-9a0a-b3207b03b919" />
+        <field name="Name" type="NameTableFieldDefinition" value="BloodBath_Slayer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6acac3d3-cfd4-495b-8fa2-5f2b8151d036" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, ManeuverSaveDC())" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8fe61b38-16cb-46a1-918d-cf9397288ed2" />
+        <field name="Name" type="NameTableFieldDefinition" value="BloodBath_Slayer_10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fe731300-1187-457e-b873-47dd841458ad" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, ManeuverSaveDC())" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ff7c774f-6f52-4ab5-90a1-e5feb4c15375" />
