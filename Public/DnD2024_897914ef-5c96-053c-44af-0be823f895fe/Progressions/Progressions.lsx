@@ -5729,7 +5729,7 @@
                 </node>
                 <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="Savant(Enchantment)"/>
-                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="EnchantmentSchool"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(43fb9c43-ddfa-46ff-a64f-73406dddf4eb,,,,AlwaysPrepared)"/>
@@ -5744,7 +5744,7 @@
                     <attribute id="UUID" type="guid" value="564239bd-2a4e-4b54-a884-8e9a54af9001"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="EnchantmentSchool"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="1c1d48af-42b7-4fac-a3ce-ca3525f1ccbe"/>
@@ -7396,14 +7396,23 @@
                     <attribute id="UUID" type="guid" value="5aa3c460-a858-422d-9f6b-9b7b31e1ff7c"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="DevourerGuild"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="784b2099-da2e-463b-9542-2457f3c836a5"/>
                     <attribute id="UUID" type="guid" value="784b2099-da2e-463b-9542-2457f3c836a5"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="DevourerGuild"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="784b2099-da2e-463b-9542-2457f3c836a5"/>
                     <attribute id="UUID" type="guid" value="024ce4d9-5c5f-4af1-b5d9-9135784bca64"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="DevourerGuild"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="784b2099-da2e-463b-9542-2457f3c836a5"/>
                     <attribute id="UUID" type="guid" value="c31d90e9-f0c4-4e76-b0c2-945b08861628"/>
                 </node>

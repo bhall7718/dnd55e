@@ -7362,7 +7362,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c3751d51-3158-4503-8c59-ebd0b0103936" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="1c1d48af-42b7-4fac-a3ce-ca3525f1ccbe" />
         <field name="FSName" type="StringTableFieldDefinition" value="EnchantmentSchool" />
-        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(43fb9c43-ddfa-46ff-a64f-73406dddf4eb,,,,AlwaysPrepared)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Savant(Enchantment)" />
@@ -7384,7 +7384,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="33e5bc43-c2a9-4473-8ca6-4210ff5506f9" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="1c1d48af-42b7-4fac-a3ce-ca3525f1ccbe" />
         <field name="FSName" type="StringTableFieldDefinition" value="EnchantmentSchool" />
-        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
@@ -9552,6 +9552,9 @@
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_886" />
         <field name="UUID" type="IdTableFieldDefinition" value="784b2099-da2e-463b-9542-2457f3c836a5" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="784b2099-da2e-463b-9542-2457f3c836a5" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DevourerGuild" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9559,6 +9562,9 @@
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_887" />
         <field name="UUID" type="IdTableFieldDefinition" value="024ce4d9-5c5f-4af1-b5d9-9135784bca64" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="784b2099-da2e-463b-9542-2457f3c836a5" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DevourerGuild" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9566,6 +9572,9 @@
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_888" />
         <field name="UUID" type="IdTableFieldDefinition" value="c31d90e9-f0c4-4e76-b0c2-945b08861628" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="784b2099-da2e-463b-9542-2457f3c836a5" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DevourerGuild" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
     <stat_object color="#FFCD5C5C" is_substat="false">
