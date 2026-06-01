@@ -8,6 +8,11 @@
 - Level 2: Channel Divinity
 - Level 5: Sear Undead
 - Level 7: Blessed Strikes
+## Apocalypse
+- Level 3: Apocalypse Domain Spells
+- Level 3: Visions of Annihilation
+- Level 3: Doom Song
+- Level 6: All Will Be Dust
 ## Astral
 - Level 3: Astral Domain Spells
 - Level 3: Create Void

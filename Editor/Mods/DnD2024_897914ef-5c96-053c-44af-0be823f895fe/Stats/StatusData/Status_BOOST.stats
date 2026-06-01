@@ -2260,11 +2260,18 @@
         <field name="Name" type="NameTableFieldDefinition" value="INVOKE_DUPLICITY_AURA_2" />
         <field name="StackId" type="StringTableFieldDefinition" value="INVOKE_DUPLICITY_AURA_2" />
         <field name="AuraRadius" type="IntegerTableFieldDefinition" value="30" />
-        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not Dead()):ApplyStatus(SANCTUARY_AURA,100,-1)" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not Dead()):ApplyStatus(SANCTUARY_AURA)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Invulnerable();" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e5f04e26-57f8-4210-b4d3-720a0804c2a8" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5cf3e786-2f99-4e6a-a4dd-8b731a0593ee" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2280,6 +2287,61 @@
         <field name="Name" type="NameTableFieldDefinition" value="SHIELD_OF_FAITH_WAR" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4375bf51-d285-40bf-93b4-2e661832f3c5" />
         <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9915f77e-9700-430c-95fe-120a10d2cfb3" />
+        <field name="Name" type="NameTableFieldDefinition" value="__APOCALYPSE__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bce71313-f99e-4f7c-b899-9465a00f8764" />
+        <field name="Name" type="NameTableFieldDefinition" value="VISIONS_OF_ANNIHILATION" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h28e871c2gfcbag2b14g8a07g144683a3a46e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2b90d2d7ga0dfg08adgfe44g4279f29e5413" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Apocalypse_3_VisionsOfAnnihilation" />
+        <field name="StackId" type="StringTableFieldDefinition" value="VISIONS_OF_ANNIHILATION" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(AttackTarget);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2ff974df-c7f3-4ba4-8294-cd92992f485e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DOOM_SONG_TARGET" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc4bc1dcdga064g5d98g2982gae11fa7e91d9" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h32e38e85g25adgefa8g1b85gc609d74dfdb7" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Apocalypse_3_DoomSong" />
+        <field name="StackId" type="StringTableFieldDefinition" value="DOOM_SONG_TARGET" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="30" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(not Ally()):ApplyStatus(DOOM_SONG_BUFF)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d95bfff4-3588-43bf-8bfe-120229cd6b9e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DOOM_SONG_BUFF" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2a231046g780cge31bg55f1ga77aabad7a20" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4f02a443g002fgceafgd54dg4a6985d6d2b9" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Apocalypse_3_DoomSong" />
+        <field name="StackId" type="StringTableFieldDefinition" value="DOOM_SONG_BUFF" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('DOOM_SONG_TARGET',context.Target)):ReduceCriticalAttackThreshold(1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6db6eb1f-b5df-4dc5-a52e-f352473f3854" />
+        <field name="Name" type="NameTableFieldDefinition" value="ALL_WILL_BE_DUST" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfe532d12gf352g0812g7cdag063a8aa309df" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3535fb04gd274gb73agad1bgb1eb0264ee01" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Apocalypse_6_AllWillBeDust" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ALL_WILL_BE_DUST" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasSpellFlag(SpellFlags.Spell)):Disadvantage(AllSavingThrows);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">

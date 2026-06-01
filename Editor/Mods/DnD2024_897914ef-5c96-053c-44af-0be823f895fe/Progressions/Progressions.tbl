@@ -1183,7 +1183,7 @@
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(2968a3e6-6c8a-4c2e-882a-ad295a2ad8ac)" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel2" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="0a7ae8c2-4fd5-48d8-9e5e-6a29189f3fb1;b927a22a-d64b-48d6-bc7c-38c5f7f6a061;ebe18794-b5e1-41c4-befa-4b9d6922b0ec;4b5da2f5-b999-4623-8bff-a63df5560fb3;c54d7591-b305-4f22-b2a7-1bf5c4a3470a;6dec76d0-df22-411c-8a78-3d6fb843ae50;89bacf1b-8f15-4972-ada7-bf59c7c78441;f013d01b-3310-43f7-81bf-a51130442b5e;b9ccf90e-b35b-4b73-b896-8ed2d32ae8c6" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="4d7bc9f4-526f-4902-b9a2-b31577203d02;0a7ae8c2-4fd5-48d8-9e5e-6a29189f3fb1;b927a22a-d64b-48d6-bc7c-38c5f7f6a061;ebe18794-b5e1-41c4-befa-4b9d6922b0ec;4b5da2f5-b999-4623-8bff-a63df5560fb3;c54d7591-b305-4f22-b2a7-1bf5c4a3470a;6dec76d0-df22-411c-8a78-3d6fb843ae50;89bacf1b-8f15-4972-ada7-bf59c7c78441;f013d01b-3310-43f7-81bf-a51130442b5e;b9ccf90e-b35b-4b73-b896-8ed2d32ae8c6" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2091,6 +2091,62 @@
         <field name="Level" type="ByteTableFieldDefinition" value="9" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(3318e90b-d58c-46ac-aa51-eddde1150973,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_905" />
+        <field name="UUID" type="IdTableFieldDefinition" value="26eaf048-405d-442a-b44f-d500bb1cc613" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="26eaf048-405d-442a-b44f-d500bb1cc613" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ApocalypseDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(aaeee03d-d672-4ac2-964c-c4b449350e09,,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Astral_3_AstralDomainSpells;Apocalypse_3_VisionsOfAnnihilation;Apocalypse_3_DoomSong;Apocalypse_3_VisionsOfAnnihilation_Resource" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_906" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e67eb176-4f29-474e-8448-e5124572d5ac" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="26eaf048-405d-442a-b44f-d500bb1cc613" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ApocalypseDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(c4dd4e3e-f275-4351-89fd-fa0510e6bf39,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_907" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a602a556-752a-47ae-a4e1-18e8f9f6cbe9" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="26eaf048-405d-442a-b44f-d500bb1cc613" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ApocalypseDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Apocalypse_6_AllWillBeDust" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_908" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f4538891-9bea-45be-8147-288e17e08044" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="26eaf048-405d-442a-b44f-d500bb1cc613" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ApocalypseDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(92b8370a-a5fb-482e-9b1d-bdd6210a5718,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_909" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f2c509f4-47aa-47d1-8ba4-465ed11232b3" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="26eaf048-405d-442a-b44f-d500bb1cc613" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ApocalypseDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(47336f08-9daa-434b-be1d-88cb45e8ebb7,,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">

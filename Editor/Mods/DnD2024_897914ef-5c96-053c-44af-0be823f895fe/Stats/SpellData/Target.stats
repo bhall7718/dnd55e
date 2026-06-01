@@ -6185,6 +6185,92 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="71859b27-bdda-44c3-8c65-7f142a1a2f60" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3d425f66-2813-4de8-a820-19936fb35ec9" />
+        <field name="Name" type="NameTableFieldDefinition" value="__APOCALYPSE__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="422baf25-ae2a-405c-8601-6b4ff74e36b4" />
+        <field name="Name" type="NameTableFieldDefinition" value="VisionsOfAnnihilation" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(VISIONS_OF_ANNIHILATION,100,1);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Apocalypse_3_VisionsOfAnnihilation" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf9a730dcg1eb4gd9edg0aa7gb17398270505" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb07fc0ddg58b4ga6acgedc3gd632be720493" version="2" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(VISIONS_OF_ANNIHILATION,100,1);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Debuff_Hex_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Debuff_Hex_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_Curse" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;VisionsOfAnnihilation:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="9313094a-bae2-454f-9701-f920d0e8e98d,,;,,;ab7b6aac-b3c9-4918-8f17-f777a94dcb5e,,;57211a11-ed0b-46d7-9369-81df25a85df6,,;808fdfab-2e6c-472e-b3c4-19ce4a719d9d,,;,,;ea745d30-eb87-447f-b190-c81298e27d9c,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Debuff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="db4fd7eb-049e-43d0-95ce-d8f5bc808c0c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="d9cc11d0-ef2a-4c79-aaf4-7916a51f56a6" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="ef1cdb0d-28ae-4989-b8b8-09438f749a00" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d7fa58b2-aa43-4cc3-bd9d-929de1464ece" />
+        <field name="Name" type="NameTableFieldDefinition" value="DoomSong" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DOOM_SONG_TARGET,100,100);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Apocalypse_3_DoomSong" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h99f00500gb9adga785g718fgd903fd641999" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7ffa0044gb8c8g868fg7f1fgf74e697c363e" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DOOM_SONG_TARGET,100,100);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Psychic_DissonantWhispers_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_Psychic_DissonantWhispers_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_DamagePsychicDiscordantMelody" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;ChannelDivinity:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;af94aac1-d8eb-4ccb-9520-694ade11b61c,,;f5db4001-b136-4c48-9aa4-026c4a7dd3b7,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Debuff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Psychic" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="752219e2-351d-46ea-9448-3a714b3d3acc" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="bd2fc245-5645-452f-a2cd-d158b751bbe4" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="a0aee53a-d702-4901-9bb3-7cf08e214346" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="223929f0-2392-4f9d-bbb9-a87528b42f15" />
+        <field name="Name" type="NameTableFieldDefinition" value="AllWillBeDust" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ALL_WILL_BE_DUST,100,1);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Apocalypse_6_AllWillBeDust" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3475c9ecg2cbcge436gbedfg439982b16a38" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h420df6cbg0932g5e3dgc009g752d63452593" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ALL_WILL_BE_DUST,100,1);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Necrotic_Gen_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Necrotic_Gen_L1to3_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Necrotic_Blight_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_Necrotic_Blight_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;ChannelDivinity:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;ab7b6aac-b3c9-4918-8f17-f777a94dcb5e,,;57211a11-ed0b-46d7-9369-81df25a85df6,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Debuff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="ec80b3cd-29fd-40d2-a41a-b703db1b6f8e" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0d00be21-dd30-4b42-b5a0-afc6271033bc" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="475c57b5-0822-4d84-b546-822a70333387" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a0751ec9-cebe-43fc-a45c-c7e3eb09e01d" />

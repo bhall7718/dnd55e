@@ -437,6 +437,26 @@
                     <attribute id="UUID" type="guid" value="3318e90b-d58c-46ac-aa51-eddde1150973"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Apocalypse Domain SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_Darkness;Shout_HellishRebuke;Target_PhantasmalForce;Zone_Thunderwave"/>
+                    <attribute id="UUID" type="guid" value="aaeee03d-d672-4ac2-964c-c4b449350e09"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Apocalypse Domain SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_HungerOfHadar;Zone_Fear"/>
+                    <attribute id="UUID" type="guid" value="c4dd4e3e-f275-4351-89fd-fa0510e6bf39"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Apocalypse Domain SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blight;Target_IceStorm"/>
+                    <attribute id="UUID" type="guid" value="92b8370a-a5fb-482e-9b1d-bdd6210a5718"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Apocalypse Domain SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_Cloudkill;Target_InsectPlague"/>
+                    <attribute id="UUID" type="guid" value="47336f08-9daa-434b-be1d-88cb45e8ebb7"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="__DRUID__"/>
                     <attribute id="UUID" type="guid" value="a650b325-6d8d-46ae-a2a8-28009a511806"/>
                 </node>

@@ -1687,6 +1687,70 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_MistyStep,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);UnlockSpell(Target_SpatialExchange);" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cdde3670-eddf-43ef-adc6-6f4d2d9d9193" />
+        <field name="Name" type="NameTableFieldDefinition" value="__APOCALYPSE DOMAIN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3d87e2f3-2b94-4b86-be35-b42cc07eca5a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Apocalypse_3_ApocalypseDomainSpells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd5511bb2gf4b8g0709g6e56g92eaa3079df9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3b8a1f9dg4458ga3d3ga263gf4e1b90b9524" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h7c50337fg49e2g1d8agf87ag04e30ad44c96" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_TouchOfDeath" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0977652-b800-4638-b9ee-391d9f1eafcb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Apocalypse_3_VisionsOfAnnihilation" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h46ff1dc0g3fb4g0e61g3544g195538ce2ff9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h55235fc0g6321g25e2gcdefgc2244237ac56" version="3" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h947ed943ge9abg4881g2010ge2b6da6351b6" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Apocalypse_3_VisionsOfAnnihilation" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_VisionsOfAnnihilation);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="888a097d-3a52-4b16-93ec-acb06c4f7d2b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Apocalypse_3_VisionsOfAnnihilation_Resource" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnProficiencyChange;OnShortRest;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(VisionsOfAnnihilation,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(VisionsOfAnnihilation,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(VisionsOfAnnihilation,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(VisionsOfAnnihilation,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(VisionsOfAnnihilation,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(VisionsOfAnnihilation,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(VisionsOfAnnihilation,1,0);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4848e604-50d6-4276-b0c0-f1b75771c18c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Apocalypse_3_DoomSong" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h751150e3g3292g3e58g402ag01d32ccf9a11" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h469b91e3g1e80g366cg1b58gaf7e45b960a9" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Apocalypse_3_DoomSong" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_DoomSong);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e7106ee2-b349-4c37-9dde-9779866ee3d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Apocalypse_6_AllWillBeDust" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h936af976g86a3g55a5gd932g3abc43fa4172" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0eff4b29g54dbgb8d1gfe4ege253bef014b6" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Apocalypse_6_AllWillBeDust" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3506" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_AllWillBeDust);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7802f41d-bd65-4255-a3bf-5d50027cc099" />

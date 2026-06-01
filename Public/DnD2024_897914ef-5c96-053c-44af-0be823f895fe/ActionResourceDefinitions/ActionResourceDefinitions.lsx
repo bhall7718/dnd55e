@@ -486,6 +486,17 @@
                     <attribute id="UUID" type="guid" value="e66c5409-7a2f-4dbb-a599-1c9646c8faf2"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="Name" type="FixedString" value="__MONSTER HUNTER__"/>
+                    <attribute id="UUID" type="guid" value="dd747066-2ba5-4340-a15f-47a62a3b8f95"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0cb6fe74ga523ge60dgf112g667d31b003f8" version="1"/>
+                    <attribute id="Name" type="FixedString" value="TransmutingMetabolism"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="c32f211e-5645-4bfe-a7f1-b98ed91b8350"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__ORIGIN FEAT__"/>
                     <attribute id="UUID" type="guid" value="d6f88eae-2cc1-405f-b544-abd2d9ce747b"/>
                 </node>
@@ -621,15 +632,12 @@
                     <attribute id="UUID" type="guid" value="014d6340-84cf-4d14-b5a4-4b3f5886f8ba"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="Name" type="FixedString" value="__MONSTER HUNTER__"/>
-                    <attribute id="UUID" type="guid" value="dd747066-2ba5-4340-a15f-47a62a3b8f95"/>
-                </node>
-                <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h0cb6fe74ga523ge60dgf112g667d31b003f8" version="1"/>
-                    <attribute id="Name" type="FixedString" value="TransmutingMetabolism"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h35cd62dfga45eg5034g1f95gaecba58e13b1" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="VisionsOfAnnihilation"/>
                     <attribute id="ReplenishType" type="FixedString" value="Rest"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="c32f211e-5645-4bfe-a7f1-b98ed91b8350"/>
+                    <attribute id="UUID" type="guid" value="3681bdb6-affb-4c73-88e8-5aa904fb1b48"/>
                 </node>
             </children>
         </node>

@@ -68,6 +68,27 @@
                     <attribute id="V2" type="float" value="0.01550293"/>
                 </node>
                 <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Apocalypse_3_DoomSong"/>
+                    <attribute id="U1" type="float" value="0.25012207"/>
+                    <attribute id="U2" type="float" value="0.26550293"/>
+                    <attribute id="V1" type="float" value="0.03137207"/>
+                    <attribute id="V2" type="float" value="0.04675293"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Apocalypse_3_VisionsOfAnnihilation"/>
+                    <attribute id="U1" type="float" value="0.23449707"/>
+                    <attribute id="U2" type="float" value="0.24987793"/>
+                    <attribute id="V1" type="float" value="0.03137207"/>
+                    <attribute id="V2" type="float" value="0.04675293"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Apocalypse_6_AllWillBeDust"/>
+                    <attribute id="U1" type="float" value="0.21887207"/>
+                    <attribute id="U2" type="float" value="0.23425293"/>
+                    <attribute id="V1" type="float" value="0.03137207"/>
+                    <attribute id="V2" type="float" value="0.04675293"/>
+                </node>
+                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Arcana"/>
                     <attribute id="U1" type="float" value="0.14074707"/>
                     <attribute id="U2" type="float" value="0.15612793"/>

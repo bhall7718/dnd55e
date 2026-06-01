@@ -931,6 +931,9 @@
                         <node id="SubClasses">
                             <children>
                                 <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="4d7bc9f4-526f-4902-b9a2-b31577203d02"/>
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="0a7ae8c2-4fd5-48d8-9e5e-6a29189f3fb1"/>
                                 </node>
                                 <node id="SubClass">
@@ -1618,6 +1621,47 @@
                     <attribute id="Selectors" type="LSString" value="AddSpells(3318e90b-d58c-46ac-aa51-eddde1150973,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="09684867-c032-4676-a80b-99a317d39fad"/>
                     <attribute id="UUID" type="guid" value="0c928e33-300b-4e0e-a991-20bc702a95d0"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="ApocalypseDomain"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Astral_3_AstralDomainSpells;Apocalypse_3_VisionsOfAnnihilation;Apocalypse_3_DoomSong;Apocalypse_3_VisionsOfAnnihilation_Resource"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(aaeee03d-d672-4ac2-964c-c4b449350e09,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="26eaf048-405d-442a-b44f-d500bb1cc613"/>
+                    <attribute id="UUID" type="guid" value="26eaf048-405d-442a-b44f-d500bb1cc613"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="ApocalypseDomain"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(c4dd4e3e-f275-4351-89fd-fa0510e6bf39,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="26eaf048-405d-442a-b44f-d500bb1cc613"/>
+                    <attribute id="UUID" type="guid" value="e67eb176-4f29-474e-8448-e5124572d5ac"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="ApocalypseDomain"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Apocalypse_6_AllWillBeDust"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="26eaf048-405d-442a-b44f-d500bb1cc613"/>
+                    <attribute id="UUID" type="guid" value="a602a556-752a-47ae-a4e1-18e8f9f6cbe9"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="ApocalypseDomain"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(92b8370a-a5fb-482e-9b1d-bdd6210a5718,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="26eaf048-405d-442a-b44f-d500bb1cc613"/>
+                    <attribute id="UUID" type="guid" value="f4538891-9bea-45be-8147-288e17e08044"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="ApocalypseDomain"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(47336f08-9daa-434b-be1d-88cb45e8ebb7,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="26eaf048-405d-442a-b44f-d500bb1cc613"/>
+                    <attribute id="UUID" type="guid" value="f2c509f4-47aa-47d1-8ba4-465ed11232b3"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice08,1,0);Proficiency(LightArmor);Proficiency(Shields);Tag(PETPAL);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(SimpleWeapons);ActionResource(MoonSickle,1,0)"/>
@@ -7436,6 +7480,31 @@
                     <attribute id="UUID" type="guid" value="a46829d3-05ba-406a-ba82-e8685cf4640d"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="OccultistGuild"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,1,EldritchKnightAbjEvo)"/>
+                    <attribute id="TableUUID" type="guid" value="a46829d3-05ba-406a-ba82-e8685cf4640d"/>
+                    <attribute id="UUID" type="guid" value="e54de2fa-3e60-41cd-aa6d-01018eca7278"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="OccultistGuild"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,1,EldritchKnightAbjEvo)"/>
+                    <attribute id="TableUUID" type="guid" value="a46829d3-05ba-406a-ba82-e8685cf4640d"/>
+                    <attribute id="UUID" type="guid" value="a0d64799-9f9f-4a4d-98b6-7320fdc6a9d5"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="OccultistGuild"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,1,EldritchKnightAbjEvo)"/>
+                    <attribute id="TableUUID" type="guid" value="a46829d3-05ba-406a-ba82-e8685cf4640d"/>
+                    <attribute id="UUID" type="guid" value="81a9914c-fa7b-48d5-9f3b-5f3ee4c1cd9b"/>
+                </node>
+                <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)"/>
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="OccultistGuild"/>
@@ -7446,6 +7515,22 @@
                     <attribute id="UUID" type="guid" value="ce32861c-efb6-40c1-abfc-997b8017ba80"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="OccultistGuild"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,1,1,EldritchKnightAbjEvo)"/>
+                    <attribute id="TableUUID" type="guid" value="a46829d3-05ba-406a-ba82-e8685cf4640d"/>
+                    <attribute id="UUID" type="guid" value="8bf866e7-83fa-41ac-b5ae-4a3aec64519a"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="OccultistGuild"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,1,1,EldritchKnightAbjEvo)"/>
+                    <attribute id="TableUUID" type="guid" value="a46829d3-05ba-406a-ba82-e8685cf4640d"/>
+                    <attribute id="UUID" type="guid" value="b6bc790a-49ff-4bca-a534-1c40f01f5510"/>
+                </node>
+                <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="OccultistGuild"/>
@@ -7454,6 +7539,22 @@
                     <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,1,0,,,,AlwaysPrepared);SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,1,1,EldritchKnightAbjEvo);SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,2,0)"/>
                     <attribute id="TableUUID" type="guid" value="a46829d3-05ba-406a-ba82-e8685cf4640d"/>
                     <attribute id="UUID" type="guid" value="6f77999d-ff39-444f-a536-1960c823509a"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="OccultistGuild"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,1,1,EldritchKnightAbjEvo)"/>
+                    <attribute id="TableUUID" type="guid" value="a46829d3-05ba-406a-ba82-e8685cf4640d"/>
+                    <attribute id="UUID" type="guid" value="87d7c8f3-5f0c-4e6e-9911-0473c9cfab20"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="OccultistGuild"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,0,1,EldritchKnightAbjEvo)"/>
+                    <attribute id="TableUUID" type="guid" value="a46829d3-05ba-406a-ba82-e8685cf4640d"/>
+                    <attribute id="UUID" type="guid" value="07730480-b58c-4fde-82ad-0817ab1c3356"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Name" type="LSString" value="__RACE__"/>
@@ -7863,63 +7964,6 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
-                    <attribute id="Level" type="uint8" value="4"/>
-                    <attribute id="Name" type="LSString" value="OccultistGuild"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,1,EldritchKnightAbjEvo)"/>
-                    <attribute id="TableUUID" type="guid" value="a46829d3-05ba-406a-ba82-e8685cf4640d"/>
-                    <attribute id="UUID" type="guid" value="e54de2fa-3e60-41cd-aa6d-01018eca7278"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="5"/>
-                    <attribute id="Name" type="LSString" value="OccultistGuild"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,1,EldritchKnightAbjEvo)"/>
-                    <attribute id="TableUUID" type="guid" value="a46829d3-05ba-406a-ba82-e8685cf4640d"/>
-                    <attribute id="UUID" type="guid" value="a0d64799-9f9f-4a4d-98b6-7320fdc6a9d5"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="6"/>
-                    <attribute id="Name" type="LSString" value="OccultistGuild"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,1,EldritchKnightAbjEvo)"/>
-                    <attribute id="TableUUID" type="guid" value="a46829d3-05ba-406a-ba82-e8685cf4640d"/>
-                    <attribute id="UUID" type="guid" value="81a9914c-fa7b-48d5-9f3b-5f3ee4c1cd9b"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="8"/>
-                    <attribute id="Name" type="LSString" value="OccultistGuild"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,1,1,EldritchKnightAbjEvo)"/>
-                    <attribute id="TableUUID" type="guid" value="a46829d3-05ba-406a-ba82-e8685cf4640d"/>
-                    <attribute id="UUID" type="guid" value="8bf866e7-83fa-41ac-b5ae-4a3aec64519a"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="9"/>
-                    <attribute id="Name" type="LSString" value="OccultistGuild"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,1,1,EldritchKnightAbjEvo)"/>
-                    <attribute id="TableUUID" type="guid" value="a46829d3-05ba-406a-ba82-e8685cf4640d"/>
-                    <attribute id="UUID" type="guid" value="b6bc790a-49ff-4bca-a534-1c40f01f5510"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="11"/>
-                    <attribute id="Name" type="LSString" value="OccultistGuild"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,1,1,EldritchKnightAbjEvo)"/>
-                    <attribute id="TableUUID" type="guid" value="a46829d3-05ba-406a-ba82-e8685cf4640d"/>
-                    <attribute id="UUID" type="guid" value="87d7c8f3-5f0c-4e6e-9911-0473c9cfab20"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="12"/>
-                    <attribute id="Name" type="LSString" value="OccultistGuild"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,0,1,EldritchKnightAbjEvo)"/>
-                    <attribute id="TableUUID" type="guid" value="a46829d3-05ba-406a-ba82-e8685cf4640d"/>
-                    <attribute id="UUID" type="guid" value="07730480-b58c-4fde-82ad-0817ab1c3356"/>
                 </node>
             </children>
         </node>

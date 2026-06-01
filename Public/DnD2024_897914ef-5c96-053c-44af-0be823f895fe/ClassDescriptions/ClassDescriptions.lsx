@@ -780,6 +780,21 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="4"/>
                     <attribute id="UUID" type="guid" value="2e13292f-2fe2-4807-adae-d72bf04f020d"/>
                 </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h38a12140g389dg5222g5edag43885ca9c8ce" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf24a59b2g7e92gd5b5g78b7gd7fdcf01dfd9" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="ApocalypseDomain"/>
+                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="26eaf048-405d-442a-b44f-d500bb1cc613"/>
+                    <attribute id="ShortName" type="TranslatedString" handle="h9db7ea7cgcffdgdbaeg920dgbe5a72481ab8" version="1"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Cleric"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="4d7bc9f4-526f-4902-b9a2-b31577203d02"/>
+                </node>
             </children>
         </node>
     </region>
