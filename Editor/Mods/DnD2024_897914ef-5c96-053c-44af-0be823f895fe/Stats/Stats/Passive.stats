@@ -8199,6 +8199,47 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cf14722a-cfb5-4e77-b662-a627530f3193" />
+        <field name="Name" type="NameTableFieldDefinition" value="__RACE TIEF__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0e2b3b30-f6d5-479b-9904-577808a7a0f7" />
+        <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_RayOfSickness" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_RayOfSickness,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(SpellSlot,1,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="67c5fb62-8099-425b-a1e8-c0e5d8e72b36" />
+        <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_HoldPerson" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_HoldPerson,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(SpellSlot,1,2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="34969470-f080-49ad-a40e-bee5988090d5" />
+        <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_FalseLife" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_FalseLife,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(SpellSlot,1,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="97c2127e-28b8-43a6-ba29-159bfa8e62aa" />
+        <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_RayOfEnfeeblement" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_RayOfEnfeeblement,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(SpellSlot,1,2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb08745c-0536-4479-a1bd-92ef1d3b5463" />
+        <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_HellishRebuke" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_HellishRebuke,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(SpellSlot,1,1);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="487be05c-3e51-40ff-bf28-4a19d4be839f" />
         <field name="Name" type="NameTableFieldDefinition" value="__NPC__" />
       </fields>

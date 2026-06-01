@@ -9886,8 +9886,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="AsmodeusTiefling" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(7a4ce9fd-b7f9-463a-a880-30b6bf05a10d,,,,AlwaysPrepared)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_RayOfSickness" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9898,8 +9897,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="AsmodeusTiefling" />
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(28e6dff6-f95d-4142-bdad-6dbd44c216a0,,,,AlwaysPrepared)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,2)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_HoldPerson" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9922,8 +9920,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="MephistophelesTiefling" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(ec365b5c-c968-4a9e-ad07-f8a54a243c1b,,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_FalseLife" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9934,8 +9931,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="MephistophelesTiefling" />
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,2)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(f4a12dc4-edd6-4987-a8f5-faa39ca33236,,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_RayOfEnfeeblement" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9958,8 +9954,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="ZarielTiefling" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(09a912a1-3403-497e-9e78-a5a7e7af3e26,,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_HellishRebuke" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9970,8 +9965,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="ZarielTiefling" />
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,2)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(36cd7889-8a59-4ddd-b65a-cb96fa358992,,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_Darkness" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
