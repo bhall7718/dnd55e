@@ -80,6 +80,13 @@ All backgrounds updated to the 2024 PHB format — each now grants its **Origin 
 
 ### [Creatures](./README/README_Creatures.MD)
 
+The monsters you face play by the same rules you do — rebuilt for 2024.
+
+- **Bugbear** — Extra Attack implemented; all variants updated
+- **Dire Wolf** — Action resources corrected across all variants
+- **Wolf** — Action resources corrected across all variants (companion, wildshape, enemy)
+- **Worg** — Action resources corrected across all variants
+
 ### [Feats](./README/README_Feat.MD)
 
 **80+ feats** spanning five sourcebooks, all revised for the 2024 design philosophy — every feat that grants an ability score increase now does so correctly.
