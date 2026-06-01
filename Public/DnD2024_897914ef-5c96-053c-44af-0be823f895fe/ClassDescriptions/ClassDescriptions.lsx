@@ -766,6 +766,20 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="4"/>
                     <attribute id="UUID" type="guid" value="bebbfa54-1ad1-4459-b11b-8755e8633c5a"/>
                 </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="ha52e0ea7g613bg7d1egefc0gbcb5735e1445" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb94ed556g5e70g8c49g722fge57833fe8a79" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MulticlassSpellcasterModifier" type="double" value="0.34000000000000002"/>
+                    <attribute id="Name" type="FixedString" value="OccultistGuild"/>
+                    <attribute id="ParentGuid" type="guid" value="e137179a-0c6f-4608-837a-322c13403943"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="a46829d3-05ba-406a-ba82-e8685cf4640d"/>
+                    <attribute id="SoundClassType" type="FixedString" value="MonsterHunter"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="2e13292f-2fe2-4807-adae-d72bf04f020d"/>
+                </node>
             </children>
         </node>
     </region>

@@ -884,5 +884,22 @@
         <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2e13292f-2fe2-4807-adae-d72bf04f020d" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="e137179a-0c6f-4608-837a-322c13403943" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="OccultistGuild" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb94ed556g5e70g8c49g722fge57833fe8a79" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha52e0ea7g613bg7d1egefc0gbcb5735e1445" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="a46829d3-05ba-406a-ba82-e8685cf4640d" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="MonsterHunter" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="MulticlassSpellcasterModifier" type="FloatTableFieldDefinition" value="0.34" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

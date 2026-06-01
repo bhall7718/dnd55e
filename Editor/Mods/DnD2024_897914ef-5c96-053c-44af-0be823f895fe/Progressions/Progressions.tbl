@@ -9309,7 +9309,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_864" />
         <field name="UUID" type="IdTableFieldDefinition" value="046c58a5-1251-46b3-b417-9c1ff559680d" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="d84e3f76-0e56-4344-9454-ba167a286bdb;bebbfa54-1ad1-4459-b11b-8755e8633c5a" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="d84e3f76-0e56-4344-9454-ba167a286bdb;bebbfa54-1ad1-4459-b11b-8755e8633c5a;2e13292f-2fe2-4807-adae-d72bf04f020d" />
         <field name="FSName" type="StringTableFieldDefinition" value="MonsterHunter" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
@@ -9585,6 +9585,46 @@
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_889" />
         <field name="UUID" type="IdTableFieldDefinition" value="a46829d3-05ba-406a-ba82-e8685cf4640d" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="a46829d3-05ba-406a-ba82-e8685cf4640d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="OccultistGuild" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="OccultistGuild_3_AcolyteOfTheOccult;OccultistGuild_3_ArcaneInterference" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,2,1)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,2,0,,,,AlwaysPrepared);SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,3,0,EldritchKnightAbjEvo);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_898" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e54de2fa-3e60-41cd-aa6d-01018eca7278" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a46829d3-05ba-406a-ba82-e8685cf4640d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="OccultistGuild" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,1,EldritchKnightAbjEvo)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_899" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a0d64799-9f9f-4a4d-98b6-7320fdc6a9d5" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a46829d3-05ba-406a-ba82-e8685cf4640d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="OccultistGuild" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,1,EldritchKnightAbjEvo)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_900" />
+        <field name="UUID" type="IdTableFieldDefinition" value="81a9914c-fa7b-48d5-9f3b-5f3ee4c1cd9b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a46829d3-05ba-406a-ba82-e8685cf4640d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="OccultistGuild" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,1,EldritchKnightAbjEvo)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9592,6 +9632,34 @@
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_890" />
         <field name="UUID" type="IdTableFieldDefinition" value="ce32861c-efb6-40c1-abfc-997b8017ba80" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="a46829d3-05ba-406a-ba82-e8685cf4640d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="OccultistGuild" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="OccultistGuild_7_MageHunter" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,2,1,EldritchKnightAbjEvo)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_901" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8bf866e7-83fa-41ac-b5ae-4a3aec64519a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a46829d3-05ba-406a-ba82-e8685cf4640d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="OccultistGuild" />
+        <field name="Level" type="ByteTableFieldDefinition" value="8" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,1,1,EldritchKnightAbjEvo)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_902" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b6bc790a-49ff-4bca-a534-1c40f01f5510" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a46829d3-05ba-406a-ba82-e8685cf4640d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="OccultistGuild" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,1,1,EldritchKnightAbjEvo)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9599,6 +9667,34 @@
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_891" />
         <field name="UUID" type="IdTableFieldDefinition" value="6f77999d-ff39-444f-a536-1960c823509a" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="a46829d3-05ba-406a-ba82-e8685cf4640d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="OccultistGuild" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="OccultistGuild_10_OccultKnowledge" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,2)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,1,0,,,,AlwaysPrepared);SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,1,1,EldritchKnightAbjEvo);SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,2,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_903" />
+        <field name="UUID" type="IdTableFieldDefinition" value="87d7c8f3-5f0c-4e6e-9911-0473c9cfab20" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a46829d3-05ba-406a-ba82-e8685cf4640d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="OccultistGuild" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,1,1,EldritchKnightAbjEvo)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_904" />
+        <field name="UUID" type="IdTableFieldDefinition" value="07730480-b58c-4fde-82ad-0817ab1c3356" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a46829d3-05ba-406a-ba82-e8685cf4640d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="OccultistGuild" />
+        <field name="Level" type="ByteTableFieldDefinition" value="12" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,0,1,EldritchKnightAbjEvo)" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

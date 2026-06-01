@@ -6439,6 +6439,54 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,2d6,Acid,Magical)" />
       </fields>
     </stat_object>
+    <stat_object color="#FFCD5C5C" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2db8ba2d-cffb-444e-90ac-48439d5a1569" />
+        <field name="Name" type="NameTableFieldDefinition" value="OccultistGuild_3_AcolyteOfTheOccult" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="be69a373-42d2-4854-a478-89e952ca9684" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he55ef41cg489dg2db3ga14bg076c3922f5be" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h718ebc53g9616gcdc4ge2bcg846a784062a6" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="16103" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a75e0dca-1fca-45aa-a6bb-f4234c809fe6" />
+        <field name="Name" type="NameTableFieldDefinition" value="OccultistGuild_3_ArcaneInterference" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6d45afc8gf3a4g9b53ge55cgee1e8ff20f84" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5524efc2g3048g863bg33c2g18cfc27aae3e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MageSlayer_AttackACaster" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="16103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_ArcaneInterference_Melee);UnlockInterrupt(Interrupt_ArcaneInterference_Ranged);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21c84a82-2098-4999-80ec-89e69e7e2a8b" />
+        <field name="Name" type="NameTableFieldDefinition" value="OccultistGuild_7_MageHunter" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h24d8b18eg6581ged0bg11fbge247a09545db" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbc96befbg7948g8e5cgd0a9g9e23446bdc7b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MageSlayer_BreakConcentration" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="16107" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasSpellFlag(SpellFlags.Spell)):Advantage(AllSavingThrows);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsConcentrating(context.Target);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="BreakConcentration(context.Target)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0c952e1a-eeb4-40e0-ab9b-7fd2bf85d36f" />
+        <field name="Name" type="NameTableFieldDefinition" value="OccultistGuild_10_OccultKnowledge" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha194a5afge808ga991ga5a2g25513c2f607a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha4715411g6f47gaa79ge8b7gb92d8781f1b0" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Magical" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="16110" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="056a0c12-3e41-4e67-a705-01e9fea8219f" />
