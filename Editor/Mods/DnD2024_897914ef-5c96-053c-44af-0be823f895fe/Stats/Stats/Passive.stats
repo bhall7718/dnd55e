@@ -8192,6 +8192,14 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(1d4);ApplyStatus(PASSIVE_DISCIPLE_OF_LIFE,100,0)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1592e8c6-a9d6-497e-81ec-de5a3dab8c23" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_ElementalGish_ArcaneAcuity_Helmet_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="feeec231-dc33-46c3-972f-fe4981f3d35a" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Combat() and IsWeaponAttack() and not Item();" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6e19c092-a7fb-4108-a3e4-a2fb86227572" />

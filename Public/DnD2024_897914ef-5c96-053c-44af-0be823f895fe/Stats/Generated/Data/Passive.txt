@@ -5933,6 +5933,11 @@ data "StatsFunctorContext" "OnHeal"
 data "Conditions" "HealDoneGreaterThan(0) and (IsSpell() or IsCantrip()) or SpellId('Target_AuraOfVitality_Activate');"
 data "StatsFunctors" "RegainHitPoints(1d4);ApplyStatus(PASSIVE_DISCIPLE_OF_LIFE,100,0)"
 
+new entry "MAG_ElementalGish_ArcaneAcuity_Helmet_Passive"
+type "PassiveData"
+using "MAG_ElementalGish_ArcaneAcuity_Helmet_Passive"
+data "Conditions" "Combat() and IsWeaponAttack() and not Item();"
+
 new entry "__RACE__"
 type "PassiveData"
 
