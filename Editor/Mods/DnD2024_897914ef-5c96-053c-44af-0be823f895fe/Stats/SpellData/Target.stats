@@ -7648,6 +7648,97 @@
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Radiant" enumeration_type_name="Damage Type" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c3e79043-a21c-4e10-9bc6-87a22d398d4b" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateIce" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_CreateIce_1;Target_CreateIce_2;Target_CreateIce_3;Target_CreateIce_4;Target_CreateIce_5;Target_CreateIce_6;" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(2,,WaterFrozen);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="5" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Surface_Ice" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2515f6efg74e9g6061g08a1g0ec0f22a342d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6085ac63gc82egb7b9g858cg0fd5ce6726aa" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_IceStorm_L4to5" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;2f5d8e0b-35f3-416f-99e9-1cc9d942204e,,;f2ec369f-4a3b-451e-b954-2ab0a53d51d6,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Control" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="f4aab3ad-a4ad-48e1-9052-3808e2b65981" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="5600d296-764d-43f8-b781-2bfcd6cf7312" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="20d3dd6c-771d-4576-aab3-430035f7edfc" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateIce_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c3e79043-a21c-4e10-9bc6-87a22d398d4b" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CreateIce" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="12" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab7f8cdf-373e-4bb2-9401-139d47eec250" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateIce_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="20d3dd6c-771d-4576-aab3-430035f7edfc" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="15" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="10" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SorceryPoint:1" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a68cd401-51bb-4c11-9b28-c7253cdc3ee1" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateIce_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="20d3dd6c-771d-4576-aab3-430035f7edfc" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="15" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SorceryPoint:2" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5339b29d-432e-400c-a083-c7ea39062e58" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateIce_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="20d3dd6c-771d-4576-aab3-430035f7edfc" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="21" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="20" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SorceryPoint:3" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ac4bc0e5-8b24-4518-b34f-502fa5f3d52c" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateIce_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="20d3dd6c-771d-4576-aab3-430035f7edfc" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="24" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="25" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SorceryPoint:4" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="abe431dc-79be-4cb6-95d1-f93b6cbda9fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateIce_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="20d3dd6c-771d-4576-aab3-430035f7edfc" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="30" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SorceryPoint:5" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a1df2089-f737-4293-ba39-38da6a617b12" />

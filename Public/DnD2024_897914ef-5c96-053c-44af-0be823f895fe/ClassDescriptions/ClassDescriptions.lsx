@@ -142,6 +142,21 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h38a12140g389dg5222g5edag43885ca9c8ce" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf24a59b2g7e92gd5b5g78b7gd7fdcf01dfd9" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="ApocalypseDomain"/>
+                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="26eaf048-405d-442a-b44f-d500bb1cc613"/>
+                    <attribute id="ShortName" type="TranslatedString" handle="h9db7ea7cgcffdgdbaeg920dgbe5a72481ab8" version="1"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Cleric"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="4d7bc9f4-526f-4902-b9a2-b31577203d02"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="h620c69f6g5443g20cdg6ba6g742691ee6c08" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h993714a3gef7eg3fa3g8208g34aa994bdb90" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
@@ -782,18 +797,16 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="h38a12140g389dg5222g5edag43885ca9c8ce" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="hf24a59b2g7e92gd5b5g78b7gd7fdcf01dfd9" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="hb8891366g1f90g73e0ge8d1ge4a2ec9f47e0" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2be99baag9938gfc17g13cfg590c60db09e5" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
-                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
-                    <attribute id="Name" type="FixedString" value="ApocalypseDomain"/>
-                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
-                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="26eaf048-405d-442a-b44f-d500bb1cc613"/>
-                    <attribute id="ShortName" type="TranslatedString" handle="h9db7ea7cgcffdgdbaeg920dgbe5a72481ab8" version="1"/>
-                    <attribute id="SoundClassType" type="FixedString" value="Cleric"/>
-                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
-                    <attribute id="UUID" type="guid" value="4d7bc9f4-526f-4902-b9a2-b31577203d02"/>
+                    <attribute id="Name" type="FixedString" value="FrostSorcery"/>
+                    <attribute id="ParentGuid" type="guid" value="784001e2-c96d-4153-beb6-2adbef5abc92"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="1ee59b30-e015-45f2-8a93-9ca4c4ff2bc4"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Sorcerer"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="d45d0e7a-e5f9-4b43-865d-fb51aec2d32b"/>
                 </node>
             </children>
         </node>

@@ -4279,6 +4279,9 @@
                                     <attribute id="Object" type="guid" value="36286b0a-26f9-4b4e-9311-fd1404301d20"/>
                                 </node>
                                 <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="d45d0e7a-e5f9-4b43-865d-fb51aec2d32b"/>
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="b443a7fa-b36a-4cbc-9e4b-f3167de34d1b"/>
                                 </node>
                                 <node id="SubClass">
@@ -7964,6 +7967,47 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="FrostSorcery"/>
+                    <attribute id="PassivesAdded" type="LSString" value="FrostSorcery_3_CreateIce;FrostSorcery_3_FrostSpells;FrostSorcery_3_FrozenBody;FrostSorcery_3_FrozenBody_Movement"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(fa6f2a9d-930f-4fca-b52b-4fa9108a3967)"/>
+                    <attribute id="TableUUID" type="guid" value="1ee59b30-e015-45f2-8a93-9ca4c4ff2bc4"/>
+                    <attribute id="UUID" type="guid" value="1ee59b30-e015-45f2-8a93-9ca4c4ff2bc4"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="FrostSorcery"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(35af3b70-0941-4f7c-8a41-5c2b4fa88788)"/>
+                    <attribute id="TableUUID" type="guid" value="1ee59b30-e015-45f2-8a93-9ca4c4ff2bc4"/>
+                    <attribute id="UUID" type="guid" value="79cb7607-4783-4ad5-90f5-b7e77101c7b0"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="FrostSorcery"/>
+                    <attribute id="PassivesAdded" type="LSString" value="FrostSorcery_6_ColdHearted"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="1ee59b30-e015-45f2-8a93-9ca4c4ff2bc4"/>
+                    <attribute id="UUID" type="guid" value="42046eec-2376-4f55-8426-1a606a98903f"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="FrostSorcery"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(b0311668-e3e5-4c4c-9e32-2603abe51c86)"/>
+                    <attribute id="TableUUID" type="guid" value="1ee59b30-e015-45f2-8a93-9ca4c4ff2bc4"/>
+                    <attribute id="UUID" type="guid" value="123e60b0-c755-4d32-965e-a1c75e8c8c86"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="FrostSorcery"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(a27d843d-88fd-4f23-a519-74d6207625d6)"/>
+                    <attribute id="TableUUID" type="guid" value="1ee59b30-e015-45f2-8a93-9ca4c4ff2bc4"/>
+                    <attribute id="UUID" type="guid" value="34fadb96-9db2-4bb0-a144-0b5651b44fa0"/>
                 </node>
             </children>
         </node>

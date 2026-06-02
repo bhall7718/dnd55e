@@ -5456,7 +5456,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice06,1,0);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(SorceryPoint,1,0)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(f80396e2-cb76-4694-b0db-5c34da61a478,2,1,SorcererSpell)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel2" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="ee5a89b5-21c6-419e-8b30-aecf929bd7d7;886e988c-1d77-43ad-a0a9-f1e48c56d29b;36286b0a-26f9-4b4e-9311-fd1404301d20;b443a7fa-b36a-4cbc-9e4b-f3167de34d1b;42622d71-74af-409a-b821-85f270245fe2;d379fdae-b401-4731-8d50-277c73919ae3;14374d37-a70e-41a8-9dc5-85a23f8b5dd2" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="ee5a89b5-21c6-419e-8b30-aecf929bd7d7;886e988c-1d77-43ad-a0a9-f1e48c56d29b;36286b0a-26f9-4b4e-9311-fd1404301d20;d45d0e7a-e5f9-4b43-865d-fb51aec2d32b;b443a7fa-b36a-4cbc-9e4b-f3167de34d1b;42622d71-74af-409a-b821-85f270245fe2;d379fdae-b401-4731-8d50-277c73919ae3;14374d37-a70e-41a8-9dc5-85a23f8b5dd2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5986,6 +5986,62 @@
         <field name="Level" type="ByteTableFieldDefinition" value="9" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(441cf186-3059-4ccf-ab7a-1de73a62aad6)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_910" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1ee59b30-e015-45f2-8a93-9ca4c4ff2bc4" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1ee59b30-e015-45f2-8a93-9ca4c4ff2bc4" />
+        <field name="FSName" type="StringTableFieldDefinition" value="FrostSorcery" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="FrostSorcery_3_CreateIce;FrostSorcery_3_FrostSpells;FrostSorcery_3_FrozenBody;FrostSorcery_3_FrozenBody_Movement" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(fa6f2a9d-930f-4fca-b52b-4fa9108a3967)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_911" />
+        <field name="UUID" type="IdTableFieldDefinition" value="79cb7607-4783-4ad5-90f5-b7e77101c7b0" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1ee59b30-e015-45f2-8a93-9ca4c4ff2bc4" />
+        <field name="FSName" type="StringTableFieldDefinition" value="FrostSorcery" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(35af3b70-0941-4f7c-8a41-5c2b4fa88788)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_912" />
+        <field name="UUID" type="IdTableFieldDefinition" value="42046eec-2376-4f55-8426-1a606a98903f" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1ee59b30-e015-45f2-8a93-9ca4c4ff2bc4" />
+        <field name="FSName" type="StringTableFieldDefinition" value="FrostSorcery" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="FrostSorcery_6_ColdHearted" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_913" />
+        <field name="UUID" type="IdTableFieldDefinition" value="123e60b0-c755-4d32-965e-a1c75e8c8c86" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1ee59b30-e015-45f2-8a93-9ca4c4ff2bc4" />
+        <field name="FSName" type="StringTableFieldDefinition" value="FrostSorcery" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(b0311668-e3e5-4c4c-9e32-2603abe51c86)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_914" />
+        <field name="UUID" type="IdTableFieldDefinition" value="34fadb96-9db2-4bb0-a144-0b5651b44fa0" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1ee59b30-e015-45f2-8a93-9ca4c4ff2bc4" />
+        <field name="FSName" type="StringTableFieldDefinition" value="FrostSorcery" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(a27d843d-88fd-4f23-a519-74d6207625d6)" />
       </fields>
     </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">

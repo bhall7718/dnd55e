@@ -21,6 +21,11 @@
 - Level 3: Draconic Resilience
 - Level 6: Elemental Affinity
 - Level 11: Dragon Wings
+## Frost Sorcery
+- Level 3: Create Ice
+- Level 3: Frost Spells
+- Level 3: Frozen Body
+- Level 6: Cold-Hearted
 ## Shadow Magic
 ## Spellfire Sorcery
 - Level 3: Spellfire Burst

@@ -1644,6 +1644,30 @@
                     <attribute id="Spells" type="LSString" value="Shout_SpeakWithAnimals_ForestGnome;Target_MinorIllusion"/>
                     <attribute id="UUID" type="guid" value="582ed05c-c6fa-4d6f-99f9-efcc9de769f9"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="__FROST SORCERY__"/>
+                    <attribute id="UUID" type="guid" value="6f0bf746-2970-47c0-9bd1-cff28a976fd4"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Frost Level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blindness;Projectile_IceKnife;Target_MistyStep;Target_Sleep;Target_CreateIce"/>
+                    <attribute id="UUID" type="guid" value="fa6f2a9d-930f-4fca-b52b-4fa9108a3967"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Frost Level 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_SleetStorm;Target_Slow"/>
+                    <attribute id="UUID" type="guid" value="35af3b70-0941-4f7c-8a41-5c2b4fa88788"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Frost Level 7"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FireShield;Target_IceStorm"/>
+                    <attribute id="UUID" type="guid" value="b0311668-e3e5-4c4c-9e32-2603abe51c86"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Frost Level 9"/>
+                    <attribute id="Spells" type="LSString" value="Zone_ConeOfCold,Target_ConjureElemental_Container"/>
+                    <attribute id="UUID" type="guid" value="a27d843d-88fd-4f23-a519-74d6207625d6"/>
+                </node>
             </children>
         </node>
     </region>
