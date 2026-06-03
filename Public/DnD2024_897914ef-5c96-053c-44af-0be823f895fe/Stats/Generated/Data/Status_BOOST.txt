@@ -1936,7 +1936,7 @@ data "Description" "h32e38e85g25adgefa8g1b85gc609d74dfdb7;1"
 data "Icon" "Apocalypse_3_DoomSong"
 data "StackId" "DOOM_SONG_TARGET"
 data "AuraRadius" "30"
-data "AuraStatuses" "IF(not Ally()):ApplyStatus(DOOM_SONG_BUFF)"
+data "AuraStatuses" "IF(not Ally() and not Item()):ApplyStatus(DOOM_SONG_BUFF)"
 
 new entry "DOOM_SONG_BUFF"
 type "StatusData"

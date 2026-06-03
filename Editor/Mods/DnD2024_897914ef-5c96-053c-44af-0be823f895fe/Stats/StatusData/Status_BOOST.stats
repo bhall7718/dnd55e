@@ -2401,7 +2401,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Apocalypse_3_DoomSong" />
         <field name="StackId" type="StringTableFieldDefinition" value="DOOM_SONG_TARGET" />
         <field name="AuraRadius" type="IntegerTableFieldDefinition" value="30" />
-        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(not Ally()):ApplyStatus(DOOM_SONG_BUFF)" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(not Ally() and not Item()):ApplyStatus(DOOM_SONG_BUFF)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
