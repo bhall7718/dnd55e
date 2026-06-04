@@ -491,6 +491,7 @@
                     <attribute id="Name" type="LSString" value="GlamourCollege"/>
                     <attribute id="PassivesAdded" type="LSString" value="Glamour_3_BeguilingMagic;MantleOfInspiration_Unlock"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(b7f2b227-4c82-4fa7-9ca8-2af7175415e7)"/>
                     <attribute id="TableUUID" type="guid" value="376220ae-e871-4ca5-8521-ec46fa2cd117"/>
                     <attribute id="UUID" type="guid" value="534a3151-5a0a-4da1-bd5f-ccdb50cbc964"/>
                 </node>

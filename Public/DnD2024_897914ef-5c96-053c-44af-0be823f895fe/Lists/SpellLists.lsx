@@ -457,6 +457,26 @@
                     <attribute id="UUID" type="guid" value="47336f08-9daa-434b-be1d-88cb45e8ebb7"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Grave Domain SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_ProtectionFromEvilAndGood;Shout_FalseLife;Target_LesserRestoration;Projectile_RayOfEnfeeblement;Target_SpareTheDying"/>
+                    <attribute id="UUID" type="guid" value="7162699a-4886-40bb-97fc-d77d57953b6f"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Grave Domain SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Teleportation_Revivify;Target_VampiricTouch"/>
+                    <attribute id="UUID" type="guid" value="1434a581-1ba3-4fb6-9d2a-5aeceb3f8b9a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Grave Domain SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blight;Target_DeathWard"/>
+                    <attribute id="UUID" type="guid" value="8a4b16d3-e7d1-43cb-bd5b-9afbd74bbef2"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Grave Domain SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DispelEvilAndGood;Target_CureWounds_Mass"/>
+                    <attribute id="UUID" type="guid" value="2a274a23-162e-4f87-85cd-e3d788419364"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="__DRUID__"/>
                     <attribute id="UUID" type="guid" value="a650b325-6d8d-46ae-a2a8-28009a511806"/>
                 </node>
@@ -1669,24 +1689,9 @@
                     <attribute id="UUID" type="guid" value="582ed05c-c6fa-4d6f-99f9-efcc9de769f9"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Grave Domain SLevel 2"/>
-                    <attribute id="Spells" type="LSString" value="Target_ProtectionFromEvilAndGood;Shout_FalseLife;Target_LesserRestoration;Projectile_RayOfEnfeeblement;Target_SpareTheDying"/>
-                    <attribute id="UUID" type="guid" value="7162699a-4886-40bb-97fc-d77d57953b6f"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Grave Domain SLevel 3"/>
-                    <attribute id="Spells" type="LSString" value="Teleportation_Revivify;Target_VampiricTouch"/>
-                    <attribute id="UUID" type="guid" value="1434a581-1ba3-4fb6-9d2a-5aeceb3f8b9a"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Grave Domain SLevel 4"/>
-                    <attribute id="Spells" type="LSString" value="Target_Blight;Target_DeathWard"/>
-                    <attribute id="UUID" type="guid" value="8a4b16d3-e7d1-43cb-bd5b-9afbd74bbef2"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Grave Domain SLevel 5"/>
-                    <attribute id="Spells" type="LSString" value="Shout_DispelEvilAndGood;Target_CureWounds_Mass"/>
-                    <attribute id="UUID" type="guid" value="2a274a23-162e-4f87-85cd-e3d788419364"/>
+                    <attribute id="Name" type="FixedString" value="Glamour Bard Level 3 Beguiling Magic"/>
+                    <attribute id="Spells" type="LSString" value="Target_CharmPerson;Shout_MirrorImage"/>
+                    <attribute id="UUID" type="guid" value="b7f2b227-4c82-4fa7-9ca8-2af7175415e7"/>
                 </node>
             </children>
         </node>

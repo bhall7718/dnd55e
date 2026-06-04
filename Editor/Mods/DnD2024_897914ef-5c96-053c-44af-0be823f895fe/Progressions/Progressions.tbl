@@ -593,6 +593,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Glamour_3_BeguilingMagic;MantleOfInspiration_Unlock" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(b7f2b227-4c82-4fa7-9ca8-2af7175415e7)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
