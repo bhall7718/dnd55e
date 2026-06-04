@@ -186,6 +186,11 @@
                     <attribute id="UUID" type="guid" value="d84fc8ab-293e-437f-9825-e3e313f78060"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Glamour Bard Level 3 Beguiling Magic"/>
+                    <attribute id="Spells" type="LSString" value="Target_CharmPerson;Shout_MirrorImage"/>
+                    <attribute id="UUID" type="guid" value="b7f2b227-4c82-4fa7-9ca8-2af7175415e7"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Glamour Bard Level 6 Mantle of Majesty"/>
                     <attribute id="Spells" type="LSString" value="Target_Command_Container;Target_MantleOfMajesty"/>
                     <attribute id="UUID" type="guid" value="3b45a71a-971b-41b2-806e-8560d4410b52"/>
@@ -1689,9 +1694,19 @@
                     <attribute id="UUID" type="guid" value="582ed05c-c6fa-4d6f-99f9-efcc9de769f9"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Glamour Bard Level 3 Beguiling Magic"/>
-                    <attribute id="Spells" type="LSString" value="Target_CharmPerson;Shout_MirrorImage"/>
-                    <attribute id="UUID" type="guid" value="b7f2b227-4c82-4fa7-9ca8-2af7175415e7"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Hollow Warden Level 3 List"/>
+                    <attribute id="Spells" type="LSString" value="Target_Smite_Wrathful"/>
+                    <attribute id="UUID" type="guid" value="cce162e0-fc8e-4529-9535-0de1b3a2c1f6"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Hollow Warden Level 5 List"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FindSteed"/>
+                    <attribute id="UUID" type="guid" value="c0ba9c4b-f61b-4816-ac3c-80995c610879"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Hollow Warden Level 9 List"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SpiritGuardians"/>
+                    <attribute id="UUID" type="guid" value="dffb87ec-b1b5-44f0-a458-329242044f0a"/>
                 </node>
             </children>
         </node>

@@ -2364,6 +2364,27 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="08ecdc25-31ea-4f32-8787-19b97971a9f1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3698c61d-f4a8-497c-89b2-1ab66c30627c" />
+        <field name="Name" type="NameTableFieldDefinition" value="WrathOfTheWild" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WRATH_OF_THE_WILD,100,10);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="HollowWarden_3_WrathOfTheWild" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h656241edg097dg71d1gc1ddg80f0965b5079" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h552007ebg0886g488bgccfag99d4097696ee" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WRATH_OF_THE_WILD,100,10);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Action_Prepare_Druid_SymbioticEntity" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Action_Loop_Druid_SymbioticEntity" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Druid_SymbioticEntity" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;FavoredEnemy:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="cc6063ad-e800-4e2d-baee-6620dae744ca,,;,,;ec05d085-8b95-4c3a-9b7b-f2a562cdf41c,,;366a6dc9-0ed6-4590-adbc-d4909de5c341,,;a0a15c9e-0cbc-4086-90ff-a932c3027a98,,;,,;c7afcdc2-f42d-4aa7-b400-9794ba1ec84b,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="6381a064-4df7-4818-b111-042e4d4a8408" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="66587e5c-9ef5-4545-a76a-2a1353bdf2cc" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF483D8B" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b44372de-ef94-4ffd-9778-c5f21922d653" />

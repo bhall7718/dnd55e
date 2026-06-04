@@ -4558,7 +4558,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);ActionResource(SpellSlot,1,1)" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="6fd9547d-cc28-400e-bfa9-3a85baa70f24;c2f64e7b-124f-4b2d-9dcb-bbeeef2d747e;d5f10e55-84e3-409b-aa64-2098c9550319;0aa1cff9-c45f-4d00-a95b-99a7aa96dd06;29dc22b5-5e22-46d8-99f9-02e348f0b0b2;fbf9d94c-9175-4145-9bd9-645dec6d4f1d" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="6fd9547d-cc28-400e-bfa9-3a85baa70f24;c2f64e7b-124f-4b2d-9dcb-bbeeef2d747e;d5f10e55-84e3-409b-aa64-2098c9550319;42e7625d-114d-4bb3-9af1-663295711a01;0aa1cff9-c45f-4d00-a95b-99a7aa96dd06;29dc22b5-5e22-46d8-99f9-02e348f0b0b2;fbf9d94c-9175-4145-9bd9-645dec6d4f1d" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel1" />
       </fields>
     </stat_object>
@@ -4994,6 +4994,62 @@
         <field name="Level" type="ByteTableFieldDefinition" value="11" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="WinterWalker_11_ChillingRetribution" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF006400" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_920" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e5e8acd6-4fd3-4295-8e78-3a77b8c30f2d" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="e5e8acd6-4fd3-4295-8e78-3a77b8c30f2d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="HollowWarden" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="HollowWarden_3_HollowWardenSpells;HollowWarden_3_WrathOfTheWild" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(cce162e0-fc8e-4529-9535-0de1b3a2c1f6,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_921" />
+        <field name="UUID" type="IdTableFieldDefinition" value="939102da-b89f-4fe7-bb15-c319db0b2ee5" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="e5e8acd6-4fd3-4295-8e78-3a77b8c30f2d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="HollowWarden" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(c0ba9c4b-f61b-4816-ac3c-80995c610879,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_922" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cf177ef8-fd6b-43e2-88d8-88223bbb072c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="e5e8acd6-4fd3-4295-8e78-3a77b8c30f2d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="HollowWarden" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="HollowWarden_7_HungeringMight" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_923" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0ea859cb-f644-439d-9b54-3d4598d8a6b7" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="e5e8acd6-4fd3-4295-8e78-3a77b8c30f2d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="HollowWarden" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(dffb87ec-b1b5-44f0-a458-329242044f0a,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_924" />
+        <field name="UUID" type="IdTableFieldDefinition" value="06b0ca1f-8706-4f0a-a595-387cf6db2c08" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="e5e8acd6-4fd3-4295-8e78-3a77b8c30f2d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="HollowWarden" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="HollowWarden_11_RotAndViolence" />
       </fields>
     </stat_object>
     <stat_object color="#FF483D8B" is_substat="false">

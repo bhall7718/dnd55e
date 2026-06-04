@@ -157,6 +157,21 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="hb6b0d9beg878egbb1fg173cgc579422a5d85" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0d9ac304ge050g65c4gadd7gb2db9a3a6388" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="GraveDomain"/>
+                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="cb54a940-71a1-49bc-a317-c046517fc298"/>
+                    <attribute id="ShortName" type="TranslatedString" handle="h526ff611g11bfg567cg8e51gf38acce5196d" version="1"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Cleric"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="aa644f08-d368-40d3-802a-b3bce31cd4e8"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="h620c69f6g5443g20cdg6ba6g742691ee6c08" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h993714a3gef7eg3fa3g8208g34aa994bdb90" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
@@ -810,18 +825,16 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="hb6b0d9beg878egbb1fg173cgc579422a5d85" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h0d9ac304ge050g65c4gadd7gb2db9a3a6388" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="h52252f05gb82agd434gc0a3g495ebfd2fb82" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h36f8ec91gd0ffg30e0g363aga7612313e95b" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
-                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
-                    <attribute id="Name" type="FixedString" value="GraveDomain"/>
-                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
-                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="cb54a940-71a1-49bc-a317-c046517fc298"/>
-                    <attribute id="ShortName" type="TranslatedString" handle="h526ff611g11bfg567cg8e51gf38acce5196d" version="1"/>
-                    <attribute id="SoundClassType" type="FixedString" value="Cleric"/>
+                    <attribute id="Name" type="FixedString" value="HollowWarden"/>
+                    <attribute id="ParentGuid" type="guid" value="36be18ba-23db-4dff-bfa6-ae105ce43144"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="e5e8acd6-4fd3-4295-8e78-3a77b8c30f2d"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Ranger"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="5"/>
-                    <attribute id="UUID" type="guid" value="aa644f08-d368-40d3-802a-b3bce31cd4e8"/>
+                    <attribute id="UUID" type="guid" value="42e7625d-114d-4bb3-9af1-663295711a01"/>
                 </node>
             </children>
         </node>

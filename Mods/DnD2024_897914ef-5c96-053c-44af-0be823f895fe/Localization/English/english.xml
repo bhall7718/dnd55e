@@ -551,7 +551,7 @@ While mounted on the steed, when you take damage of 4 or higher, you must make a
   <content contentuid="h2c05bd1dg9548g9d0ag66dbgd31ce3af6dab" version="1">If you hit an enemy with an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt;, you can reduce the creature’s Speed to 0 until the end of the current turn. And your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; increases by [1] on your next turn.</content>
   <content contentuid="hd54cf49fg52f9gc82fg23ddg240455666d75" version="1">Relentless Avenger Foe</content>
   <content contentuid="h4580d441g9dc0gbc53g7a59g25cce7bd8ba2" version="1">Can't move. Restrained by an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; from a Relentless Avenger.</content>
-  <content contentuid="h8a2bbcc7gff7eg7312gb3f5g2e15ba81d07c" version="2">Hunter's Mark</content>
+  <content contentuid="h8a2bbcc7gff7eg7312gb3f5g2e15ba81d07c" version="3">Favored Enemy</content>
   <content contentuid="hcd8000b2gdb8aga27dg0c5agb3cd6b125346" version="1">You always have the Hunter’s Mark spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.
 
 The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.</content>
@@ -4189,4 +4189,47 @@ When you or an ally you can see hits the cursed target with an attack roll, you 
   <content contentuid="h766f65e6g3d16g5e40g74e7ga8f8668f8d89" version="1">Path to the Grave (Radiant)</content>
   <content contentuid="hbdf05572gfd6fgc2b8g94f7ga66183c724c7" version="1">Path to the Grave (Necrotic)</content>
   <content contentuid="hc89a1458g2a97g6f71g4ec2g2f90e1ca5dcf" version="1">Pull of Death</content>
+  <content contentuid="h36f8ec91gd0ffg30e0g363aga7612313e95b" version="1">Hollow Warden</content>
+  <content contentuid="h52252f05gb82agd434gc0a3g495ebfd2fb82" version="1">Legends tell that the most ancient and bloodthirsty terrors lurk deep within the old places of the earth. Hollow Wardens venerate and draw power from such beings, transforming themselves into merciless and monstrous guardians that stalk jagged coastlines, steep mountain crags, and other dark and wild places.</content>
+  <content contentuid="hfbcd8ecag6df7g76eeg5bbdge488cbd2d2ff" version="1">Level 3: Hollow Warden Spells</content>
+  <content contentuid="h9a3aa8d6g3cb8g0884g6d9eg5f6c2e19ad7b" version="1">Level 3: Wrath of the Wild</content>
+  <content contentuid="hdce7e79bg8885g6824g9637g6951304ec5c7" version="1">Level 7: Hungering Might</content>
+  <content contentuid="hf0a74333g96ebgca45ge544g1b9f0f8411cb" version="1">Level 11: Rot and Violence</content>
+  <content contentuid="h02a16612g51dege910g582fg8824be4f2aee" version="1">When you reach a Ranger level specified in the Hollow Warden Spells table, you thereafter always have the listed spell prepared.</content>
+  <content contentuid="hd23192ffgdf59ga725g1c97g7e364650fe0c" version="1">Wrathful Smite at 3rd level, Find Steed at 5th level, and Spirit Guardians at 9th level.</content>
+  <content contentuid="h4d2b70ecgee46g15a5g5c0bga91856311ba5" version="1">You draw power from the strange and ancient horrors of the land, causing you to sprout unnatural growths, such as bloody antlers or putrid fangs, or causing your shadow to lengthen or twist around you. As a Bonus Action, you can expend a use of Favored Enemy to transform into a ghastly form, gaining the following benefits for 1 minute or until you have the Incapacitated condition, die, or end the transformation (no action required).
+
+Ancient Armor. You gain a +1 bonus to AC, as your body is wreathed in rotten bark and beastly bristles. This bonus increases to +2 when you reach Ranger level 11.
+
+Prowling Retribution. Immediately after a creature you can see within 5 feet of yourself deals damage to you or one of your allies, you can make an Opportunity Attack against that creature.
+
+Unnerving Aura. When you transform and at the start of each of your subsequent turns, each creature of your choice in a 10-foot Emanation originating from you makes a Wisdom saving throw against your spell save DC. On a failed save, a creature has the Frightened condition until the start of your next turn.</content>
+  <content contentuid="h197a4fbbg54d8g3303g20b2ga713257e8f7a" version="1">You gain a bonus to Constitution saving throws equal to your Wisdom modifier (minimum of +1).
+
+In addition, once per turn when you hit a creature with an attack roll while you are transformed using Wrath of the Wild, you regain a number of Hit Points equal to 1d10 plus your Wisdom modifier, provided you are Bloodied when you hit.</content>
+  <content contentuid="hfcbd3784g4436g3a40g1260g63eb8006c7fa" version="2">Your dedication to wild eldritch beings alters you further. When transformed using Wrath of the Wild, you gain the following additional benefits.
+
+Menacing Aura. When a creature fails its saving throw against your Unnerving Aura, it also can’t regain Hit Points or take Reactions until the start of your next turn.
+
+Ominous Strikes. When you hit a creature that has the Frightened condition with an attack roll, that attack deals extra damage equal to your Wisdom modifier.</content>
+  <content contentuid="h656241edg097dg71d1gc1ddg80f0965b5079" version="1">Wrath of the Wild</content>
+  <content contentuid="h552007ebg0886g488bgccfag99d4097696ee" version="1">You draw power from the strange and ancient horrors of the land, causing you to sprout unnatural growths, such as bloody antlers or putrid fangs, or causing your shadow to lengthen or twist around you. As a Bonus Action, you can expend a use of Favored Enemy to transform into a ghastly form, gaining the following benefits for 1 minute or until you have the Incapacitated condition, die, or end the transformation (no action required).
+
+Ancient Armor. You gain a +1 bonus to AC, as your body is wreathed in rotten bark and beastly bristles. This bonus increases to +2 when you reach Ranger level 11.
+
+Prowling Retribution. Immediately after a creature you can see within 5 feet of yourself deals damage to you or one of your allies, you can make an Opportunity Attack against that creature.
+
+Unnerving Aura. When you transform and at the start of each of your subsequent turns, each creature of your choice in a 10-foot Emanation originating from you makes a Wisdom saving throw against your spell save DC. On a failed save, a creature has the Frightened condition until the start of your next turn.</content>
+  <content contentuid="h6bf206d3ga5dag2afag19eegf2c35e7a534e" version="1">You always have Hunter’s Mark prepared. You can cast it without expending a spell slot a number of times equal to the value shown in the Favored Enemy column of the Ranger Features table. You regain all expended uses when you finish a Long Rest.</content>
+  <content contentuid="h0707320dgdc67g5261gca84g8c7ba39b2add" version="1">You can cast Hunter’s Mark without expending a spell slot twice at 1st level, three times at 5th level, and four times at 9th level.</content>
+  <content contentuid="h41856fd8g557fg1204g89c3gd79299a20aba" version="1">Wrath of the Wild</content>
+  <content contentuid="h5b50bb5cg8fd5g63ccgdf38gc338449b5822" version="1">You draw power from the strange and ancient horrors of the land, causing you to sprout unnatural growths, such as bloody antlers or putrid fangs, or causing your shadow to lengthen or twist around you. As a Bonus Action, you can expend a use of Favored Enemy to transform into a ghastly form, gaining the following benefits for 1 minute or until you have the Incapacitated condition, die, or end the transformation (no action required).</content>
+  <content contentuid="hf1d97e50g4266g20d2gfa31gc28b01a57f91" version="1">Prowling Retribution</content>
+  <content contentuid="hd4469619g376dg9d74gbfb4gb103475e4356" version="1">Immediately after a creature you can see within 5 feet of yourself deals damage to you or one of your allies, you can make an Opportunity Attack against that creature.</content>
+  <content contentuid="hcb469b5ag81e6gc10dgf121g03e0273e12e0" version="1">Unnerving Aura</content>
+  <content contentuid="hfe6b221fg701bg9db4gdb32ga44f7bac6573" version="1">When you transform and at the start of each of your subsequent turns, each creature of your choice in a 10-foot Emanation originating from you makes a Wisdom saving throw against your spell save DC. On a failed save, a creature has the Frightened condition until the start of your next turn.</content>
+  <content contentuid="hccc59875g41d7g8efag4ac7gd30ae86a609f" version="1">Hungering Might</content>
+  <content contentuid="h5d295166ga39bg4056gc6afg3170dfffabae" version="1">You regain a number of Hit Points equal to 1d10 plus your Wisdom modifier.</content>
+  <content contentuid="h69a7fb39g6a1dg8cc5g6b7egf436399cf817" version="1">Menacing Aura</content>
+  <content contentuid="h2dd6c79cg9334g06a2g3d43geab02d13b382" version="1">When a creature fails its saving throw against Unnerving Aura, it also can’t regain Hit Points or take Reactions until the start of your next turn.</content>
 </contentList>

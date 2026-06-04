@@ -3570,6 +3570,9 @@
                                     <attribute id="Object" type="guid" value="d5f10e55-84e3-409b-aa64-2098c9550319"/>
                                 </node>
                                 <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="42e7625d-114d-4bb3-9af1-663295711a01"/>
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="0aa1cff9-c45f-4d00-a95b-99a7aa96dd06"/>
                                 </node>
                                 <node id="SubClass">
@@ -3898,6 +3901,47 @@
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="d16b57a3-866e-42eb-9553-dc27f7bf8625"/>
                     <attribute id="UUID" type="guid" value="fa3de721-8bab-4724-8765-686075c474d0"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="HollowWarden"/>
+                    <attribute id="PassivesAdded" type="LSString" value="HollowWarden_3_HollowWardenSpells;HollowWarden_3_WrathOfTheWild"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(cce162e0-fc8e-4529-9535-0de1b3a2c1f6,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="e5e8acd6-4fd3-4295-8e78-3a77b8c30f2d"/>
+                    <attribute id="UUID" type="guid" value="e5e8acd6-4fd3-4295-8e78-3a77b8c30f2d"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="HollowWarden"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(c0ba9c4b-f61b-4816-ac3c-80995c610879,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="e5e8acd6-4fd3-4295-8e78-3a77b8c30f2d"/>
+                    <attribute id="UUID" type="guid" value="939102da-b89f-4fe7-bb15-c319db0b2ee5"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="HollowWarden"/>
+                    <attribute id="PassivesAdded" type="LSString" value="HollowWarden_7_HungeringMight"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="e5e8acd6-4fd3-4295-8e78-3a77b8c30f2d"/>
+                    <attribute id="UUID" type="guid" value="cf177ef8-fd6b-43e2-88d8-88223bbb072c"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="HollowWarden"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(dffb87ec-b1b5-44f0-a458-329242044f0a,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="e5e8acd6-4fd3-4295-8e78-3a77b8c30f2d"/>
+                    <attribute id="UUID" type="guid" value="0ea859cb-f644-439d-9b54-3d4598d8a6b7"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="HollowWarden"/>
+                    <attribute id="PassivesAdded" type="LSString" value="HollowWarden_11_RotAndViolence"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="e5e8acd6-4fd3-4295-8e78-3a77b8c30f2d"/>
+                    <attribute id="UUID" type="guid" value="06b0ca1f-8706-4f0a-a595-387cf6db2c08"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice08,1,0);Proficiency(LightArmor);ActionResource(SneakAttack_Charge,1,0);Proficiency(SimpleWeapons);Proficiency(HandCrossbows);Proficiency(Scimitars);Proficiency(Shortswords);Proficiency(Rapiers);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Intelligence);"/>

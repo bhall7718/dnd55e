@@ -1220,27 +1220,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="ed44d85d-b035-4436-a010-691a0e4f0952" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="c778eecf-46ab-4cdc-aae7-592a851ffb59" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="242b8370-d66e-484c-86ab-a4cd6974a9d1" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="11bb4766-5ca5-4e5c-a58f-d20f9ef52d6e" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="1c5f64e1-f6e0-4d75-b7a3-2d8f1a8218fe" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="9b1e5d87-e09b-44b9-a1a2-739d7172cc1d" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3e6ced42-08e1-41ff-9df6-a20aac153573" />
         <field name="Name" type="NameTableFieldDefinition" value="FLAME_BLADE" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1e9581c3-a050-4e19-837b-d540b9f1a46a" />
@@ -3210,6 +3189,76 @@
         <field name="Name" type="NameTableFieldDefinition" value="POLARSTRIKE_DAMAGE_TAKEN" />
         <field name="StackId" type="StringTableFieldDefinition" value="POLARSTRIKE_DAMAGE_TAKEN" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8f0bb627-c2f2-409d-80f3-2de0a3912b72" />
+        <field name="Name" type="NameTableFieldDefinition" value="WRATH_OF_THE_WILD" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h41856fd8g557fg1204g89c3gd79299a20aba" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5b50bb5cg8fd5g63ccgdf38gc338449b5822" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="HollowWarden_3_WrathOfTheWild" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WRATH_OF_THE_WILD" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(UNNERVING_AURA,100,-1)" />
+        <field name="AuraFlags" type="EnumerationListTableFieldDefinition" value="ShouldCheckLOS" enumeration_type_name="AuraFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AC(1);IF(ClassLevelHigherOrEqualThan(11,'Ranger',context.Source)):AC(1);UnlockInterrupt(Interrupt_ProwlingRetribution);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="392098ee-50b4-4ffc-8e09-654bd15dd11e" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNNERVING_AURA" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcb469b5ag81e6gc10dgf121g03e0273e12e0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfe6b221fg701bg9db4gdb32ga44f7bac6573" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_Fear" />
+        <field name="StackId" type="StringTableFieldDefinition" value="UNNERVING_AURA" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Wisdom" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Wisdom, SourceSpellDC())" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('UNNERVING_AURA_COOLDOWN')):ApplyStatus(FRIGHTENED,100,1);IF(not HasStatus('UNNERVING_AURA_COOLDOWN')):ApplyStatus(UNNERVING_AURA_COOLDOWN,100,1)" />
+        <field name="OnApplyFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('UNNERVING_AURA_COOLDOWN')):ApplyStatus(UNNERVING_AURA_COOLDOWN,100,1)" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Wisdom, SourceSpellDC())" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('UNNERVING_AURA_COOLDOWN') or StatusDurationLessThan(context.Source, 'UNNERVING_AURA_COOLDOWN', 0.1)):ApplyStatus(FRIGHTENED,100,1);ApplyStatus(UNNERVING_AURA_COOLDOWN,100,1)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="ApplyStatus(UNNERVING_AURA_COOLDOWN,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f235e7f4-c11c-4450-8fda-52d2496ffe67" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNNERVING_AURA_COOLDOWN" />
+        <field name="StackId" type="StringTableFieldDefinition" value="UNNERVING_AURA_COOLDOWN" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9eda67a1-fbc5-4956-bb50-1b7ebf5b125e" />
+        <field name="Name" type="NameTableFieldDefinition" value="HUNGERING_MIGHT" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hccc59875g41d7g8efag4ac7gd30ae86a609f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5d295166ga39bg4056gc6afg3170dfffabae" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="HollowWarden_3_WrathOfTheWild" />
+        <field name="StackId" type="StringTableFieldDefinition" value="HUNGERING_MIGHT" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(1d10+WisdomModifier);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="62a0ba1d-e096-4bcb-a6e4-d5ccd79dbd20" />
+        <field name="Name" type="NameTableFieldDefinition" value="MENACING_AURA" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h69a7fb39g6a1dg8cc5g6b7egf436399cf817" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2dd6c79cg9334g06a2g3d43geab02d13b382" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_ChillTouch" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MENACING_AURA" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(ReactionActionPoint);BlockRegainHP(Living;Undead);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF483D8B" is_substat="false">

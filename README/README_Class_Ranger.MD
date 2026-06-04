@@ -24,6 +24,11 @@
 - Level 3: Umbral Sight
 - Level 7: Iron Mind
 - Level 11: Stalker's Flurry
+## Hollow Warden
+- Level 3: Hollow Warden Spells
+- Level 3: Wrath of the Wild
+- Level 7: Hungering Might
+- Level 11: Rot and Violence
 ## Hunter
 - Level 3: Hunter's Prey
 - Level 7: Defensive Tactics
