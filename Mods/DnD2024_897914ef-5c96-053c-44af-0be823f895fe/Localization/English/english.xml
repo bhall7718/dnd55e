@@ -1921,7 +1921,7 @@ In addition, immediately after a creature you can see hits you with an attack ro
   <content contentuid="hf54c9af9g03dcg0142g4026g6139efcbb06e" version="1">Beguiling Defenses</content>
   <content contentuid="h6a16f7e0g2947g3fdfgcea2g6f2905fb534c" version="1">Beguiling Defenses</content>
   <content contentuid="h9fe00cb5g94cdg83e3g707ag20631bf85653" version="1">Immediately after a creature you can see hits you with an attack roll, you can take a Reaction to reduce the damage you take by half (round down), and you can force the attacker to take Psychic damage equal to the damage you take.</content>
-  <content contentuid="hc3053d70g9f50g8beeg6377g17705d962791" version="1">Celestial</content>
+  <content contentuid="hc3053d70g9f50g8beeg6377g17705d962791" version="2">Celestial Patron</content>
   <content contentuid="h3662fdcag8fe4g979eg5288g490b31f1f882" version="1">Your pact draws on the Upper Planes, the realms of everlasting bliss. You might enter an agreement with an empyrean, a couatl, a sphinx, a unicorn, or another heavenly entity. Or you might call on numerous such beings as you pursue goals aligned with theirs. Your pact allows you to experience a hint of the holy light that illuminates the multiverse.</content>
   <content contentuid="hff333ee0g15bdgad7fg8fefg3ee93e01df77" version="1">Level 3: Celestial Spells</content>
   <content contentuid="hbcb1d930g4757g8ed9g69dagacdb27a4f791" version="2">The magic of your patron ensures that you always have certain spells ready. When you reach specific Warlock levels, you automatically have the associated spells prepared.
@@ -4233,7 +4233,7 @@ Unnerving Aura. When you transform and at the start of each of your subsequent t
   <content contentuid="h69a7fb39g6a1dg8cc5g6b7egf436399cf817" version="1">Menacing Aura</content>
   <content contentuid="h2dd6c79cg9334g06a2g3d43geab02d13b382" version="1">When a creature fails its saving throw against Unnerving Aura, it also can’t regain Hit Points or take Reactions until the start of your next turn.</content>
   <content contentuid="hf16702a8g0c7fgdd18g3ea0g64f4822587ba" version="1">When you cast Warlock Cantrip, add your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to the damage it deals, unless it is negative.</content>
-  <content contentuid="h82eeb0d5g97f8gb543g1fccgc1ddce66a5b2" version="1">Undead</content>
+  <content contentuid="h82eeb0d5g97f8gb543g1fccgc1ddce66a5b2" version="2">Undead Patron</content>
   <content contentuid="h8fe28200g46b7g051cga5b0ga6bd5b6a5b73" version="1">You’ve made a pact with a creature that defies the cycle of life and death: a powerful lich, a vampire, or another entity of undeath. Having once been mortal, these ancient patrons know firsthand the paths of ambition and the routes past the doors of death. They eagerly share this profane knowledge and other secrets with those who work their will among the living.</content>
   <content contentuid="hf3e7b3e5gd803gdb85g050dg99a565121fbd" version="1">Level 3: Form of Dread</content>
   <content contentuid="h60b8e3b3ge993g7677ge82egd9590a175841" version="2">Fearless Form. You have Immunity to the Frightened condition.
@@ -4304,4 +4304,12 @@ Necrotic Resilience. You have Immunity to Necrotic damage.</content>
   <content contentuid="h82fcd113g91bcg7a32g7db2g7a9bb77bc1a9" version="1">Usable Classes: Bard, Sorcerer, Warlock, Wizard</content>
   <content contentuid="h0d09994cgb932g4c8bg28b6g6a5d21972441" version="1">Usable Classes: Sorcerer, Wizard</content>
   <content contentuid="h41e92c9cgd1e2gd267g02c4geb8bae5ebc9c" version="1">Usable Classes: Cleric, Druid, Sorcerer, Wizard</content>
+  <content contentuid="h1e3fa5f7g9907g40dag9d6ag90042eff8573" version="2">Hexblade Patron</content>
+  <content contentuid="h76260c1cg2fd0ga2b1gf453g7108d2706083" version="1">You've made a pact with a sentient magic weapon and the cursed forces contained within its blade. Such a weapon could be the sword sheathed at a Warlock's side, or it could be an infamous magic weapon stored elsewhere, projecting its power across the multiverse to further its cunning plans. To those willing to follow its whims, these inscrutable patrons grant the power to bestow malignant curses, deliver punishing blows, and bolster their wielders.</content>
+  <content contentuid="h41b0a1dbg7c44g6848gbf1ag34105de9296b" version="2">Archfey Patron</content>
+  <content contentuid="h5e78186dgabebg2b99g11acg070fef938db4" version="2">Your pact draws on the power of the Feywild. When you choose this subclass, you might make a deal with an archfey, such as the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; or an ancient hag. Or you might call on a spectrum of Fey, weaving a web of favors and debts. Whoever they are, your patron is often inscrutable and whimsical.</content>
+  <content contentuid="hd55742dag24b8g9010g614cg8ff311ddd61a" version="1">Fiend Patron</content>
+  <content contentuid="h52d5cbc0g4e75gc1bfgaf8egc799b8481188" version="1">You have pledged your soul to the Hells or Abyss in return for a deadly arsenal of fiendish arcana.</content>
+  <content contentuid="ha989ddfeg14aege15egc09fgf298fc8f086e" version="1">Great Old One Patron</content>
+  <content contentuid="h3504f51eg1ac0gd563g881eg515b53b1f37b" version="1">When you choose this subclass, you might bind yourself to an unspeakable being from the Far Realm or an elder god—a being such as Tharizdun, the Chained God; Zargon, the Returner; Hadar, the Dark Hunger; or Great Cthulhu. Or you might invoke several entities without yoking yourself to one. The motives of these beings are incomprehensible, and the Great Old One might be indifferent to your existence. But the secrets you’ve learned nevertheless allow you to draw strange magic from it.</content>
 </contentList>

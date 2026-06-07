@@ -568,11 +568,29 @@
     </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_58" />
+        <field name="UUID" type="IdTableFieldDefinition" value="733ddf8c-9ec4-4c5a-85e3-c70fd3df3c24" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Archfey" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h41b0a1dbg7c44g6848gbf1ag34105de9296b" version="2" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="7e1e0190-bd32-4ca6-9623-8adebeba74d4" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Warlock" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5e78186dgabebg2b99g11acg070fef938db4" version="2" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="86de94fa-91a2-4abb-8601-f2ad96c70659" />
+        <field name="SpellList" type="GuidObjectTableFieldDefinition" value="f95ef4cc-5f75-4274-bda5-589175d2ac66" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_17" />
         <field name="UUID" type="IdTableFieldDefinition" value="1e077f6b-1034-43ab-b54c-5718d78e9437" />
         <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c" />
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="Celestial" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc3053d70g9f50g8beeg6377g17705d962791" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc3053d70g9f50g8beeg6377g17705d962791" version="2" />
         <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="26e6c591-746b-4ba2-b46b-218f3a24fb84" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3662fdcag8fe4g979eg5288g490b31f1f882" version="1" />
         <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
@@ -585,11 +603,64 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_59" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8866db28-7dda-4fd6-93ed-20eca16314f0" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Fiend" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd55742dag24b8g9010g614cg8ff311ddd61a" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="2700b42c-3b2f-4fc7-b881-4acc4f0a3a1f" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h52d5cbc0g4e75gc1bfgaf8egc799b8481188" version="1" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="fbe3ee5d-1bb8-4c0b-a18c-26386101a680" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Warlock" />
+        <field name="SpellList" type="GuidObjectTableFieldDefinition" value="69d140ce-e988-4007-b069-30fe2e5f0d2f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_60" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e1e4a21f-9405-46ec-81a0-ccc8d58d9736" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="GreatOldOne" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha989ddfeg14aege15egc09fgf298fc8f086e" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="216e779e-3452-466c-933d-fb5723b90802" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3504f51eg1ac0gd563g881eg515b53b1f37b" version="1" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="cdad1fc1-352b-4441-82f2-73d8433e42ea" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Warlock" />
+        <field name="SpellList" type="GuidObjectTableFieldDefinition" value="9bcde680-356e-445e-abdb-c21f3400648b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_57" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8fb57960-eb92-48f5-b99d-ab36519e4d4f" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Hexblade" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1e3fa5f7g9907g40dag9d6ag90042eff8573" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h76260c1cg2fd0ga2b1gf453g7108d2706083" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="2b9b50de-48e2-4b1c-b40d-6050aa85009a" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Warlock" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="5e06f1e7-474f-4d46-b8e7-feac2315ebf9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_56" />
         <field name="UUID" type="IdTableFieldDefinition" value="e0e6a5e2-b147-4088-9a81-6364f3ebe25c" />
         <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c" />
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="UndeadPatron" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h82eeb0d5g97f8gb543g1fccgc1ddce66a5b2" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h82eeb0d5g97f8gb543g1fccgc1ddce66a5b2" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8fe28200g46b7g051cga5b0ga6bd5b6a5b73" version="1" />
         <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="35c30532-8f59-4980-b21b-4f729d2cd786" />
         <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Warlock" />

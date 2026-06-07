@@ -4981,7 +4981,6 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Hexblade"/>
-                    <attribute id="PassivesAdded" type="LSString" value="HexWarrior;HexbladesCurse"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(4a3bf687-91c1-4dad-821c-ad32171c7552)"/>
                     <attribute id="TableUUID" type="guid" value="2b9b50de-48e2-4b1c-b40d-6050aa85009a"/>
@@ -5005,7 +5004,6 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="Hexblade"/>
-                    <attribute id="PassivesAdded" type="LSString" value="AccursedSpecter"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="2b9b50de-48e2-4b1c-b40d-6050aa85009a"/>
                     <attribute id="UUID" type="guid" value="b2dbe656-f11e-42a7-9620-07b49d28b39b"/>
@@ -5036,7 +5034,6 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Hexblade"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ArmorOfHexes"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="2b9b50de-48e2-4b1c-b40d-6050aa85009a"/>
                     <attribute id="UUID" type="guid" value="e5df53c1-86a0-45bb-8937-6f9d0d504032"/>
