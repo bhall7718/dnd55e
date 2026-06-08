@@ -10616,6 +10616,29 @@
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Aasimar_3_CelestialRevelation" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_936" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e3cca850-5ecc-4557-bac9-315a28f601fe" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="33e8199c-4646-4bb9-9b6c-4a435044a40a" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Dhampir" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Darkvision;Dhampir_1_TraceOfUndeath;Dhampir_1_VampiricBite" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,1.5,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_938" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c93571e8-743c-49f3-bcbf-68d02e19a0a3" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="aedab8ae-60c9-4b3a-bc02-1ac7753a3dba" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Kalashtar" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Kalashtar_1_DualMind;Kalashtar_1_MentalDiscipline;Kalashtar_1_SeveredFromDreams" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_670" />

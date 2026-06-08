@@ -82,5 +82,33 @@
         <field name="RaceSoundSwitch" type="FixedStringTableFieldDefinition" value="Human" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c6a54353-a61c-440c-ba7e-ead2edd700d2" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="Dhampir" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h290db207g3982g8671gfbdeg7a8b3e079800" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4cdf86a0g7d76g2e84gd83dg6220d5a5ca95" version="1" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="6391e142-a82e-44fb-9369-282fa377978b;7d862e44-bb55-4253-9a05-7b43c4eae828" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="33e8199c-4646-4bb9-9b6c-4a435044a40a" />
+        <field name="RaceSoundSwitch" type="FixedStringTableFieldDefinition" value="Human" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="65ab9967-ab57-4728-ad56-1e552d9f5ef6" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="Kalashtar" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfa61106eg95adg47fbg8362gcbea543e7ea6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7272c6b6gd59fg3f4dg8d02g45a02e4928d6" version="1" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="36efb473-1028-429a-9796-50f6417587b8;28329abc-1378-4d37-8e27-dbb28ed9d411" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="aedab8ae-60c9-4b3a-bc02-1ac7753a3dba" />
+        <field name="RaceSoundSwitch" type="FixedStringTableFieldDefinition" value="Human" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

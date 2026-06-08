@@ -8742,18 +8742,6 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_AdrenalineRush);ActionResource(AdrenalineRush,2,0);IF(CharacterLevelGreaterThan(4)):ActionResource(AdrenalineRush,1,0);IF(CharacterLevelGreaterThan(8)):ActionResource(AdrenalineRush,1,0);" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="b45ae33a-e85c-4dad-9a88-69a61b31d12b" />
-        <field name="Name" type="NameTableFieldDefinition" value="Race_Kalashtar" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha48ff32fg388ag1220g80cbgc8e2ec3cd1c7" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9105e090ga08cg9a3fgb40ag60da6cec8ae0" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_FeyPresence" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Psychic,Resistant);Advantage(SavingThrow, Wisdom);Advantage(SavingThrow, Charisma);UnlockSpell(Shout_DreamKnowledge);" />
-      </fields>
-    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="39849eab-6fbb-44e8-96c1-a4fe6aac6195" />
@@ -8917,18 +8905,64 @@
         <field name="Name" type="NameTableFieldDefinition" value="Dhampir_1_TraceOfUndeath" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h52cf869egf5cag4c87g68e9g5b3aec207282" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h33a29ccdg7caegb5f1gbffagf05c192d4365" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Necrotic" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Necrotic,Resistant);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="664ff233-a998-4aef-87eb-2a419e87c889" />
-        <field name="Name" type="NameTableFieldDefinition" value="Race_Dhampir" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h318e3ac4g7a18ga5edgf912g65c014f1354e" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h64543ab1gec40g4962g092eg85f690ed7102" version="1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dhampir_1_VampiricBite" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h318e3ac4g7a18ga5edgf912g65c014f1354e" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h64543ab1gec40g4962g092eg85f690ed7102" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_VampireBite" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Necrotic,Resistant);ActionResource(Movement,1.5,0);DarkvisionRangeMin(12);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989);UnlockSpell(Target_VampireBite_Astarion);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_VampireBite_Astarion);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7da7c6ac-7778-4003-b6d1-e4bdf9917104" />
+        <field name="Name" type="NameTableFieldDefinition" value="__RACE KALASHTAR__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="84c40e90-8d56-41ff-b2d9-ea91a87de03e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kalashtar_1_DualMind" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd5d6a1b0g7f08g3a12g364agc72eb40de46b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha8516a36g6307g1d10g28acge1491664cc54" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ThoughtShield_PsychicResistance" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(SavingThrow, Wisdom);Advantage(SavingThrow, Charisma);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2078eb10-8416-45ea-8c9a-e3214f5d0bc2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kalashtar_1_MentalDiscipline" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb34d9e37g9dacgc539ga29dgfa6196ae1daa" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb138c39cgbb30gf571ga733gc5887d878bd0" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Psychic" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Psychic,Resistant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b45ae33a-e85c-4dad-9a88-69a61b31d12b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kalashtar_1_SeveredFromDreams" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha48ff32fg388ag1220g80cbgc8e2ec3cd1c7" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9105e090ga08cg9a3fgb40ag60da6cec8ae0" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_FeyPresence" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DreamKnowledge);" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

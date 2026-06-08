@@ -8194,19 +8194,6 @@
                     <attribute id="UUID" type="guid" value="7c55d9a5-90d1-4e79-922f-d1ee128543a6"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Name" type="LSString" value="__NPC__"/>
-                    <attribute id="UUID" type="guid" value="99597b6a-61a4-4763-85c5-ffe2e0573f7e"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="Tag(DRUID);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(Clubs);Proficiency(Daggers);Proficiency(Javelins);Proficiency(Maces);Proficiency(Quarterstaffs);Proficiency(Scimitars);Proficiency(Sickles);Proficiency(Spears)"/>
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="NPC_Druid"/>
-                    <attribute id="PassivesAdded" type="LSString" value="WildShape_TempHP_NPC"/>
-                    <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
-                    <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
-                </node>
-                <node id="Progression">
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="HumanAasimar"/>
                     <attribute id="PassivesAdded" type="LSString" value="Aasimar_1_CelestialResistance;Darkvision;Aasimar_1_HealingHands;Aasimar_1_LightBearer"/>
@@ -8221,6 +8208,36 @@
                     <attribute id="ProgressionType" type="uint8" value="2"/>
                     <attribute id="TableUUID" type="guid" value="f3a96ed3-5eb1-4737-92e5-f758d9dd307e"/>
                     <attribute id="UUID" type="guid" value="65347047-0395-4742-9786-53c6cee73e90"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Name" type="LSString" value="__NPC__"/>
+                    <attribute id="UUID" type="guid" value="99597b6a-61a4-4763-85c5-ffe2e0573f7e"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="Tag(DRUID);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(Clubs);Proficiency(Daggers);Proficiency(Javelins);Proficiency(Maces);Proficiency(Quarterstaffs);Proficiency(Scimitars);Proficiency(Sickles);Proficiency(Spears)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="NPC_Druid"/>
+                    <attribute id="PassivesAdded" type="LSString" value="WildShape_TempHP_NPC"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
+                    <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,1.5,0)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Dhampir"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Darkvision;Dhampir_1_TraceOfUndeath;Dhampir_1_VampiricBite"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="33e8199c-4646-4bb9-9b6c-4a435044a40a"/>
+                    <attribute id="UUID" type="guid" value="e3cca850-5ecc-4557-bac9-315a28f601fe"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Kalashtar"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Kalashtar_1_DualMind;Kalashtar_1_MentalDiscipline;Kalashtar_1_SeveredFromDreams"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="aedab8ae-60c9-4b3a-bc02-1ac7753a3dba"/>
+                    <attribute id="UUID" type="guid" value="c93571e8-743c-49f3-bcbf-68d02e19a0a3"/>
                 </node>
             </children>
         </node>

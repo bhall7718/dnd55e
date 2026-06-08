@@ -196,6 +196,102 @@
                     <attribute id="UUID" type="guid" value="add76f51-f83b-40b6-9b80-b32581a082c6"/>
                     <attribute id="VOLinesTableUUID" type="guid" value="14df8f45-90af-4bd0-8024-42624da9976e"/>
                 </node>
+                <node id="CharacterCreationPreset">
+                    <attribute id="BodyShape" type="uint8" value="0"/>
+                    <attribute id="BodyType" type="uint8" value="1"/>
+                    <attribute id="CloseUpA" type="LSString" value="HUM_F_Camera_Closeup_A"/>
+                    <attribute id="CloseUpB" type="LSString" value="HUM_F_Camera_Closeup_B"/>
+                    <attribute id="Overview" type="LSString" value="HUM_F_Camera_Overview_A"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="37f4eaf8-8cc5-436d-af7e-280f42f2a02d"/>
+                    <attribute id="SubRaceUUID" type="guid" value="c6a54353-a61c-440c-ba7e-ead2edd700d2"/>
+                    <attribute id="UUID" type="guid" value="5a811dcf-3505-40ed-b02d-eb4f25532310"/>
+                    <attribute id="VOLinesTableUUID" type="guid" value="14df8f45-90af-4bd0-8024-42624da9976e"/>
+                </node>
+                <node id="CharacterCreationPreset">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="1"/>
+                    <attribute id="CloseUpA" type="LSString" value="HUM_FB_Camera_Closeup_A"/>
+                    <attribute id="CloseUpB" type="LSString" value="HUM_FB_Camera_Closeup_B"/>
+                    <attribute id="Overview" type="LSString" value="HUM_FB_Camera_Overview_A"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="ee5078f5-1833-496e-bc61-4ab315b3fb92"/>
+                    <attribute id="SubRaceUUID" type="guid" value="c6a54353-a61c-440c-ba7e-ead2edd700d2"/>
+                    <attribute id="UUID" type="guid" value="98dd8ff9-5b18-4845-984b-47926087dd61"/>
+                    <attribute id="VOLinesTableUUID" type="guid" value="14df8f45-90af-4bd0-8024-42624da9976e"/>
+                </node>
+                <node id="CharacterCreationPreset">
+                    <attribute id="BodyShape" type="uint8" value="0"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="CloseUpA" type="LSString" value="HUM_M_Camera_Closeup_A"/>
+                    <attribute id="CloseUpB" type="LSString" value="HUM_M_Camera_Closeup_B"/>
+                    <attribute id="Overview" type="LSString" value="HUM_M_Camera_Overview_A"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="c6f60432-d6f7-4e3f-9c5d-6f878649c616"/>
+                    <attribute id="SubRaceUUID" type="guid" value="c6a54353-a61c-440c-ba7e-ead2edd700d2"/>
+                    <attribute id="UUID" type="guid" value="6aa7f319-9e84-4d0b-90ce-f2e8affbee7d"/>
+                    <attribute id="VOLinesTableUUID" type="guid" value="14df8f45-90af-4bd0-8024-42624da9976e"/>
+                </node>
+                <node id="CharacterCreationPreset">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="CloseUpA" type="LSString" value="HUM_MB_Camera_Closeup_A"/>
+                    <attribute id="CloseUpB" type="LSString" value="HUM_MB_Camera_Closeup_B"/>
+                    <attribute id="Overview" type="LSString" value="HUM_MB_Camera_Overview_A"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="5a030507-03f9-40f6-938e-bdeaac02cdb5"/>
+                    <attribute id="SubRaceUUID" type="guid" value="c6a54353-a61c-440c-ba7e-ead2edd700d2"/>
+                    <attribute id="UUID" type="guid" value="8aaed621-e271-4182-856a-66a3a6082ad1"/>
+                    <attribute id="VOLinesTableUUID" type="guid" value="14df8f45-90af-4bd0-8024-42624da9976e"/>
+                </node>
+                <node id="CharacterCreationPreset">
+                    <attribute id="BodyShape" type="uint8" value="0"/>
+                    <attribute id="BodyType" type="uint8" value="1"/>
+                    <attribute id="CloseUpA" type="LSString" value="HUM_F_Camera_Closeup_A"/>
+                    <attribute id="CloseUpB" type="LSString" value="HUM_F_Camera_Closeup_B"/>
+                    <attribute id="Overview" type="LSString" value="HUM_F_Camera_Overview_A"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="4e601e7f-420e-4108-9315-9a86d7785789"/>
+                    <attribute id="SubRaceUUID" type="guid" value="65ab9967-ab57-4728-ad56-1e552d9f5ef6"/>
+                    <attribute id="UUID" type="guid" value="7f2a8ea9-70a7-4573-94aa-f7a3222c7733"/>
+                    <attribute id="VOLinesTableUUID" type="guid" value="14df8f45-90af-4bd0-8024-42624da9976e"/>
+                </node>
+                <node id="CharacterCreationPreset">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="1"/>
+                    <attribute id="CloseUpA" type="LSString" value="HUM_FB_Camera_Closeup_A"/>
+                    <attribute id="CloseUpB" type="LSString" value="HUM_FB_Camera_Closeup_B"/>
+                    <attribute id="Overview" type="LSString" value="HUM_FB_Camera_Overview_A"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="a66a058e-e05c-4d0f-999d-ca3b6629db3d"/>
+                    <attribute id="SubRaceUUID" type="guid" value="65ab9967-ab57-4728-ad56-1e552d9f5ef6"/>
+                    <attribute id="UUID" type="guid" value="0c567811-ce76-468e-a801-b2cd689e3b9d"/>
+                    <attribute id="VOLinesTableUUID" type="guid" value="14df8f45-90af-4bd0-8024-42624da9976e"/>
+                </node>
+                <node id="CharacterCreationPreset">
+                    <attribute id="BodyShape" type="uint8" value="0"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="CloseUpA" type="LSString" value="HUM_M_Camera_Closeup_A"/>
+                    <attribute id="CloseUpB" type="LSString" value="HUM_M_Camera_Closeup_B"/>
+                    <attribute id="Overview" type="LSString" value="HUM_M_Camera_Overview_A"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="a769858d-a372-41af-b6b1-270f2c282f32"/>
+                    <attribute id="SubRaceUUID" type="guid" value="65ab9967-ab57-4728-ad56-1e552d9f5ef6"/>
+                    <attribute id="UUID" type="guid" value="d88d7972-86ee-4ea7-99ce-49c93bf0b563"/>
+                    <attribute id="VOLinesTableUUID" type="guid" value="14df8f45-90af-4bd0-8024-42624da9976e"/>
+                </node>
+                <node id="CharacterCreationPreset">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="CloseUpA" type="LSString" value="HUM_MB_Camera_Closeup_A"/>
+                    <attribute id="CloseUpB" type="LSString" value="HUM_MB_Camera_Closeup_B"/>
+                    <attribute id="Overview" type="LSString" value="HUM_MB_Camera_Overview_A"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="f0adc55f-b398-4ade-a02b-d43861290d75"/>
+                    <attribute id="SubRaceUUID" type="guid" value="65ab9967-ab57-4728-ad56-1e552d9f5ef6"/>
+                    <attribute id="UUID" type="guid" value="d51cbc06-d9dc-4e5d-b7ac-13335881933d"/>
+                    <attribute id="VOLinesTableUUID" type="guid" value="14df8f45-90af-4bd0-8024-42624da9976e"/>
+                </node>
             </children>
         </node>
     </region>

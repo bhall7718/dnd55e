@@ -3870,11 +3870,11 @@ You can use this feature a number of times equal to your Wisdom modifier (minimu
 Until you complete your next long rest, you and your allies gain a +5 bonus to Dexterity (Stealth) and Wisdom (Perception) checks.</content>
   <content contentuid="h447397a3g875fgc842g106dg4b2c03ef1b5b" version="1">Hidden Paths</content>
   <content contentuid="hb6ad15b6g6a5cgc8edg95d4gd631318ac05a" version="1">Hidden Paths</content>
-  <content contentuid="h318e3ac4g7a18ga5edgf912g65c014f1354e" version="1">Race: Dhampir</content>
-  <content contentuid="h64543ab1gec40g4962g092eg85f690ed7102" version="1">Dhampirs are humanoids with vampiric heritage. You have Resistance to Necrotic damage, Darkvision, increased speed, and a life-draining bite that sustains you.</content>
+  <content contentuid="h318e3ac4g7a18ga5edgf912g65c014f1354e" version="2">Vampiric Bite</content>
+  <content contentuid="h64543ab1gec40g4962g092eg85f690ed7102" version="2">You can suck the blood from a living creature to regain hit points.</content>
   <content contentuid="h9936bfdfgad15g113bged99g9778bc8cba86" version="1">Vampiric hunger has been temporarily sated. +1 to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, and most &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;.</content>
-  <content contentuid="ha48ff32fg388ag1220g80cbgc8e2ec3cd1c7" version="1">Race: Kalashtar</content>
-  <content contentuid="h9105e090ga08cg9a3fgb40ag60da6cec8ae0" version="1">Kalashtar are aberrations with a quori spirit bond. You have Advantage on Wisdom and Charisma saving throws, Resistance to Psychic damage, and a shifting skill proficiency each Long Rest.</content>
+  <content contentuid="ha48ff32fg388ag1220g80cbgc8e2ec3cd1c7" version="2">Severed from Dreams</content>
+  <content contentuid="h9105e090ga08cg9a3fgb40ag60da6cec8ae0" version="2">When you finish a Long Rest, you gain proficiency in one skill of your choice. This proficiency lasts until you finish another Long Rest.</content>
   <content contentuid="hb3e89e41gbe95gff0dgb116gf17d00181a3d" version="1">Severed from Dreams</content>
   <content contentuid="h76b975b4g225dg6d93g8391g805c6fe94d75" version="1">Severed from Dreams: Charisma</content>
   <content contentuid="he10fa554g1d22g52e8ga07ag4d67ea3adba9" version="1">Severed from Dreams: Dexterity</content>
@@ -4448,10 +4448,34 @@ Aasimar can arise among any population of mortals. They resemble their parents, 
   <content contentuid="hce976d1agab7cg7729g705eged5dfe8fa201" version="1">Aasimar (pronounced AH-sih-mar) are mortals who carry a spark of the Upper Planes within their souls. Whether descended from an angelic being or infused with celestial power, they can fan that spark to bring light, healing, and heavenly fury.
 
 Aasimar can arise among any population of mortals. They resemble their parents, but they live for up to 160 years and have features that hint at their celestial heritage, such as metallic freckles, luminous eyes, a halo, or the skin color of an angel (silver, opalescent green, or coppery red). These features start subtle and become obvious when the aasimar learns to reveal their full celestial nature.</content>
-  <content contentuid="h52005c15gb62ag4e2egb087ge08e4918fcdc" version="1">Dhampir</content>
-  <content contentuid="hbf2d2837g837cgd6c3g5fdegad558013ec2f" version="1">Dhampirs are living people who possess vampiric prowess but are cursed with macabre hunger. Most dhampirs thirst for blood, but some gain sustenance from dreams, life energy, or other vital sources. Dhampirs must choose whether to fight to control their hunger or give in to predatory urges.</content>
-  <content contentuid="hce58bf73g30e5ged4aga02cgfc3a7316df41" version="1">Dhampir</content>
-  <content contentuid="h79662482g09c0g2520g7473g0b463567c37f" version="1">Dhampirs are living people who possess vampiric prowess but are cursed with macabre hunger. Most dhampirs thirst for blood, but some gain sustenance from dreams, life energy, or other vital sources. Dhampirs must choose whether to fight to control their hunger or give in to predatory urges.</content>
+  <content contentuid="h52005c15gb62ag4e2egb087ge08e4918fcdc" version="2">Dhampir</content>
+  <content contentuid="hbf2d2837g837cgd6c3g5fdegad558013ec2f" version="2">Dhampirs are living people who possess vampiric prowess but are cursed with macabre hunger. Most dhampirs thirst for blood, but some gain sustenance from dreams, life energy, or other vital sources. Dhampirs must choose whether to fight to control their hunger or give in to predatory urges.</content>
+  <content contentuid="hce58bf73g30e5ged4aga02cgfc3a7316df41" version="2">Dhampir</content>
+  <content contentuid="h79662482g09c0g2520g7473g0b463567c37f" version="2">Dhampirs are living people who possess vampiric prowess but are cursed with macabre hunger. Most dhampirs thirst for blood, but some gain sustenance from dreams, life energy, or other vital sources. Dhampirs must choose whether to fight to control their hunger or give in to predatory urges.</content>
   <content contentuid="h52cf869egf5cag4c87g68e9g5b3aec207282" version="1">Trace of Undeath</content>
   <content contentuid="h33a29ccdg7caegb5f1gbffagf05c192d4365" version="1">You have Resistance to Necrotic damage.</content>
+  <content contentuid="h46b0c2f8g60cfgf514g75e0g2b9f80721ed5" version="1">Dhampir</content>
+  <content contentuid="h2fb7412egdbddg4e3cgd275g9982279ad118" version="1">Dhampirs are living people who possess vampiric prowess but are cursed with macabre hunger. Most dhampirs thirst for blood, but some gain sustenance from dreams, life energy, or other vital sources. Dhampirs must choose whether to fight to control their hunger or give in to predatory urges.
+
+Dhampirs often arise from encounters with vampires; some are the descendants of a powerful vampire, while others are partially transformed by a vampire’s bite. All manner of macabre bargains and necromantic influences might also give rise to a dhampir. Regardless of their origins, dhampirs exhibit their vampiric nature in various ways, including increased speed and a life-draining bite.</content>
+  <content contentuid="h290db207g3982g8671gfbdeg7a8b3e079800" version="1">Dhampir</content>
+  <content contentuid="h4cdf86a0g7d76g2e84gd83dg6220d5a5ca95" version="1">Dhampirs are living people who possess vampiric prowess but are cursed with macabre hunger. Most dhampirs thirst for blood, but some gain sustenance from dreams, life energy, or other vital sources. Dhampirs must choose whether to fight to control their hunger or give in to predatory urges.
+
+Dhampirs often arise from encounters with vampires; some are the descendants of a powerful vampire, while others are partially transformed by a vampire’s bite. All manner of macabre bargains and necromantic influences might also give rise to a dhampir. Regardless of their origins, dhampirs exhibit their vampiric nature in various ways, including increased speed and a life-draining bite.</content>
+  <content contentuid="h877ab541g5ce7g7a78g2577g02cab9025520" version="1">Kalashtar</content>
+  <content contentuid="h0bb6e377geac3g99bdg6ae0gdd2ba3ffc657" version="1">Kalashtar (pronounced kal-ASH-tar) are created from the union of humanity and renegade spirits called quori from the plane of dreams. Kalashtar appear human, but their spiritual connection affects them in a variety of ways. They have symmetrical, slightly angular features, and their eyes often glow when they are concentrating or expressing strong emotions.</content>
+  <content contentuid="h0a563e02g95f0gd9e3g039ag98f3b4346158" version="1">Kalashtar</content>
+  <content contentuid="hbccdb504gf83fgad58g2d25g913047122f49" version="1">Kalashtar (pronounced kal-ASH-tar) are created from the union of humanity and renegade spirits called quori from the plane of dreams. Kalashtar appear human, but their spiritual connection affects them in a variety of ways. They have symmetrical, slightly angular features, and their eyes often glow when they are concentrating or expressing strong emotions.</content>
+  <content contentuid="hd5d6a1b0g7f08g3a12g364agc72eb40de46b" version="1">Dual Mind</content>
+  <content contentuid="ha8516a36g6307g1d10g28acge1491664cc54" version="1">You have Advantage on Wisdom and Charisma saving throws.</content>
+  <content contentuid="hb34d9e37g9dacgc539ga29dgfa6196ae1daa" version="1">Mental Discipline</content>
+  <content contentuid="hb138c39cgbb30gf571ga733gc5887d878bd0" version="1">You have Resistance to Psychic damage.</content>
+  <content contentuid="ha860cb95g7c9ag10c1g85f5gc9e5b708f2a5" version="1">Kalashtar</content>
+  <content contentuid="hd180b5fege06agd03ag32b2g4030476ac579" version="1">Kalashtar (pronounced kal-ASH-tar) are created from the union of humanity and renegade spirits called quori from the plane of dreams. Kalashtar appear human, but their spiritual connection affects them in a variety of ways. They have symmetrical, slightly angular features, and their eyes often glow when they are concentrating or expressing strong emotions.
+
+Kalashtar can’t communicate directly with their quori spirits. Rather, kalashtar might experience them as a source of instinct and inspiration, drawing on the spirits’ memories when the kalashtar sleep. This connection grants kalashtar minor psionic abilities, as well as protection from psionic attacks.</content>
+  <content contentuid="hfa61106eg95adg47fbg8362gcbea543e7ea6" version="1">Kalashtar</content>
+  <content contentuid="h7272c6b6gd59fg3f4dg8d02g45a02e4928d6" version="1">Kalashtar (pronounced kal-ASH-tar) are created from the union of humanity and renegade spirits called quori from the plane of dreams. Kalashtar appear human, but their spiritual connection affects them in a variety of ways. They have symmetrical, slightly angular features, and their eyes often glow when they are concentrating or expressing strong emotions.
+
+Kalashtar can’t communicate directly with their quori spirits. Rather, kalashtar might experience them as a source of instinct and inspiration, drawing on the spirits’ memories when the kalashtar sleep. This connection grants kalashtar minor psionic abilities, as well as protection from psionic attacks.</content>
 </contentList>
