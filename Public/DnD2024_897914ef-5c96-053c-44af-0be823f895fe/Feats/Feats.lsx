@@ -249,7 +249,7 @@
                 </node>
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="Crusher"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Crusher"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Crusher;Crusher_Critical"/>
                     <attribute id="Selectors" type="LSString" value="SelectAbilities(111c055b-ddcf-430e-a5b0-1a0a598e203a,1,1,STR_CON)"/>
                     <attribute id="UUID" type="guid" value="75af3059-8160-4a89-b2e2-3337dd052c04"/>
                 </node>
@@ -273,7 +273,7 @@
                 </node>
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="Piercer"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Piercer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Piercer;Piercer_Critical"/>
                     <attribute id="Selectors" type="LSString" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)"/>
                     <attribute id="UUID" type="guid" value="48fcd4e6-761d-406e-95b9-b998957d7aaa"/>
                 </node>
@@ -303,7 +303,7 @@
                 </node>
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="Slasher"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Slasher"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Slasher;Slasher_Critical"/>
                     <attribute id="Selectors" type="LSString" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)"/>
                     <attribute id="UUID" type="guid" value="e66e98e1-928e-45e0-9840-17ede32c13fe"/>
                 </node>

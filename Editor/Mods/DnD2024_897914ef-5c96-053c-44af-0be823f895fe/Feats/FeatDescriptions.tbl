@@ -347,7 +347,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="051bd43c-78a5-4a8d-acfe-067f70472ec2" />
         <field name="FeatId" type="GuidTableFieldDefinition" value="75af3059-8160-4a89-b2e2-3337dd052c04" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h02827ffcg5d6bg438bg7f75g9b6516ac3842" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he62f99bbgc9f2g862dg2430gdefa25e39624" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he62f99bbgc9f2g862dg2430gdefa25e39624" version="2" />
         <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="Crusher" />
       </fields>
     </stat_object>
@@ -357,7 +357,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3f20a53d-5d1d-4133-9e2f-480d7c86a66a" />
         <field name="FeatId" type="GuidTableFieldDefinition" value="48fcd4e6-761d-406e-95b9-b998957d7aaa" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdd11c1e7geb40g6616g906dgcfc584d52dda" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf202d0a0gaaf3ge15bgc2f1g94f60d8193aa" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf202d0a0gaaf3ge15bgc2f1g94f60d8193aa" version="2" />
         <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="Piercer" />
       </fields>
     </stat_object>
@@ -367,7 +367,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3fee2603-3235-4f15-907f-24619c5dae1d" />
         <field name="FeatId" type="GuidTableFieldDefinition" value="e66e98e1-928e-45e0-9840-17ede32c13fe" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h538ab943g74c6g0712gaaccgc23a7c3fb624" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he322b215g4b74g107eg1abfg1d7e848abd23" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he322b215g4b74g107eg1abfg1d7e848abd23" version="2" />
         <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="Slasher" />
       </fields>
     </stat_object>

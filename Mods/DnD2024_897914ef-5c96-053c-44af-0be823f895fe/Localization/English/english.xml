@@ -1577,17 +1577,29 @@ Healing. Each time you restore Hit Points to a creature, it regains additional H
   <content contentuid="h871f4affg0f96gce2fg8f99g76c6d4b04da1" version="2">Player's Handbook: Origin Feats</content>
   <content contentuid="hc54d8cd4g6034g8a1ag1af3g0f14cef04940" version="2">Player's Handbook: General Feats</content>
   <content contentuid="hd28472dcg3ccag8ba5g3424g645e17f370db" version="1">Feat: Crusher</content>
-  <content contentuid="h9ac2c1d5gd0dcga37bgf4d5gb17546182f77" version="2">Each time you deal Bludgeoning damage, you can impose the Dazed condition on the target with a certain chance.</content>
+  <content contentuid="h9ac2c1d5gd0dcga37bgf4d5gb17546182f77" version="3">Push. When you hit a creature with an attack that deals Bludgeoning damage, you can move it 5 feet to an unoccupied space if the target is no more than one size larger than you.
+
+Enhanced Critical. When you score a Critical Hit that deals Bludgeoning damage to a creature, attack rolls against that creature have Advantage until the start of your next turn.</content>
   <content contentuid="h0f24fc73ge6b5g8e1fg0b3eg4216fa3191e9" version="1">Feat: Piercer</content>
-  <content contentuid="h5f23ece1gd28eg37b5gb2f7g57554d7c8da9" version="1">Each time you deal Piercing damage, you can impose the Gaping Wounds condition on the target with a certain chance.</content>
+  <content contentuid="h5f23ece1gd28eg37b5gb2f7g57554d7c8da9" version="2">Puncture. When you hit a creature with an attack that deals Piercing damage, you can reroll one of the attack’s damage dice, and you must use the new roll.
+
+Enhanced Critical. When you score a Critical Hit that deals Piercing damage to a creature, you can roll one additional damage die when determining the extra Piercing damage the target takes.</content>
   <content contentuid="h540810fdg8dc8g2211g0121gd8e6f4397c51" version="1">Feat: Slasher</content>
-  <content contentuid="hfd222472gd8acg6b69g6068g2840b34f0315" version="2">Each time you deal Slashing damage, you can impose the Bleeding condition on the target with a certain chance.</content>
+  <content contentuid="hfd222472gd8acg6b69g6068g2840b34f0315" version="4">Hamstring. When you hit a creature with an attack that deals Slashing damage, you can reduce the Speed of that creature by 10 feet until the start of your next turn.
+
+Enhanced Critical. When you score a Critical Hit that deals Slashing damage to a creature, it has Disadvantage on attack rolls until the start of your next turn.</content>
   <content contentuid="h02827ffcg5d6bg438bg7f75g9b6516ac3842" version="1">Crusher</content>
   <content contentuid="hdd11c1e7geb40g6616g906dgcfc584d52dda" version="1">Piercer</content>
   <content contentuid="h538ab943g74c6g0712gaaccgc23a7c3fb624" version="1">Slasher</content>
-  <content contentuid="he62f99bbgc9f2g862dg2430gdefa25e39624" version="1">Each time you deal Bludgeoning damage, you can impose the Dazed condition on the target with a certain chance.</content>
-  <content contentuid="hf202d0a0gaaf3ge15bgc2f1g94f60d8193aa" version="1">Each time you deal Piercing damage, you can impose the Gaping Wounds condition on the target with a certain chance.</content>
-  <content contentuid="he322b215g4b74g107eg1abfg1d7e848abd23" version="1">Each time you deal Slashing damage, you can impose the Bleeding condition on the target with a certain chance.</content>
+  <content contentuid="he62f99bbgc9f2g862dg2430gdefa25e39624" version="2">Push. Once per turn, when you hit a creature with an attack that deals Bludgeoning damage, you can move it 5 feet to an unoccupied space if the target is no more than one size larger than you.
+
+Enhanced Critical. When you score a Critical Hit that deals Bludgeoning damage to a creature, attack rolls against that creature have Advantage until the start of your next turn.</content>
+  <content contentuid="hf202d0a0gaaf3ge15bgc2f1g94f60d8193aa" version="2">Puncture. Once per turn, when you hit a creature with an attack that deals Piercing damage, you can reroll one of the attack’s damage dice, and you must use the new roll.
+
+Enhanced Critical. When you score a Critical Hit that deals Piercing damage to a creature, you can roll one additional damage die when determining the extra Piercing damage the target takes.</content>
+  <content contentuid="he322b215g4b74g107eg1abfg1d7e848abd23" version="2">Hamstring. Once per turn when you hit a creature with an attack that deals Slashing damage, you can reduce the Speed of that creature by 10 feet until the start of your next turn.
+
+Enhanced Critical. When you score a Critical Hit that deals Slashing damage to a creature, it has Disadvantage on attack rolls until the start of your next turn.</content>
   <content contentuid="h2bcebb1fgce9aga6edgfb96gb1208491f0c1" version="1">Feat: Mounted Combatant</content>
   <content contentuid="h3242d16eg8787g1d4cg8a1ag1ed7c22edd47" version="2">While you are mounted on the steed, you have Advantage on melee attack rolls against creatures of Small size or smaller. In addition, while mounted, you can’t be dismounted or knocked prone as a result of taking damage.</content>
   <content contentuid="hadc251cegfa83ge72dgb40fg8799ee8d6cfe" version="1">Steed Attack</content>
@@ -4488,4 +4500,11 @@ If you hit a creature with this weapon and deal damage to the creature, you have
   <content contentuid="heb62505ag46b9gede3gde91gf79191d5fe3f" version="1">Level 3: Umbral Sight</content>
   <content contentuid="h69aa6922g1e3fg07e9g5e91g36b8b2c05d1e" version="2">Once per turn, when you move into a Heavily or Lightly Obscured area, you gain the Invisible condition.</content>
   <content contentuid="h340e5304g5b60g19d5gdfcegce1b33d1ff16" version="7">Turn off  "&lt;LSTag Type="Image" Info="TutorialDualWieldToggle"/&gt;Toggle Dual Wielding"</content>
+  <content contentuid="had2ab3bfgf4fbga6e6gecbdgd688b4b2e4e0" version="2">Slasher: Enhanced Critical</content>
+  <content contentuid="hb9a7c09eg9f65g5801gb3e4gb060b99c7378" version="1">When you score a Critical Hit that deals Slashing damage to a creature, it has Disadvantage on attack rolls until the start of your next turn.</content>
+  <content contentuid="hf17a7619g3977g6814g32fbgf85330abba85" version="2">Slasher: Hamstring</content>
+  <content contentuid="hff8f8621g9bc7gd484g306bg3d323ffef343" version="2">When you hit a creature with an attack that deals Slashing damage, you can reduce the Speed of that creature by 10 feet until the start of your next turn.</content>
+  <content contentuid="h3f40a0a2gba17g34abgbc3ag09290e63a9f3" version="1">Crusher: Enhanced Critical</content>
+  <content contentuid="hb0b2260fg01d4gf52agf9f4g93f90248b7e1" version="1">When you score a Critical Hit that deals Bludgeoning damage to a creature, attack rolls against that creature have Advantage until the start of your next turn.</content>
+  <content contentuid="he395d87dg4873gcaafg7185g880684e4c5bd" version="1">Piercer: Enhanced Critical</content>
 </contentList>

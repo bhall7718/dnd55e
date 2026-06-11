@@ -243,21 +243,21 @@
                     <attribute id="UUID" type="guid" value="e1c40138-38a8-4067-87a6-597b52f379fa"/>
                 </node>
                 <node id="FeatDescription">
-                    <attribute id="Description" type="TranslatedString" handle="he62f99bbgc9f2g862dg2430gdefa25e39624" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="he62f99bbgc9f2g862dg2430gdefa25e39624" version="2"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h02827ffcg5d6bg438bg7f75g9b6516ac3842" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="Crusher"/>
                     <attribute id="FeatId" type="guid" value="75af3059-8160-4a89-b2e2-3337dd052c04"/>
                     <attribute id="UUID" type="guid" value="051bd43c-78a5-4a8d-acfe-067f70472ec2"/>
                 </node>
                 <node id="FeatDescription">
-                    <attribute id="Description" type="TranslatedString" handle="hf202d0a0gaaf3ge15bgc2f1g94f60d8193aa" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="hf202d0a0gaaf3ge15bgc2f1g94f60d8193aa" version="2"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hdd11c1e7geb40g6616g906dgcfc584d52dda" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="Piercer"/>
                     <attribute id="FeatId" type="guid" value="48fcd4e6-761d-406e-95b9-b998957d7aaa"/>
                     <attribute id="UUID" type="guid" value="3f20a53d-5d1d-4133-9e2f-480d7c86a66a"/>
                 </node>
                 <node id="FeatDescription">
-                    <attribute id="Description" type="TranslatedString" handle="he322b215g4b74g107eg1abfg1d7e848abd23" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="he322b215g4b74g107eg1abfg1d7e848abd23" version="2"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h538ab943g74c6g0712gaaccgc23a7c3fb624" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="Slasher"/>
                     <attribute id="FeatId" type="guid" value="e66e98e1-928e-45e0-9840-17ede32c13fe"/>

@@ -7629,13 +7629,23 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0af27124-eacf-4b90-b70b-f35386f661f0" />
         <field name="Name" type="NameTableFieldDefinition" value="Crusher" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd28472dcg3ccag8ba5g3424g645e17f370db" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9ac2c1d5gd0dcga37bgf4d5gb17546182f77" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9ac2c1d5gd0dcga37bgf4d5gb17546182f77" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_MagicItem_BludgeonTheWeak" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasAttackDamageDoneForType(DamageType.Bludgeoning) and IsWeaponAttack();" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Strength, ManeuverSaveDC())):ApplyStatus(DAZED,100,1);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:IF(TargetSizeEqualOrSmaller(Size.Large)):Force(1.5);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7788ff5f-9972-4a2b-adb0-cc0cebe195ac" />
+        <field name="Name" type="NameTableFieldDefinition" value="Crusher_Critical" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasAttackDamageDoneForType(DamageType.Bludgeoning) and IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Critical);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(CRUSHER_CRITICAL,100,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7644,11 +7654,22 @@
         <field name="Name" type="NameTableFieldDefinition" value="Piercer" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0af27124-eacf-4b90-b70b-f35386f661f0" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f24fc73ge6b5g8e1fg0b3eg4216fa3191e9" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5f23ece1gd28eg37b5gb2f7g57554d7c8da9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5f23ece1gd28eg37b5gb2f7g57554d7c8da9" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_MagicItem_PierceTheWeak" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="HasAttackDamageDoneForType(DamageType.Piercing) and IsWeaponAttack();" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Constitution, ManeuverSaveDC())):ApplyStatus(GAPING_WOUND,100,1);" />
+        <field name="Conditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(MainDamageTypeIs(DamageType.Piercing)):Reroll(Damage,20,false);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b0e54e96-da93-4b40-ad4e-503df9cb65ae" />
+        <field name="Name" type="NameTableFieldDefinition" value="Piercer_Critical" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he395d87dg4873gcaafg7185g880684e4c5bd" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(MainDamageTypeIs(DamageType.Piercing)):CriticalHitExtraDice(1,Damage);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7657,11 +7678,22 @@
         <field name="Name" type="NameTableFieldDefinition" value="Slasher" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0af27124-eacf-4b90-b70b-f35386f661f0" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h540810fdg8dc8g2211g0121gd8e6f4397c51" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfd222472gd8acg6b69g6068g2840b34f0315" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfd222472gd8acg6b69g6068g2840b34f0315" version="4" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_MagicItem_SlashTheWeak" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasAttackDamageDoneForType(DamageType.Slashing) and IsWeaponAttack();" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Strength, ManeuverSaveDC())):ApplyStatus(BLEEDING,100,2);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SLASHER_SLOW,100,1)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b8e792f6-5761-4a96-a889-12ee4fec5a4a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Slasher_Critical" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasAttackDamageDoneForType(DamageType.Slashing) and IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Critical);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SLASHER_CRITICAL,100,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

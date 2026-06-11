@@ -5900,6 +5900,51 @@
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c972a849-22ff-4598-acb4-e8d386560b65" />
+        <field name="Name" type="NameTableFieldDefinition" value="CRUSHER_CRITICAL" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3f40a0a2gba17g34abgbc3ag09290e63a9f3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb0b2260fg01d4gf52agf9f4g93f90248b7e1" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="statIcons_Dazed" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CRUSHER_CRITICAL" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(AttackTarget)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b47a11ee-b57b-40d8-a861-f3c814fbda28" />
+        <field name="Name" type="NameTableFieldDefinition" value="SLASHER_SLOW" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf17a7619g3977g6814g32fbgf85330abba85" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hff8f8621g9bc7gd484g306bg3d323ffef343" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="statIcons_Hamstring" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SLASHER_SLOW" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,-3,0);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c08e9681-e4c6-41dc-8c41-c1af044cfd13" />
+        <field name="Name" type="NameTableFieldDefinition" value="SLASHER_CRITICAL" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="had2ab3bfgf4fbga6e6gecbdgd688b4b2e4e0" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb9a7c09eg9f65g5801gb3e4gb060b99c7378" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="statIcons_Hindered" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SLASHER_CRITICAL" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AttackRoll);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ed80a549-4f45-4de7-9a77-421833937dfa" />

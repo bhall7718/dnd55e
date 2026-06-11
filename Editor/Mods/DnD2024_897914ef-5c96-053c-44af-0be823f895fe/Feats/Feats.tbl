@@ -372,7 +372,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_26" />
         <field name="UUID" type="IdTableFieldDefinition" value="75af3059-8160-4a89-b2e2-3337dd052c04" />
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="Crusher" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Crusher" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Crusher;Crusher_Critical" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(111c055b-ddcf-430e-a5b0-1a0a598e203a,1,1,STR_CON)" />
       </fields>
     </stat_object>
@@ -408,7 +408,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_27" />
         <field name="UUID" type="IdTableFieldDefinition" value="48fcd4e6-761d-406e-95b9-b998957d7aaa" />
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="Piercer" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Piercer" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Piercer;Piercer_Critical" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)" />
       </fields>
     </stat_object>
@@ -453,7 +453,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_28" />
         <field name="UUID" type="IdTableFieldDefinition" value="e66e98e1-928e-45e0-9840-17ede32c13fe" />
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="Slasher" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Slasher" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Slasher;Slasher_Critical" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)" />
       </fields>
     </stat_object>
