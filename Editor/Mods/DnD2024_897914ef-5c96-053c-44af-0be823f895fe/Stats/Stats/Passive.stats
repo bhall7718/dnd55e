@@ -261,22 +261,16 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d292a184-1e33-4691-86d1-005ee8cbc484" />
-        <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryNick_4" />
+        <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryNick" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a9f7c060-6a28-4dd7-9dfb-b2a4fbbe58bf" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdbe460a9gf800gdb75g15bbg2b81a80fe8ab" version="2" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h84f8977cg06ecg1e31gebd6g21e4b7346121" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h84f8977cg06ecg1e31gebd6g21e4b7346121" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Multiattack_WhirlwindAttack" />
         <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Nick', context.Source);" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Nick', context.Source) and AttackedWithPassiveSourceWeapon() and IsOffHandAttack();" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:IF(Attack(AttackType.MeleeOffHandWeaponAttack)):SpawnExtraProjectiles(Projectile_WeaponMasteryNick_4)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="7644895a-1fe9-461b-98f2-7d638cac3016" />
-        <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryNick_6" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="d292a184-1e33-4691-86d1-005ee8cbc484" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:IF(Attack(AttackType.MeleeOffHandWeaponAttack)):SpawnExtraProjectiles(Projectile_WeaponMasteryNick_6)" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Nick', context.Source);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WEAPONMASTERY_NICK,100,1);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnTurn;OnCombatStarted;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7325,19 +7319,6 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="8ebf055f-009b-477a-9a7f-157f6e26b738" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7ed3574cg898aga3cage4bcg72bfa5e60a5c" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="a7216254-15fa-47ae-95a7-8dbd8297b30e" />
-        <field name="Name" type="NameTableFieldDefinition" value="DualWielder_BonusAC" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="43440de7-517d-40e8-b04b-638ec2b2c0b2" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h720a62a8g5de9g9909gb1cagf61131cf2df9" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5cc813aagcb96gf7f3g42e4g17b7234b86eb" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_DualWielder_OffhandAttack);" />
-        <field name="BoostContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="BoostConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

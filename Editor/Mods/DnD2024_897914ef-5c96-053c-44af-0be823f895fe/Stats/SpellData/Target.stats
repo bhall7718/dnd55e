@@ -3,6 +3,23 @@
   <stat_objects>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b846e8d8-f5e9-4b93-a52b-f1ad50878bf7" />
+        <field name="Name" type="NameTableFieldDefinition" value="MainHandAttack" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6707901c-81b4-4e77-8b0c-4eb486b44976" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsAttack;IsMelee;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="06f64250-1a50-4562-a5b6-e342ca99de9e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MainHandAttack_OnlyNick" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b846e8d8-f5e9-4b93-a52b-f1ad50878bf7" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsAttack;IsMelee;IsHarmful;CanDualWield" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="DualWieldingUseCosts" type="StringTableFieldDefinition" value="NickActionPoint:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2dc581b0-965b-4cd5-afdf-5ec4f778afe8" />
         <field name="Name" type="NameTableFieldDefinition" value="Help" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e38549b5-0d0b-40c1-a46d-7a4cdb92e490" />

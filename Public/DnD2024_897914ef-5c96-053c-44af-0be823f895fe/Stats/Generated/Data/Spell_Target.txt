@@ -1,3 +1,16 @@
+new entry "Target_MainHandAttack"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MainHandAttack"
+data "SpellFlags" "IsAttack;IsMelee;IsHarmful"
+
+new entry "Target_MainHandAttack_OnlyNick"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MainHandAttack"
+data "DualWieldingUseCosts" "NickActionPoint:1"
+data "SpellFlags" "IsAttack;IsMelee;IsHarmful;CanDualWield"
+
 new entry "Target_Help"
 type "SpellData"
 data "SpellType" "Target"
