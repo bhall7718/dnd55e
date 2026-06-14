@@ -953,6 +953,9 @@
                                     <attribute id="Object" type="guid" value="c54d7591-b305-4f22-b2a7-1bf5c4a3470a"/>
                                 </node>
                                 <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="bfad935f-cefd-4e18-bb9c-e052fcb0229e"/>
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="6dec76d0-df22-411c-8a78-3d6fb843ae50"/>
                                 </node>
                                 <node id="SubClass">
@@ -8238,6 +8241,47 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="MindDomain"/>
+                    <attribute id="PassivesAdded" type="LSString" value="MindDomain_3_MindDomainSpells;MindDomain_3_PsychicFeedback;MindDomain_3_PsychicForce"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(df5f00df-1a80-4476-b6f7-a1e5c41ac020,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="c20c34ee-5e13-4755-9116-a350f50454e7"/>
+                    <attribute id="UUID" type="guid" value="365d7b0c-c2c1-4f58-b2f0-19925e575d6e"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="MindDomain"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(928796df-4759-4ae9-b390-5bc5584dae65,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="c20c34ee-5e13-4755-9116-a350f50454e7"/>
+                    <attribute id="UUID" type="guid" value="cb46162f-52e1-4021-9a04-3cd4f082b660"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="MindDomain"/>
+                    <attribute id="PassivesAdded" type="LSString" value="MindDomain_6_GestaltAnchor"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="c20c34ee-5e13-4755-9116-a350f50454e7"/>
+                    <attribute id="UUID" type="guid" value="0e0b69d6-be97-4a23-92c6-e23d762d4a2b"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="MindDomain"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(98ab5de2-88bd-4c68-b1c0-9be28ca00fb4,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="c20c34ee-5e13-4755-9116-a350f50454e7"/>
+                    <attribute id="UUID" type="guid" value="f2bc9402-b6d2-4b32-8cb6-5e9492c39617"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="MindDomain"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(812e1f40-3ad0-4975-aa12-d45af54e5f0f,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="c20c34ee-5e13-4755-9116-a350f50454e7"/>
+                    <attribute id="UUID" type="guid" value="ad38ef27-d6e0-452e-a4cf-1f7fbc1d6b3d"/>
                 </node>
             </children>
         </node>

@@ -2499,6 +2499,33 @@
         <field name="StackId" type="StringTableFieldDefinition" value="SENTINEL_AT_DEATHS_DOOR" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4e556cdf-a0d6-4dd3-8560-87a6b8be75ea" />
+        <field name="Name" type="NameTableFieldDefinition" value="GESTALT_ANCHOR_AURA" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5cf3e786-2f99-4e6a-a4dd-8b731a0593ee" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf5d4f6f7g7924g8f6fg9ab0g9dfcbf96b1f0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h949175afg7b78g0963gee66g437f1ebddb65" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MindDomain_6_GestaltAnchor" />
+        <field name="StackId" type="StringTableFieldDefinition" value="GESTALT_ANCHOR_AURA" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="StatusStackType" version="1" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(Ally() and not Tagged('INANIMATE')):ApplyStatus(GESTALT_ANCHOR_BUFF)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,2,Intelligence);RollBonus(SavingThrow,2,Wisdom);RollBonus(SavingThrow,2,Charisma);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="HasAnyStatus({'SG_Unconscious','SG_Incapacitated'},{})" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d3e54ad3-bccb-4b52-972f-9da717e1db2d" />
+        <field name="Name" type="NameTableFieldDefinition" value="GESTALT_ANCHOR_BUFF" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="731b4d8a-a67e-4626-90d9-17c21e100427" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5523ff58gc19agf695g2c18g98109b1b9045" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h63ae3ebcg6ca5g662cga9ebg81bcaf35125f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MindDomain_6_GestaltAnchor" />
+        <field name="StackId" type="StringTableFieldDefinition" value="GESTALT_ANCHOR_AURA" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,2,Intelligence);RollBonus(SavingThrow,2,Wisdom);RollBonus(SavingThrow,2,Charisma);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9bf598df-0e5c-45e6-b178-41684541d2f2" />

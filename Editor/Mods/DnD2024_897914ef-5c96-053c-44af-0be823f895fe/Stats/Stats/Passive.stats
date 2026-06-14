@@ -1824,6 +1824,61 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3506" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9fc5393a-b488-4736-832d-250b6e001ab9" />
+        <field name="Name" type="NameTableFieldDefinition" value="__MIND DOMAIN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="71c71262-b2b8-4e4d-9bae-7668d37f2476" />
+        <field name="Name" type="NameTableFieldDefinition" value="MindDomain_3_MindDomainSpells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h72fe5c98g4eeagbdcfg176cg9e7d2200729b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd98d7d87g77cegbc88gd214g64ac7bacec24" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h793cd839gb6abg5b14g2409gcd0bd8f9ce42" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MindDomain_3_MindDomainSpells" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="77193d9e-7be4-4442-84fa-dcd8be54028a" />
+        <field name="Name" type="NameTableFieldDefinition" value="MindDomain_3_PsychicFeedback" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8f6de0c2g375fgd164gdd46g3b76457a3d70" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5360cb80gee7ag0e61g2927g4eace8e2c5e6" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MindDomain_3_PsychicFeedback" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_PsychicFeedback);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="261ffed4-e59a-46ee-96d7-a5ce2092c232" />
+        <field name="Name" type="NameTableFieldDefinition" value="MindDomain_3_PsychicForce" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h65dab31ag9d8cg8927g3507g782f6b5249c9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h637fd45bg14ebg37d7g4fd0g0b738fa63f79" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MindDomain_3_PsychicFeedback" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsSpell() and (IsDamageTypeRadiant() or IsDamageTypePsychic()):DamageBonus(CharismaModifier,Psychic);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="407383ca-f1fb-48d1-bbfb-68ea7f664cf5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MindDomain_6_GestaltAnchor" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h66a70d44ge6f0ga710g9f15ge39c0aaa98f6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha688aa5dgc9bege050gd0f4gd8a5d10c7791" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MindDomain_6_GestaltAnchor" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3506" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnRound;OnCombatStarted;OnTurn;OnHealed" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,GESTALT_ANCHOR_AURA,100,-1)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7802f41d-bd65-4255-a3bf-5d50027cc099" />

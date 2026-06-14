@@ -558,6 +558,27 @@
                     <attribute id="V2" type="float" value="0.01550293"/>
                 </node>
                 <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MindDomain_3_MindDomainSpells"/>
+                    <attribute id="U1" type="float" value="0.40637207"/>
+                    <attribute id="U2" type="float" value="0.42175293"/>
+                    <attribute id="V1" type="float" value="0.03137207"/>
+                    <attribute id="V2" type="float" value="0.04675293"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MindDomain_3_PsychicFeedback"/>
+                    <attribute id="U1" type="float" value="0.39074707"/>
+                    <attribute id="U2" type="float" value="0.40612793"/>
+                    <attribute id="V1" type="float" value="0.03137207"/>
+                    <attribute id="V2" type="float" value="0.04675293"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="MindDomain_6_GestaltAnchor"/>
+                    <attribute id="U1" type="float" value="0.37512207"/>
+                    <attribute id="U2" type="float" value="0.39050293"/>
+                    <attribute id="V1" type="float" value="0.03137207"/>
+                    <attribute id="V2" type="float" value="0.04675293"/>
+                </node>
+                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Monk_ElementalBurst_Acid"/>
                     <attribute id="U1" type="float" value="0.57824707"/>
                     <attribute id="U2" type="float" value="0.59362793"/>

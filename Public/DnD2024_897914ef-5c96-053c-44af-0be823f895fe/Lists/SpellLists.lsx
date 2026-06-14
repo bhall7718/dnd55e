@@ -482,6 +482,26 @@
                     <attribute id="UUID" type="guid" value="2a274a23-162e-4f87-85cd-e3d788419364"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Mind Domain SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_Command_Container;Shout_DetectThoughts;Target_DissonantWhispers;Target_MindSpike"/>
+                    <attribute id="UUID" type="guid" value="df5f00df-1a80-4476-b6f7-a1e5c41ac020"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Mind Domain SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_Counterspell;Zone_Fear"/>
+                    <attribute id="UUID" type="guid" value="928796df-4759-4ae9-b390-5bc5584dae65"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Mind Domain SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Confusion;Target_PhantasmalKiller"/>
+                    <attribute id="UUID" type="guid" value="98ab5de2-88bd-4c68-b1c0-9be28ca00fb4"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Mind Domain SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_SynapticStatic;Throw_Telekinesis"/>
+                    <attribute id="UUID" type="guid" value="812e1f40-3ad0-4975-aa12-d45af54e5f0f"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="__DRUID__"/>
                     <attribute id="UUID" type="guid" value="a650b325-6d8d-46ae-a2a8-28009a511806"/>
                 </node>

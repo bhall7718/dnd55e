@@ -41,6 +41,11 @@
 - Level 3: Radiance of the Dawn
 - Level 3: Warding Flare
 - Level 6: Improved Warding Flare
+## Mind Domain
+- Level 3: Mind Domain Spells
+- Level 3: Psychic Feedback
+- Level 3: Psychic Force
+- Level 6: Gestalt Anchor
 ## Trickery Domain
 - Level 3: Blessing of the Trickster
 - Level 3: Trickery Domain Spells

@@ -634,7 +634,7 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Target_Cloudkill;Target_InsectPlague" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FFFFD700" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7162699a-4886-40bb-97fc-d77d57953b6f" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Grave Domain SLevel 2" />
@@ -660,6 +660,34 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2a274a23-162e-4f87-85cd-e3d788419364" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Grave Domain SLevel 5" />
         <field name="Spells" type="StringTableFieldDefinition" value="Shout_DispelEvilAndGood;Target_CureWounds_Mass" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="df5f00df-1a80-4476-b6f7-a1e5c41ac020" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Mind Domain SLevel 2" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Command_Container;Shout_DetectThoughts;Target_DissonantWhispers;Target_MindSpike" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="928796df-4759-4ae9-b390-5bc5584dae65" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Mind Domain SLevel 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Counterspell;Zone_Fear" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="98ab5de2-88bd-4c68-b1c0-9be28ca00fb4" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Mind Domain SLevel 4" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Confusion;Target_PhantasmalKiller" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="812e1f40-3ad0-4975-aa12-d45af54e5f0f" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Mind Domain SLevel 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_SynapticStatic;Throw_Telekinesis" />
       </fields>
     </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">
