@@ -1646,6 +1646,40 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Zone_ConeOfCold,Target_ConjureElemental_Container" />
       </fields>
     </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8f6bbe24-6c8f-406c-a5d5-04dbb6052c48" />
+        <field name="Name" type="NameTableFieldDefinition" value="__SHADOW SORCERY__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="98837fc3-8d85-4eaa-b357-337602b22884" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shadow Sorcerer Eyes of the Dark, Darkness spells" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Darkness;Target_Darkness_Sorcerer;Target_Bane;Target_InflictWounds;Shout_PassWithoutTrace" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3c2878e8-d46c-458e-a6f3-fabc1e3bded8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shadow Level 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_HungerOfHadar;Zone_Fear" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f168efcb-0064-4e19-a1dc-61253d4e65f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shadow Level 7" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Invisibility_Greater;Target_PhantasmalKiller" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a6a29fa7-e1dd-4b4c-9e73-4d35e80d1154" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shadow Level 9" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Contagion;Target_Cloudkill" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="28297251-2b44-4554-8723-4ab94229a3c0" />

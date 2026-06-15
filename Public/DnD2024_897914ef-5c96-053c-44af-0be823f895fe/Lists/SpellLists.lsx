@@ -1748,6 +1748,30 @@
                     <attribute id="Spells" type="LSString" value="Shout_SpeakWithAnimals_ForestGnome;Target_MinorIllusion"/>
                     <attribute id="UUID" type="guid" value="582ed05c-c6fa-4d6f-99f9-efcc9de769f9"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Shadow Sorcerer Eyes of the Dark, Darkness spells"/>
+                    <attribute id="Spells" type="LSString" value="Target_Darkness;Target_Darkness_Sorcerer;Target_Bane;Target_InflictWounds;Shout_PassWithoutTrace"/>
+                    <attribute id="UUID" type="guid" value="98837fc3-8d85-4eaa-b357-337602b22884"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="__SHADOW SORCERY__"/>
+                    <attribute id="UUID" type="guid" value="8f6bbe24-6c8f-406c-a5d5-04dbb6052c48"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Shadow Level 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_HungerOfHadar;Zone_Fear"/>
+                    <attribute id="UUID" type="guid" value="3c2878e8-d46c-458e-a6f3-fabc1e3bded8"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Shadow Level 7"/>
+                    <attribute id="Spells" type="LSString" value="Target_Invisibility_Greater;Target_PhantasmalKiller"/>
+                    <attribute id="UUID" type="guid" value="f168efcb-0064-4e19-a1dc-61253d4e65f5"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Shadow Level 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_Contagion;Target_Cloudkill"/>
+                    <attribute id="UUID" type="guid" value="a6a29fa7-e1dd-4b4c-9e73-4d35e80d1154"/>
+                </node>
             </children>
         </node>
     </region>

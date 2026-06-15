@@ -27,6 +27,9 @@
 - Level 3: Frozen Body
 - Level 6: Cold-Hearted
 ## Shadow Magic
+- Level 3: Shadow Spells
+- Level 3: Power of Shadow
+- Level 6: Beasts of Ill Omen
 ## Spellfire Sorcery
 - Level 3: Spellfire Burst
 - Level 3: Spellfire Spells

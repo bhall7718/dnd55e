@@ -5861,6 +5861,17 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_944" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e79a6595-893e-4fcc-beac-af3823285195" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="02d68ea9-5b8d-4f3f-a37a-96ae78d233cd" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ShadowMagic" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(3c2878e8-d46c-458e-a6f3-fabc1e3bded8,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_338" />
         <field name="UUID" type="IdTableFieldDefinition" value="3be78c04-e36c-478d-95f3-4de6149c97df" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="02d68ea9-5b8d-4f3f-a37a-96ae78d233cd" />
@@ -5868,6 +5879,28 @@
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(f4791675-9f08-433f-8ee2-e90a5ea072e9,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_945" />
+        <field name="UUID" type="IdTableFieldDefinition" value="69f95436-e4c9-4533-af22-4bd88e325f49" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="02d68ea9-5b8d-4f3f-a37a-96ae78d233cd" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ShadowMagic" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(f168efcb-0064-4e19-a1dc-61253d4e65f5,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_946" />
+        <field name="UUID" type="IdTableFieldDefinition" value="851b68f1-fef5-435b-8746-0227ad5244f2" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="02d68ea9-5b8d-4f3f-a37a-96ae78d233cd" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ShadowMagic" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(a6a29fa7-e1dd-4b4c-9e73-4d35e80d1154,,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
