@@ -192,6 +192,13 @@ data "StatusType" "BOOST"
 data "StackId" "SNEAK_COOLDOWN"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
+new entry "CRE_ASTRALPRISON_GRAVITY"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CRE_ASTRALPRISON_GRAVITY"
+data "StackPriority" "99"
+data "Boosts" "JumpMaxDistanceMultiplier(3);IgnoreFallDamage();CarryCapacityMultiplier(3);UnlockSpell(Projectile_LongJump_Jump);"
+
 new entry "__TOXIN__"
 type "StatusData"
 data "StatusType" "BOOST"
