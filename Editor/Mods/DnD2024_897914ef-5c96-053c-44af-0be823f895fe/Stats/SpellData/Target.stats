@@ -465,6 +465,7 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Tagged('UNDEAD') and not Tagged('CONSTRUCT')" />
         <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6d0dda4egb427g6516gd80egc26058c2e9e9" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

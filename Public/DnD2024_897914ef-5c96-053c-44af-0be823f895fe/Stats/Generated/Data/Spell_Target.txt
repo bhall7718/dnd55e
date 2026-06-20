@@ -370,6 +370,7 @@ data "Level" ""
 data "SpellSchool" ""
 data "Cooldown" "OncePerTurn"
 data "TargetConditions" "Character() and not Dead() and not Tagged('UNDEAD') and not Tagged('CONSTRUCT')"
+data "Description" "h6d0dda4egb427g6516gd80egc26058c2e9e9;1"
 data "UseCosts" ""
 
 new entry "Target_Counterspell_Success"

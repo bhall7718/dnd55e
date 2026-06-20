@@ -213,7 +213,7 @@ At Higher Levels. Your Bardic Inspiration die changes when you reach certain Bar
   <content contentuid="ha96c97feg6fd1gc562g799fgde13a4800459" version="1">Point used to gain an extra attack as a bonus action.</content>
   <content contentuid="h4dc018cagbaa3ga624g7da2g0a6dab9353ce" version="1">Level 3: Guided Strike</content>
   <content contentuid="ha052e514g0261g1570g0745g00d44f89cc3d" version="1">When you or a creature within 30 feet of you misses with an attack roll, you can expend one use of your Channel Divinity and give that roll a +10 bonus, potentially causing it to hit. When you use this feature to benefit another creature’s attack roll, you must take a Reaction to do so.</content>
-  <content contentuid="h81ab1ec4g5097gf34cg7f12g4d040607771b" version="1">Guided Strike</content>
+  <content contentuid="h81ab1ec4g5097gf34cg7f12g4d040607771b" version="2">Guided Strike (Self)</content>
   <content contentuid="h900f0f0bgcd61g0708g6d02gf89738f718de" version="1">Level 6: War God’s Blessing</content>
   <content contentuid="h0c6d3ec2g7683g7e9fg7d62g08a6874b3c5f" version="1">You can expend a use of your Channel Divinity to cast Shield of Faith or Spiritual Weapon rather than expending a spell slot. When you cast either spell in this way, the spell doesn’t require Concentration. Instead the spell lasts for 1 minute, but it ends early if you cast that spell again, have the Incapacitated condition, or die.</content>
   <content contentuid="h3bb1c07ag3913g5b74g9454gdcebc7737556" version="1">Shield of Faith: War God’s Blessing</content>
@@ -4593,4 +4593,10 @@ In addition, your highest spell slot level must be at least one level lower than
   <content contentuid="hb74c3fd9ga6a8g8c4bg0373g427c3edf70f7" version="4">Jump Down</content>
   <content contentuid="hd44fd6ddg1098gdbf5g10d4g8ca7b30d62bc" version="4">Jump Up</content>
   <content contentuid="h73da64f6ga623g5c60g31edg8434e7996703" version="1">Jump up to 30 feet by spending 10 feet of movement.</content>
+  <content contentuid="hcc124e06g703dga91ag38b5g45f683e89b78" version="1">Guided Strike (Ally)</content>
+  <content contentuid="h7f5b837cg0df3g8c6eg1f50ga527560cf9e6" version="1">While this aura lasts, you can cast &lt;LSTag Type="Spell" Tooltip="Target_AuraOfVitality_Activate"&gt;Restore Vitality&lt;/LSTag&gt; to heal yourself or nearby allies.</content>
+  <content contentuid="h476d4d67g76e8g6262gd36egb27efe1c901e" version="1">While this aura lasts, you can cast &lt;LSTag Type="Spell" Tooltip="Target_AuraOfVitality_Activate"&gt;Restore Vitality&lt;/LSTag&gt; to heal yourself or nearby allies.</content>
+  <content contentuid="h7d1ef8c7g9579g8074g2716gfb96c3ca8934" version="1">While this aura lasts, you can cast &lt;LSTag Type="Spell" Tooltip="Target_AuraOfVitality_Activate"&gt;Restore Vitality&lt;/LSTag&gt; to heal yourself or nearby allies.</content>
+  <content contentuid="ha752c62cg8192gf687g995fg58c4adc7169b" version="1">While this aura lasts, you can cast &lt;LSTag Type="Spell" Tooltip="Target_AuraOfVitality_Activate"&gt;Restore Vitality&lt;/LSTag&gt; to heal yourself or nearby allies.</content>
+  <content contentuid="h6d0dda4egb427g6516gd80egc26058c2e9e9" version="1">Heal yourself or a nearby ally. </content>
 </contentList>
