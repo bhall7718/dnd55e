@@ -1152,7 +1152,7 @@ data "Description" "ha052e514g0261g1570g0745g00d44f89cc3d;1"
 data "Icon" "PassiveFeature_WarGodsBlessing"
 data "PriorityOrder" "3403"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "UnlockInterrupt(Interrupt_WarGodsBlessing)"
+data "Boosts" "UnlockInterrupt(Interrupt_WarGodsBlessing);UnlockInterrupt(Interrupt_WarGodsBlessing_Ally);"
 
 new entry "War_6_WarGodsBlessing"
 type "PassiveData"

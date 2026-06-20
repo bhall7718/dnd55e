@@ -97,9 +97,19 @@
         <field name="UUID" type="IdTableFieldDefinition" value="dd3e3624-53da-4f5d-93ae-a0f61b704715" />
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_WarGodsBlessing" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="29bb686d-ccc1-4cd0-b751-b14f79221425" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h81ab1ec4g5097gf34cg7f12g4d040607771b" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h81ab1ec4g5097gf34cg7f12g4d040607771b" version="2" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ChannelDivinity:1;" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Source,context.Observer) and HasInterruptedAttack() and not AnyEntityIsItem() and IsFlatValueInterruptInteresting(10, context.Source);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="81dec222-de35-44d2-ab58-9968d75732b2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_WarGodsBlessing_Ally" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dd3e3624-53da-4f5d-93ae-a0f61b704715" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcc124e06g703dga91ag38b5g45f683e89b78" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Ally(context.Source,context.Observer) and HasInterruptedAttack() and not AnyEntityIsItem() and IsFlatValueInterruptInteresting(10, context.Source);" />
         <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;ChannelDivinity:1;" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and (Self(context.Source,context.Observer) or Ally(context.Source,context.Observer)) and HasInterruptedAttack() and not AnyEntityIsItem() and IsFlatValueInterruptInteresting(10, context.Source);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -1577,7 +1577,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WarGodsBlessing" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3403" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_WarGodsBlessing)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_WarGodsBlessing);UnlockInterrupt(Interrupt_WarGodsBlessing_Ally);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
