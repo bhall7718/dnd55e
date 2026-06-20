@@ -199,7 +199,7 @@ A Niveles Superiores. Tu dado de Inspiración Bárdica cambia cuando alcanzas ci
   <content contentuid="ha96c97feg6fd1gc562g799fgde13a4800459" version="1">Punto usado para obtener un ataque adicional como Acción Adicional.</content>
   <content contentuid="h4dc018cagbaa3ga624g7da2g0a6dab9353ce" version="1">Nivel 3: Golpe Guiado</content>
   <content contentuid="ha052e514g0261g1570g0745g00d44f89cc3d" version="1">Cuando tú o una criatura a 30 pies de ti falla con una tirada de ataque, puedes gastar un uso de tu Canalizar Divinidad y otorgar a esa tirada un bonificador de +10, lo que podría hacer que impacte. Cuando uses este rasgo para beneficiar la tirada de ataque de otra criatura, debes usar tu Reacción para hacerlo.</content>
-  <content contentuid="h81ab1ec4g5097gf34cg7f12g4d040607771b" version="1">Golpe Guiado</content>
+  <content contentuid="h81ab1ec4g5097gf34cg7f12g4d040607771b" version="2">Golpe Guiado</content>
   <content contentuid="h900f0f0bgcd61g0708g6d02gf89738f718de" version="1">Nivel 6: Bendición del Dios de la Guerra</content>
   <content contentuid="h0c6d3ec2g7683g7e9fg7d62g08a6874b3c5f" version="1">Puedes gastar un uso de tu Canalizar Divinidad para lanzar Escudo de la Fe o Arma Espiritual en lugar de gastar un Espacio de Conjuro. Cuando lanzas cualquiera de estos conjuros de esta forma, el conjuro no requiere Concentración. En cambio, el conjuro dura 1 minuto, pero termina antes si lanzas ese conjuro de nuevo, tienes la condición Incapacitado o mueres.</content>
   <content contentuid="h3bb1c07ag3913g5b74g9454gdcebc7737556" version="1">Escudo de la Fe: Bendición del Dios de la Guerra</content>
@@ -254,7 +254,7 @@ A Niveles Superiores. Tu dado de Inspiración Bárdica cambia cuando alcanzas ci
   <content contentuid="h8f1b692bg604cgb34cg9e64g7c5d22aebe85" version="1">Nivel 2: Forma Salvaje</content>
   <content contentuid="hc6dea6aag9290gf3cegeb8ag0351bd8d0fc5" version="2">Puedes usar una Acción Adicional para transformarte en una forma de Bestia conocida usando Forma Salvaje. Puedes terminar la transformación anticipadamente como Acción Adicional. Puedes usar Forma Salvaje dos veces. Recuperas un uso gastado cuando completas un Descanso Corto, y recuperas todos los usos gastados cuando completas un Descanso Largo. Cuando adoptas una forma de Forma Salvaje, ganas un número de Puntos de Golpe Temporales igual a tu nivel de Druida. No puedes lanzar conjuros, pero cambiar de forma no interrumpe tu Concentración ni interfiere con un conjuro que ya hayas lanzado.</content>
   <content contentuid="h1505dff7gb11cg17eageb5dg29f041ed571a" version="1">Nivel 2: Forma Salvaje</content>
-  <content contentuid="h8e8ebc40g6f5cg5d29gc885g2f7fb0f2899b" version="1">Forma Salvaje</content>
+  <content contentuid="h8e8ebc40g6f5cg5d29gc885g2f7fb0f2899b" version="2">Forma Salvaje</content>
   <content contentuid="h2e1bf345gb5fcg3bbag17c4g7ac514e8455e" version="1">Cuando adoptas una forma de Forma Salvaje, ganas un número de Puntos de Golpe Temporales igual a tu nivel de Druida.</content>
   <content contentuid="h8a519044g61f3g7166g3e0cg6c97799602e4" version="1">Forma Salvaje: Tejón</content>
   <content contentuid="h9c56ac47g3984g90a8g0115g3a3000abd94a" version="1">Forma Salvaje: Oso Polar</content>
@@ -4330,4 +4330,13 @@ Cuando el Cilindro aparece, cada criatura dentro hace una tirada de salvación d
 Además, tu nivel más alto de espacio de conjuro debe ser al menos un nivel inferior al del conjuro en el pergamino. Al determinar los niveles de los espacios de conjuro para un personaje multiclase, solo se tienen en cuenta los niveles de las clases y subclases que incluyen el conjuro en su lista de conjuros.</content>
   <content contentuid="h2a38021bge7c4g0eedgdbf5g331c3221892d" version="1">Por ejemplo, un pergamino de Muro de Fuego (un conjuro de nivel 4) requiere acceso a espacios de conjuro de nivel 3. Un personaje podría cumplir este requisito con 5 niveles de Mago, o con una combinación como 4 niveles de Mago y 3 de Embaucador Arcano. Sin embargo, un personaje con 4 niveles de Clérigo y 3 de Embaucador Arcano (Picaro), no cumpliría los requisitos, ya que Muro de Fuego no aparece en la lista de conjuros del Clérigo.</content>
   <content contentuid="h94c617f1g467ag18f3gf740gb5a9fc763e88" version="1">Duelista Defensivo</content>
+  <content contentuid="hb74c3fd9ga6a8g8c4bg0373g427c3edf70f7" version="4">Saltar Abajo</content>
+  <content contentuid="hd44fd6ddg1098gdbf5g10d4g8ca7b30d62bc" version="4">Saltar Arriba</content>
+  <content contentuid="h73da64f6ga623g5c60g31edg8434e7996703" version="1">Saltas 30 pies gastando 10 pies de tu movimiento total.</content>
+  <content contentuid="hcc124e06g703dga91ag38b5g45f683e89b78" version="1">Golpe Guiado (Aliado)</content>
+  <content contentuid="h7f5b837cg0df3g8c6eg1f50ga527560cf9e6" version="1">Creas un Aura de &lt;LSTag Type="Spell" Tooltip="Target_AuraOfVitality_Activate"&gt;Restaurar Vitalidad&lt;/LSTag&gt; para curarte a ti mismo o a tus aliados cercanos</content>
+  <content contentuid="h476d4d67g76e8g6262gd36egb27efe1c901e" version="1">Creas un Aura de &lt;LSTag Type="Spell" Tooltip="Target_AuraOfVitality_Activate"&gt;Restaurar Vitalidad&lt;/LSTag&gt; para curarte a ti mismo o a tus aliados cercanos</content>
+  <content contentuid="h7d1ef8c7g9579g8074g2716gfb96c3ca8934" version="1">Creas un Aura de &lt;LSTag Type="Spell" Tooltip="Target_AuraOfVitality_Activate"&gt;Restaurar Vitalidad&lt;/LSTag&gt; para curarte a ti mismo o a tus aliados cercanos</content>
+  <content contentuid="ha752c62cg8192gf687g995fg58c4adc7169b" version="1">Creas un Aura de &lt;LSTag Type="Spell" Tooltip="Target_AuraOfVitality_Activate"&gt;Restaurar Vitalidad&lt;/LSTag&gt; para curarte a ti mismo o a tus aliados cercanos</content>
+  <content contentuid="h6d0dda4egb427g6516gd80egc26058c2e9e9" version="1">Te curas a ti mismo o a tus aliados cercanos </content>
 </contentList>
