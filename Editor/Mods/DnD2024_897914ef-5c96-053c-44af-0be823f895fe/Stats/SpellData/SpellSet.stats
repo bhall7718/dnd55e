@@ -112,5 +112,44 @@
         <field name="Spells" type="StatReferenceTableFieldDefinition" value="Target_UnarmedAttack" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1d95173c-1f20-4dc3-a643-95833069b5d7" />
+        <field name="Name" type="NameTableFieldDefinition" value="CommonSummonActions" />
+        <field name="Spells" type="StatReferenceTableFieldDefinition" value="Shout_Dash_NPC" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d95173c-1f20-4dc3-a643-95833069b5d7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4b2fced9-1814-41e5-8ab4-abff17cd3f1d" />
+        <field name="Name" type="NameTableFieldDefinition" value="CommonSummonActions_substat" />
+        <field name="Spells" type="StatReferenceTableFieldDefinition" value="Projectile_Jump" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d95173c-1f20-4dc3-a643-95833069b5d7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2a207420-f9c0-4fe2-84b5-7f4387b15a64" />
+        <field name="Name" type="NameTableFieldDefinition" value="1d95173c-1f20-4dc3-a643-95833069b5d7_substat_0" />
+        <field name="Spells" type="StatReferenceTableFieldDefinition" value="Shout_Hide" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d95173c-1f20-4dc3-a643-95833069b5d7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b21189af-0ab4-4f75-a1b2-d7c8c94948d7" />
+        <field name="Name" type="NameTableFieldDefinition" value="1d95173c-1f20-4dc3-a643-95833069b5d7_substat_1" />
+        <field name="Spells" type="StatReferenceTableFieldDefinition" value="Shout_Disengage" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d95173c-1f20-4dc3-a643-95833069b5d7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9c108522-a33b-4dab-a5ce-4f80e150329a" />
+        <field name="Name" type="NameTableFieldDefinition" value="1d95173c-1f20-4dc3-a643-95833069b5d7_substat_2" />
+        <field name="Spells" type="StatReferenceTableFieldDefinition" value="Shout_HitPointDice" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
