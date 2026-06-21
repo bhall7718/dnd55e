@@ -145,6 +145,7 @@ new entry "GOADING_ATTACK"
 type "StatusData"
 data "StatusType" "BOOST"
 using "GOADING_ATTACK"
+data "TickType" "StartTurn"
 data "StatusPropertyFlags" "LoseControl;OverheadOnTurn;LoseControlFriendly;TickingWithSource"
 
 new entry "DISADVANTAGE_ALL_SAVINGTHROW"

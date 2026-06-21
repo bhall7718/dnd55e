@@ -192,6 +192,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="GOADING_ATTACK" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0443e394-3de0-45f2-a922-d266e101611c" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="LoseControl;OverheadOnTurn;LoseControlFriendly;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
