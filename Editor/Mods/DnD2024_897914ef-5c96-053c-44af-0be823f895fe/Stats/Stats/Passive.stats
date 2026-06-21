@@ -2596,6 +2596,22 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="95e25767-7ef4-414e-b016-002dbceb4f9e" />
+        <field name="Name" type="NameTableFieldDefinition" value="CommanderStrike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="68761933-8973-4e61-bd81-377a0e0b6afe" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h06f01e3agcbd9g2520gaaf4g5e982034ef42" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="92389a1e-6acf-410d-913d-9937960ca423" />
+        <field name="Name" type="NameTableFieldDefinition" value="CommanderStrike_Maneuver" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2c6110d9-5ce6-4a54-a6e3-07f45dfaa2fe" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he77dca6bga253g90bcg6925g1a3c785cb127" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5dc89dcf-9f1d-4042-a537-16f9b514a59d" />

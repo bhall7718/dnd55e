@@ -1885,6 +1885,16 @@ data "DisplayName" "h66ceeddfg85e7gf6e6g45fdgf681167aa694;1"
 data "PriorityOrder" "5310"
 data "Properties" "Highlighted;ForceShowInCC"
 
+new entry "CommanderStrike"
+type "PassiveData"
+using "CommanderStrike"
+data "Description" "h06f01e3agcbd9g2520gaaf4g5e982034ef42;1"
+
+new entry "CommanderStrike_Maneuver"
+type "PassiveData"
+using "CommanderStrike_Maneuver"
+data "Description" "he77dca6bga253g90bcg6925g1a3c785cb127;1"
+
 new entry "__PSI WARRIOR 5400__"
 type "PassiveData"
 
