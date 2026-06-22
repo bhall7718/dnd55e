@@ -34,8 +34,8 @@ def make_headers(api_key: str) -> dict:
     return {"apikey": api_key, "Content-Type": "application/json"}
 
 
-def find_latest_zip(folder: str) -> tuple[Path, str]:
-    """Return (path, version) for the most recently created zip in folder."""
+def find_latest_zip(folder: str) -> Path:
+    """Return the most recently created zip in folder."""
     search_path = Path(folder)
     if not search_path.is_dir():
         sys.exit(f"[ERROR] search_folder not found: {folder}")
@@ -43,10 +43,34 @@ def find_latest_zip(folder: str) -> tuple[Path, str]:
     if not zips:
         sys.exit(f"[ERROR] No .zip files found in: {folder}")
     latest = max(zips, key=lambda p: p.stat().st_ctime)
-    version = latest.stem  # filename without .zip
     print(f"[INFO] Found zip    : {latest.name}")
-    print(f"[INFO] Version      : {version}")
-    return latest, version
+    return latest
+
+
+def _decode_version64(v64: int) -> str:
+    """Decode a Larian Version64 int64 to a dotted version string."""
+    major    = (v64 >> 55) & 0x1FF
+    minor    = (v64 >> 47) & 0xFF
+    revision = (v64 >> 31) & 0xFFFF
+    build    = v64 & 0x7FFFFFFF
+    return f"{major}.{minor}.{revision}.{build}"
+
+
+def read_version_from_meta(meta_path: Path) -> str:
+    """Read Version64 from ModuleInfo in meta.lsx and return as dotted version string."""
+    if not meta_path.exists():
+        sys.exit(f"[ERROR] meta.lsx not found: {meta_path}")
+    tree = ET.parse(meta_path)
+    for node in tree.getroot().iter("node"):
+        if node.get("id") == "ModuleInfo":
+            for attr in node:
+                if attr.get("id") == "Version64":
+                    v64 = int(attr.get("value"))
+                    version = _decode_version64(v64)
+                    print(f"[INFO] Version64    : {v64}")
+                    print(f"[INFO] Version      : {version}")
+                    return version
+    sys.exit("[ERROR] Version64 not found in ModuleInfo in meta.lsx")
 
 
 def _parse_signed_headers(presigned_url: str) -> list[str]:
@@ -334,8 +358,10 @@ def main() -> None:
     if cfg["file_category"] not in ("main", "optional", "miscellaneous"):
         sys.exit("[ERROR] file_category must be one of: main, optional, miscellaneous")
 
-    file_path, version = find_latest_zip(cfg["search_folder"])
-    cfg["version"] = version  # inject auto-detected version into cfg
+    file_path = find_latest_zip(cfg["search_folder"])
+
+    meta_lsx = Path(__file__).parent.parent / "Mods" / "DnD2024_897914ef-5c96-053c-44af-0be823f895fe" / "meta.lsx"
+    cfg["version"] = read_version_from_meta(meta_lsx)
 
     api_key = cfg["api_key"]
     mod_file_id = cfg.get("mod_file_id")
