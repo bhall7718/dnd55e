@@ -21,6 +21,7 @@ For gameplay examples, build ideas, and practical references, check the playthro
 - [Spells](#spells)
 - [Items](#items)
 - [Creatures](#creatures)
+- [Credits](#credits)
 
 ## Rules and Actions
 
@@ -148,3 +149,11 @@ See [Creatures](./README/README_Creatures.MD).
 - Dire Wolf
 - Wolf
 - Worg
+
+## Credits
+
+See [Credits](./README/README_Credits.MD) for full attribution.
+
+- **Korean Translation**: [Eolaloe](https://www.nexusmods.com/profile/Eolaloe)
+- **Spanish / Latin Spanish Translation**: [incolhermex-droid](https://github.com/incolhermex-droid)
+- **Item Models**: [skirbie](https://mod.io/g/baldursgate3/u/skirbie)
