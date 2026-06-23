@@ -3004,6 +3004,46 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="242e7447-984f-455e-be3a-136d06339e96" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shield_ArcaneWard_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="192f0760-3734-4f2e-8858-de8eb40ef105" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2c5b9171-08ce-4594-b028-88b29857948e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shield_ArcaneWard_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="242e7447-984f-455e-be3a-136d06339e96" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="691743ba-a9a1-4d7f-b3b4-c3953877ec94" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shield_ArcaneWard_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="242e7447-984f-455e-be3a-136d06339e96" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb14cc2d-b9b1-4373-ae7f-91b753011458" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shield_ArcaneWard_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="242e7447-984f-455e-be3a-136d06339e96" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="561c429b-a07a-4694-ac11-d59fce37527d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shield_ArcaneWard_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="242e7447-984f-455e-be3a-136d06339e96" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f1e0ce59-3055-447e-89cf-0d4cd7799d53" />
         <field name="Name" type="NameTableFieldDefinition" value="Bladesong" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c66dd2b3-eab8-40e8-93de-7e6b25a78437" />
