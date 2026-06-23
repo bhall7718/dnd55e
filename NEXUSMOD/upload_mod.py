@@ -35,13 +35,13 @@ def make_headers(api_key: str) -> dict:
 
 
 def find_latest_zip(folder: str) -> Path:
-    """Return the most recently created zip in folder."""
+    """Return the most recently created zip in folder whose name starts with 'dnd2024'."""
     search_path = Path(folder)
     if not search_path.is_dir():
         sys.exit(f"[ERROR] search_folder not found: {folder}")
-    zips = list(search_path.glob("*.zip"))
+    zips = [p for p in search_path.glob("*.zip") if p.name.lower().startswith("dnd2024")]
     if not zips:
-        sys.exit(f"[ERROR] No .zip files found in: {folder}")
+        sys.exit(f"[ERROR] No .zip files starting with 'dnd2024' found in: {folder}")
     latest = max(zips, key=lambda p: p.stat().st_ctime)
     print(f"[INFO] Found zip    : {latest.name}")
     return latest
