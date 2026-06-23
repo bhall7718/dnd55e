@@ -1499,8 +1499,8 @@
   <content contentuid="habfdeb9dg0444g413eg5f04g299364deece0" version="1">目標を&lt;LSTag Type="Status" Tooltip="POISONED"&gt;毒状態&lt;/LSTag&gt;にする。</content>
   <content contentuid="h881f5947g342fg38ffg9bc6g433b1271191a" version="1">目標を&lt;LSTag Type="Status" Tooltip="POISONED"&gt;毒状態&lt;/LSTag&gt;にする。</content>
   <content contentuid="h10bab148g2e5eg90d3g12c3g198a5e4b7bd9" version="1">目標を&lt;LSTag Type="Status" Tooltip="POISONED"&gt;毒状態&lt;/LSTag&gt;にする。</content>
-  <content contentuid="hd537bc94g933ag4203ga905g390b91aed106" version="1">友好的なクリーチャーに触れる。呪文が終了する前にそのクリーチャーがダメージを受けた際、受けるダメージの合計を1d4軽減する。クリーチャーがこの呪文の恩恵を受けられるのは、1ターンに一度だけである。</content>
-  <content contentuid="hb291dd01gaa36gf848g9cb2g11776f6a95ba" version="1">友好的なクリーチャーに触れる。呪文が終了する前にそのクリーチャーがダメージを受けた際、受けるダメージの合計を1d4軽減する。クリーチャーがこの呪文の恩恵を受けられるのは、1ターンに一度だけである。</content>
+  <content contentuid="hd537bc94g933ag4203ga905g390b91aed106" version="1">任意のクリーチャーに触れる。呪文が終了する前にそのクリーチャーがダメージを受けた際、受けるダメージの合計を1d4軽減する。クリーチャーがこの呪文の恩恵を受けられるのは、1ターンに一度だけである。</content>
+  <content contentuid="hb291dd01gaa36gf848g9cb2g11776f6a95ba" version="1">任意のクリーチャーに触れる。呪文が終了する前にそのクリーチャーがダメージを受けた際、受けるダメージの合計を1d4軽減する。クリーチャーがこの呪文の恩恵を受けられるのは、1ターンに一度だけである。</content>
   <content contentuid="h9d6a4e32g87edg4607g6cd5g19197e4e0034" version="1">呪文が終了する前にクリーチャーがダメージを受けた際、受けるダメージの合計を1d4軽減する。クリーチャーがこの呪文の恩恵を受けられるのは、1ターンに一度だけである。</content>
   <content contentuid="h1e40a51eg6772g87d3ga8a6gd8b5dcc5e0f0" version="1">呪文が終了する前にクリーチャーがダメージを受けた際、受けるダメージの合計を1d4軽減する。クリーチャーがこの呪文の恩恵を受けられるのは、1ターンに一度だけである。</content>
   <content contentuid="h0fb46065g45fege74age2e5g0f1ff68942df" version="2">射程内の地点を中心とした半径1.5メートルの球状範囲内にいる、自分が選択した各クリーチャーは、判断力セーヴィング・スローに成功するか、さもなくば次の自身のターンの終了時まで無力状態にならなければならず、その時点でセーヴを繰り返さなければならない。目標が2回目のセーヴに失敗した場合、その目標は持続時間の間、気絶状態になる。目標がダメージを受けるか、あるいはその目標から1.5メートル以内にいる誰かがアクションを費やして呪文の効果から揺り動かして起こした場合、その目標に対する呪文は終了する。</content>
@@ -1721,7 +1721,7 @@
 
 サイオニック・ストライク：サイオニックの力で武器を加速させることができる。各ターンに一度、自分から9メートル以内の目標に攻撃を命中させ武器でダメージを与えた直後、サイオニック・エネルギー・ダイスを1個消費してロールし、出目に自身の知力修正値を加えた値に等しい力場ダメージを目標に与えることができる。
 
-念力移動：精神で物体またはクリーチャーを移動させることができる。魔法アクションとして、自分から9メートル以内に見える目標を1つ選択する。目標は固定されていない「大型」サイズ以下の物体、または自分以外の友好的なクリーチャー1体でなければならない。目標を、見える何もない場所へ最大9メートルまで転送する。あるいは、目標が「極小」サイズの物体であれば、自身の手元へ、または手元から転送できる。</content>
+念力移動：精神で物体またはクリーチャーを移動させることができる。魔法アクションとして、自分から9メートル以内に見える目標を1つ選択する。目標は固定されていない「大型」サイズ以下の物体、または自分以外の任意のクリーチャー1体でなければならない。目標を、見える何もない場所へ最大9メートルまで転送する。あるいは、目標が「極小」サイズの物体であれば、自身の手元へ、または手元から転送できる。</content>
   <content contentuid="hb9f5892dg60a5g8c87g7282g224efd74a6fb" version="1">レベル1：底力</content>
   <content contentuid="he3bdd368gcf28g40aag8743gc422e859a060" version="1">自身には引き出すことのできる限られた心身のスタミナがある。ボーナス・アクションとして、それを使用して1d10にファイター・レベルを加えた値に等しいヒット・ポイントを回復できる。
 
@@ -1735,7 +1735,7 @@
   <content contentuid="h26010d04g5728g38d0g7666g1a3a63e82e9a" version="1">サイオニックの力で武器を加速させることができる。各ターンに一度、自分から9メートル以内の目標に攻撃を命中させ武器でダメージを与えた直後、サイオニック・エネルギー・ダイスを1個消費してロールし、出目に自身の知力修正値を加えた値に等しい力場ダメージを目標に与えることができる。</content>
   <content contentuid="h87667666gffa0g8813gb1a6gcf359a467b69" version="1">サイオニック・ストライクのクリティカル</content>
   <content contentuid="h112e5aabgae68g5b63g8e95g3c2e5fd8ebb8" version="1">念力移動</content>
-  <content contentuid="h789e4f7cgbbfdgd136g7526g0cb392afcf9d" version="1">精神で物体またはクリーチャーを移動させることができる。魔法アクションとして、自分から9メートル以内に見える目標を1つ選択する。目標は固定されていない「大型」サイズ以下の物体、または自分以外の友好的なクリーチャー1体でなければならない。目標を、見える何もない場所へ最大9メートルまで転送する。あるいは、目標が「極小」サイズの物体であれば、自身の手元へ、または手元から転送できる。</content>
+  <content contentuid="h789e4f7cgbbfdgd136g7526g0cb392afcf9d" version="1">精神で物体またはクリーチャーを移動させることができる。魔法アクションとして、自分から9メートル以内に見える目標を1つ選択する。目標は固定されていない「大型」サイズ以下の物体、または自分以外の任意のクリーチャー1体でなければならない。目標を、見える何もない場所へ最大9メートルまで転送する。あるいは、目標が「極小」サイズの物体であれば、自身の手元へ、または手元から転送できる。</content>
   <content contentuid="hb9f6e95bg1ecbg4d70g2b47g004a19f989d8" version="1">レベル7：サイオニック跳躍</content>
   <content contentuid="h53a46d69g6181g8c48g7c48g569803d1df00" version="2">ボーナス・アクションとして、わずか3メートルの移動力を消費するだけで好きな位置まで飛行できる。このボーナス・アクションを一度使用すると、小休憩または大休憩を終えるまで再び使用することはできない。ただし、サイオニック・エネルギー・ダイスを1個消費すれば（アクション不要）、使用回数を回復できる。</content>
   <content contentuid="h82e5f786g25beg91b9g6a62g3f5142f4ec41" version="1">サイオニック跳躍</content>
@@ -3287,7 +3287,7 @@
   <content contentuid="h764b69fagcd7ag05fdgf7dag5bd26082ad00" version="2">レベル3：破壊者</content>
   <content contentuid="hed5241fcg4e7bg125eg7f8fg43f7f8fbd64a" version="2">レベル3：大戦略家</content>
   <content contentuid="hcac28d23geb38gd19fge1c7gd81fdc6dc09b" version="2">味方に自身の陣形に従うよう命じることができる（アクション不要）。自分から18メートル以内にいて、あなたの声を聞くことができるクリーチャーを、自身の習熟ボーナスに等しい数まで選択する。各目標は直ちに、機会攻撃を誘発することなく自身の移動速度まで移動できる。</content>
-  <content contentuid="h8dc48af4gcdf0gdb45g88c4g86ba48d298cb" version="1">アクションとして、ディスパテルの権威を行使する。武器攻撃を1回行い、9メートル以内に見える友好的なクリーチャーを、自身の習熟ボーナスに等しい数まで選択する。選択された各クリーチャーはリアクションを用いて、1回の武器攻撃を行うか、発動時間が1アクションのダメージを与える初級呪文を唱えることができる。
+  <content contentuid="h8dc48af4gcdf0gdb45g88c4g86ba48d298cb" version="1">アクションとして、ディスパテルの権威を行使する。武器攻撃を1回行い、9メートル以内に見える任意のクリーチャーを、自身の習熟ボーナスに等しい数まで選択する。選択された各クリーチャーはリアクションを用いて、1回の武器攻撃を行うか、発動時間が1アクションのダメージを与える初級呪文を唱えることができる。
 
 このアクションを一度使用すると、小休憩または大休憩を終えるまで再び使用することはできない。</content>
   <content contentuid="h9dbc5d36ge613gcbd5ga51cg3c2f03e86ea8" version="2">レベル7：ディスパテルの至高</content>
@@ -3295,7 +3295,7 @@
   <content contentuid="h1e5932b4g971fg88dcg9f73g49b5740e78e1" version="2">レベル11：私の命令があるまで死ぬな！</content>
   <content contentuid="h98e2c15eg1bb0g6b5fg7c81ge9b4199a5810" version="1">9メートル以内にいてあなたの声を聞くことができる味方が、即死することなくヒット・ポイント0になった際、リアクションを用いて命令を下し、代わりにヒット・ポイントを1にすることができる。このリアクションを一度使用すると、小休憩または大休憩を終えるまで再び使用することはできない。</content>
   <content contentuid="hac72ef57geda5gbcb7gefd0gd8f3ef7ecd35" version="1">破壊者</content>
-  <content contentuid="h81b4dc8dg3da9gf440gb6ccgfc1f97fafdf6" version="1">アクションとして、ディスパテルの権威を行使する。武器攻撃を1回行い、9メートル以内に見える友好的なクリーチャーを、自身の習熟ボーナスに等しい数まで選択する。選択された各クリーチャーはリアクションを用いて、1回の武器攻撃を行うか、発動時間が1アクションのダメージを与える初級呪文を唱えることができる。</content>
+  <content contentuid="h81b4dc8dg3da9gf440gb6ccgfc1f97fafdf6" version="1">アクションとして、ディスパテルの権威を行使する。武器攻撃を1回行い、9メートル以内に見える任意のクリーチャーを、自身の習熟ボーナスに等しい数まで選択する。選択された各クリーチャーはリアクションを用いて、1回の武器攻撃を行うか、発動時間が1アクションのダメージを与える初級呪文を唱えることができる。</content>
   <content contentuid="ha7727e9ag0c15g6933gae63g6fa84b4bf2d4" version="1">大戦略家</content>
   <content contentuid="h820d0d49g5c04gb627g8857g7f344163dd3d" version="1">味方に自身の陣形に従うよう命じることができる（アクション不要）。自分から18メートル以内にいて、あなたの声を聞くことができるクリーチャーを、自身の習熟ボーナスに等しい数まで選択する。各目標は直ちに、機会攻撃を誘発することなく自身の移動速度まで移動できる。</content>
   <content contentuid="h56bd8cdag4e64g6c53ga757gdf3238045217" version="1">破壊者</content>
@@ -3863,7 +3863,7 @@
 
 次の大休憩を終えるまで、自身と味方は敏捷力（隠密）と判断力（知覚）判定に+5のボーナスを得る。</content>
   <content contentuid="h86d67657g9bf6g0b50g5e7cg56cc562e49a6" version="1">レベル10：隠された道</content>
-  <content contentuid="h8a84376bg7fbdg24c6g9d95gf3e5c6364f83" version="1">一部のフェイが瞬きする間に空間を移動するために使用する、隠された魔法の経路を利用できる。自身のターンのボーナス・アクションとして、18メートル以内の視認できる空いている場所へ瞬間移動できる。あるいは、アクションを使用して、自身が触れている友好的なクリーチャーを1体、18メートル以内の視認できる空いている場所へ瞬間移動させることができる。
+  <content contentuid="h8a84376bg7fbdg24c6g9d95gf3e5c6364f83" version="1">一部のフェイが瞬きする間に空間を移動するために使用する、隠された魔法の経路を利用できる。自身のターンのボーナス・アクションとして、18メートル以内の視認できる空いている場所へ瞬間移動できる。あるいは、アクションを使用して、自身が触れている任意のクリーチャーを1体、18メートル以内の視認できる空いている場所へ瞬間移動させることができる。
 
 この特徴は判断力修正値に等しい回数（最低1回）使用でき、大休憩を終えると消費したすべての使用回数を回復する。</content>
   <content contentuid="h2871d8a1gc38dg55beg842agaf4d3298bdd3" version="1">サマー・コートの軟膏</content>
@@ -4598,10 +4598,10 @@
   <content contentuid="h6d0dda4egb427g6516gd80egc26058c2e9e9" version="1">自身または近くの味方を回復する。</content>
   <content contentuid="ha40ed69ag0551g5097g5d76g272963c576f1" version="1">攻撃指令（近接）</content>
   <content contentuid="h679b8ed8g5188g6efege018gb74b3c65aafc" version="1">攻撃指令（遠隔）</content>
-  <content contentuid="h9b0cd366gbd09g6961gafeag741567bd7be7" version="1">あなたを見ることができるか、あるいはあなたの声を聞くことができる友好的なクリーチャーを1体選択し、戦技ダイスを1個消費する。そのクリーチャーは即座にリアクションを用いて武器による攻撃を1回行うことができ、命中した場合はその攻撃のダメージ・ロールに戦技ダイスを加算する。</content>
+  <content contentuid="h9b0cd366gbd09g6961gafeag741567bd7be7" version="1">あなたを見ることができるか、あるいはあなたの声を聞くことができる任意のクリーチャーを1体選択し、戦技ダイスを1個消費する。そのクリーチャーは即座にリアクションを用いて武器による攻撃を1回行うことができ、命中した場合はその攻撃のダメージ・ロールに戦技ダイスを加算する。</content>
   <content contentuid="hadc67dd4g058ag4a1ag9cd6g821ef4d45bd6" version="1">攻撃指令の目標</content>
-  <content contentuid="he77dca6bga253g90bcg6925g1a3c785cb127" version="1">あなたを見ることができるか、あるいはあなたの声を聞くことができる友好的なクリーチャーを1体選択し、戦技ダイスを1個消費する。そのクリーチャーは即座にリアクションを用いて武器による攻撃を1回行うことができ、命中した場合はその攻撃のダメージ・ロールに戦技ダイスを加算する。</content>
-  <content contentuid="h06f01e3agcbd9g2520gaaf4g5e982034ef42" version="1">あなたを見ることができるか、あるいはあなたの声を聞くことができる友好的なクリーチャーを1体選択し、戦技ダイスを1個消費する。そのクリーチャーは即座にリアクションを用いて武器による攻撃を1回行うことができ、命中した場合はその攻撃のダメージ・ロールに戦技ダイスを加算する。</content>
+  <content contentuid="he77dca6bga253g90bcg6925g1a3c785cb127" version="1">あなたを見ることができるか、あるいはあなたの声を聞くことができる任意のクリーチャーを1体選択し、戦技ダイスを1個消費する。そのクリーチャーは即座にリアクションを用いて武器による攻撃を1回行うことができ、命中した場合はその攻撃のダメージ・ロールに戦技ダイスを加算する。</content>
+  <content contentuid="h06f01e3agcbd9g2520gaaf4g5e982034ef42" version="1">あなたを見ることができるか、あるいはあなたの声を聞くことができる任意のクリーチャーを1体選択し、戦技ダイスを1個消費する。そのクリーチャーは即座にリアクションを用いて武器による攻撃を1回行うことができ、命中した場合はその攻撃のダメージ・ロールに戦技ダイスを加算する。</content>
   <content contentuid="h1af1fe5bg50e6g268fgff66g9f945c926502" version="1">攻撃指令の目標</content>
   <content contentuid="h71081eb5g3790g2aa9g3de0g457518c610e4" version="1">攻撃指令</content>
   <content contentuid="h9570e7b5gd9ceg5a34g04aagac5235955484" version="1">レベル6：占術の達人</content>
@@ -4628,4 +4628,16 @@
   <content contentuid="h9d3fbbaegc6b1gf48egd8c4gef06e95785f3" version="1">&lt;LSTag Tooltip="ShortRest"&gt;小休憩&lt;/LSTag&gt;を行うたびに、自身の&lt;LSTag Type="Passive" Tooltip="ArcaneWard"&gt;秘術の防壁&lt;/LSTag&gt;は完全に回復する。</content>
   <content contentuid="h4b6ab214gd4f9gba28g0fb5gc087fbca986d" version="1">破壊者：素手攻撃</content>
   <content contentuid="hf9be0a35gce33ga419g1a57gcc67560214a9" version="1">幅跳び</content>
+  <content contentuid="ha04791c7ge8d9ge47cg41f1ga366abc70f0a" version="1">術の持続期間中、目標は自身の各ターンに一度、移動力を3メートル消費して最大9メートルまで飛び上がることができる。さらに、目標の最大ジャンプ距離が3倍になる。</content>
+  <content contentuid="haa0cb759gbb2fg6e12g0a4bgd7393063d2c3" version="1">術の持続期間中、目標は自身の各ターンに一度、移動力を3メートル消費して最大9メートルまで飛び上がることができる。さらに、目標の最大ジャンプ距離が3倍になる。</content>
+  <content contentuid="h4b50165cg7c3dg0c06g4d6cgbbeb1860e49c" version="1">任意のクリーチャー1体に接触する。術の持続期間中、目標は自身の各ターンに一度、移動力を3メートル消費して最大9メートルまで飛び上がることができる。さらに、目標の最大ジャンプ距離が3倍になる。</content>
+  <content contentuid="h2c906325gf33ag8c1cgb681g54b7ac099738" version="1">任意のクリーチャー1体に接触する。術の持続期間中、目標は自身の各ターンに一度、移動力を3メートル消費して最大9メートルまで飛び上がることができる。さらに、目標の最大ジャンプ距離が3倍になる。</content>
+  <content contentuid="h35f37f72g15a5g5604gdb78g977b94b87709" version="1">任意のクリーチャー1体に接触する。術の持続期間中、目標は自身の各ターンに一度、移動力を3メートル消費して最大9メートルまで飛び上がることができる。さらに、目標の最大ジャンプ距離が3倍になる。</content>
+  <content contentuid="ha63bbbd5g91e2g8333gb91ag7753f4337e19" version="1">任意のクリーチャー1体に接触する。術の持続期間中、目標は自身の各ターンに一度、移動力を3メートル消費して最大9メートルまで飛び上がることができる。さらに、目標の最大ジャンプ距離が3倍になる。</content>
+  <content contentuid="h57ee6921g4a34g9c18gedfbg01c62484a2ed" version="1">任意のクリーチャー1体に接触する。術の持続期間中、目標は自身の各ターンに一度、移動力を3メートル消費して最大9メートルまで飛び上がることができる。さらに、目標の最大ジャンプ距離が3倍になる。</content>
+  <content contentuid="ha30a8814gd13dg168cgb242g878fd141f459" version="1">任意のクリーチャー1体に接触する。術の持続期間中、目標は自身の各ターンに一度、移動力を3メートル消費して最大9メートルまで飛び上がることができる。さらに、目標の最大ジャンプ距離が3倍になる。</content>
+  <content contentuid="h7978f94bg37bbgd94fg0344g897bfa2c2b06" version="1">選択した場所にジャンプし、ジャンプした距離に等しい移動力を消費する。</content>
+  <content contentuid="hfa470112gc789g976ag5dcdgab4fa45eb69b" version="1">移動力を3メートル消費して、最大9メートルまで飛び上がる。</content>
+  <content contentuid="hd667caedgdc28gdefdg4285gcd7ef4a63a22" version="1">疾風足：跳躍</content>
+  <content contentuid="he4305daaga010gf583gff81gcaf63ebe3f32" version="1">通常のジャンプ距離の最大2倍まで跳躍する。このジャンプは移動した距離の半分に等しい移動力を消費する。</content>
 </contentList>
