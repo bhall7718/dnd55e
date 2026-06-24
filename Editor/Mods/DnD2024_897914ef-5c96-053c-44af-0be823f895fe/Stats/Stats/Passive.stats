@@ -5554,6 +5554,9 @@
         <field name="Name" type="NameTableFieldDefinition" value="ArcaneWard_Cast_55e" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ef2fc58c-aec6-4a3c-9ad3-f273f939498d" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainTemporaryHitPoints(SpellPowerLevel*2);ApplyStatus(SELF,ARCANE_WARD_55E_RESTORE,100,0)" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnDamaged;OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="HasTemporaryHP();" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ConcentrationIgnoreDamage(Abjuration);ConcentrationIgnoreDamage(Conjuration);ConcentrationIgnoreDamage(Divination);ConcentrationIgnoreDamage(Enchantment);ConcentrationIgnoreDamage(Evocation);ConcentrationIgnoreDamage(Illusion);ConcentrationIgnoreDamage(Necromancy);ConcentrationIgnoreDamage(Transmutation);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
