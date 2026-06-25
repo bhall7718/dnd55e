@@ -514,6 +514,15 @@ data "Boosts" "AC(1);RollBonus(SavingThrow,1);Resistance(All, Resistant);Redirec
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "StatusEffect" "eab76c6a-a5a7-445b-8430-bfce0e7bb5ea"
 
+new entry "ELMINSTERS_ELUSION"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hb659d87bg7ae8g6489g2b3ege4e114b8699e;1"
+data "Description" "h9f0fa794gdfc2ge2f8gcf06g046d97ef0b1d;1"
+data "Icon" "ElminstersElusion"
+data "StackId" "ELMINSTERS_ELUSION"
+data "Boosts" "SpellResistance(Resistant);IF(HasSpellFlag(SpellFlags.Spell)):Advantage(AllSavingThrows);"
+
 new entry "AURA_OF_VITALITY_AURA"
 type "StatusData"
 data "StatusType" "BOOST"
