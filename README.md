@@ -157,3 +157,7 @@ See [Credits](./README/README_Credits.MD) for full attribution.
 - **Korean / Japanese Translation**: [Eolaloe](https://www.nexusmods.com/profile/Eolaloe)
 - **Spanish / Latin Spanish Translation**: [incolhermex-droid](https://github.com/incolhermex-droid)
 - **Item Models**: [skirbie](https://mod.io/g/baldursgate3/u/skirbie)
+
+## Legal
+
+DnD 5.5e All-in-One BEYOND is unofficial Fan Content permitted under the [Fan Content Policy](https://company.wizards.com/en/legal/fancontentpolicy). Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.

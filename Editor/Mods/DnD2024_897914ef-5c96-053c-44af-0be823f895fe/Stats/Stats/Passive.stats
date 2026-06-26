@@ -1505,6 +1505,16 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="57e5f417-c4c6-4f75-8ab9-1148501856db" />
+        <field name="Name" type="NameTableFieldDefinition" value="Reaper" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d3ea4752-eb2a-4c8a-9e54-4238898e8b87" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h39139aafg7efag9037g4297g47b92c38caf8" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3103" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Target_ChillTouch'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Target_TollTheDead'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Projectile_PoisonSpray'),ModifyNumberOfTargets(AdditiveBase,1,false));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="91edef7e-60ad-45e2-b79c-a6987dd8abe6" />
         <field name="Name" type="NameTableFieldDefinition" value="WardingFlare" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h39b48f39g9a41g2ba3g3567g7ab1cb265f82" version="1" />
@@ -3541,7 +3551,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h306c6ef1gb334gc9d9g3199g2f6fed258ca6" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_HuntersMark" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8001" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnCombatStarted;OnCreate;OnTurn" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasActionResource('FavoredEnemy',1,0,false,false,context.Source)):UnlockSpellVariant(HuntersMark(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,FavoredEnemy,1,0));" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h0707320dgdc67g5261gca84g8c7ba39b2add" version="1" />
@@ -3855,7 +3865,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,WisdomModifier,Constitution);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAttack() and HasStatus('BLOODED',context.Source) and HasStatus('WRATH_OF_THE_WILD',context.Source);" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,HUNGERING_MIGHT,100,-1)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,HUNGERING_MIGHT,100,0)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -143,3 +143,7 @@ Spell scrolls of 3rd level or higher are restricted to specific classes.
 [*][b]Spanish / Latin Spanish Translation:[/b] [url=https://github.com/incolhermex-droid]incolhermex-droid[/url]
 [*][b]Item Models:[/b] [url=https://mod.io/g/baldursgate3/u/skirbie]skirbie[/url]
 [/list]
+
+[size=5][b]Legal[/b][/size]
+
+DnD 5.5e All-in-One BEYOND is unofficial Fan Content permitted under the [url=https://company.wizards.com/en/legal/fancontentpolicy]Fan Content Policy[/url]. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.

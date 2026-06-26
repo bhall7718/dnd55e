@@ -3417,12 +3417,10 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5d295166ga39bg4056gc6afg3170dfffabae" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="HollowWarden_3_WrathOfTheWild" />
         <field name="StackId" type="StringTableFieldDefinition" value="HUNGERING_MIGHT" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(1d10+WisdomModifier);" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
-        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(1d10+WisdomModifier);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -1928,6 +1928,7 @@
         <field name="Cost" type="StringTableFieldDefinition" value="Goliath:1;" />
         <field name="EnableCondition" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="EnableContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Self(context.Source,context.Observer) and not Self() and IsWeaponAttack() and not IsCritical() and not IsKillingBlow() and IsHit() and Character() and not AnyEntityIsItem();" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
