@@ -3541,7 +3541,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h306c6ef1gb334gc9d9g3199g2f6fed258ca6" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_HuntersMark" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8001" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnCombatStarted;OnCreate;OnTurn" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasActionResource('FavoredEnemy',1,0,false,false,context.Source)):UnlockSpellVariant(HuntersMark(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,FavoredEnemy,1,0));" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h0707320dgdc67g5261gca84g8c7ba39b2add" version="1" />
@@ -3855,7 +3855,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,WisdomModifier,Constitution);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAttack() and HasStatus('BLOODED',context.Source) and HasStatus('WRATH_OF_THE_WILD',context.Source);" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,HUNGERING_MIGHT,100,-1)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,HUNGERING_MIGHT,100,0)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
