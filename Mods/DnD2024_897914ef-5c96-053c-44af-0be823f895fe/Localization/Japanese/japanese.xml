@@ -4646,4 +4646,17 @@
   <content contentuid="hb659d87bg7ae8g6489g2b3ege4e114b8699e" version="1">エルミンスターの逃避</content>
   <content contentuid="h9f0fa794gdfc2ge2f8gcf06g046d97ef0b1d" version="1">効果時間中、秘術の防壁が呪文から自身を保護する。呪文および魔法効果に対するセーヴィング・スローに有利を得て、さらに呪文によるダメージに対する抵抗を得る。</content>
   <content contentuid="h39139aafg7efag9037g4297g47b92c38caf8" version="1">レベル3：命を刈り取る者</content>
+  <content contentuid="hef1552acg9a55g7c16ge056g056772bcc3ec" version="1">スペルファイアーの閃光</content>
+  <content contentuid="hcfd88999g4267g263ag85aag89c1108ee65c" version="2">鮮烈な炎の爆発を放つ。射程内の目標に対して遠隔呪文攻撃を行う。命中した場合、目標は光輝ダメージを受ける。</content>
+  <content contentuid="hf91f3fe6gf176g015fg2e8bg8d7e113fb2e5" version="1">スペルファイアーの嵐</content>
+  <content contentuid="hc68e827eg501cgbab0ga48egb7055d764e5b" version="2">射程内の地点を中心とした半径6メートル、高さ6メートルの円柱状の範囲に、スペルファイアーの柱を呼び出す。円柱の範囲内は明るい光で満たされ、出現時にその中にいる各クリーチャーは耐久力セーヴィング・スローを行い、セーヴに失敗すると4d10の光輝ダメージを受け、成功すると半分のダメージのみを受ける。クリーチャーは、1ターンの間に初めて呪文の範囲に入った際、またはその場所でターンを終了した際にも、このセーヴを行う。クリーチャーがこのセーヴを行うのは1ターンに一度だけである。
+
+さらに、円柱内のクリーチャーが呪文を唱えるたびに、そのクリーチャーは耐久力セーヴィング・スローを行う。セーヴに失敗した場合、呪文は効果を発揮せずに消滅し、その詠唱に使用したアクション、ボーナス・アクション、あるいはリアクションは無駄になる。
+
+この呪文を唱える際、自身の任意でこの効果を受けないクリーチャーを指定することができる。</content>
+  <content contentuid="h563db1bag0ff4gf88bgaa5dg36f6eab08bb4" version="1">スペルファイアーの嵐</content>
+  <content contentuid="hd62f5a63g6062g55cfg4eb3g09082565784c" version="1">円柱内のクリーチャーが呪文を唱えるたびに、そのクリーチャーは耐久力セーヴィング・スローを行う。セーヴに失敗した場合、呪文は効果を発揮せずに消滅し、その詠唱に使用したアクション、ボーナス・アクション、あるいはリアクションは無駄になる。</content>
+  <content contentuid="hf91e618bg7cfcg3668g95bbg4b7e8eb659d9" version="2">スペルファイアーの嵐：呪文撹乱</content>
+  <content contentuid="h150cb7degdc6bg252agb2cag7b6c5033e87d" version="1">円柱内のクリーチャーが呪文を唱えるたびに、そのクリーチャーは耐久力セーヴィング・スローを行う。セーヴに失敗した場合、呪文は効果を発揮せずに消滅し、その詠唱に使用したアクション、ボーナス・アクション、あるいはリアクションは無駄になる。</content>
+  <content contentuid="h2d7fc4afgebcbg804ag8764g1902de76e587" version="1">スペルファイアーの嵐：光輝ダメージ</content>
 </contentList>

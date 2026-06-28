@@ -4647,4 +4647,17 @@
   <content contentuid="hb659d87bg7ae8g6489g2b3ege4e114b8699e" version="1">엘민스터의 도피</content>
   <content contentuid="h9f0fa794gdfc2ge2f8gcf06g046d97ef0b1d" version="1">지속시간 동안 비전 결계가 마법으로부터 당신을 보호합니다. 주문 및 마법 효과에 대항하는 내성 굴림에 유리 보정을 받습니다. 추가로 주문으로 입는 피해에 저항을 가집니다.</content>
   <content contentuid="h39139aafg7efag9037g4297g47b92c38caf8" version="1">3레벨: 수확자</content>
+  <content contentuid="hef1552acg9a55g7c16ge056g056772bcc3ec" version="1">주문불꽃 섬광</content>
+  <content contentuid="hcfd88999g4267g263ag85aag89c1108ee65c" version="2">당신은 찬란한 불꽃의 파동을 발산합니다. 사거리 내의 대상을 상대로 원거리 주문 공격을 가합니다. 적중 시 대상은 광휘 피해를 입습니다.</content>
+  <content contentuid="hf91f3fe6gf176g015fg2e8bg8d7e113fb2e5" version="1">주문불꽃 폭풍</content>
+  <content contentuid="hc68e827eg501cgbab0ga48egb7055d764e5b" version="2">당신은 사정거리 내의 한 지점을 중심으로 반경 6m, 높이 6m의 원기둥 범위에 주문불꽃의 기둥을 소환합니다. 원기둥의 구역은 밝은 빛으로 가득 차며, 원기둥이 나타날 때 그 안에 있는 각 크리처는 건강 내성 굴림을 수행하여 실패 시 4d10의 광휘 피해를 입고, 성공 시 절반의 피해만 입습니다. 크리처가 한 턴에 처음으로 주문의 구역에 진입하거나 그곳에서 턴을 종료할 때도 이 내성 굴림을 수행해야 합니다. 크리처는 턴당 한 번만 이 내성 굴림을 수행합니다.
+
+또한 원기둥 범위 내의 크리처가 주문을 시전할 때마다, 해당 크리처는 건강 내성 굴림을 수행해야 합니다. 내성 굴림 실패 시 주문은 아무런 효과 없이 소멸하며, 주문 시전에 소모된 행동, 보조 행동 또는 대응은 무효화됩니다.
+
+이 주문을 시전할 때, 당신은 주문의 영향을 받지 않을 크리처들을 지정할 수 있습니다.</content>
+  <content contentuid="h563db1bag0ff4gf88bgaa5dg36f6eab08bb4" version="1">주문불꽃 폭풍</content>
+  <content contentuid="hd62f5a63g6062g55cfg4eb3g09082565784c" version="1">원기둥 범위 내의 크리처가 주문을 시전할 때마다, 해당 크리처는 건강 내성 굴림을 수행해야 합니다. 내성 굴림 실패 시 주문은 아무런 효과 없이 소멸하며, 주문 시전에 소모된 행동, 보조 행동 또는 대응은 무효화됩니다.</content>
+  <content contentuid="hf91e618bg7cfcg3668g95bbg4b7e8eb659d9" version="2">주문불꽃 폭풍: 주문 교란</content>
+  <content contentuid="h150cb7degdc6bg252agb2cag7b6c5033e87d" version="1">원기둥 범위 내의 크리처가 주문을 시전할 때마다, 해당 크리처는 건강 내성 굴림을 수행해야 합니다. 내성 굴림 실패 시 주문은 아무런 효과 없이 소멸하며, 주문 시전에 소모된 행동, 보조 행동 또는 대응은 무효화됩니다.</content>
+  <content contentuid="h2d7fc4afgebcbg804ag8764g1902de76e587" version="1">주문불꽃 폭풍: 광휘 피해</content>
 </contentList>
