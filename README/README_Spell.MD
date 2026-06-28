@@ -2,6 +2,8 @@
 ## Cantrip
 - Acid Splash
 - Blade Ward
+- Booming Blade
+- Bursting Sinew
 - Chill Touch
 - Eldritch Blast
 - Finger Guns
@@ -17,7 +19,9 @@
 - Starry Wisp
 - Sword Burst
 - Thunderclap
+- Toll the Dead
 - True Strike
+- Vengeful Blade
 - Vicious Mockery
 - Word of Radiance
 ## Level 1
@@ -43,6 +47,7 @@
 - Sleep
 - Spellfire Flare
 - Tasha's Hideous Laughter
+- Witch Bolt
 - Wrathful Smite
 ## Level 2
 - Aid
