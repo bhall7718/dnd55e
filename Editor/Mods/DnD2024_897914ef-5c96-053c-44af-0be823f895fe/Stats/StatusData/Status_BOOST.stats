@@ -1012,6 +1012,7 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(ReactionActionPoint);ActionResource(Movement,-3,0);" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="c15c513d-b7df-43c9-b35d-b3e73b5c51b7" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_HolyWord" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

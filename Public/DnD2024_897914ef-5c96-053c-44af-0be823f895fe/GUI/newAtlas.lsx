@@ -957,6 +957,20 @@
                     <attribute id="V2" type="float" value="0.03112793"/>
                 </node>
                 <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_FrightfulStart"/>
+                    <attribute id="U1" type="float" value="0.48449707"/>
+                    <attribute id="U2" type="float" value="0.49987793"/>
+                    <attribute id="V1" type="float" value="0.03137207"/>
+                    <attribute id="V2" type="float" value="0.04675293"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_HolyWord"/>
+                    <attribute id="U1" type="float" value="0.46887207"/>
+                    <attribute id="U2" type="float" value="0.48425293"/>
+                    <attribute id="V1" type="float" value="0.03137207"/>
+                    <attribute id="V2" type="float" value="0.04675293"/>
+                </node>
+                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Spell_Illusion_PhantomSteed"/>
                     <attribute id="U1" type="float" value="0.18762207"/>
                     <attribute id="U2" type="float" value="0.20300293"/>

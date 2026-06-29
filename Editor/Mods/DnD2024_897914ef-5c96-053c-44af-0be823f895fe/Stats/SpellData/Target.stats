@@ -2922,6 +2922,7 @@
         <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="7a20894a-09a9-45f2-9b9e-c2a824adaad4" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Radiant" enumeration_type_name="Damage Type" version="1" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_HolyWord" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3916,6 +3917,7 @@
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Psychic" enumeration_type_name="HitAnimationType" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="752219e2-351d-46ea-9448-3a714b3d3acc" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a5ca92c-005d-4d53-97a1-49391977c947" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_FrightfulStart" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
