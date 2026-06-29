@@ -10,6 +10,7 @@
 - Frightful Start
 - Green-Flame Blade
 - Hellfire
+- Holy Word
 - Mind Sliver
 - Poison Spray
 - Prestidigitation

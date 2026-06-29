@@ -4664,4 +4664,8 @@ When you cast this spell, you can designate creatures to be unaffected by it.</c
   <content contentuid="h2d7fc4afgebcbg804ag8764g1902de76e587" version="1">Spellfire Storm: Radiant Damage</content>
   <content contentuid="h5acbb969gf7e6g885egf07ag2ca3bb42d3a7" version="1">Frightful Start</content>
   <content contentuid="h834e8d02gd8f9g2e05ge709gc3ecb8d0d3da" version="1">You twist your visage to scare a creature that you can see within range. The creature must succeed on a Wisdom saving throw or have the Frightened condition until the start of your next turn.</content>
+  <content contentuid="hbca64bf4ga835g10c5gba60g0c68950c7135" version="1">Holy Word</content>
+  <content contentuid="h8caea2f7gd7feg90a5gc318g2cfb95c6f90b" version="1">You whisper a divine word under your breath, careful not to speak loudly, for such celestial power isn’t for the unworthy. Make a ranged spell attack against a target within range. On a hit, the target takes Radiant damage. If the target is a Fey, Fiend, or an Undead, its Speed is reduced by 10 feet and it can’t take Reactions until the end of its next turn.</content>
+  <content contentuid="h2a918193g01a1gcd83gf729g2e88e3223327" version="1">Holy Word</content>
+  <content contentuid="h4fb83fe3g593ag7f0cg6424g2a7ebbb50df8" version="1">If the target is a Fey, Fiend, or an Undead, its Speed is reduced by 10 feet and it can’t take Reactions until the end of its next turn.</content>
 </contentList>

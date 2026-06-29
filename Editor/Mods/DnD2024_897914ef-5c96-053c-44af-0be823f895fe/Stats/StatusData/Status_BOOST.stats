@@ -1004,6 +1004,18 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9608b4b5-e9d7-48bc-bcc3-840743af38ed" />
+        <field name="Name" type="NameTableFieldDefinition" value="HOLYWORD" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2a918193g01a1gcd83gf729g2e88e3223327" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4fb83fe3g593ag7f0cg6424g2a7ebbb50df8" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="HOLYWORD" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(ReactionActionPoint);ActionResource(Movement,-3,0);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="c15c513d-b7df-43c9-b35d-b3e73b5c51b7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="add62e97-efb6-4b38-b30a-05d4abcfc69d" />
         <field name="Name" type="NameTableFieldDefinition" value="STARRY_WISP" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6d4e8665g6567g3bc4gd9f1g206db8efad20" version="1" />

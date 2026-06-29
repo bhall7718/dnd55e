@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <save>
     <version major="4" minor="8" revision="0" build="500"/>
     <region id="SpellLists">
@@ -210,13 +210,13 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Cleric Cantrip List"/>
-                    <attribute id="Spells" type="LSString" value="Target_BurstingSinew;Target_Guidance;Target_Light;Target_Resistance;Target_SacredFlame;Target_SpareTheDying;Shout_Thaumaturgy;Target_TollTheDead;Shout_WordOfRadiance"/>
+                    <attribute id="Spells" type="LSString" value="Target_BurstingSinew;Target_Guidance;Target_HolyWord;Target_Light;Target_Resistance;Target_SacredFlame;Target_SpareTheDying;Shout_Thaumaturgy;Target_TollTheDead;Shout_WordOfRadiance"/>
                     <attribute id="UUID" type="guid" value="2f43a103-5bf1-4534-b14f-663decc0c525"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe"/>
                     <attribute id="Name" type="FixedString" value="5.5 Cleric Cantrip List to Bard"/>
-                    <attribute id="Spells" type="LSString" value="Target_BurstingSinew;Target_Guidance;Target_Light;Target_Resistance;Target_SacredFlame;Target_SpareTheDying;Shout_Thaumaturgy;Target_TollTheDead;Shout_WordOfRadiance"/>
+                    <attribute id="Spells" type="LSString" value="Target_BurstingSinew;Target_Guidance;Target_HolyWord;Target_Light;Target_Resistance;Target_SacredFlame;Target_SpareTheDying;Shout_Thaumaturgy;Target_TollTheDead;Shout_WordOfRadiance"/>
                     <attribute id="UUID" type="guid" value="2995e1b6-f2d9-470c-b920-48d19b7f6488"/>
                 </node>
                 <node id="SpellList">
