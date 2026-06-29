@@ -4806,6 +4806,13 @@ using "MAGICINITIATE_ACIDSPLASH"
 data "StackId" "MAGICINITIATE_THUNDERWAVE"
 data "Boosts" "UnlockSpell(Zone_Thunderwave,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);"
 
+new entry "MAGICINITIATE_WARDAWAY"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAGICINITIATE_ACIDSPLASH"
+data "StackId" "MAGICINITIATE_WARDAWAY"
+data "Boosts" "UnlockSpell(Projectile_Wardaway,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);"
+
 new entry "MAGICINITIATE_WITCHBOLT"
 type "StatusData"
 data "StatusType" "BOOST"

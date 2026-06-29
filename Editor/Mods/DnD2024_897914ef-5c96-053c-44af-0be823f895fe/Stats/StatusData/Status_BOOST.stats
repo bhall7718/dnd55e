@@ -5985,6 +5985,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d2079438-38ed-47cc-8eb8-368aeea53ea2" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_WARDAWAY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_WARDAWAY" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Wardaway,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6a46a62c-3058-49fc-a4d6-4c2be315a384" />
         <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_WITCHBOLT" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />

@@ -356,6 +356,17 @@ OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected 
 ApplyStatus(_Player, "MAGICINITIATE_THUNDERWAVE", -1.0, 1, _Player);
 
 IF
+CastedSpell((CHARACTER)_Player,"Projectile_Wardaway",_,_,_)
+AND
+HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+THEN
+ApplyStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_END", -1.0, 1, _Player);
+OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected spell.");
+ApplyStatus(_Player, "MAGICINITIATE_WARDAWAY", -1.0, 1, _Player);
+
+IF
 CastedSpell((CHARACTER)_Player,"Projectile_WitchBolt",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
