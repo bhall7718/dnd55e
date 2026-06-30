@@ -6586,6 +6586,41 @@
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="ef1cdb0d-28ae-4989-b8b8-09438f749a00" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e59be1d0-1698-4049-a9d4-43768f64ce56" />
+        <field name="Name" type="NameTableFieldDefinition" value="__SHADOW DOMAIN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f47f1783-bf93-4910-8977-874073958849" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShadowGrasp" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SHADOW_GRASP,100,2);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Cleric_ShadowGrasp" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h40671bc4g4e10g2c2egd92cg6a9ae5dc8595" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7630efebgc128g1a88g3056g3cd8dbd6ce14" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SHADOW_GRASP,100,2);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Necrotic_Gen_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Necrotic_Gen_L1to3_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Buff_BlessingOfTheTrickster_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Buff_BlessingOfTheTrickster_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_DamageNecroticGhostly" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;ChannelDivinity:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="2f0d97b9-4a1f-4bf3-a3c2-32efb563d601,,;,,;c68de38d-3ebd-4a2a-80ef-e37ad021832b,,;5350912d-0215-43f4-b6be-89fc53d4f06d,,;57e449b3-b712-4508-afcf-f2e91dc473f6,,;,,;84f3727f-aabc-4e34-bf31-c6cd0160bec9,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Control" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Internal" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="81e31dc6-3014-49c5-95a5-fe6473c1163b" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="c1ae2a9b-9fb0-4f1b-aa4e-dc6f2456b2b2" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="b3b84171-9c99-44d7-98da-f0a1b2d1e206" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a0751ec9-cebe-43fc-a45c-c7e3eb09e01d" />

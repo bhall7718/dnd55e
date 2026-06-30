@@ -4694,4 +4694,22 @@ When you cast this spell, you can designate creatures to be unaffected by it.</c
   <content contentuid="h241ed709g7588g2cc5g9cd2gbc1ec16c5753" version="1">Attacks made by the invoked weapon deal an extra 1d8 Fire damage on a hit.</content>
   <content contentuid="h06dbb138g6afagfebbg9a03gd5d229bb475e" version="1">Dazing Blast</content>
   <content contentuid="h36e08fceg5a47gf889gc415g5a67ba284ba1" version="1">A wave of force leaves your palms, targeting a creature within range. The target makes a Constitution saving throw. On a failed save, the creature takes 2d6 Force damage and has the Stunned condition until the end of its next turn. On a successful save, the creature takes the damage only.</content>
+  <content contentuid="h1064bb85gee8cg09fbge5ebg6e90aa761e30" version="1">Shadow Domain</content>
+  <content contentuid="h904f48b3g5c0bg6e25g75bcg2b014d46c23f" version="1">Shadow Domain</content>
+  <content contentuid="h034102c0gf054g2c35ga023g5f4e2e8fbffd" version="1">The Shadow domain embraces the darkness that surrounds all things and manipulates the transitory gray that separates light from dark. Shadow domain clerics walk a subtle path, frequently changing allegiances and preferring to operate unseen.</content>
+  <content contentuid="h52d0bda6g4b49g2a89gf69bg489e840efe5a" version="1">Level 3: Cover of Night</content>
+  <content contentuid="h5aa5a2a8gba10g31e1gabfeg038d2569ac84" version="1">You gain proficiency in the Stealth skill and darkvision. In addition, you can use a bonus action to Hide.</content>
+  <content contentuid="hb2f444e4g0325g881ag13bcgf25bad34406e" version="1">Level 3: Lengthen Shadow</content>
+  <content contentuid="h69f399c6g8e60g3971g78a2gebd2397144ff" version="1">You can manipulate your own shadow to extend your reach. When you cast a cleric spell with a range of touch, your shadow can deliver the spell as if you had cast the spell. Your target must be within 15 feet of you, and you must be able to see the target. You can use this feature even if you are in an area where you cast no shadow.</content>
+  <content contentuid="hb5ac88b0ga681g79ebg1b09g63b221dbec59" version="1">Level 3: Shadow Grasp</content>
+  <content contentuid="hbcbd58e8g49cfg974bg8aabgdc71760d819a" version="1">You can use your Channel Divinity to turn a creature’s shadow against them. As an action, choose one creature that you can see within 30 feet of you. It is restrained by its shadow until the end of your next turn. You can use this feature even if the target is in an area where it casts no shadow.</content>
+  <content contentuid="hc2dd73deg615cg8bd1g4aeagcf05e9e5d0ff" version="1">Level 6: Fade to Black</content>
+  <content contentuid="hc80832b3gccecg3c55ge08fgc2a067adc4af" version="1">As a bonus action, you can magically become invisible for 1 minute. You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest.</content>
+  <content contentuid="hda876b8bgf832g00b4g56d9g44e1bd90c465" version="1">Hide</content>
+  <content contentuid="h2748c4afgb7c1g935dg46f9g95303ee42d02" version="1">Shadow Grasp</content>
+  <content contentuid="h40671bc4g4e10g2c2egd92cg6a9ae5dc8595" version="1">Shadow Grasp</content>
+  <content contentuid="h7630efebgc128g1a88g3056g3cd8dbd6ce14" version="1">You can use your Channel Divinity to turn a creature’s shadow against them. As an action, choose one creature that you can see within 30 feet of you. It is restrained by its shadow until the end of your next turn. You can use this feature even if the target is in an area where it casts no shadow.</content>
+  <content contentuid="h1d580cb5gc915g8f13g3f12g57d46d07e991" version="2">Fade to Black</content>
+  <content contentuid="h0e8b7698gbb37g834bge366g5db24efbb56c" version="1">As a bonus action, you can magically become invisible for 1 minute.</content>
+  <content contentuid="h7eca827eg60a1g2e15ga615g5750ad9f5621" version="1">Fade to Black</content>
 </contentList>
