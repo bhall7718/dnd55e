@@ -118,12 +118,12 @@ See [Spell](./README/README_Spell.MD).
 
 ### Cantrips
 
-Acid Splash, Blade Ward, Chill Touch, Eldritch Blast, Finger Guns, Green-Flame Blade, Hellfire, Mind Sliver, Poison Spray, Prestidigitation, Resistance, Shillelagh, Sorcerous Burst, Spare the Dying, Starry Wisp, Sword Burst, Thunderclap, True Strike, Vicious Mockery, Word of Radiance.
+Acid Splash, Blade Ward, Chill Touch, Eldritch Blast, Finger Guns, Frightful Start, Green-Flame Blade, Hellfire, Mind Sliver, Poison Spray, Prestidigitation, Resistance, Shillelagh, Sorcerous Burst, Spare the Dying, Starry Wisp, Sword Burst, Thunderclap, True Strike, Vicious Mockery, Word of Radiance.
 
 ### Leveled Spells
 
-- Level 1: Armor of Agathys, Chromatic Orb, Color Spray, Cure Wounds, Divine Favor, Divine Smite, Entangle, Feather Fall, Guiding Bolt, Healing Word, Hell's Lash, Hex, Hunter's Mark, Inflict Wounds, Jump, Longstrider, Magic Missile, Ray of Sickness, Searing Smite, Sleep, Tasha's Hideous Laughter, Wrathful Smite.
-- Level 2: Aid, Arcane Vigor, Blindness, Cloud of Daggers, Crown of Madness, Darkness, Find Steed, Flame Blade, Gust of Wind, Lesser Restoration, Magic Weapon, Melf's Acid Arrow, Mind Spike, Misty Step, Prayer of Healing, Ray of Enfeeblement, Shadow Blade, Snilloc's Snowball Swarm, Spiritual Weapon, Summon Beast, Tasha's Mind Whip, Warding Bond.
+- Level 1: Armor of Agathys, Chromatic Orb, Cloak of Shadow, Color Spray, Cure Wounds, Divine Favor, Divine Smite, Entangle, Feather Fall, Guiding Bolt, Healing Word, Hell's Lash, Hex, Hunter's Mark, Inflict Wounds, Jump, Longstrider, Magic Missile, Ray of Sickness, Searing Smite, Sleep, Tasha's Hideous Laughter, Wardaway, Wrathful Smite.
+- Level 2: Aganazzar's Scorcher, Aid, Arcane Vigor, Blindness, Cloud of Daggers, Crown of Madness, Darkbolt, Darkness, Dazing Blast, Death Armor, Find Steed, Fire Rune, Flame Blade, Gust of Wind, Lesser Restoration, Magic Weapon, Melf's Acid Arrow, Mind Spike, Misty Step, Prayer of Healing, Ray of Enfeeblement, Shadow Blade, Snilloc's Snowball Swarm, Spiritual Weapon, Summon Beast, Tasha's Mind Whip, Warding Bond.
 - Level 3: Astral Flood, Aura of Vitality, Bestow Curse, Blink, Conjure Barrage, Crusader's Mantle, Fear, Lightning Arrow, Mass Healing Word, Phantom Steed, Summon Fey.
 - Level 4: Banishment, Confusion, Dominate Beast, Fount of Moonlight, Ice Storm, Otiluke's Resilient Sphere, Phantasmal Killer, Polymorph, Stoneskin, Vitriolic Sphere.
 - Level 5: Cone of Cold, Contagion, Danse Macabre, Dominate Person, Hold Monster, Insect Plague, Mass Cure Wounds, Steel Wind Strike, Synaptic Static.
@@ -156,7 +156,9 @@ See [Credits](./README/README_Credits.MD) for full attribution.
 
 - **Korean / Japanese Translation**: [Eolaloe](https://www.nexusmods.com/profile/Eolaloe)
 - **Spanish / Latin Spanish Translation**: [incolhermex-droid](https://github.com/incolhermex-droid)
-- **Item Models**: [skirbie](https://mod.io/g/baldursgate3/u/skirbie)
+- **French Translation**: CyberBoloss
+- **Brazilian Portuguese Translation**: [ShadowAhJin](https://mod.io/u/shadowahjin)
+- **Item Models**: [skirbie](https://mod.io/g/baldursgate3/u/skirbie) ([Viper Carbine Steampunk Rifle Gun](https://mod.io/g/baldursgate3/m/viper-carbine-steampunk-rifle-gun), [Hand Cannon Gunslinger Weapon](https://mod.io/g/baldursgate3/m/hand-cannon-gunslinger-weapon))
 
 ## Legal
 

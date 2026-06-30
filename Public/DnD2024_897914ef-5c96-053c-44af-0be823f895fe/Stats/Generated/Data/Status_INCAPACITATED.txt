@@ -8,3 +8,8 @@ data "Boosts" "AbilityFailedSavingThrow(Strength);AbilityFailedSavingThrow(Dexte
 data "TickFunctors" "IF(SavingThrow(Ability.Wisdom, SourceSpellDC())):RemoveStatus(SLEEP)"
 data "StatusPropertyFlags" "InitiateCombat;OverheadOnTurn;TickingWithSource"
 
+new entry "STUN_DAZING_BLAST"
+type "StatusData"
+data "StatusType" "INCAPACITATED"
+using "STUNNED"
+

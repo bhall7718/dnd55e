@@ -13,5 +13,12 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd31e4d13g939ag101eg9e56g93956331fc9c" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="45727491-adee-4f58-bd50-84969e1345fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="STUN_DAZING_BLAST" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="960dad73-5352-431a-a15e-1b62b1816cd0" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -4652,7 +4652,7 @@ Whenever you cast an Abjuration spell with a spell slot, the ward regains a numb
   <content contentuid="hef1552acg9a55g7c16ge056g056772bcc3ec" version="1">Spellfire Flare</content>
   <content contentuid="hcfd88999g4267g263ag85aag89c1108ee65c" version="2">You unleash a blast of brilliant fire. Make a ranged spell attack against a target within range. On a hit, the target takes Radiant damage.</content>
   <content contentuid="hf91f3fe6gf176g015fg2e8bg8d7e113fb2e5" version="1">Spellfire Storm</content>
-  <content contentuid="hc68e827eg501cgbab0ga48egb7055d764e5b" version="2">You conjure a pillar of spellfire in a 20-foot-radius, 20-foot-high Cylinder centered on a point within range. The area of the Cylinder is Bright Light, and each creature in it when it appears makes a Constitution saving throw, taking 4d10 Radiant damage on a failed save or half as much damage on a successful one. A creature also makes this save when it enters the spell’s area for the first time on a turn or ends its turn there. A creature makes this save only once per turn.
+  <content contentuid="hc68e827eg501cgbab0ga48egb7055d764e5b" version="3">You conjure a pillar of spellfire in a 20-foot-radius, 20-foot-high Cylinder centered on a point within range. The area of the Cylinder is Bright Light, and each creature in it when it appears makes a Constitution saving throw, taking Radiant damage on a failed save or half as much damage on a successful one. A creature also makes this save when it enters the spell’s area for the first time on a turn or ends its turn there. A creature makes this save only once per turn.
 
 In addition, whenever a creature in the Cylinder casts a spell, that creature makes a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted.
 
@@ -4662,4 +4662,36 @@ When you cast this spell, you can designate creatures to be unaffected by it.</c
   <content contentuid="hf91e618bg7cfcg3668g95bbg4b7e8eb659d9" version="2">Spellfire Storm: Spell Disruption</content>
   <content contentuid="h150cb7degdc6bg252agb2cag7b6c5033e87d" version="1">Whenever a creature in the Cylinder casts a spell, that creature makes a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted.</content>
   <content contentuid="h2d7fc4afgebcbg804ag8764g1902de76e587" version="1">Spellfire Storm: Radiant Damage</content>
+  <content contentuid="h5acbb969gf7e6g885egf07ag2ca3bb42d3a7" version="1">Frightful Start</content>
+  <content contentuid="h834e8d02gd8f9g2e05ge709gc3ecb8d0d3da" version="1">You twist your visage to scare a creature that you can see within range. The creature must succeed on a Wisdom saving throw or have the Frightened condition until the start of your next turn.</content>
+  <content contentuid="hbca64bf4ga835g10c5gba60g0c68950c7135" version="1">Holy Word</content>
+  <content contentuid="h8caea2f7gd7feg90a5gc318g2cfb95c6f90b" version="1">You whisper a divine word under your breath, careful not to speak loudly, for such celestial power isn’t for the unworthy. Make a ranged spell attack against a target within range. On a hit, the target takes Radiant damage. If the target is a Fey, Fiend, or an Undead, its Speed is reduced by 10 feet and it can’t take Reactions until the end of its next turn.</content>
+  <content contentuid="h2a918193g01a1gcd83gf729g2e88e3223327" version="1">Holy Word</content>
+  <content contentuid="h4fb83fe3g593ag7f0cg6424g2a7ebbb50df8" version="1">If the target is a Fey, Fiend, or an Undead, its Speed is reduced by 10 feet and it can’t take Reactions until the end of its next turn.</content>
+  <content contentuid="he2351ff1gc2fegeb0ag256cg5f2fee7ff699" version="1">Darkbolt</content>
+  <content contentuid="h50f91c1cgccffgefd8g17f1g12dfc280157d" version="1">You utter a quick invocation to create a black nimbus around your hand, then hurl three rays of darkness at one or more targets in range. The rays can be divided between targets however you like. Make a ranged spell attack for each target (not each ray); each ray that hits deals 1d10 cold damage. A target that was hit by one or more rays must make a successful Constitution saving throw or be unable to use reactions until the start of its next turn.</content>
+  <content contentuid="h1e313479g10bdg79f6gcd1eg8ea0fd340038" version="1">Darkbolt</content>
+  <content contentuid="h64c3d662g403agbd6dgc831g665675b5f32a" version="1">Unable to use reactions</content>
+  <content contentuid="h47e9e8edg7b15gb388g44c7ge5b71376dbe8" version="1">Death Armor</content>
+  <content contentuid="h9bba05a0ga2fag0a19gfc1egb6a0b1880e7a" version="1">For the duration, an inky aura surrounds one creature you touch. The target has Advantage on Death Saving Throws, and once per turn, when a creature within 5 feet of the target hits it with a melee attack roll, the attacker takes 2d4 Necrotic damage.</content>
+  <content contentuid="hb2037ed3g9376ge28egdf30gb396e5836806" version="1">Death Armor</content>
+  <content contentuid="h9c70dde9ga77cgb33fgf511g497c918b7702" version="1">For the duration, an inky aura surrounds one creature you touch. The target has Advantage on Death Saving Throws, and once per turn, when a creature within 5 feet of the target hits it with a melee attack roll, the attacker takes 2d4 Necrotic damage.</content>
+  <content contentuid="h0e05ff53ge761gd35cg2778g68647c918731" version="1">Death Armor</content>
+  <content contentuid="hd20da03ag764eg50f6g5b4dga5c0e396f838" version="1">For the duration, an inky aura surrounds one creature you touch. The target has Advantage on Death Saving Throws, and once per turn, when a creature within 5 feet of the target hits it with a melee attack roll, the attacker takes 2d4 Necrotic damage.</content>
+  <content contentuid="h8f9cfbbcgaa6dgc17bg2d8fg66589650eeb4" version="1">Wardaway</content>
+  <content contentuid="h42d34c6cg2c2dg6152g7c9dg22ed3a5cedc7" version="1">You hurl a disorienting magical force toward one creature within range. The target makes a Constitution saving throw. On a failed save, the target takes Force damage, its Speed is halved until the start of your next turn, and on its next turn, it can take only an action or a Bonus Action (but not both). On a successful save, the target takes half as much damage only.</content>
+  <content contentuid="h739e0b6ag9070g3f0cg30cdg185c98e6150c" version="1">Wardaway</content>
+  <content contentuid="he30340c8gee67gea26g42dfg7428ad2ffc24" version="1">Affected entity's &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved.&lt;br&gt;&lt;br&gt;The entity can only take either an action or a bonus action.</content>
+  <content contentuid="haac8d098g36f5gfad0g0c19g710686be3050" version="1">Aganazzar's Scorcher</content>
+  <content contentuid="h05279eecg66b6g48b2gd7bbg31b8b9364190" version="1">A line of roaring flame 30 feet long and 5 feet wide emanates from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes fire damage on a failed save, or half as much damage on a successful one.</content>
+  <content contentuid="hd072401cgab74ga74bgb28egccb3e4a6554d" version="1">Cloak of Shadow</content>
+  <content contentuid="h23041527g684fg9b54gfd8bgbc94bca6aa62" version="1">You cloak yourself in shadow, giving you advantage on Dexterity (Stealth) checks against creatures that rely on sight.</content>
+  <content contentuid="hc9492c94g19bfg3230gbfc3g6cf10c6d02e5" version="1">Cloak of Shadow</content>
+  <content contentuid="h8dbcd1e2ga506gd79fg540bgdeebf6743060" version="1">You cloak yourself in shadow, giving you advantage on Dexterity (Stealth) checks against creatures that rely on sight.</content>
+  <content contentuid="h954ddf9fg7f78ge82dg57c0gb1a304bf4d54" version="1">Fire Rune</content>
+  <content contentuid="h8756f6c6ga536g0a7agc01agf500547496f2" version="1">You touch a melee weapon and place a magical effect into it, creating a visible rune etched into the weapon. Attacks made by the invoked weapon deal an extra 1d8 Fire damage on a hit.</content>
+  <content contentuid="h7db07aaegcba0g874eg8391ge8926782e7f8" version="1">Fire Rune</content>
+  <content contentuid="h241ed709g7588g2cc5g9cd2gbc1ec16c5753" version="1">Attacks made by the invoked weapon deal an extra 1d8 Fire damage on a hit.</content>
+  <content contentuid="h06dbb138g6afagfebbg9a03gd5d229bb475e" version="1">Dazing Blast</content>
+  <content contentuid="h36e08fceg5a47gf889gc415g5a67ba284ba1" version="1">A wave of force leaves your palms, targeting a creature within range. The target makes a Constitution saving throw. On a failed save, the creature takes 2d6 Force damage and has the Stunned condition until the end of its next turn. On a successful save, the creature takes the damage only.</content>
 </contentList>

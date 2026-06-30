@@ -141,7 +141,9 @@ Spell scrolls of 3rd level or higher are restricted to specific classes.
 [list]
 [*][b]Korean / Japanese Translation:[/b] [url=https://www.nexusmods.com/profile/Eolaloe]Eolaloe[/url]
 [*][b]Spanish / Latin Spanish Translation:[/b] [url=https://github.com/incolhermex-droid]incolhermex-droid[/url]
-[*][b]Item Models:[/b] [url=https://mod.io/g/baldursgate3/u/skirbie]skirbie[/url]
+[*][b]French Translation:[/b] CyberBoloss
+[*][b]Brazilian Portuguese Translation:[/b] [url=https://mod.io/u/shadowahjin]ShadowAhJin[/url]
+[*][b]Item Models:[/b] [url=https://mod.io/g/baldursgate3/u/skirbie]skirbie[/url] ([url=https://mod.io/g/baldursgate3/m/viper-carbine-steampunk-rifle-gun]Viper Carbine Steampunk Rifle Gun[/url], [url=https://mod.io/g/baldursgate3/m/hand-cannon-gunslinger-weapon]Hand Cannon Gunslinger Weapon[/url])
 [/list]
 
 [size=5][b]Legal[/b][/size]

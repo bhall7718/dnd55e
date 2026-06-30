@@ -2,11 +2,15 @@
 ## Cantrip
 - Acid Splash
 - Blade Ward
+- Booming Blade
+- Bursting Sinew
 - Chill Touch
 - Eldritch Blast
 - Finger Guns
+- Frightful Start
 - Green-Flame Blade
 - Hellfire
+- Holy Word
 - Mind Sliver
 - Poison Spray
 - Prestidigitation
@@ -17,12 +21,15 @@
 - Starry Wisp
 - Sword Burst
 - Thunderclap
+- Toll the Dead
 - True Strike
+- Vengeful Blade
 - Vicious Mockery
 - Word of Radiance
 ## Level 1
 - Armor of Agathys
 - Chromatic Orb
+- Cloak of Shadow
 - Color Spray
 - Cure Wounds
 - Divine Favor
@@ -43,16 +50,23 @@
 - Sleep
 - Spellfire Flare
 - Tasha's Hideous Laughter
+- Wardaway
+- Witch Bolt
 - Wrathful Smite
 ## Level 2
+- Aganazzar's Scorcher
 - Aid
 - Arcane Vigor
 - Blindness
 - Cloud of Daggers
 - Crown of Madness
+- Darkbolt
 - Darkness
+- Dazing Blast
+- Death Armor
 - Elminster's Elusion
 - Find Steed
+- Fire Rune
 - Flame Blade
 - Gust of Wind
 - Lesser Restoration
