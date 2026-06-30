@@ -2266,6 +2266,8 @@ data "StatusType" "BOOST"
 using "RESTRAINED"
 data "DisplayName" "h2748c4afgb7c1g935dg46f9g95303ee42d02;1"
 data "StatusPropertyFlags" "InitiateCombat;TickingWithSource"
+data "ApplyEffect" "b668790c-b66b-4d92-be76-4d18336fd1ee"
+data "StatusEffect" "67ca2ab0-90b2-4009-ad6c-7ac490cbd65e"
 
 new entry "__DRUID__"
 type "StatusData"
