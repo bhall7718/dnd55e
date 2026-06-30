@@ -635,7 +635,7 @@ type "InterruptData"
 new entry "Interrupt_TidesOfChaos"
 type "InterruptData"
 using "Interrupt_TidesOfChaos"
-data "Conditions" "not Dead(context.Observer) and ((Self(context.Source,context.Observer) and HasInterruptedAttack() and IsRerollInterruptInteresting(context.Source)) or (Self(context.Target,context.Observer) and HasInterruptedSavingThrow() and IsRerollInterruptInteresting())) and not AnyEntityIsItem() and not InterruptHasAdvantage();"
+data "Conditions" "not Dead(context.Observer) and ((Self(context.Source,context.Observer) and HasInterruptedAttack() and IsRerollInterruptInteresting(context.Source)) or (Self(context.Target,context.Observer) and HasInterruptedSavingThrow() and IsRerollInterruptInteresting())) and not AnyEntityIsItem();"
 
 new entry "Interrupt_RestoreBalance_NegateAdvantage"
 type "InterruptData"
