@@ -8313,7 +8313,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="ShadowDomain"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ShadowDomain_3_CoverOfNight;ShadowDomain_3_LengthenShadow;ShadowDomain_3_ShadowGrasp"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ShadowDomain_3_ShadowDomainSpells;ShadowDomain_3_CoverOfNight;ShadowDomain_3_LengthenShadow;ShadowDomain_3_ShadowGrasp"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(2665e374-e018-4253-82ac-f1a65f38c405,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="976b6b96-3c5a-4d06-86ee-c2a809bdb3e8"/>

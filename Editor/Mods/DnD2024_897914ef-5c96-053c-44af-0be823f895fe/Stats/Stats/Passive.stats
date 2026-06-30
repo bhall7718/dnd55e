@@ -1930,6 +1930,18 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1d8e60aa-eab2-42b4-9692-a25c999c5670" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShadowDomain_3_ShadowDomainSpells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1d86fe95gbfdbg4380gabf5g485af2f71992" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7b73f5fagb632g4dd6gbb1bg52e10cb075ff" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hb05d9f4bgc914g4d44g95b9ga646b28fd85b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_ChannelDivinity_CloakOfShadows" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4c2baeac-1fbf-4b34-9beb-bfff80700e2d" />
         <field name="Name" type="NameTableFieldDefinition" value="ShadowDomain_3_CoverOfNight" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h52d0bda6g4b49g2a89gf69bg489e840efe5a" version="1" />

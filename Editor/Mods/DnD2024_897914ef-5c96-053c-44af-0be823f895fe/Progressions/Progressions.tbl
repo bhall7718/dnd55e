@@ -2270,7 +2270,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="ShadowDomain" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ShadowDomain_3_CoverOfNight;ShadowDomain_3_LengthenShadow;ShadowDomain_3_ShadowGrasp" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ShadowDomain_3_ShadowDomainSpells;ShadowDomain_3_CoverOfNight;ShadowDomain_3_LengthenShadow;ShadowDomain_3_ShadowGrasp" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(2665e374-e018-4253-82ac-f1a65f38c405,,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
