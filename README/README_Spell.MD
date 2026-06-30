@@ -29,6 +29,7 @@
 ## Level 1
 - Armor of Agathys
 - Chromatic Orb
+- Cloak of Shadow
 - Color Spray
 - Cure Wounds
 - Divine Favor
@@ -53,6 +54,7 @@
 - Witch Bolt
 - Wrathful Smite
 ## Level 2
+- Aganazzar's Scorcher
 - Aid
 - Arcane Vigor
 - Blindness
@@ -60,9 +62,11 @@
 - Crown of Madness
 - Darkbolt
 - Darkness
+- Dazing Blast
 - Death Armor
 - Elminster's Elusion
 - Find Steed
+- Fire Rune
 - Flame Blade
 - Gust of Wind
 - Lesser Restoration
