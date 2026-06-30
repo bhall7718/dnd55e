@@ -4688,4 +4688,8 @@ When you cast this spell, you can designate creatures to be unaffected by it.</c
   <content contentuid="h23041527g684fg9b54gfd8bgbc94bca6aa62" version="1">You cloak yourself in shadow, giving you advantage on Dexterity (Stealth) checks against creatures that rely on sight.</content>
   <content contentuid="hc9492c94g19bfg3230gbfc3g6cf10c6d02e5" version="1">Cloak of Shadow</content>
   <content contentuid="h8dbcd1e2ga506gd79fg540bgdeebf6743060" version="1">You cloak yourself in shadow, giving you advantage on Dexterity (Stealth) checks against creatures that rely on sight.</content>
+  <content contentuid="h954ddf9fg7f78ge82dg57c0gb1a304bf4d54" version="1">Fire Rune</content>
+  <content contentuid="h8756f6c6ga536g0a7agc01agf500547496f2" version="1">You touch a melee weapon and place a magical effect into it, creating a visible rune etched into the weapon. Attacks made by the invoked weapon deal an extra 1d8 Fire damage on a hit.</content>
+  <content contentuid="h7db07aaegcba0g874eg8391ge8926782e7f8" version="1">Fire Rune</content>
+  <content contentuid="h241ed709g7588g2cc5g9cd2gbc1ec16c5753" version="1">Attacks made by the invoked weapon deal an extra 1d8 Fire damage on a hit.</content>
 </contentList>
