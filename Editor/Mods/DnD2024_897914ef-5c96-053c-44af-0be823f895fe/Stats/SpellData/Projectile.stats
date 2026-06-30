@@ -1484,6 +1484,91 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="327daca5-0a8f-498c-ab93-f731bc9c839c" />
+        <field name="Name" type="NameTableFieldDefinition" value="DazingBlast" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="2" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="1" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution , SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d6,Force,Magical);ApplyStatus(STUN_DAZING_BLAST,100,1);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(2d6,Force,Magical);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead()" />
+        <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="b6a44217-dbd6-443a-8c04-b2796820fe79" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_DazingBlast" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h06dbb138g6afagfebbg9a03gd5d229bb475e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h36e08fceg5a47gf889gc415g5a67ba284ba1" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d6,Force,Magical);" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(STUN_DAZING_BLAST,100,1);" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="04cc3403-f67a-4747-b49e-a1802cc7a6ad" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Force_Gen_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Force_Gen_L1to3_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Force_EldritchBlast_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;cd5e5d4a-38e1-4d4d-b346-3fbc1e4c3c90,,;141f48d9-9615-496a-8737-9240f0dba60d,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;HasVerbalComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="cb1c210a-6674-4184-a61c-fcc172b3667e" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="8c57a806-472f-4d78-8226-0bba510103bd" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="01e7e5a3-d864-4965-ad62-078adae32914" />
+        <field name="Name" type="NameTableFieldDefinition" value="DazingBlast_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="327daca5-0a8f-498c-ab93-f731bc9c839c" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="2" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d6,Force,Magical);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_DazingBlast" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e1b40b6-c2dc-4106-992b-7b041135646c" />
+        <field name="Name" type="NameTableFieldDefinition" value="DazingBlast_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="01e7e5a3-d864-4965-ad62-078adae32914" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="3" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d6,Force,Magical);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e467adc3-e607-4d13-9c86-a683cedc36b9" />
+        <field name="Name" type="NameTableFieldDefinition" value="DazingBlast_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="01e7e5a3-d864-4965-ad62-078adae32914" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="4" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d6,Force,Magical);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="384ac0b0-0ef6-4898-b972-819b04e9ad44" />
+        <field name="Name" type="NameTableFieldDefinition" value="DazingBlast_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="01e7e5a3-d864-4965-ad62-078adae32914" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="5" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(10d6,Force,Magical);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ee5e0a8b-c86e-4a4f-8a5b-438da61f6366" />
         <field name="Name" type="NameTableFieldDefinition" value="Darkbolt" />
         <field name="Level" type="IntegerTableFieldDefinition" value="2" />

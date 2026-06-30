@@ -4692,4 +4692,6 @@ When you cast this spell, you can designate creatures to be unaffected by it.</c
   <content contentuid="h8756f6c6ga536g0a7agc01agf500547496f2" version="1">You touch a melee weapon and place a magical effect into it, creating a visible rune etched into the weapon. Attacks made by the invoked weapon deal an extra 1d8 Fire damage on a hit.</content>
   <content contentuid="h7db07aaegcba0g874eg8391ge8926782e7f8" version="1">Fire Rune</content>
   <content contentuid="h241ed709g7588g2cc5g9cd2gbc1ec16c5753" version="1">Attacks made by the invoked weapon deal an extra 1d8 Fire damage on a hit.</content>
+  <content contentuid="h06dbb138g6afagfebbg9a03gd5d229bb475e" version="1">Dazing Blast</content>
+  <content contentuid="h36e08fceg5a47gf889gc415g5a67ba284ba1" version="1">A wave of force leaves your palms, targeting a creature within range. The target makes a Constitution saving throw. On a failed save, the creature takes 2d6 Force damage and has the Stunned condition until the end of its next turn. On a successful save, the creature takes the damage only.</content>
 </contentList>
