@@ -4717,4 +4717,6 @@ When you cast this spell, you can designate creatures to be unaffected by it.</c
   <content contentuid="h7eca827eg60a1g2e15ga615g5750ad9f5621" version="1">Fade to Black</content>
   <content contentuid="h075cad75ge0b8g8089g7a0bge757b2193df5" version="1">Level 10: Divine Intervention</content>
   <content contentuid="h8dfac8b3gdd9aga779ga229g8159a97e610e" version="2">When you call upon your deity for Divine Intervention, your god answers by restoring a portion of your divine power. You immediately regain one 5th-level spell slot.</content>
+  <content contentuid="hb220d543g0de9ga76cg8f82gc0f939ce0a89" version="1">Improved Warding Flare</content>
+  <content contentuid="he222d284gfebfg2d88g1574g14e9d5ea7c35" version="1">Gain Temporary Hit Points equal to 2d6 + the Cleric's Wisdom modifier.</content>
 </contentList>
