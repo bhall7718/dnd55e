@@ -177,6 +177,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="29976872-12cd-4600-9088-50d4fd241c78" />
+        <field name="Name" type="NameTableFieldDefinition" value="Firearm_MainHand_Musket" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f8aec279-db4c-4d91-8576-992ca4a975ab" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AttackSpellOverride(Projectile_MainHandAttack_Firearm_Musket,Projectile_MainHandAttack);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d830a6d6-b78f-4c67-b568-95e6e9810140" />
         <field name="Name" type="NameTableFieldDefinition" value="Firearm_Offhand" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f8aec279-db4c-4d91-8576-992ca4a975ab" />

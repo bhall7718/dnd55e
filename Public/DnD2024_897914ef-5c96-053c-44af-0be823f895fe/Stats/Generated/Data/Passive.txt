@@ -124,6 +124,11 @@ data "PriorityOrder" "10"
 data "Properties" "IsHidden"
 data "Boosts" "AttackSpellOverride(Projectile_MainHandAttack_Firearm,Projectile_MainHandAttack);"
 
+new entry "Firearm_MainHand_Musket"
+type "PassiveData"
+using "Firearm_MainHand"
+data "Boosts" "AttackSpellOverride(Projectile_MainHandAttack_Firearm_Musket,Projectile_MainHandAttack);"
+
 new entry "Firearm_Offhand"
 type "PassiveData"
 using "Firearm_MainHand"
