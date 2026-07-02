@@ -4881,4 +4881,6 @@ When you make an Unarmed Strike, your reach is 5 feet greater than normal.</cont
   <content contentuid="hd981160eg2361g96c5g14b2g6faa8b2cc888" version="1">Invocation: False Life</content>
   <content contentuid="h7706db7cg7c7dgf09bg4d14gc9faed17fc8b" version="1">False Life</content>
   <content contentuid="h64a85505gb9ccg347eg37efg4472a54e2380" version="1">Gained 2d4+[1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+  <content contentuid="h7db1a592ge710g4c16g2014gbe064274b274" version="1">Tidal Wave</content>
+  <content contentuid="ha9c3ab13g3fb0g8a2eg5ee1gfbd234126c3d" version="1">You conjure up a wave of water that crashes down on an area within range. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 4d8 bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn’t knocked prone</content>
 </contentList>
