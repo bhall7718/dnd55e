@@ -1921,7 +1921,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h64a85505gb9ccg347eg37efg4472a54e2380" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_FalseLife" />
         <field name="StackId" type="StringTableFieldDefinition" value="TEMPORARY_HP" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(2d4+4);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(2d4+4);IF(HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(2d4+ClassLevel(Wizard)*2+IntelligenceModifier+4);" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="AI_ONLY:IF(not HasStatus('FALSE_LIFE')):RegainHitPoints(1d4+4)" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="7" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
@@ -1935,7 +1935,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ae37e141-115f-43e4-b137-36603527aad4" />
         <field name="Name" type="NameTableFieldDefinition" value="FALSE_LIFE_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b2e93fcb-6b73-4d36-99db-95877cd658d5" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(2d4+9);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(2d4+9);IF(HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(2d4+ClassLevel(Wizard)*2+IntelligenceModifier+9);" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="12" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
@@ -1948,7 +1948,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="FALSE_LIFE_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b2e93fcb-6b73-4d36-99db-95877cd658d5" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="17" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(2d4+14);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(2d4+14);IF(HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(2d4+ClassLevel(Wizard)*2+IntelligenceModifier+14);" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="14" />
@@ -1960,7 +1960,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="FALSE_LIFE_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b2e93fcb-6b73-4d36-99db-95877cd658d5" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="22" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(2d4+19);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(2d4+19);IF(HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(2d4+ClassLevel(Wizard)*2+IntelligenceModifier+19);" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="19" />
@@ -1971,7 +1971,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="69a659bb-2b6b-4c92-9d40-ac04bd80360f" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b2e93fcb-6b73-4d36-99db-95877cd658d5" />
         <field name="Name" type="NameTableFieldDefinition" value="FALSE_LIFE_5" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(2d4+24);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(2d4+24);IF(HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(2d4+ClassLevel(Wizard)*2+IntelligenceModifier+24);" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="27" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="24" />
       </fields>
@@ -1981,7 +1981,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2a4103a5-3c07-4cfe-983f-1d8fa7cec3f5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b2e93fcb-6b73-4d36-99db-95877cd658d5" />
         <field name="Name" type="NameTableFieldDefinition" value="FALSE_LIFE_6" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(2d4+29);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(2d4+29);IF(HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(2d4+ClassLevel(Wizard)*2+IntelligenceModifier+29);" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="32" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="29" />
       </fields>
