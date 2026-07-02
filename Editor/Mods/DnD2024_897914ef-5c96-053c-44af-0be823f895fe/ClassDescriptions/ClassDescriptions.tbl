@@ -55,7 +55,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d6db66be-cc60-4ebd-bf63-2a856bbfedaf" />
         <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399" />
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="WorldTreePath" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hed4fadaag2f33gc2b5g10bcg877f54981719" version="3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hed4fadaag2f33gc2b5g10bcg877f54981719" version="4" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h07ac58a7gdc95gd7d3g0b48g2015e769d0d0" version="1" />
         <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="d3377ec8-8734-46e6-93b7-30d65f774362" />
         <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Barbarian" />
@@ -71,7 +71,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0e37e9bc-3909-49f4-8035-6d9736ad6867" />
         <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399" />
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="ZealotPath" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfa0367c5gd524g439egbb91gf1d01da462a1" version="3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfa0367c5gd524g439egbb91gf1d01da462a1" version="4" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0e363cf3g0162gc215g7872g2aa8512bdbd6" version="1" />
         <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="c5fb3d32-6c46-4c9e-a2c9-8849f52e16e4" />
         <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Barbarian" />
@@ -91,6 +91,22 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h25aaafe6g04e0ge670gb330gf129adbda2f3" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfe14fa15g4768gf83fgce60gc2ba393904d3" version="1" />
         <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="636456e2-93bc-4567-aae5-0abb0aad450e" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Barbarian" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_69" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1434b384-f51c-4f78-ad7f-db0f13f5a3ee" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Fractured" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf3cc24d4g40efg76d7g744fgfdf00c511218" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he8be7bbbg7ac3ge2fegb60egac3d86538826" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="c6417c1d-3d25-48f4-86ab-0a1d4d69be6f" />
         <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Barbarian" />
         <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
         <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
