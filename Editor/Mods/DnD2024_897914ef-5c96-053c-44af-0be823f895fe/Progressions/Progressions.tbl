@@ -5117,6 +5117,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Hunter" />
         <field name="Level" type="ByteTableFieldDefinition" value="11" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Hunter_11_SuperiorHuntersPrey" />
       </fields>
     </stat_object>
     <stat_object color="#FF006400" is_substat="false">
