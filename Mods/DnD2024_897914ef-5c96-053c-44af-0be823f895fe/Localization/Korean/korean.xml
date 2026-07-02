@@ -281,7 +281,7 @@
   <content contentuid="hb0d5b816gde08g18fag0b3dg87d87c0c5144" version="1">야생 형상: 광포한 큰까마귀</content>
   <content contentuid="h5290eb7agca74g04fdg1c90gf56091132a96" version="1">야생 형상: 거대 거미</content>
   <content contentuid="h78df260fgc265gf45fg5e7eg3a5e3f320112" version="1">야생 형상: 광포한 늑대</content>
-  <content contentuid="h3d5751c2gc7e1ge1c7g2187gc1dfba8f54e2" version="1">비어 있음</content>
+  <content contentuid="h3d5751c2gc7e1ge1c7g2187gc1dfba8f54e2" version="1">%% EMPTY</content>
   <content contentuid="hfad853e7g6d71gc847gc4e1g6c0f425eab30" version="1">야생 형상: 오소리</content>
   <content contentuid="h94425109g11ccg2387g6f3ag6e092535cfc7" version="1">야생 형상: 곰</content>
   <content contentuid="h125b5a75g4894g085age46age0c6df5c916e" version="1">야생 형상: 흑곰</content>
@@ -314,7 +314,7 @@
   <content contentuid="hd15c9166gcb1dg4177g3646gbdb76e9200cc" version="1">야생 형상: 흑곰</content>
   <content contentuid="h8d42344bg665dge300g935bg0d9887bee468" version="1">야생 형상: 곰</content>
   <content contentuid="h59a5a380g59f1gfdb0g9a4fgef72e80eb679" version="1">야생 형상: 오소리</content>
-  <content contentuid="h556b4fb3g5a97gb81cg3f21gd57ac1f02a0d" version="1">비어 있음</content>
+  <content contentuid="h556b4fb3g5a97gb81cg3f21gd57ac1f02a0d" version="1">%% EMPTY</content>
   <content contentuid="h978ef6fag7931g203cg08ccge7b0c344b3e8" version="1">3레벨: 회합의 형상</content>
   <content contentuid="h69bf3828g083cg1e10g408egf0f2ee4c7fe8" version="1">야생 형상 상태가 될 때 달의 마법을 집중하여 아래의 혜택을 얻을 수 있습니다.
 
@@ -1125,7 +1125,7 @@
   <content contentuid="hba5a50e4g4e44gccaag18b0ga7d653029db5" version="3">군용 무기에 &lt;LSTag Tooltip="Proficiency"&gt;숙련&lt;/LSTag&gt;을 얻습니다.
 
 원하는 무기의 달인 특성 두 가지를 얻습니다.</content>
-  <content contentuid="hed4fadaag2f33gc2b5g10bcg877f54981719" version="3">세계수</content>
+  <content contentuid="hed4fadaag2f33gc2b5g10bcg877f54981719" version="4">세계수의 길</content>
   <content contentuid="h07ac58a7gdc95gd7d3g0b48g2015e769d0d0" version="1">세계수의 길을 따르는 바바리안들은 격노를 통해 세계수 위그드라실과 연결됩니다. 이 나무는 외부 차원들 사이에서 자라나며, 차원들을 서로 연결하고 물질계와도 잇습니다. 이 바바리안들은 활력을 얻고 차원 이동의 수단으로 나무의 마법을 끌어다 씁니다.</content>
   <content contentuid="h7f11fde8g7022gc624gc07cg0bf0afe43eb0" version="1">3레벨: 나무의 활력</content>
   <content contentuid="h17806188g48eag72daga9fag423961387d39" version="1">격노 시 세계수의 생명력을 끌어옵니다. 다음 혜택을 얻습니다.
@@ -1156,7 +1156,7 @@
   <content contentuid="h8561dec8g58feg3afcgc909g7b495a11aeec" version="1">3레벨: 신들의 전사</content>
   <content contentuid="h37bdd6afg8377ga414g06b2gd12131f14c73" version="1">6레벨: 광신적 집중</content>
   <content contentuid="h9ac99198g4fe0gd34bg57a0g52acb98ed35f" version="1">10레벨: 열정적인 존재감</content>
-  <content contentuid="hfa0367c5gd524g439egbb91gf1d01da462a1" version="3">광신자</content>
+  <content contentuid="hfa0367c5gd524g439egbb91gf1d01da462a1" version="4">광신자의 길</content>
   <content contentuid="h0e363cf3g0162gc215g7872g2aa8512bdbd6" version="1">광신자의 길을 걷는 바바리안들은 신이나 만신전으로부터 축복을 받습니다. 이 바바리안들은 격노를 자신들에게 힘을 불어넣는 신성한 결합의 황홀한 사건으로 경험합니다. 그들은 종종 신이나 만신전의 사제 및 다른 추종자들의 동맹이 됩니다.</content>
   <content contentuid="h15b91354gf2d6ga550g86cag97a1796054d7" version="1">일격에 신성한 힘을 실을 수 있습니다. 격노가 활성화된 동안 매 턴마다 무기나 맨손 공격으로 처음 적중시킨 크리처는 1d6 + 바바리안 레벨의 절반(내림)에 해당하는 추가 피해를 입습니다. 추가 피해는 사령 또는 광휘 유형이며, 피해를 입힐 때마다 유형을 선택합니다.</content>
   <content contentuid="hc4c144a0g2e9bg6166g297cg8829f3a2bd83" version="1">신성한 존재가 당신이 전투를 계속할 수 있도록 돕습니다. 자신을 치유하는 데 사용할 수 있는 4개의 d12 주사위를 보유합니다. 보조 행동으로 주사위를 소모하고 굴려 나온 총합만큼 생명력을 회복할 수 있습니다.
@@ -1240,7 +1240,7 @@
   <content contentuid="h4405cd9eg35f5g6fa4g01c6g020ed526c1e0" version="1">주문이 끝나기 전 크리처가 당신을 상대로 명중 굴림을 할 때마다, 공격자의 명중 굴림에서 1d4를 뺍니다.</content>
   <content contentuid="h6bbeea0cgfb9cg7197g9d87gc41ed5911b46" version="1">도검 결계</content>
   <content contentuid="h6ad2bdeag8e58g6b4fg3462g9aff44485001" version="1">사신이 만든 장부</content>
-  <content contentuid="h8ccd7ec2g9ed6g29bdgcacfg269b2a087595" version="1">비어 있음</content>
+  <content contentuid="h8ccd7ec2g9ed6g29bdgcacfg269b2a087595" version="1">%% EMPTY</content>
   <content contentuid="h2bed4266gaf46g07f6g40a0gfb3ed759c291" version="1">요지부동</content>
   <content contentuid="h4cb8944dg8c41g9ac6g6980gc440a0c3f06a" version="1">적의 주문이나 행동에 의해 강제로 이동하지 않고, &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;험지&lt;/LSTag&gt;의 효과를 무시합니다. </content>
   <content contentuid="h83b85c59gb22dg5169g66f4ge07c7b7871db" version="1">에테르계로 점멸함</content>
@@ -4845,5 +4845,33 @@
   <content contentuid="haab525c5g6408g1302gb797gcc6ec923a940" version="1">신성한 보복</content>
   <content contentuid="hdb2b4b09g8d02ge0d3g8eeagd0b7b294e1c2" version="1">크리처가 근거리 공격으로 당신에게 피해를 입혔을 때 대응으로, 신성 포인트 1점을 소모하여 해당 크리처를 상대로 근거리 공격을 가할 수 있습니다. 이때 피해 굴림에 지혜 보정치만큼 보너스를 얻습니다.</content>
   <content contentuid="ha43fceeeg4ad3g069bgbbf5g78b41ca67687" version="1">분출하는 칼날</content>
-  <content contentuid="h6a7e8dbfg5edcgcfebgef9bgb58dbe804543" version="1">신성 포인트 2점을 소모하여 길이 13.5m, 너비 1.5m의 직선 범위에 빛나는 칼날을 올 수 있습니다. 직선 범위 내의 각 크리처는 민첩 내성 굴림을 수행해야 하며, 내성 굴림 실패 시 당신의 암습 피해와 같은 수치의 광휘 피해를 입고 성공 시 절반의 피해만 입습니다.</content>
+  <content contentuid="h6a7e8dbfg5edcgcfebgef9bgb58dbe804543" version="1">신성 포인트 2점을 소모하여 길이 13.5m, 너비 1.5m의 직선 범위에 빛나는 칼날을 불러올 수 있습니다. 직선 범위 내의 각 크리처는 민첩 내성 굴림을 수행해야 하며, 내성 굴림 실패 시 당신의 암습 피해와 같은 수치의 광휘 피해를 입고 성공 시 절반의 피해만 입습니다.</content>
+  <content contentuid="hf3cc24d4g40efg76d7g744fgfdf00c511218" version="1">분열된 자아의 길</content>
+  <content contentuid="he8be7bbbg7ac3ge2fegb60egac3d86538826" version="1">바바리안은 격노를 통해 짧지만 강력한 파괴력을 발산하는 존재들입니다. 하지만 자신의 격노를 정신의 나머지 부분으로부터 분리하여 자아와 원초아라는 두 가지 인격으로 나누는 비전 심리학 기술을 공부할 만큼 용감하거나 미련한 자는 거의 없습니다. 이른바 '분열된 자'라 불리는 이 바바리안들은 자아가 주도권을 잡고 있을 때 대부분의 다른 바바리안을 뛰어넘는 자제력과 영리함을 보여줍니다. 반면 원초아가 주도권을 잡도록 허용하면, 그들의 용모는 괴물처럼 일그러지고 신체는 물리적으로 발현된 격노의 힘으로 부풀어 오릅니다.</content>
+  <content contentuid="h8130ff94gaab7gaff6gf12bgac599c7bd03e" version="1">3레벨: 격노의 얼굴</content>
+  <content contentuid="h1f2a95a9gb577g787bgb156g888616ccad6a" version="1">3레벨: 정중한 가면</content>
+  <content contentuid="h9bf00f77g7323g0f09g943dg0f62ae2d5816" version="1">6레벨: 지성과 야성</content>
+  <content contentuid="hcb5a649cg1519gbd23g0221g4d0efabd2166" version="1">10레벨: 영리함과 잔혹함</content>
+  <content contentuid="h19bace45g8db7g181dgc420ge0fc17190c49" version="2">격노를 활성화하면 용모가 일그러지고 신체가 부풀어 오릅니다. 현재나 이전에 당신의 변신을 목격하지 못한 크리처들은 당신을 알아보지 못합니다. 또한 격노가 활성화된 동안 다음 혜택을 얻습니다.
+
+맨손 공격의 일반 피해 대신 1d8을 굴릴 수 있습니다.
+
+맨손 공격으로 크리처를 적중시켰을 때, 대상을 3m 밀쳐내거나 건강 내성 굴림(난이도 8 + 근력 보정치 + 숙련 보너스)을 강제할 수 있습니다. 내성 굴림 실패 시 크리처는 넘어짐 상태가 됩니다.
+
+맨손 공격을 할 때 사거리가 평소보다 1.5m 증가합니다.</content>
+  <content contentuid="hb18ef098g90c9g4ad7gaf03g5aee30c02615" version="1">다음 기술 중 원하는 한 가지에 숙련을 얻습니다: 비전, 역사, 조사, 의학, 자연, 설득, 종교</content>
+  <content contentuid="hb0b38705ga312g7e31g9767g722d245f3d33" version="1">격노가 활성화되지 않은 동안에는 정신 피해에 저항을 가집니다. 격노가 활성화된 동안에는 역장과 정신 피해를 제외한 모든 피해 유형에 저항을 가집니다.</content>
+  <content contentuid="hcdd6b1c9gc361g1c98gc596g4eefab4fdf0f" version="1">격노가 활성화되지 않은 동안에는 보조 행동으로 철수 또는 돕기 행동을 취할 수 있습니다. 격노가 활성화된 동안에는 맨손 공격을 통한 명중 굴림 시 d20 주사위 값이 19 또는 20이 나오면 치명타가 됩니다.</content>
+  <content contentuid="h954836cfg0b63g6106g5d15g224a3463e27e" version="1">격노의 얼굴: 밀기</content>
+  <content contentuid="h2c508ab1g6e88g9fc6g8d98gf93c24fc5e1a" version="1">격노를 활성화했을 때, 맨손 공격으로 크리처를 적중시키면 대상을 3m 밀쳐낼 수 있습니다.</content>
+  <content contentuid="h534ed7cdg1c82g686bg5c11g853eb4fc79da" version="1">격노의 얼굴: 넘어짐</content>
+  <content contentuid="h9ab20eb3gc598g3449gb504g354483f2972b" version="1">격노를 활성화했을 때, 맨손 공격으로 크리처를 적중시키면 크리처에게 건강 내성 굴림(난이도 8 + 근력 보정치 + 숙련 보너스)을 강제할 수 있습니다. 내성 굴림 실패 시 크리처는 넘어짐 상태가 됩니다.</content>
+  <content contentuid="hf0667bf6g77dagda24g515cg27017347e947" version="1">광전사의 길</content>
+  <content contentuid="h054c34e8gf7acg1ce5g9297g2f198a57cc90" version="2">광전사의 길을 걷는 바바리안들은 격노를 주로 폭력으로 분출합니다. 그들의 길은 겉잡을 수 없는 분노의 길이며, 격노가 자신을 사로잡고 강화하도록 내맡긴 채 전장의 혼돈 속에서 희열을 느낍니다.</content>
+  <content contentuid="hfe2d7a7cg1f66g7b4cg4485g45ffc2e4f8ca" version="1">야생의 심장의 길</content>
+  <content contentuid="h0a89d75bg6efag48a6gf526g8742bbe1176f" version="2">야생의 심장의 길을 따르는 바바리안들은 자신을 야수와 동류로 여깁니다. 이 바바리안들은 야수와 대화하는 마법적인 방법을 배우며, 격노 시 초자연적인 힘으로 가득 차면서 야수와의 연결이 더욱 강화됩니다.</content>
+  <content contentuid="h20c62466g58aegc458g775bg12619ff97e87" version="1">거인의 길</content>
+  <content contentuid="haa843db4g20ebg9021gacedg3f8ada559a41" version="2">거인의 길을 걷는 바바리안들은 거인들과 동일한 원초적 힘에서 강인함을 끌어냅니다. 격노할 때 이 바바리안들은 원소의 마력으로 가득 차고 크기가 커지며, 거인의 영광을 연상시키는 형태로 변합니다. 어떤 바바리안들은 눈과 무기 주변에서 원소 에너지가 언뜻 타오르는 것을 제외하면 단순히 몸집이 거대해진 것처럼 보입니다. 다른 이들은 화염, 서리, 혹은 번개에 둘러싸인 채 실제 거인이나 정령과 유사한 모습으로 더욱 극적으로 변신하기도 합니다.</content>
+  <content contentuid="h64ffc9d5ga96fg168bg296eg9642cbd7f4b0" version="1">야생 마법의 길</content>
+  <content contentuid="h08c08b52g956bgcf55gaba1gfea165770305" version="2">다중 우주의 많은 장소는 아름다움, 강렬한 감정, 그리고 걷잡을 수 없는 마법으로 가득 차 있습니다. 요정숲이나 천계를 비롯한 초자연적인 힘의 영역들은 이러한 힘을 뿜어내며 사람들에게 깊은 영향을 미칩니다. 감정이 풍부한 바바리안들은 특히 이러한 야생의 영향에 취약하며, 일부 바바리안들은 그 마법에 의해 변이되기도 합니다. 이처럼 마법이 깃든 바바리안들이 야생 마법의 길을 걷습니다. 엘프, 티플링, 아시마르, 제나시 바바리안들이 조상의 이세상 것이 아닌 마법을 발현시키고자 이 길을 자주 찾습니다.</content>
 </contentList>

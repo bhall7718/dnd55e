@@ -1125,7 +1125,7 @@
   <content contentuid="hba5a50e4g4e44gccaag18b0ga7d653029db5" version="3">軍用武器への&lt;LSTag Tooltip="Proficiency"&gt;習熟&lt;/LSTag&gt;を得る。
 
 任意の武技習得特性を2つ選択して得る。</content>
-  <content contentuid="hed4fadaag2f33gc2b5g10bcg877f54981719" version="3">世界樹</content>
+  <content contentuid="hed4fadaag2f33gc2b5g10bcg877f54981719" version="4">世界樹の道</content>
   <content contentuid="h07ac58a7gdc95gd7d3g0b48g2015e769d0d0" version="1">世界樹の道を歩むバーバリアンは、激怒を通じて世界樹ユグドラシルと繋がる。この樹は外次元界の間に根を張り、それらを互いに、そして物質界へと繋いでいる。これらのバーバリアンは、樹の魔法を活力として、あるいは次元移動の手段として引き出す。</content>
   <content contentuid="h7f11fde8g7022gc624gc07cg0bf0afe43eb0" version="1">レベル3：世界樹の活力</content>
   <content contentuid="h17806188g48eag72daga9fag423961387d39" version="1">自身の激怒は世界樹の生命力を汲み上げる。以下の恩恵を得る。
@@ -1156,7 +1156,7 @@
   <content contentuid="h8561dec8g58feg3afcgc909g7b495a11aeec" version="1">レベル3：神々の戦士</content>
   <content contentuid="h37bdd6afg8377ga414g06b2gd12131f14c73" version="1">レベル6：狂信的集中</content>
   <content contentuid="h9ac99198g4fe0gd34bg57a0g52acb98ed35f" version="1">レベル10：熱狂の存在感</content>
-  <content contentuid="hfa0367c5gd524g439egbb91gf1d01da462a1" version="3">熱狂者</content>
+  <content contentuid="hfa0367c5gd524g439egbb91gf1d01da462a1" version="4">熱狂者の道</content>
   <content contentuid="h0e363cf3g0162gc215g7872g2aa8512bdbd6" version="1">熱狂者の道を歩むバーバリアンは、神またはパンテオンから恩恵を授かる。これらのバーバリアンにとって激怒とは、自身を力で満たす神性との合一という法悦の体験である。彼らはしばしば、自身の神またはパンテオンの司祭や信奉者たちの味方となる。</content>
   <content contentuid="h15b91354gf2d6ga550g86cag97a1796054d7" version="1">自身の打撃に神聖な力を込めることができる。激怒が有効な間、各ターンに武器または素手攻撃を命中させた最初のクリーチャーに対し、1d6＋バーバリアン・レベルの半分（端数切り捨て）に等しい追加ダメージを与える。追加ダメージは死霊または光輝であり、ダメージを与えるたびに種別を選択する。</content>
   <content contentuid="hc4c144a0g2e9bg6166g297cg8829f3a2bd83" version="1">神聖な存在が、あなたの戦闘継続を助けてくれる。自身には回復に使用できる4つのd12のプールがある。ボーナス・アクションとして、プールからダイスを消費してロールし、その合計値に等しいヒット・ポイントを回復できる。
@@ -4845,4 +4845,32 @@
   <content contentuid="hdb2b4b09g8d02ge0d3g8eeagd0b7b294e1c2" version="1">クリーチャーが近接攻撃であなたにダメージを与えた際、リアクションとして神聖ポイントを1消費し、そのクリーチャーに対して近接攻撃を行うことができる。そのダメージ・ロールに自身の判断力修正値に等しいボーナスを得る。</content>
   <content contentuid="ha43fceeeg4ad3g069bgbbf5g78b41ca67687" version="1">噴出する刃</content>
   <content contentuid="h6a7e8dbfg5edcgcfebgef9bgb58dbe804543" version="1">神聖ポイントを2消費することで、長さ13.5メートル、幅1.5メートルの直線状の範囲に光輝の刃を呼び降ろすことができる。この直線内の各クリーチャーは敏捷力セーヴィング・スローを行わなければならず、セーヴに失敗すると自身の急所攻撃ダメージに等しい光輝ダメージを受け、成功すると半分のダメージを受ける。</content>
+  <content contentuid="hf3cc24d4g40efg76d7g744fgfdf00c511218" version="1">分裂せし者の道</content>
+  <content contentuid="he8be7bbbg7ac3ge2fegb60egac3d86538826" version="1">バーバリアンを定義づけるのはその激怒であり、それを導くことで一時的だが強力な破壊を解き放つ。自身の精神から激怒を切り離し、自己をエゴ（自我）とイド（本能）の2つに分割するような、秘められた心理学的技術を学ぶ勇敢な、あるいは無謀な者はほとんどいない。エゴが主導権を握っている時、「分裂せし者」として知られるこれらのバーバリアンは、他の大半のバーバリアンを凌駕する自己統制力と狡猾さを備えている。しかし、イドに主導権を渡した時、その貌は怪物のように歪み、肉体は物理的に具現化した激怒の力で膨れ上がる。</content>
+  <content contentuid="h8130ff94gaab7gaff6gf12bgac599c7bd03e" version="1">レベル3：激怒の貌</content>
+  <content contentuid="h1f2a95a9gb577g787bgb156g888616ccad6a" version="1">レベル3：礼節の仮面</content>
+  <content contentuid="h9bf00f77g7323g0f09g943dg0f62ae2d5816" version="1">レベル6：知性と野性</content>
+  <content contentuid="hcb5a649cg1519gbd23g0221g4d0efabd2166" version="1">レベル10：狡猾と残虐</content>
+  <content contentuid="h19bace45g8db7g181dgc420ge0fc17190c49" version="2">激怒を発動した際、自身の貌は歪み、肉体は膨れ上がる。現在または過去にこの変身を目撃していないクリーチャーは、貴方だと認識できなくなる。さらに、激怒が有効な間、以下の恩恵を得る：
+
+素手攻撃の通常のダメージの代わりに1d8をロールできる。
+
+素手攻撃をクリーチャーに命中させた際、目標を3メートル押しやるか、あるいは耐久力セーヴィング・スロー（難易度は8＋自身の筋力修正値＋習熟ボーナス）を行わせることができる。セーヴに失敗すると、そのクリーチャーは伏せ状態になる。
+
+素手攻撃を行う際、間合いが通常より1.5メートル長くなる。</content>
+  <content contentuid="hb18ef098g90c9g4ad7gaf03g5aee30c02615" version="1">以下の技能から任意で1つの習熟を得る：魔法学、歴史、捜査、医術、自然、説得、あるいは宗教</content>
+  <content contentuid="hb0b38705ga312g7e31g9767g722d245f3d33" version="1">激怒が有効ではない間、精神ダメージに対する抵抗を得る。激怒が有効な間、力場と精神を除くすべてのダメージ種別に対する抵抗を得る。</content>
+  <content contentuid="hcdd6b1c9gc361g1c98gc596g4eefab4fdf0f" version="1">激怒が有効ではない間、ボーナス・アクションとして離脱または援護アクションを行うことができる。激怒が有効な間、素手攻撃による攻撃ロールで、d20の出目が19または20の場合にクリティカル・ヒットとなる。</content>
+  <content contentuid="h954836cfg0b63g6106g5d15g224a3463e27e" version="1">激怒の貌：押し</content>
+  <content contentuid="h2c508ab1g6e88g9fc6g8d98gf93c24fc5e1a" version="1">激怒を発動している際、素手攻撃をクリーチャーに命中させたなら、目標を3メートル押しやることができる。</content>
+  <content contentuid="h534ed7cdg1c82g686bg5c11g853eb4fc79da" version="1">激怒の貌：伏せ状態</content>
+  <content contentuid="h9ab20eb3gc598g3449gb504g354483f2972b" version="1">激怒を発動している際、素手攻撃をクリーチャーに命中させたなら、そのクリーチャーに耐久力セーヴィング・スロー（難易度は8＋自身の筋力修正値＋習熟ボーナス）を行わせることができる。セーヴに失敗すると、そのクリーチャーは伏せ状態になる。</content>
+  <content contentuid="hf0667bf6g77dagda24g515cg27017347e947" version="1">バーサーカーの道</content>
+  <content contentuid="h054c34e8gf7acg1ce5g9297g2f198a57cc90" version="2">バーサーカーの道を歩むバーバリアンは、自身の激怒を主に暴力へと向ける。彼らの歩む道は抑制なき狂乱の道であり、激怒に身を委ねて力を得ながら、戦闘の混沌に歓喜する。</content>
+  <content contentuid="hfe2d7a7cg1f66g7b4cg4485g45ffc2e4f8ca" version="1">ワイルドハートの道</content>
+  <content contentuid="h0a89d75bg6efag48a6gf526g8742bbe1176f" version="2">ワイルドハートの道を歩むバーバリアンは、自身を野獣の同胞と見なしている。これらのバーバリアンは動物と会話する魔法の手段を学び、激怒によって超自然的な力が満ちるにつれて、野獣との繋がりを強めていく。</content>
+  <content contentuid="h20c62466g58aegc458g775bg12619ff97e87" version="1">巨人の道</content>
+  <content contentuid="haa843db4g20ebg9021gacedg3f8ada559a41" version="2">巨人の道を歩むバーバリアンは、巨人と同じ原始の力から強さを引き出す。激怒するにつれて、これらのバーバリアンは元素の力を漲らせてサイズが大きくなり、巨人の栄光を想起させる姿へと変わる。あるバーバリアンは自身の体がただ巨大化したような姿になり、その目や武器の周囲に元素のエネルギーを揺らめかせる。またある者はより劇的に変貌し、本物の巨人のような外見や、火、寒気、電撃をまとったエレメンタルに酷似した形態をとる。</content>
+  <content contentuid="h64ffc9d5ga96fg168bg296eg9642cbd7f4b0" version="1">荒ぶる魔法の道</content>
+  <content contentuid="h08c08b52g956bgcf55gaba1gfea165770305" version="2">多元宇宙の多くの場所には、美、強烈な感情、そして奔放な魔法が満ちあふれている。フェイワイルドや上層次元界、その他の超自然的な力が渦巻く領域は、そうした力を放射して人々に深い影響を与える。深く激しい感情を持つ民であるバーバリアンは、これらの未開なる影響を特に受けやすく、中にはその魔法によって変貌を遂げる者もいる。こうした魔法の染み込んだバーバリアンたちが、荒ぶる魔法の道を歩む。エルフ、ティーフリング、アアシマール、ゲナシのバーバリアンは、祖先の異界の魔法を発現させようと、好んでこの道を選ぶことが多い。</content>
 </contentList>
