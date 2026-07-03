@@ -1240,7 +1240,7 @@ data "Icon" "Spell_Enchantment_MindSliver"
 data "InterruptContext" "OnPostRoll;OnCastHit;OnStatusApplied"
 data "InterruptContextScope" "Self"
 data "Container" "YesNoDecision"
-data "Conditions" "not Dead(context.Observer) or HasInterruptedSavingThrow() or Self(context.Observer,context.Target) or not AnyEntityIsItem() or (IsFlatValueInterruptInteresting(99) or IsFlatValueInterruptInteresting(-99));"
+data "Conditions" "not Dead(context.Observer) and HasInterruptedSavingThrow() and Self(context.Observer,context.Target) and not AnyEntityIsItem();"
 data "Properties" "AdjustRoll(-1d4);RemoveStatus(OBSERVER_OBSERVER,MIND_SLIVER);"
 data "InterruptDefaultValue" "Enabled"
 
