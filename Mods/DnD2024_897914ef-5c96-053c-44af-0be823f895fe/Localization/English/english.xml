@@ -4896,4 +4896,7 @@ When you make an Unarmed Strike, your reach is 5 feet greater than normal.</cont
   <content contentuid="h5ed5413eg93c7gb24cg21d8g7901b49c4c83" version="1">You begin a whispered dirge that is magically accompanied by the howling of spirits and other grim portents. For the duration, an aura radiates from you in a 30-foot Emanation. When you create the aura and at the start of each of your turns while it persists, you can choose one creature in it to make a Constitution saving throw. On a failure, the creature takes 3d8 Necrotic damage.</content>
   <content contentuid="h49cf69a9g3850ga86fg9854g543c73e1e561" version="1">Murmurs of Doom</content>
   <content contentuid="hea3f9087gcfa4gad7eg1453gcafb3a204579" version="1">For the duration, you can choose one creature in it to make a Constitution saving throw. On a failure, the creature takes 3d8 Necrotic damage.</content>
+  <content contentuid="h95738422ged47g3260g1b9dg2cefcd3f0146" version="1">Searing Orb</content>
+  <content contentuid="hdf6371dcga18fg87bcgbe0dgf6e2f7928012" version="1">You create and hurl a pulsing orb of energy at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes Radiant damage. Hit or miss, the orb then explodes in a flash of light. The target and each creature within 10 feet of it make a Constitution saving throw. On a failed save, a creature has the Blinded condition until the end of its next turn.</content>
+  <content contentuid="h144827a5g121ag0953g6918gbec2aad13de2" version="1">Searing Orb</content>
 </contentList>
