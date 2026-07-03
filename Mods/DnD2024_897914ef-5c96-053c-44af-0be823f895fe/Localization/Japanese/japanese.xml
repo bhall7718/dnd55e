@@ -4884,4 +4884,9 @@
   <content contentuid="h2a98d2a4g6136gc14eg1cb9g3739feecfebf" version="1">触れたクリーチャーに、トロルの血が持つ再生特性を魔法のように注入する。この呪文の持続時間中、目標にヒット・ポイントが少なくとも1残っている場合、自身のターンの開始時にヒット・ポイントを5回復し、死亡セーヴィング・スローに自動で成功する。</content>
   <content contentuid="hce516d21g26c1g26cfg3512gdec3165acc58" version="1">トロルの血の注入</content>
   <content contentuid="hebd09d64gbff3g6d56gd342gcb0e1169f115" version="1">触れたクリーチャーに、トロルの血が持つ再生特性を魔法のように注入する。この呪文の持続時間中、目標にヒット・ポイントが少なくとも1残っている場合、自身のターンの開始時にヒット・ポイントを5回復し、死亡セーヴィング・スローに自動で成功する。</content>
+  <content contentuid="h8b08b170g8caagfb3fg29fcg67cbdcce5976" version="1">虚無の一撃</content>
+  <content contentuid="h5cfaf826gcbcdg6716gd3c9gb82508ad025d" version="1">虚無の言葉の短い一節とともに、うごめく闇をその手に集める。この呪文を発動した時、およびその後のターンにアクションとして、射程内の目標に向けて闇の矢を放つことで遠隔呪文攻撃を行う。目標が薄暗い光や暗闇の中にいる場合、そのロールに有利を得る。命中時、目標は死霊ダメージを受け、次の自身のターンの開始時まで自身に対する恐怖状態になる。</content>
+  <content contentuid="hfa2950d9g0184g255ag6ff3gfe24dbf54ebc" version="1">虚無の一撃</content>
+  <content contentuid="h69e1f672gc48fg3f52g323bg3be6611e1538" version="1">殺人カラス</content>
+  <content contentuid="ha5f5579fg9ce6ge4abg474ag9e80c16acfae" version="1">致命的なカラスの群れを召喚して放つ。自身から発生する半径9メートルの円錐状の範囲内にいる、自身が選択した各クリーチャーは敏捷力セーヴィング・スローを行わなければならない。セーヴに失敗した場合、目標は5d6の力場ダメージを受け、盲目状態になる。セーヴに成功した場合、半分のダメージのみを受ける。盲目状態になったクリーチャーは自身の各ターンの終了時にセーヴを再試行し、成功するとその効果は終了する。</content>
 </contentList>
