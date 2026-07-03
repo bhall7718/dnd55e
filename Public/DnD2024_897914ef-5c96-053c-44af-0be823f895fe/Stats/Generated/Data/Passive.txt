@@ -6576,6 +6576,11 @@ data "Boosts" "StatusImmunity(ONE_SPELL_WITH_A_SPELL_SLOT_PER_TURN);"
 new entry "__MAGIC ITEM__"
 type "PassiveData"
 
+new entry "UND_Tower_AutomatonHalberd_Passive"
+type "PassiveData"
+using "UND_Tower_AutomatonHalberd_Passive"
+data "StatsFunctors" "IF(not Tagged('CONSTRUCT',context.Source)):ApplyStatus(SELF,STUNNED,100,1,,,,not SavingThrow(Ability.Constitution,5))"
+
 new entry "MAG_Infernal_Metal_Boots_AntiDisplacement_Passive"
 type "PassiveData"
 data "DisplayName" "h2bed4266gaf46g07f6g40a0gfb3ed759c291;1"

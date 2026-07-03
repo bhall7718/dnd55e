@@ -2135,6 +2135,16 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="05728da9-b85a-437b-9f9f-5a0d8df2cad1" />
+        <field name="Name" type="NameTableFieldDefinition" value="BEARS_ENDURANCE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="10d9995e-e49c-4e19-8c3a-ab5246bf9d06" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BEARS_ENDURANCE" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1fd02107-e3c8-45fe-a818-63c37178b51a" />
         <field name="Name" type="NameTableFieldDefinition" value="TROLLBLOOD_INFUSION" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hce516d21g26c1g26cfg3512gdec3165acc58" version="1" />
