@@ -1655,7 +1655,7 @@
         <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPostRoll;OnCastHit;OnStatusApplied" enumeration_type_name="InterruptContext" version="1" />
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
         <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="not Dead(context.Observer) or HasInterruptedSavingThrow() or Self(context.Observer,context.Target) or not AnyEntityIsItem() or (IsFlatValueInterruptInteresting(99) or IsFlatValueInterruptInteresting(-99));" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not Dead(context.Observer) and HasInterruptedSavingThrow() and Self(context.Observer,context.Target) and not AnyEntityIsItem();" />
         <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(-1d4);RemoveStatus(OBSERVER_OBSERVER,MIND_SLIVER);" />
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
       </fields>

@@ -4000,6 +4000,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="Hunter"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Hunter_11_SuperiorHuntersPrey"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="b19bc1ec-d7ee-4023-9f58-5056fd99be24"/>
                     <attribute id="UUID" type="guid" value="6b85e5f7-73d9-4a4b-97a6-7fd4d7df0d66"/>
