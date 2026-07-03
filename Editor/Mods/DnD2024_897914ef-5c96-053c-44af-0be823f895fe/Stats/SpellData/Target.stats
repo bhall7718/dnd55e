@@ -7143,6 +7143,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a138b487-0338-44e3-9a34-2584ab61620b" />
+        <field name="Name" type="NameTableFieldDefinition" value="JugularStrike_Panther" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f3ed98cc-5633-4fbd-90a3-528f435867bb" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('PrimalStrike',context.Source)):DealDamage(max(1,1d4+LevelMapValue(WildShapeDamageMedium)+UnarmedMeleeAbilityModifier),Piercing);IF(HasPassive('PrimalStrike',context.Source)):DealDamage(max(1,1d4+LevelMapValue(WildShapeDamageMedium)+UnarmedMeleeAbilityModifier),Piercing,Magical);IF(HasStatus('SG_Prone',context.Target) and not HasPassive('PrimalStrike',context.Source)):DealDamage(max(1,2d6+UnarmedMeleeAbilityModifier),Piercing);IF(HasStatus('SG_Prone',context.Target) and HasPassive('PrimalStrike',context.Source)):DealDamage(max(1,2d6+UnarmedMeleeAbilityModifier),Piercing,Magical);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="08968b96-ddf4-4587-a8ca-ae32dc8ba498" />
         <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();" />

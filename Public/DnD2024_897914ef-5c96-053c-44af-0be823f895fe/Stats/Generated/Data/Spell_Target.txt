@@ -6044,6 +6044,12 @@ data "SpellType" "Target"
 using "Target_Burrow_GiantBadger"
 data "TargetConditions" "CanStand('63a52705-056b-4736-91ee-66b839de2afe')"
 
+new entry "Target_JugularStrike_Panther"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_JugularStrike_Panther"
+data "SpellSuccess" "IF(not HasPassive('PrimalStrike',context.Source)):DealDamage(max(1,1d4+LevelMapValue(WildShapeDamageMedium)+UnarmedMeleeAbilityModifier),Piercing);IF(HasPassive('PrimalStrike',context.Source)):DealDamage(max(1,1d4+LevelMapValue(WildShapeDamageMedium)+UnarmedMeleeAbilityModifier),Piercing,Magical);IF(HasStatus('SG_Prone',context.Target) and not HasPassive('PrimalStrike',context.Source)):DealDamage(max(1,2d6+UnarmedMeleeAbilityModifier),Piercing);IF(HasStatus('SG_Prone',context.Target) and HasPassive('PrimalStrike',context.Source)):DealDamage(max(1,2d6+UnarmedMeleeAbilityModifier),Piercing,Magical);"
+
 new entry "Target_MoonlightStep"
 type "SpellData"
 data "SpellType" "Target"
