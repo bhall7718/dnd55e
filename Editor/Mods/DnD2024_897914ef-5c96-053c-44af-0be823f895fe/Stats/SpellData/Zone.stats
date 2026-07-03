@@ -579,6 +579,71 @@
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d8ae5941-e009-4087-ba21-4eb9684e36e5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MurderOfCrows" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="4" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="Summon(f0edb579-f38e-4b06-9346-fb4de9fc56e3, 0,,,'MurderOfCrows',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="SurfaceType" type="EnumerationTableFieldDefinition" value="Sentinel" enumeration_type_name="Surface Type" version="1" />
+        <field name="SurfaceLifetime" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SurfaceGrowStep" type="IntegerTableFieldDefinition" value="5" />
+        <field name="SurfaceGrowInterval" type="IntegerTableFieldDefinition" value="10" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d6,Force);ApplyStatus(BLINDNESS,100,10);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d6/2,Force);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Dead() and not Ally();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_MurderOfCrows" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h69e1f672gc48fg3f52g323bg3be6611e1538" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha5f5579fg9ce6ge4abg474ag9e80c16acfae" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d6,Force);" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BLINDNESS,100,10);" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Force);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Summon_FindFamiliar_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Summon_FindFamiliar_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="Shape" type="StringTableFieldDefinition" value="Cone" />
+        <field name="Range" type="IntegerTableFieldDefinition" value="9" />
+        <field name="Angle" type="IntegerTableFieldDefinition" value="60" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;09ae2f11-f5b4-42f5-ae16-687a5b57d500,,;10caea0e-c949-4d91-8ab7-3b50019dd054,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful;CanAreaDamageEvade" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="48d70c76-0233-4457-815a-ade4d33780cb" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="ad5270a1-a12f-4318-b692-e74676bbe1c5" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="0444f9b9-f4a9-4c0e-8671-3bfc3e883447" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fbd73834-bf7f-4b78-9b2a-626c2a96c69d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MurderOfCrows_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d8ae5941-e009-4087-ba21-4eb9684e36e5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d6,Force);ApplyStatus(BLINDNESS,100,10);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d6/2,Force);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d6,Force);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Zone_MurderOfCrows" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a551289b-2674-4af0-89a3-4f6a15963e98" />
+        <field name="Name" type="NameTableFieldDefinition" value="MurderOfCrows_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fbd73834-bf7f-4b78-9b2a-626c2a96c69d" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d6,Force);ApplyStatus(BLINDNESS,100,10);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(7d6/2,Force);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d6,Force);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0b7b2417-a684-4000-b3a8-46d0dba784bf" />
