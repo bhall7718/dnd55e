@@ -7810,7 +7810,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbc6e4744g6835g4d25g3453g224b9eed2a70" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4e972de5g72bbgc7d9gfda3g1c89f2af41d0" version="2" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(ChargerTurn,1,0);UnlockSpell(Rush_Charger_Attack);UnlockSpell(Rush_Charger_Push);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(ChargerTurn,1,0);UnlockSpell(Rush_Charger_Attack);UnlockSpell(Rush_Charger_Push);UnlockSpell(Rush_Charger_Attack_Unarmed);UnlockSpell(Rush_Charger_Push_Unarmed);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="SpellCategoryIs(SpellCategory.Dash) and Combat()" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(MAG_MOMENTUM,100,2);ApplyStatus(MAG_MOMENTUM_DURATION_TECHNICAL, 100, 1)" />
