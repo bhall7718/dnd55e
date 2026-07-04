@@ -5954,6 +5954,79 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5ade5881-a2f0-44cd-93a3-3d24a3a60840" />
+        <field name="Name" type="NameTableFieldDefinition" value="RecklessAttack_Unarmed" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4dbc85d8-9cf2-47a8-bb30-82c44f9de3f8" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_RecklessAttackAction_Unarmed;Target_RecklessAttackForcefulBlow_Unarmed;Target_RecklessAttackHamstringBlow_Unarmed;" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,RECKLESS_ATTACK, 100, 1);GROUND:DealDamage(UnarmedDamage , Bludgeoning);GROUND:ExecuteWeaponFunctors(MainHand);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_FreeUnarmedStrike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h22201c0cgc0a5g5477gc910gd1dbcb28c892" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeUnarmedAttack" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="WeaponType" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Somatic" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="274b605f-7c3f-4701-94f5-8c3dc1f906bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="RecklessAttackAction_Unarmed" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8b14bc2f-a3b2-4f7b-8070-bc3d33a3b982" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_RecklessAttack_Unarmed" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,RECKLESS_ATTACK, 100, 1);GROUND:DealDamage(UnarmedDamage , Bludgeoning);GROUND:ExecuteWeaponFunctors(MainHand);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('Barbarian_9_BrutalStrike',context.Source) and not HasStatus('RAGE_FRENZY',context.Source) and not HasStatus('RAGE_FRENZY_2',context.Source)):DealDamage(UnarmedDamage ,Bludgeoning);IF(not HasPassive('Barbarian_9_BrutalStrike',context.Source) and HasStatus('RAGE_FRENZY',context.Source)):DealDamage(UnarmedDamage +2d6,Bludgeoning);IF(not HasPassive('Barbarian_9_BrutalStrike',context.Source) and HasStatus('RAGE_FRENZY_2',context.Source)):DealDamage(UnarmedDamage +3d6,Bludgeoning);IF(HasPassive('Barbarian_9_BrutalStrike',context.Source) and not HasStatus('RAGE_FRENZY',context.Source) and not HasStatus('RAGE_FRENZY_2',context.Source)):DealDamage(UnarmedDamage +1d10,Bludgeoning);IF(HasPassive('Barbarian_9_BrutalStrike',context.Source) and HasStatus('RAGE_FRENZY',context.Source)):DealDamage(UnarmedDamage +1d10+2d6,Bludgeoning);IF(HasPassive('Barbarian_9_BrutalStrike',context.Source) and HasStatus('RAGE_FRENZY_2',context.Source)):DealDamage(UnarmedDamage +1d10+3d6,Bludgeoning);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_FreeUnarmedStrike" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeUnarmedAttack" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="WeaponType" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Somatic" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e1f1da1b-a87f-431d-af15-9b350b57b58e" />
+        <field name="Name" type="NameTableFieldDefinition" value="RecklessAttackForcefulBlow_Unarmed" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="de3b6fc4-fbc9-49f7-b3fa-9de39e281a5c" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,RECKLESS_ATTACK, 100, 1);GROUND:DealDamage(UnarmedDamage , Bludgeoning);GROUND:ExecuteWeaponFunctors(MainHand);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasStatus('RAGE_FRENZY',context.Source) and not HasStatus('RAGE_FRENZY_2',context.Source)):DealDamage(UnarmedDamage ,Bludgeoning);IF(HasStatus('RAGE_FRENZY',context.Source)):DealDamage(UnarmedDamage +2d6,Bludgeoning);IF(HasStatus('RAGE_FRENZY_2',context.Source)):DealDamage(UnarmedDamage +3d6,Bludgeoning);TARGET:Force(4.5);ApplyStatus(SELF,RECKLESSATTACK_FORCEFULBLOW,100,1);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d10, Bludgeoning);DealDamage(UnarmedDamage , Bludgeoning)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeUnarmedAttack" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="WeaponType" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Somatic" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="70e92933-3099-4b02-a42d-d5e76fc477db" />
+        <field name="Name" type="NameTableFieldDefinition" value="RecklessAttackHamstringBlow_Unarmed" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6c0efa22-a3ca-44a1-bb7d-0a49411af180" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,RECKLESS_ATTACK, 100, 1);GROUND:DealDamage(UnarmedDamage , Bludgeoning);GROUND:ExecuteWeaponFunctors(MainHand);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasStatus('RAGE_FRENZY',context.Source) and not HasStatus('RAGE_FRENZY_2',context.Source)):DealDamage(UnarmedDamage ,Bludgeoning);IF(HasStatus('RAGE_FRENZY',context.Source)):DealDamage(UnarmedDamage +2d6,Bludgeoning);IF(HasStatus('RAGE_FRENZY_2',context.Source)):DealDamage(UnarmedDamage +3d6,Bludgeoning);ApplyStatus(RECKLESSATTACK_HAMSTRINGBLOW,100,1);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d10, Bludgeoning);DealDamage(UnarmedDamage , Bludgeoning)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeUnarmedAttack" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="WeaponType" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Somatic" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="363c45ca-5041-44b6-a0fc-7ba85cc8562a" />
         <field name="Name" type="NameTableFieldDefinition" value="BootOfTheGiants" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(SLEEP);RemoveStatus(SLEEPING);RemoveStatus(SG_Sleeping);" />

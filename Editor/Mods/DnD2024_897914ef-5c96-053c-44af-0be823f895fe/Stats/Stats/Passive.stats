@@ -789,6 +789,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4901cf9e-ff54-4947-9ce9-49383625123e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Barbarian_2_RecklessAttack_Unarmed" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h72f074a8gc35ag1dacg638cgaa77b73e11be" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_RecklessAttack_Unarmed);IF(SpellId('Target_RecklessAttack') or SpellId('Target_RecklessAttackAction') or SpellId('Target_RecklessAttackForcefulBlow') or SpellId('Target_RecklessAttackHamstringBlow') or SpellId('Target_RecklessAttack_Unarmed') or SpellId('Target_RecklessAttackAction_Unarmed') or SpellId('Target_RecklessAttackForcefulBlow_Unarmed') or SpellId('Target_RecklessAttackHamstringBlow_Unarmed')):Advantage(AttackRoll);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="04308ff7-2718-4ec6-b71f-187419a57ceb" />
         <field name="Name" type="NameTableFieldDefinition" value="Barbarian_3_PrimalKnowledge" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb6dea583g9359gddf3g2360g74669f67b1a6" version="1" />
