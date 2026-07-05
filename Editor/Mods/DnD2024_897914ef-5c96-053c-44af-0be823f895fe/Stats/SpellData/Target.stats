@@ -6012,6 +6012,7 @@
         <field name="WeaponType" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="WeaponFlags" version="1" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Somatic" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_RecklessAttack_Unarmed" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6029,6 +6030,7 @@
         <field name="WeaponType" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="WeaponFlags" version="1" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Somatic" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_RecklessAttack_Unarmed" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
