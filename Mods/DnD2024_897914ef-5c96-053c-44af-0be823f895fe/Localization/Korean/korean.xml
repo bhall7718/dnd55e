@@ -3404,7 +3404,7 @@
   <content contentuid="h4e3d30b7g2c20gf8a7gd14eg44eb335e86b5" version="3">당신은 죽음의 표식을 새긴 적과 싸우는 데 특히 능숙합니다. 금제에 걸린 크리처를 상대로 하는 명중 굴림에 유리 보정을 얻습니다.</content>
   <content contentuid="h474f2848gc11cga707gce0ag47a7c29bf27f" version="2">3레벨: 어둠 속의 일격</content>
   <content contentuid="hc78792c5gf4b3g8f75gc78fge4e46626954f" version="2">당신은 그림자 속에서 공격하는 법을 이해하고 있습니다. 턴당 한 번, 명중 굴림에 유리 보정을 가진 상태에서 근거리 무기 공격으로 금제에 걸린 크리처를 적중시키면, 숙련 보너스만큼 d4 주사위를 굴려 그 총합만큼 추가 피해를 입힐 수 있습니다.</content>
-  <content contentuid="h000d2b9cg5e7egc014gf141ga2c0e4d9fc4f" version="2">3레벨: 탈출 불가</content>
+  <content contentuid="h000d2b9cg5e7egc014gf141ga2c0e4d9fc4f" version="2">3레벨: 도망칠 곳은 없다</content>
   <content contentuid="hd8bb9020gf357g83bfgf655g10311ef27325" version="3">보조 행동으로 크리처의 목에 그림자 올가미를 감아 &lt;LSTag Type="Status" Tooltip="GARROTE_TARGET_HUMANOID"&gt;교살&lt;/LSTag&gt;하기 시작합니다.</content>
   <content contentuid="h5b1941eeg9c53g0d48g2159g640b7817db72" version="2">7레벨: 지옥의 암살자</content>
   <content contentuid="h0405792eg3f88g4dbfg0b92gfcb573fe9525" version="3">금제에 걸린 크리처를 상대로 하는 무기 공격의 피해를 결정할 때 주사위 눈이 1이나 2가 나오면, 해당 주사위를 다시 굴릴 수 있습니다.</content>
@@ -3430,10 +3430,10 @@
   <content contentuid="h2a979e60g8047g338bg7d21g17a10ae143c0" version="2">당신은 그림자 속에서 공격하는 법을 이해하고 있습니다. 턴당 한 번, 명중 굴림에 유리 보정을 가진 상태에서 근거리 무기 공격으로 금제에 걸린 크리처를 적중시키면, 숙련 보너스만큼 d4 주사위를 굴려 그 총합만큼 추가 피해를 입힐 수 있습니다.</content>
   <content contentuid="h29339e6ag5488gb3c9gf071g0b4a21da192a" version="2">보조 행동으로 크리처의 목에 그림자 올가미를 감아 &lt;LSTag Type="Status" Tooltip="GARROTE_TARGET_HUMANOID"&gt;교살&lt;/LSTag&gt;하기 시작합니다.</content>
   <content contentuid="hf7851a9dg2c90ga420g9853gd855b8d447bc" version="1">어둠 속의 일격</content>
-  <content contentuid="h6185df85g28ceg3fe6g4e39g5afb82fc5604" version="1">탈출 불가</content>
-  <content contentuid="h581f8d48gd1d3g12bag5dbegf06507357e90" version="1">탈출 불가</content>
+  <content contentuid="h6185df85g28ceg3fe6g4e39g5afb82fc5604" version="1">도망칠 곳은 없다</content>
+  <content contentuid="h581f8d48gd1d3g12bag5dbegf06507357e90" version="1">도망칠 곳은 없다</content>
   <content contentuid="hb18d7e9eg37d4g8642g14a4g092815e31296" version="1">튼튼한 줄에 목이 조이고 있습니다. 영향을 받은 대상은 &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;침묵&lt;/LSTag&gt; 상태가 되고 턴마다 [1]를 받습니다.</content>
-  <content contentuid="he467cf73g1f92gd216gb3e7g005114acd9e7" version="1">탈출 불가</content>
+  <content contentuid="he467cf73g1f92gd216gb3e7g005114acd9e7" version="1">도망칠 곳은 없다</content>
   <content contentuid="hc11719c6g4c2age8c5gfbecg13c2297e09b8" version="1">교살로 크리처의 목을 조릅니다.</content>
   <content contentuid="h2fe200c7ga105g2c4eg493fg373d790dcb13" version="1">그림자 지배자</content>
   <content contentuid="h8f230721g7cfdg98e3gf8a5g5d16598f3c1e" version="1">지옥의 은밀한 암살자인 그림자 지배자는 벨리알을 섬기며 은신과 변장에 능합니다.
