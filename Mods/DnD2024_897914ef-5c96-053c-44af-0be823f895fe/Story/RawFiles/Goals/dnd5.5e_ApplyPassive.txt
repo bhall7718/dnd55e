@@ -71,7 +71,6 @@ THEN
 AddPassive(_Player, "SpellScrollUsage");
 
 
-
 // HeavyArmor
 IF
 DB_Players(_Player)
@@ -81,6 +80,17 @@ AND
 HasPassive(_Player, "HeavyArmor", 0)
 THEN
 AddPassive(_Player, "HeavyArmor");
+
+
+// TrackActionPointUsage
+IF
+DB_Players(_Player)
+AND
+DB_DND55e_Initialized(1)
+AND
+HasPassive(_Player, "TrackActionPointUsage", 0)
+THEN
+AddPassive(_Player, "TrackActionPointUsage");
 EXITSECTION
 
 ENDEXITSECTION
