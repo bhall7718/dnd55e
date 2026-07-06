@@ -3408,19 +3408,19 @@
   <content contentuid="hd8bb9020gf357g83bfgf655g10311ef27325" version="3">보조 행동으로 크리처의 목에 그림자 올가미를 감아 &lt;LSTag Type="Status" Tooltip="GARROTE_TARGET_HUMANOID"&gt;교살&lt;/LSTag&gt;하기 시작합니다.</content>
   <content contentuid="h5b1941eeg9c53g0d48g2159g640b7817db72" version="2">7레벨: 지옥의 암살자</content>
   <content contentuid="h0405792eg3f88g4dbfg0b92gfcb573fe9525" version="3">금제에 걸린 크리처를 상대로 하는 무기 공격의 피해를 결정할 때 주사위 눈이 1이나 2가 나오면, 해당 주사위를 다시 굴릴 수 있습니다.</content>
-  <content contentuid="h07d4538fg06e1g87c9geff7gba8b3b97a65f" version="1">그림자 암살자</content>
+  <content contentuid="h07d4538fg06e1g87c9geff7gba8b3b97a65f" version="1">그림자 살수</content>
   <content contentuid="hf4eda0d1g9d77gcfb5g49f3g7e6523196336" version="1">그림자는 당신의 동반자가 되어 당신의 위업을 돕습니다. 다음 혜택을 얻습니다:
 
 18m까지 암시야를 얻습니다. 이미 암시야를 가지고 있다면 범위가 18m 증가합니다.
 이동 속도가 3m 증가합니다.
 은신을 위한 민첩(은신) 판정에 유리 보정을 받습니다. 어떤 효과로 인해 절반의 피해만 입기 위해 민첩 내성 굴림을 할 때마다, 내성 굴림에 성공하면 피해를 입지 않고 실패하면 절반의 피해만 입습니다.</content>
-  <content contentuid="h5265c616g7dacgad00gefc6ge34e7ec6e7f4" version="1">그림자 암살자</content>
+  <content contentuid="h5265c616g7dacgad00gefc6ge34e7ec6e7f4" version="1">그림자 살수</content>
   <content contentuid="h9b666f81g3924gf39eg6868gd20519f6b190" version="1">그림자는 당신의 동반자가 되어 당신의 위업을 돕습니다. 다음 혜택을 얻습니다:
 
 18m까지 암시야를 얻습니다. 이미 암시야를 가지고 있다면 범위가 18m 증가합니다.
 이동 속도가 3m 증가합니다.
 은신을 위한 민첩(은신) 판정에 유리 보정을 받습니다. 어떤 효과로 인해 절반의 피해만 입기 위해 민첩 내성 굴림을 할 때마다, 내성 굴림에 성공하면 피해를 입지 않고 실패하면 절반의 피해만 입습니다.</content>
-  <content contentuid="h59478469g65f2gdc36g0515g15430765aa77" version="2">11레벨: 그림자 암살자</content>
+  <content contentuid="h59478469g65f2gdc36g0515g15430765aa77" version="2">11레벨: 그림자 살수</content>
   <content contentuid="hecbd9ffcg2be8gbb16g7102g34164bd0d262" version="2">그림자는 당신의 동반자가 되어 당신의 위업을 돕습니다. 다음 혜택을 얻습니다:
 
 18m까지 암시야를 얻습니다. 이미 암시야를 가지고 있다면 범위가 18m 증가합니다.
