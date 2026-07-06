@@ -5455,7 +5455,8 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6c75a711gccb2g34c5g5489gfbaf6012200e" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Necrotic" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Necrotic);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('PACT_BLADE',context.Source)):WeaponDamageTypeOverride(Necrotic);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5465,7 +5466,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="6cfe80de-9172-440b-8b10-409681ac7e86" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcd88f337g7b53g35deg791bgf37bf6314ed5" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Psychic" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Psychic);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('PACT_BLADE',context.Source)):WeaponDamageTypeOverride(Psychic);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5475,7 +5476,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="6cfe80de-9172-440b-8b10-409681ac7e86" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha2a934dbg1420gf4c4g7431gcf508603657a" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Radiant" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Radiant);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('PACT_BLADE',context.Source)):WeaponDamageTypeOverride(Radiant);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

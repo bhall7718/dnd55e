@@ -3271,7 +3271,7 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
         <field name="Requirements" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="WeaponSet" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

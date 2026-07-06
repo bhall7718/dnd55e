@@ -2741,7 +2741,7 @@ data "ContainerSpells" "Shout_PactOfTheBlade_Bind_1;Shout_PactOfTheBlade_Bind_2;
 data "UseCosts" "BonusActionPoint:1;"
 data "SpellFlags" "IsLinkedSpellContainer"
 data "Requirements" ""
-data "Sheathing" "Sheathed"
+data "Sheathing" "WeaponSet"
 
 new entry "Shout_PactOfTheBlade_Bind_1"
 type "SpellData"
