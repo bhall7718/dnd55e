@@ -4896,9 +4896,9 @@
   <content contentuid="h5ed5413eg93c7gb24cg21d8g7901b49c4c83" version="1">당신은 영혼들의 울부짖음과 기타 암울한 징조가 마법적으로 동반되는 나직한 장송곡을 읊조리기 시작합니다. 지속시간 동안, 당신에게서 시작되는 9m 범위에 오라가 방출됩니다. 오라를 생성할 때와 오라가 유지되는 동안 자신의 각 턴이 시작될 때, 범위 내에서 크리처 한 명을 선택해 건강 내성 굴림을 수행하게 할 수 있습니다. 내성 굴림 실패 시, 해당 크리처는 3d8 사령 피해를 입습니다.</content>
   <content contentuid="h49cf69a9g3850ga86fg9854g543c73e1e561" version="1">파멸의 속삭임</content>
   <content contentuid="hea3f9087gcfa4gad7eg1453gcafb3a204579" version="1">지속시간 동안, 범위 내에서 크리처 한 명을 선택해 건강 내성 굴림을 수행하게 할 수 있습니다. 내성 굴림 실패 시, 해당 크리처는 3d8 사령 피해를 입습니다.</content>
-  <content contentuid="h95738422ged47g3260g1b9dg2cefcd3f0146" version="1">작열의 보주</content>
+  <content contentuid="h95738422ged47g3260g1b9dg2cefcd3f0146" version="1">섬광 보주</content>
   <content contentuid="hdf6371dcga18fg87bcgbe0dgf6e2f7928012" version="1">사거리 내의 크리처 하나를 향해 맥동하는 에너지 보주를 생성해 내던집니다. 대상을 상대로 원거리 주문 공격을 가합니다. 적중 시 대상은 광휘 피해를 입습니다. 적중 여부와 관계없이 보주는 빛의 섬광과 함께 폭발합니다. 대상 및 대상을 중심으로 3m 이내의 각 크리처는 건강 내성 굴림을 수행해야 합니다. 내성 굴림 실패 시, 해당 크리처는 다음 자신의 턴이 끝날 때까지 실명 상태가 됩니다.</content>
-  <content contentuid="h144827a5g121ag0953g6918gbec2aad13de2" version="1">작열의 보주</content>
+  <content contentuid="h144827a5g121ag0953g6918gbec2aad13de2" version="1">섬광 보주</content>
   <content contentuid="hdfa4f375gf615g4ca4g83d9g72b194e8669b" version="1">그림자 망토 두루마리</content>
   <content contentuid="h4787af58gb589g4278gafcfg39dfbb20933e" version="1">지옥의 채찍 두루마리</content>
   <content contentuid="h7efb8458g9df5g41d1ga0afgd2d654771719" version="1">주문불꽃 섬광 두루마리</content>
@@ -4912,7 +4912,7 @@
   <content contentuid="h6192e9b5g8977g429cgb010g38af763aba20" version="1">군마 소환 두루마리</content>
   <content contentuid="h7c81072bgf346g4f27gb4d8gd92165d9db13" version="1">화염의 룬 두루마리</content>
   <content contentuid="h25cabd18g0f77g4c9bgb4b4g2683c7d2a2ac" version="1">정신 쐐기 두루마리</content>
-  <content contentuid="hb51bf2b7g75aeg47ebg9ff7ge3b84584466e" version="1">작열의 보주 두루마리</content>
+  <content contentuid="hb51bf2b7g75aeg47ebg9ff7ge3b84584466e" version="1">섬광 보주 두루마리</content>
   <content contentuid="h2a8c9d1dg05adg4418ga0fag5df33139674e" version="1">스닐록의 눈덩이 폭풍 두루마리</content>
   <content contentuid="h2956727dgcedeg4aebga14eg9e67a637bebe" version="1">야수 소환 두루마리</content>
   <content contentuid="h2802f412g5c46g4e5bgae24g35918b4e76d7" version="1">타샤의 정신 채찍 두루마리</content>
