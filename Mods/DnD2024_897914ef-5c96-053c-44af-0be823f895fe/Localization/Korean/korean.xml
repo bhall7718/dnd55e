@@ -4725,11 +4725,11 @@
   <content contentuid="haf76903dg7bbdg5e64g7f90g970b37ad3960" version="1">인도하는 속삭임. 인도 소마법을 배웁니다. 이 소마법을 시전할 때 사거리는 18m가 됩니다.</content>
   <content contentuid="h86ac4829gb9e1g65b8gf4b3g9e412c0d7a5e" version="1">인도하는 속삭임</content>
   <content contentuid="hf142ccaeg2d4cg6976g4ac2g7597d90fed0d" version="1">3레벨: 저 너머의 영혼들</content>
-  <content contentuid="hadba9481g03c7gb0e4g2fc9gf098670ca5a9" version="2">죽은 자의 영혼을 불러내어 자신과 아군에게 힘을 불어넣을 수 있습니다. 보조 행동으로 크리처에게 바드의 격려 주사위를 줄 때, 무작위 영혼의 힘을 불러낼 수 있습니다. 매개할 영혼을 결정하려면 바드의 격려 주사위를 굴린 뒤 '저 너머의 영혼들' 표를 참조하십시오. 영혼은 해방하거나 긴 휴식을 마칠 때까지 매개된 상태로 유지됩니다.
+  <content contentuid="hadba9481g03c7gb0e4g2fc9gf098670ca5a9" version="2">죽은 자의 영혼을 불러내어 자신과 아군에게 힘을 불어넣을 수 있습니다. 보조 행동으로 크리처에게 바드의 격려 주사위를 줄 때, 무작위 영혼의 힘을 불러낼 수 있습니다. 불러낼 영혼을 결정하려면 바드의 격려 주사위를 굴린 뒤 '저 너머의 영혼들' 표를 참조하십시오. 영혼은 해방하거나 긴 휴식을 마칠 때까지 불러낸 상태로 유지됩니다.
 
-통제된 매개. 보조 행동으로 바드의 격려 횟수를 1회 소모하여 특정 영혼을 매개할 수 있습니다. 이때 주사위를 굴리는 대신 '저 너머의 영혼들' 표에서 영혼을 선택하십시오. 선택한 영혼의 해당 번호는 자신의 바드의 격려 주사위의 가장 높은 숫자보다 작거나 같아야 합니다. 예를 들어, 바드의 격려 주사위가 d8인 경우 그림자 이하의 모든 영혼을 선택하여 매개할 수 있습니다.
+통제된 영매. 보조 행동으로 바드의 격려 횟수를 1회 소모하여 특정 영혼을 불러낼 수 있습니다. 이때 주사위를 굴리는 대신 '저 너머의 영혼들' 표에서 영혼을 선택하십시오. 선택한 영혼의 해당 번호는 자신의 바드의 격려 주사위의 가장 높은 숫자보다 작거나 같아야 합니다. 예를 들어, 바드의 격려 주사위가 d8인 경우 그림자 이하의 모든 영혼을 선택하여 불러낼 수 있습니다.
 
-영혼 해방. 마법 행동으로 매개된 영혼 중 하나를 해방할 수 있습니다. 영혼의 대상으로 9m 이내에 보이는 크리처 한 명을 선택하십시오. 그러면 영혼의 효과가 발동합니다. 영혼의 효과에 내성 굴림이 필요한 경우, 난이도는 당신의 바드 주문 내성 난이도와 같습니다. 이 행동을 통해 영혼을 실제로 사용할 수 있습니다.</content>
+영혼 해방. 마법 행동으로 불러낸 영혼 중 하나를 해방할 수 있습니다. 영혼의 대상으로 9m 이내에 보이는 크리처 한 명을 선택하십시오. 그러면 영혼의 효과가 발동합니다. 영혼의 효과에 내성 굴림이 필요한 경우, 난이도는 당신의 바드 주문 내성 난이도와 같습니다. 이 행동을 통해 영혼을 실제로 사용할 수 있습니다.</content>
   <content contentuid="hc94fe18bg4a60g7150g9266g8db53b913dac" version="1">저 너머의 영혼들</content>
   <content contentuid="h3b40a7b0g581fga77bg3d22g30944ffbaf78" version="1">저 너머의 영혼들: 연인</content>
   <content contentuid="hf382e28aged60gce44g754cg188b504d016d" version="1">저 너머의 영혼들: 명사수</content>
@@ -4741,7 +4741,7 @@
   <content contentuid="h8b0f281eg7854g1a32gf59fge016a5551f0b" version="1">저 너머의 영혼들: 그림자</content>
   <content contentuid="h1b99642bgb883g462cg638fg192cfcf25647" version="1">저 너머의 영혼들: 방화범</content>
   <content contentuid="h9329b80cg3c57g3510gedb5gde3327d9570b" version="1">저 너머의 영혼들: 겁쟁이</content>
-  <content contentuid="hb5b80dd1g369bg905ag47a7g28e7465806d8" version="1">죽은 자의 영혼을 불러내어 자신과 아군에게 힘을 불어넣을 수 있습니다. 보조 행동으로 크리처에게 바드의 격려 주사위를 줄 때, 무작위 영혼의 힘을 불러낼 수 있습니다. 매개할 영혼을 결정하려면 바드의 격려 주사위를 굴린 뒤 '저 너머의 영혼들' 표를 참조하십시오. 영혼은 해방하거나 긴 휴식을 마칠 때까지 매개된 상태로 유지됩니다.</content>
+  <content contentuid="hb5b80dd1g369bg905ag47a7g28e7465806d8" version="1">죽은 자의 영혼을 불러내어 자신과 아군에게 힘을 불어넣을 수 있습니다. 보조 행동으로 크리처에게 바드의 격려 주사위를 줄 때, 무작위 영혼의 힘을 불러낼 수 있습니다. 불러낼 영혼을 결정하려면 바드의 격려 주사위를 굴린 뒤 '저 너머의 영혼들' 표를 참조하십시오. 영혼은 해방하거나 긴 휴식을 마칠 때까지 불러낸 상태로 유지됩니다.</content>
   <content contentuid="hc7d9adccgd21cg6730g04c3g3a1c38c6c5a9" version="2">연인. 대상은 바드의 격려 주사위 결과값 + 매력 보정치만큼 생명력을 회복합니다.</content>
   <content contentuid="h5b47bba7gdab8g8410ga59dgef9c6100ab29" version="2">명사수. 대상은 바드의 격려 주사위 결과값 + 매력 보정치만큼 역장 피해를 입습니다.</content>
   <content contentuid="he73898ceg2342gac1agce15gffad564f5c59" version="2">복수자. 다음 당신의 턴이 끝날 때까지, 명중 굴림 근거리 공격으로 대상을 적중시킨 크리처는 바드의 격려 주사위 결과값만큼 역장 피해를 입습니다.</content>
@@ -4752,20 +4752,20 @@
   <content contentuid="hcb079ee5g1c25gbdc5gf618gc2aef3acfd28" version="2">그림자. 대상은 다음 자신의 턴이 끝날 때까지, 혹은 명중 굴림 공격을 하거나 피해를 입히거나 주문을 시전할 때까지 투명 상태가 됩니다. 투명화가 종료되면, 대상에게서 시작되는 1.5m 발산 범위 내의 각 크리처는 건강 내성 굴림에 성공해야 하며, 실패 시 바드의 격려 주사위 2회 결과값만큼 사령 피해를 입습니다.</content>
   <content contentuid="ha71f769bge1a3g46dfg432fga8899602df6a" version="2">방화범. 대상은 민첩 내성 굴림을 수행하여, 실패 시 바드의 격려 주사위 4회 결과값만큼 화염 피해를 입고 성공 시 절반의 피해만 입습니다.</content>
   <content contentuid="h373150f8gf513g0146g7190ge9494becea23" version="2">겁쟁이. 대상 및 대상에게서 시작되는 9m 발산 범위 내에서 선택한 각 크리처는 지혜 내성 굴림에 성공해야 하며, 실패 시 다음 당신의 턴이 시작될 때까지 겁에 질림 상태가 됩니다. 크리처가 겁에 질린 동안 이동 속도가 절반으로 감소하고(내림), 행동이나 보조 행동 중 하나만 취할 수 있으며 둘 다 취할 수는 없습니다.</content>
-  <content contentuid="hffce3b1cg9e68gb50cgbc7eg803cec074d21" version="1">통제된 매개</content>
-  <content contentuid="h945acb09g1397g1556g11b6g3c002e37946c" version="1">통제된 매개: 연인</content>
-  <content contentuid="hd8ba8bf9gec5fgc971g6414g155bd042f134" version="1">통제된 매개: 명사수</content>
-  <content contentuid="h98f45553g103ag5816g3970ga4819b6d6cb6" version="1">통제된 매개: 복수자</content>
-  <content contentuid="h39687befg6a05g7279gb83dg79a1db3002ce" version="1">통제된 매개: 변절자</content>
-  <content contentuid="h62bc4434g28bdg98c9gcbb8ga8015d78cb4e" version="1">통제된 매개: 점술가</content>
-  <content contentuid="h29dfe375g8154gf8bcg453cgfa9a2614e7fb" version="1">통제된 매개: 나그네</content>
-  <content contentuid="h45a38cb9gec4fg8cfdge87eg66614158ce7d" version="1">통제된 매개: 사기꾼</content>
-  <content contentuid="he31164f3gc7eeg457ag9c53ge89b52235660" version="1">통제된 매개: 그림자</content>
-  <content contentuid="hc2dbe1c0gf4a2g7ed0g532agdde0fc25cd5d" version="1">통제된 매개: 방화범</content>
-  <content contentuid="hff226ec3g9b2dg45b2g19dfg56c02c4af940" version="1">통제된 매개: 겁쟁이</content>
-  <content contentuid="hd0b1b087g7e7fg7cf3gdc0fg4b7196bb961f" version="1">보조 행동으로 바드의 격려 횟수를 1회 소모하여 특정 영혼을 매개할 수 있습니다. 이때 주사위를 굴리는 대신 '저 너머의 영혼들' 표에서 영혼을 선택하십시오. 선택한 영혼의 해당 번호는 자신의 바드의 격려 주사위의 가장 높은 숫자보다 작거나 같아야 합니다. 예를 들어, 바드의 격려 주사위가 d8인 경우 그림자 이하의 모든 영혼을 선택하여 매개할 수 있습니다.</content>
+  <content contentuid="hffce3b1cg9e68gb50cgbc7eg803cec074d21" version="1">통제된 영매</content>
+  <content contentuid="h945acb09g1397g1556g11b6g3c002e37946c" version="1">통제된 영매: 연인</content>
+  <content contentuid="hd8ba8bf9gec5fgc971g6414g155bd042f134" version="1">통제된 영매: 명사수</content>
+  <content contentuid="h98f45553g103ag5816g3970ga4819b6d6cb6" version="1">통제된 영매: 복수자</content>
+  <content contentuid="h39687befg6a05g7279gb83dg79a1db3002ce" version="1">통제된 영매: 변절자</content>
+  <content contentuid="h62bc4434g28bdg98c9gcbb8ga8015d78cb4e" version="1">통제된 영매: 점술가</content>
+  <content contentuid="h29dfe375g8154gf8bcg453cgfa9a2614e7fb" version="1">통제된 영매: 나그네</content>
+  <content contentuid="h45a38cb9gec4fg8cfdge87eg66614158ce7d" version="1">통제된 영매: 사기꾼</content>
+  <content contentuid="he31164f3gc7eeg457ag9c53ge89b52235660" version="1">통제된 영매: 그림자</content>
+  <content contentuid="hc2dbe1c0gf4a2g7ed0g532agdde0fc25cd5d" version="1">통제된 영매: 방화범</content>
+  <content contentuid="hff226ec3g9b2dg45b2g19dfg56c02c4af940" version="1">통제된 영매: 겁쟁이</content>
+  <content contentuid="hd0b1b087g7e7fg7cf3gdc0fg4b7196bb961f" version="1">보조 행동으로 바드의 격려 횟수를 1회 소모하여 특정 영혼을 불러낼 수 있습니다. 이때 주사위를 굴리는 대신 '저 너머의 영혼들' 표에서 영혼을 선택하십시오. 선택한 영혼의 해당 번호는 자신의 바드의 격려 주사위의 가장 높은 숫자보다 작거나 같아야 합니다. 예를 들어, 바드의 격려 주사위가 d8인 경우 그림자 이하의 모든 영혼을 선택하여 불러낼 수 있습니다.</content>
   <content contentuid="h23b11d5dg4140gd4e3g0710ge0e1bf4a740e" version="1">영혼 해방</content>
-  <content contentuid="h99fc91bfg4ca1g9784g96bege336a9f9cf88" version="1">마법 행동으로 매개된 영혼 중 하나를 해방할 수 있습니다. 영혼의 대상으로 9m 이내에 보이는 크리처 한 명을 선택하십시오. 그러면 영혼의 효과가 발동합니다. 영혼의 효과에 내성 굴림이 필요한 경우, 난이도는 당신의 바드 주문 내성 난이도와 같습니다. 이 행동을 통해 영혼을 실제로 사용할 수 있습니다.</content>
+  <content contentuid="h99fc91bfg4ca1g9784g96bege336a9f9cf88" version="1">마법 행동으로 불러낸 영혼 중 하나를 해방할 수 있습니다. 영혼의 대상으로 9m 이내에 보이는 크리처 한 명을 선택하십시오. 그러면 영혼의 효과가 발동합니다. 영혼의 효과에 내성 굴림이 필요한 경우, 난이도는 당신의 바드 주문 내성 난이도와 같습니다. 이 행동을 통해 영혼을 실제로 사용할 수 있습니다.</content>
   <content contentuid="h809e5f68g6c1fg087fg4ebbgd6a42f20a3f2" version="1">대상은 바드의 격려 주사위 결과값 + 매력 보정치만큼 생명력을 회복합니다.</content>
   <content contentuid="ha93da29dg5863g46a5gb636gdc16581b4520" version="1">대상은 바드의 격려 주사위 결과값 + 매력 보정치만큼 역장 피해를 입습니다.</content>
   <content contentuid="h97319f1bgef21gc6f0g305bg9cc81c5b14c1" version="1">다음 당신의 턴이 끝날 때까지, 명중 굴림 근거리 공격으로 대상을 적중시킨 크리처는 바드의 격려 주사위 결과값만큼 역장 피해를 입습니다.</content>
@@ -4786,8 +4786,8 @@
   <content contentuid="he46fe671gb7f8g016egffdfgebfe371c4328" version="1">영혼 해방: 그림자</content>
   <content contentuid="h61d2bdf7g6628g46ddg50d4gb76f3723bdac" version="1">영혼 해방: 방화범</content>
   <content contentuid="hf6a2b168g2d98g1bf5g837cg2fceb2ab048d" version="1">영혼 해방: 겁쟁이</content>
-  <content contentuid="h6d81a250g3cfag76eeg8fe0ga9763c05b980" version="1">6레벨: 강화된 매개</content>
-  <content contentuid="h2cf47fc4g37cfg4d26ga580g3908890371fb" version="1">영혼을 매개하는 능력이 강화됩니다. 다음 혜택을 얻습니다.
+  <content contentuid="h6d81a250g3cfag76eeg8fe0ga9763c05b980" version="1">6레벨: 강화된 영매</content>
+  <content contentuid="h2cf47fc4g37cfg4d26ga580g3908890371fb" version="1">영혼을 불러내는 능력이 강화됩니다. 다음 혜택을 얻습니다.
 
 저 너머의 마력. 턴당 한 번, 주문 슬롯을 소모하여 피해를 입히거나 생명력을 회복시키는 바드 주문을 시전할 때 1d6을 굴립니다. 나온 숫자를 주문의 피해 굴림 중 하나 또는 회복 시키는 총 생명력에 더하십시오.
 
