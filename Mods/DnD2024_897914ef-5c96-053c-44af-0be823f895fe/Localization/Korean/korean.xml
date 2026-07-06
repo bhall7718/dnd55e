@@ -2371,10 +2371,10 @@
 영감의 일격. 각 턴에 한 번, 크리처에게 치명타를 가하면 영웅적 영감을 얻습니다.
 
 명예의 재확인. 보이는 적이 당신에게 피해를 입히면, 다음 당신의 턴이 끝나기 전까지 해당 적을 상대로 하는 다음 명중 굴림에 유리 보정을 얻습니다.</content>
-  <content contentuid="ha3b66239g0fceg1dd7gf543g116ada2a1fc1" version="1">문웰 순례자</content>
+  <content contentuid="ha3b66239g0fceg1dd7gf543g116ada2a1fc1" version="1">달샘 순례자</content>
   <content contentuid="h38b188b6g2fc2g8138g725agd0f6fbca254c" version="1">재주: 마법 입문(드루이드)
 
-문셰이 제도 출신의 많은 사람처럼, 당신은 축복받은 땅과 그 독특한 신들, 그리고 문웰이라고 불리는 신비한 성소들을 숭배하며 자랐습니다. 문웰 순례자로서 당신은 지도에 표시된(또는 표시되지 않은) 모든 문웰을 방문하고 교감하는 여정을 수행했습니다. 목가적인 여정 동안 당신은 문셰이 제도의 민요 레퍼토리를 수집하고, 매혹적인 경관을 그렸으며, 약간의 근원 마법을 휘두르는 법까지 배웠습니다.</content>
+문셰이 제도 출신의 많은 사람처럼, 당신은 축복받은 땅과 그 독특한 신들, 그리고 달샘이라고 불리는 신비한 성소들을 숭배하며 자랐습니다. 달샘 순례자로서 당신은 지도에 표시된(또는 표시되지 않은) 모든 달샘을 방문하고 교감하는 여정을 수행했습니다. 목가적인 여정 동안 당신은 문셰이 제도의 민요 레퍼토리를 수집하고, 매혹적인 경관을 그렸으며, 약간의 근원 마법을 휘두르는 법까지 배웠습니다.</content>
   <content contentuid="h2b4ab32dg3157gd5f2g6219g187c4cdef9f7" version="1">물호란드 유적 발굴단</content>
   <content contentuid="h96aa51dag6fb2gf3a9g321fged3d699fde79" version="1">재주: 행운
 
@@ -2581,8 +2581,8 @@
   <content contentuid="h14b0a7adg6f8dg3aefgbc10ge9f1398e2825" version="1">내면의 광휘</content>
   <content contentuid="h868292b4g07bag5039g7a39g8b646671c67e" version="2">&lt;LSTag Tooltip="SavingThrow"&gt;내성 굴림&lt;/LSTag&gt;에 1d4 패널티를 받습니다.</content>
   <content contentuid="h6ef5198eg577fg6ca6gc4d9gb725efc2c584" version="1">정신 파편</content>
-  <content contentuid="h8c610e61ga284gbdd9gf4c4gc19e363942ea" version="1">월광학파</content>
-  <content contentuid="h759d592bgce3eg0689gb28cgb0e2182d4aba" version="1">월광학파는 문셰이 제도의 고대 드루이드 회합에 그 기원을 두고 있으며, 이들은 이 전통의 초기 바드들에게 섬과 그 주민들의 이야기를 기록하는 임무를 맡겼습니다. 이 학파의 바드들은 요정 마법과 문웰의 원초적인 힘을 끌어와 아군을 지원하고, 자연 세계를 보호하며, 바드의 작품에 영감을 불어넣습니다.</content>
+  <content contentuid="h8c610e61ga284gbdd9gf4c4gc19e363942ea" version="1">달샘학파</content>
+  <content contentuid="h759d592bgce3eg0689gb28cgb0e2182d4aba" version="1">달샘학파는 문셰이 제도의 고대 드루이드 회합에 그 기원을 두고 있으며, 이들은 이 전통의 초기 바드들에게 섬과 그 주민들의 이야기를 기록하는 임무를 맡겼습니다. 이 학파의 바드들은 요정 마법과 달샘의 원초적인 힘을 끌어와 아군을 지원하고, 자연 세계를 보호하며, 바드의 작품에 영감을 불어넣습니다.</content>
   <content contentuid="h9223661bgace2gba01g10dcgfc1ea09add5a" version="1">3레벨: 달의 격려</content>
   <content contentuid="he8fec49dgf4c3g6a97g790bg3a7f505054bf" version="1">끊임없이 변화하는 원초적인 달의 힘이 당신에게 흘러들어 다음 혜택을 부여합니다.
 
