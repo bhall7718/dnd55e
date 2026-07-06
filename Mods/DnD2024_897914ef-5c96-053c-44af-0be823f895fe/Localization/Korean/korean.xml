@@ -3358,7 +3358,7 @@
 병사는 죽기 마련이다. 나는 병사들의 생명에 신경 쓰지 않는다. 그들은 나의 승리를 쟁취하기 위해 소모하는 자원일 뿐이다.</content>
   <content contentuid="h87611e23g6851gdd85gb4aagc5494b4af22b" version="2">3레벨: 디스페이터의 축복</content>
   <content contentuid="hdc9bc8a1g4363gafc5g0aa8g3cf81d9f7f39" version="1">디스페이터가 당신을 자신의 일리거로 받아들이면, 중갑 숙련을 얻습니다.</content>
-  <content contentuid="h764b69fagcd7ag05fdgf7dag5bd26082ad00" version="2">3레벨: 파괴자</content>
+  <content contentuid="h764b69fagcd7ag05fdgf7dag5bd26082ad00" version="2">3레벨: 파괴 명령</content>
   <content contentuid="hed5241fcg4e7bg125eg7f8fg43f7f8fbd64a" version="2">3레벨: 진군지휘</content>
   <content contentuid="hcac28d23geb38gd19fge1c7gd81fdc6dc09b" version="2">날카로운 구호로 아군에게 대열을 정비하라 명령할 수 있습니다(행동 불필요). 18m 이내에서 당신의 목소리를 들을 수 있는 크리처를 숙련 보너스만큼 선택하십시오. 선택된 각 대상은 즉시 허점 공격을 유발하지 않고 자신의 이동 속도만큼 신속히 이동할 수 있습니다.</content>
   <content contentuid="h8dc48af4gcdf0gdb45g88c4g86ba48d298cb" version="1">행동으로 디스페이터의 권위를 발동합니다. 무기 공격을 가하고 9m 이내에 보이는 원하는 크리처를 숙련 보너스만큼 선택합니다. 선택된 각 크리처는 대응을 사용하여 무기 공격을 하거나 시전 시간이 1행동인 피해 유발 소마법을 시전할 수 있습니다.
@@ -3368,16 +3368,16 @@
   <content contentuid="hb48d28a7g8fd1g0221gb778gd0ba3bcb5fb5" version="1">금제에 걸린 크리처를 상대로 공격할 때, 주사위 굴림값이 19에서 20이 나오면 치명타가 됩니다.</content>
   <content contentuid="h1e5932b4g971fg88dcg9f73g49b5740e78e1" version="2">11레벨: 내 허락 없이 죽지 마라!</content>
   <content contentuid="h98e2c15eg1bb0g6b5fg7c81ge9b4199a5810" version="1">당신의 목소리를 들을 수 있는 9m 이내의 아군이 즉사하지 않고 생명력이 0이 되었을 때, 대응을 사용하여 그들에게 명령을 외침으로써 대신 생명력을 1로 유지하게 할 수 있습니다. 이 대응을 한 번 사용하면 짧은 휴식이나 긴 휴식을 마치기 전까지 다시 사용할 수 없습니다.</content>
-  <content contentuid="hac72ef57geda5gbcb7gefd0gd8f3ef7ecd35" version="1">파괴자</content>
+  <content contentuid="hac72ef57geda5gbcb7gefd0gd8f3ef7ecd35" version="1">파괴 명령</content>
   <content contentuid="h81b4dc8dg3da9gf440gb6ccgfc1f97fafdf6" version="1">행동으로 디스페이터의 권위를 발동합니다. 무기 공격을 가하고 9m 이내에 보이는 원하는 크리처를 숙련 보너스만큼 선택합니다. 선택된 각 크리처는 대응을 사용하여 무기 공격을 하거나 시전 시간이 1행동인 피해 유발 소마법을 시전할 수 있습니다.</content>
   <content contentuid="ha7727e9ag0c15g6933gae63g6fa84b4bf2d4" version="1">진군지휘</content>
   <content contentuid="h820d0d49g5c04gb627g8857g7f344163dd3d" version="1">날카로운 구호로 아군에게 대열을 정비하라 명령할 수 있습니다(행동 불필요). 18m 이내에서 당신의 목소리를 들을 수 있는 크리처를 숙련 보너스만큼 선택하십시오. 선택된 각 대상은 즉시 허점 공격을 유발하지 않고 자신의 이동 속도만큼 신속히 이동할 수 있습니다.</content>
-  <content contentuid="h56bd8cdag4e64g6c53ga757gdf3238045217" version="1">파괴자</content>
+  <content contentuid="h56bd8cdag4e64g6c53ga757gdf3238045217" version="1">파괴 명령</content>
   <content contentuid="h33401633g747fg999fg84bcgb4b2b4d7449f" version="1">대응을 사용하여 무기 공격을 하거나 시전 시간이 1행동인 피해 유발 소마법을 시전할 수 있습니다.</content>
   <content contentuid="h3ead5e5egb4bfg7aa8g3997g651f56f21c32" version="1">진군지휘</content>
   <content contentuid="h228f43e7g05d6g74e4g3a8agd9f46890dde0" version="1">즉시 허점 공격을 유발하지 않고 자신의 이동 속도만큼 이동할 수 있습니다.</content>
-  <content contentuid="h452f19f2ga929gf880gace7g93748aa82758" version="1">파괴자: 근거리 무기 공격</content>
-  <content contentuid="h60349a20g9e96g7eeeg2508g7315db437183" version="1">파괴자: 원거리 무기 공격</content>
+  <content contentuid="h452f19f2ga929gf880gace7g93748aa82758" version="1">파괴 명령: 근거리 무기 공격</content>
+  <content contentuid="h60349a20g9e96g7eeeg2508g7315db437183" version="1">파괴 명령: 원거리 무기 공격</content>
   <content contentuid="h744333c6g715ag75dcgbd4dg06fc4b9c2830" version="1">내 허락 없이 죽지 마라!</content>
   <content contentuid="h8fa05c7bg2b56g954cgddfag9aa1c78d686f" version="1">내 허락 없이 죽지 마라!</content>
   <content contentuid="h28ffe78cgda09gea22ga11cg170716172528" version="2">내 허락 없이 죽지 마라!</content>
@@ -4702,7 +4702,7 @@
   <content contentuid="hf1f2ce33g9f28ga79dg8ad9g713bd9d1afd1" version="1">9m 이내에서 보이는 크리처가 피해를 입을 때, 대응을 취하여 당신의 비전 결계가 해당 피해를 흡수하게 할 수 있습니다.</content>
   <content contentuid="h288cd5f8gfde5gf844g35b4g78176c8d8034" version="1">10레벨: 향상된 방호술</content>
   <content contentuid="h9d3fbbaegc6b1gf48egd8c4gef06e95785f3" version="1">&lt;LSTag Tooltip="ShortRest"&gt;짧은 휴식&lt;/LSTag&gt;을 취할 때마다, &lt;LSTag Type="Passive" Tooltip="ArcaneWard"&gt;비전 결계&lt;/LSTag&gt;가 완전히 회복됩니다.</content>
-  <content contentuid="h4b6ab214gd4f9gba28g0fb5gc087fbca986d" version="1">파괴자: 맨손 공격</content>
+  <content contentuid="h4b6ab214gd4f9gba28g0fb5gc087fbca986d" version="1">파괴 명령: 맨손 공격</content>
   <content contentuid="hf9be0a35gce33ga419g1a57gcc67560214a9" version="1">멀리뛰기</content>
   <content contentuid="ha04791c7ge8d9ge47cg41f1ga366abc70f0a" version="1">지속시간 동안, 대상의 각 턴마다 한 번씩 이동력 3m를 소모하여 최대 9m까지 뛰어오를 수 있습니다. 또한 대상의 최대 도약 거리가 3배로 증가합니다.</content>
   <content contentuid="haa0cb759gbb2fg6e12g0a4bgd7393063d2c3" version="1">지속시간 동안, 대상의 각 턴마다 한 번씩 이동력 3m를 소모하여 최대 9m까지 뛰어오를 수 있습니다. 또한 대상의 최대 도약 거리가 3배로 증가합니다.</content>
