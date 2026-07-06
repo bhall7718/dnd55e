@@ -3194,10 +3194,10 @@
   <content contentuid="hdc3b3befg7002g12f7g8757g9c5c9409d33c" version="1">근거리 무기로 공격 및 피해 굴림을 할 때 근력이나 민첩 대신 매력 보정치를 사용합니다.</content>
   <content contentuid="hf1d142d7g41e9g9a72g6d5cgf6c2fa588579" version="2">3m 이내의 적대적인 크리처 하나당 내성 굴림에 +1 보너스를 얻으며, 최대 +5까지 받을 수 있습니다.</content>
   <content contentuid="hdeae353cg3e01gc0ceg92b4g4b51942b775d" version="2">양손으로 든 근거리 무기를 사용하여 대형 이하의 크리처를 공격으로 적중시키면 대상을 수평으로 3m 밀쳐낼 수 있습니다.</content>
-  <content contentuid="h4645bf49gb7f4g564bgeb3fgfb357d560904" version="1">전투의 달인: 기만</content>
+  <content contentuid="h4645bf49gb7f4g564bgeb3fgfb357d560904" version="1">전투 비기: 기만</content>
   <content contentuid="hd7f9a6ddg5b45gf8acg0d89g98b6c796d969" version="1">근거리 무기로 공격 및 피해 굴림을 할 때 근력이나 민첩 대신 매력 보정치를 사용합니다.</content>
-  <content contentuid="hb8cf1d46g6834g9baagbf6dg50299be625eb" version="1">전투의 달인</content>
-  <content contentuid="h5f2491abg74f5g071bgce31ge29ac76995fd" version="1">대악마가 특정 형태의 전투에 대한 초자연적인 기술을 부여합니다. 다음 일리거 전투의 달인 특성 중 하나를 선택하십시오.</content>
+  <content contentuid="hb8cf1d46g6834g9baagbf6dg50299be625eb" version="1">전투 비기</content>
+  <content contentuid="h5f2491abg74f5g071bgce31ge29ac76995fd" version="1">대악마가 특정 형태의 전투에 대한 초자연적인 기술을 부여합니다. 다음 일리거 전투 비기 특성 중 하나를 선택하십시오.</content>
   <content contentuid="h67853750g16c0g9b13gc3efgbaba43af6259" version="2">2레벨: 약화의 인장</content>
   <content contentuid="hddb45062ge037g28d1g354fgec018a665978" version="1">보이는 크리처가 당신이나 9m 이내의 아군에게 피해를 입힐 때, 대응으로 인장 하나를 소모하여 대상이 받는 피해를 1d10 + 일리거 레벨의 절반(내림)만큼 줄일 수 있습니다.</content>
   <content contentuid="h565e4f77gf679gd18fgcb9bg38afc492e620" version="2">2레벨: 악의</content>
