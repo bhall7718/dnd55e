@@ -4327,8 +4327,8 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he1072514g2359gf4c9g9ab0gf2fd8d2183ce" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h127592e2g23a4gc43cg2c3fgbbf222b3b2d1" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9303" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Throw_Throw_BonusAction);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(IsScrollSpell(),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4338,6 +4338,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="7d8b1526-a786-41eb-8ab4-ce9928660f06" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3cad8c7eg48eeg5692g23c0g79706df73d92" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9303" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="FallDamageMultiplier(0.5);UnlockSpell(Throw_Throw_BonusAction);" />
       </fields>
     </stat_object>
     <stat_object color="#FF483D8B" is_substat="false">
