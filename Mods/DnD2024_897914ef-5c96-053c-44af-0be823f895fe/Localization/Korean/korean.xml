@@ -2904,7 +2904,7 @@
   <content contentuid="h9ce3665eg2bb4g9141g98d5ged02bb1becb1" version="2">무기를 사용한 원거리 공격으로 대형 이하의 크리처에게 치명타를 가할 때마다, 발사체가 대상의 몸속 깊이 박혀 상처가 크게 벌어집니다. 3턴 동안 대상의 이동 속도가 절반이 되고 명중 굴림에 불리 보정을 받습니다.</content>
   <content contentuid="ha0793978g9cb2g100fg7822gda43641de6da" version="1">복부 파열</content>
   <content contentuid="hdcd6979dg2bd0g509ega76dgb581147ab1b4" version="1">이동 속도가 절반이 되고 명중 굴림에 불리 보정을 받습니다.</content>
-  <content contentuid="hf4d391c4gb00agbe23gc911g1d8d9c6ca9ec" version="1">11레벨: 오버킬</content>
+  <content contentuid="hf4d391c4gb00agbe23gc911g1d8d9c6ca9ec" version="1">11레벨: 과잉살상</content>
   <content contentuid="hc87bcd1cg1649gb998g7e26g83dd5ad52f38" version="1">명중 굴림에 능력 보정치를 더하지 않는 원거리 무기로 피해를 입힐 때도 능력 보정치를 더합니다. 이미 피해 굴림에 보정치를 더하고 있다면, 대상은 해당 무기 유형의 피해를 1d8만큼 추가로 입습니다.</content>
   <content contentuid="h83187c75g7360g6a76g69b2g056444294567" version="1">민첩 내성 굴림을 통해 피해를 절반만 입는 효과의 대상이 되었을 때, 내성 굴림 성공 시 피해를 전혀 입지 않으며 실패해도 절반의 피해만 입습니다.</content>
   <content contentuid="he8361fb8g999fg30ceg5b76g9c0e5da35ec7" version="1">9레벨: 치명적 사격</content>
