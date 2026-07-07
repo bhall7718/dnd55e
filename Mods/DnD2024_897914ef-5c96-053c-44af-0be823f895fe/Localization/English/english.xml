@@ -5348,4 +5348,12 @@ When you make an Unarmed Strike, your reach is 5 feet greater than normal.</cont
   <content contentuid="hc53cf966gb23fg281eg72e3g7fee38b6dede" version="1">Tide of Darkness</content>
   <content contentuid="h029cddf2gf1b9g86a2g45e7g18bf046b40f1" version="3">You unleash a wave of swirling shadows that fills an area next to you. Each creature in a 10-foot Cube of Darkness originating from you when you cast the spell makes a Wisdom saving throw. On a failed save, a creature takes 2d8 psychic damage and is Blinded until the start of your next turn. On a successful save, it takes half as much damage and isn’t Blinded.</content>
   <content contentuid="hde134590g10deg4df4g9d4age5320c74f0fb" version="1">Magic Initiate: Tide of Darkness</content>
+  <content contentuid="h74c27673g4c1bga1beg5a49ga7aec2022773" version="1">Umbral Tendril</content>
+  <content contentuid="h347e6fe4g42a8g22ecgdb29gefc97f004483" version="1">You create a long, life-stealing tendril of shadow that lashes out at a creature you can see within range.
+
+Make a ranged spell attack against the target. On a hit, the target takes Necrotic damage. Roll the spell's damage dice again and gain Temporary Hit Points equal to the result.
+</content>
+  <content contentuid="ha3d984fag9166g3a51gbc9fg45fc0d47e563" version="1">Umbral Tendril</content>
+  <content contentuid="h243a5f49gc364g1981gbc7fge75041c302f9" version="1">Gain temporary hit points.</content>
+  <content contentuid="h6c91c1d0geff6g49ddg9fd0gd5d83740ee64" version="1">Magic Initiate: Umbral Tendril</content>
 </contentList>

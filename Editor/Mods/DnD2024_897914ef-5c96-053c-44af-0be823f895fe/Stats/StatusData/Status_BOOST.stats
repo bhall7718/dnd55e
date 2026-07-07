@@ -1380,6 +1380,68 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e0c14131-9322-4dfc-b721-0af8de328d20" />
+        <field name="Name" type="NameTableFieldDefinition" value="UMBRAL_TENDRIL_TEMPHP_1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha3d984fag9166g3a51gbc9fg45fc0d47e563" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h243a5f49gc364g1981gbc7fge75041c302f9" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="statIcons_MAG_TemporaryHP" />
+        <field name="StackId" type="StringTableFieldDefinition" value="UMBRAL_TENDRIL_TEMPHP" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(2d8);IF(HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(2d8+ClassLevel(Wizard)*2+IntelligenceModifier);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7e702cf6-e3c7-427a-88ca-888184e8a33f" />
+        <field name="Name" type="NameTableFieldDefinition" value="UMBRAL_TENDRIL_TEMPHP_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e0c14131-9322-4dfc-b721-0af8de328d20" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="6" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(3d8);IF(HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(3d8+ClassLevel(Wizard)*2+IntelligenceModifier);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7c5a6432-4416-4ed7-ad0a-c67af54507a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="UMBRAL_TENDRIL_TEMPHP_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e0c14131-9322-4dfc-b721-0af8de328d20" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(4d8);IF(HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(4d8+ClassLevel(Wizard)*2+IntelligenceModifier);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c3f2b9f6-39b5-4963-a28a-2829d9220f63" />
+        <field name="Name" type="NameTableFieldDefinition" value="UMBRAL_TENDRIL_TEMPHP_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e0c14131-9322-4dfc-b721-0af8de328d20" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(5d8);IF(HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(5d8+ClassLevel(Wizard)*2+IntelligenceModifier);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eb0ae9fc-95d0-4b95-8a69-ee51d7f359cf" />
+        <field name="Name" type="NameTableFieldDefinition" value="UMBRAL_TENDRIL_TEMPHP_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e0c14131-9322-4dfc-b721-0af8de328d20" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="21" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(6d8);IF(HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(6d8+ClassLevel(Wizard)*2+IntelligenceModifier);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="437033f7-1cd5-47e8-8e95-e0f1a8cad4ad" />
+        <field name="Name" type="NameTableFieldDefinition" value="UMBRAL_TENDRIL_TEMPHP_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e0c14131-9322-4dfc-b721-0af8de328d20" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="26" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(7d8);IF(HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(7d8+ClassLevel(Wizard)*2+IntelligenceModifier);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="21e9f363-a336-46bb-b03d-80f5beb27f5c" />
         <field name="Name" type="NameTableFieldDefinition" value="FIRE_RUNE_WIZARD" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7db07aaegcba0g874eg8391ge8926782e7f8" version="1" />
@@ -7495,6 +7557,16 @@
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_TRUESTRIKE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_TrueStrike);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfc64fd6bgba50g4748gaa9fg22adb16ff81b" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d22b071f-e4c0-4e05-bfb0-21947aff9a48" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_UMBRALTENDRIL" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_UMBRALTENDRIL" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_UmbralTendril,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6c91c1d0geff6g49ddg9fd0gd5d83740ee64" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
