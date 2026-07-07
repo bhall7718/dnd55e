@@ -5338,4 +5338,11 @@ When you make an Unarmed Strike, your reach is 5 feet greater than normal.</cont
   <content contentuid="h112fb3e9g734ag7e2dg4366g1a44c9038a26" version="1">You have already made your free Off-Hand Attack from Nick this turn and cannot make another one.</content>
   <content contentuid="h004828cbg6ae4g9d9fgef10g00102cb4f553" version="1">Dual Wielder: Off-Hand Attack</content>
   <content contentuid="h3a446706g6505g19b1g3826gb313d8b63d3f" version="1">You can make an additional Off-Hand Attack as a Bonus Action this turn.</content>
+  <content contentuid="hf7c771bbgba46g05a3g6c15g9c7c4ebba6b6" version="1">Absorb Elements</content>
+  <content contentuid="h2127d371g53e2g616ag957cg184d49e115ef" version="1">The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra [1] damage of the triggering type, and the spell ends.</content>
+  <content contentuid="hccbdbb9eg99b6gf54fgce8dg5a4b024a38a8" version="1">Absorb Elements</content>
+  <content contentuid="h23f50accgc0b8gb376gbc26g1fff227eb3f5" version="1">The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra [1] damage of the triggering type, and the spell ends.</content>
+  <content contentuid="h0d100dc2gb2a7ge09fg624dga1554d1a009c" version="1">Absorb Elements</content>
+  <content contentuid="hab392145gc890gaa18g04cag5b0b653d9632" version="1">The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra [1] damage of the triggering type, and the spell ends.</content>
+  <content contentuid="h93909048gc250g4ba0g8188g2450b9be939f" version="1">Magic Initiate: Absorb Elements</content>
 </contentList>
