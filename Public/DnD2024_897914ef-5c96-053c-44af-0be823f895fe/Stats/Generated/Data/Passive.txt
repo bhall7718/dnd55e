@@ -211,7 +211,7 @@ data "ExtraDescription" "h84f8977cg06ecg1e31gebd6g21e4b7346121;2"
 data "Icon" "Action_Multiattack_WhirlwindAttack"
 data "EnabledConditions" "HasPassive('HasWeaponMastery_Nick', context.Source);"
 data "Properties" "IsHidden"
-data "StatsFunctorContext" "OnTurn;OnCombatStarted;OnCreate"
+data "StatsFunctorContext" "OnTurn"
 data "Conditions" "HasPassive('HasWeaponMastery_Nick', context.Source);"
 data "StatsFunctors" "ApplyStatus(SELF,WEAPONMASTERY_NICK,100,1);"
 
