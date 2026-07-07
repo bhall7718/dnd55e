@@ -5345,4 +5345,7 @@ When you make an Unarmed Strike, your reach is 5 feet greater than normal.</cont
   <content contentuid="h0d100dc2gb2a7ge09fg624dga1554d1a009c" version="1">Absorb Elements</content>
   <content contentuid="hab392145gc890gaa18g04cag5b0b653d9632" version="1">The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra [1] damage of the triggering type, and the spell ends.</content>
   <content contentuid="h93909048gc250g4ba0g8188g2450b9be939f" version="1">Magic Initiate: Absorb Elements</content>
+  <content contentuid="hc53cf966gb23fg281eg72e3g7fee38b6dede" version="1">Tide of Darkness</content>
+  <content contentuid="h029cddf2gf1b9g86a2g45e7g18bf046b40f1" version="3">You unleash a wave of swirling shadows that fills an area next to you. Each creature in a 10-foot Cube of Darkness originating from you when you cast the spell makes a Wisdom saving throw. On a failed save, a creature takes 2d8 psychic damage and is Blinded until the start of your next turn. On a successful save, it takes half as much damage and isn’t Blinded.</content>
+  <content contentuid="hde134590g10deg4df4g9d4age5320c74f0fb" version="1">Magic Initiate: Tide of Darkness</content>
 </contentList>

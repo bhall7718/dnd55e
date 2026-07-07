@@ -1118,6 +1118,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3ce1ffd7-2465-4062-a5ef-60af01ca5ba8" />
+        <field name="Name" type="NameTableFieldDefinition" value="TIDE_OF_DARKNESS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="13515640-864e-4ed7-8073-e0e0882b22a5" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;Blind;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7d29bf57-4d63-48c2-988b-c3ba9b8d6add" />
         <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_OWNER" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3eb5c0aa-94dc-4607-b4b0-51b715d496f8" />
@@ -7456,6 +7465,16 @@
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_THUNDERCLAP" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Thunderclap);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h663fe553g789ag4344gba16g9856c5fe1f6c" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d81d5a30-6fb8-4fd0-8b23-691443212e02" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_TIDEOFDARKNESS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_TIDEOFDARKNESS" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_TideOfDarkness,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hde134590g10deg4df4g9d4age5320c74f0fb" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
