@@ -5384,4 +5384,14 @@ In addition, you have Resistance to Thunder damage, and ranged attack rolls agai
   <content contentuid="hf67f7f88ga42fgb7c6g3526gd17410ea4287" version="1">Thunderous reverberations fill a 10-foot Emanation originating from you for the duration. Whenever the Emanation enters a creature’s space and whenever a creature enters the Emanation or ends its turn there, the creature makes a Constitution saving throw. On a failed save, the creature takes Thunder damage. On a successful save, the creature takes half as much damage only. A creature makes this save only once per turn.
 
 In addition, you have Resistance to Thunder damage, and ranged attack rolls against you are made with Disadvantage.</content>
+  <content contentuid="h96a4fdcdg6eedg4ccdgb453g193837a217e9" version="1">Ashardalon's Stride</content>
+  <content contentuid="h9b831d16g0360g4588g8217g0115979d8198" version="1">The billowing flames of a dragon blast from your feet, granting you explosive speed. For the duration, your Speed increases by 20 feet, and moving doesn't provoke Opportunity Attacks. Whenever you move within 5 feet of a creature, it takes Fire damage from your trail of heat. A creature can take this damage only once during a turn.
+
+At Higher Levels: your Speed increases by an additional 5 feet, and the Fire damage increases by 1d6, for each spell slot level above 3rd.</content>
+  <content contentuid="h07bf103cg6fe9g48deg90e6g51cda963e2bb" version="1">Ashardalon's Stride Aura</content>
+  <content contentuid="h015e6052gbb2eg4bc4g8148gac1a0bbffbf1" version="2">The billowing flames of a dragon blast from your feet, granting you explosive speed. For the duration, your Speed increases by [1], and moving doesn't provoke Opportunity Attacks. Whenever you move within [2] of a creature, it takes Fire damage from your trail of heat. A creature can take this damage only once during a turn.</content>
+  <content contentuid="hefff3653g8439g5d57g7610g02ccec1105b6" version="1">Ashardalon's Stride</content>
+  <content contentuid="hc093f34eg734bg4909g8ea8g91e0aff0472a" version="2">The billowing flames of a dragon blast from your feet, granting you explosive speed. For the duration, your Speed increases by [1], and moving doesn't provoke Opportunity Attacks. Whenever you move within [2] of a creature, it takes Fire damage from your trail of heat. A creature can take this damage only once during a turn.</content>
+  <content contentuid="he87b5a9cg9c3ag1b7fg2fefg3f7ae0ff3ef9" version="1">When you cast this spell using a spell slot of 4th level or higher, increase your speed by [1] for each spell slot level above 3rd. The spell deals an additional [2] for each slot level above 3rd.</content>
+  <content contentuid="hc28f4dcdgd614gc5b0g7be9g946be11c3809" version="1">Ashardalon's Stride</content>
 </contentList>

@@ -1013,6 +1013,13 @@
                     <attribute id="V2" type="float" value="0.04675293"/>
                 </node>
                 <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_AshardalonsStride"/>
+                    <attribute id="U1" type="float" value="0.45324707"/>
+                    <attribute id="U2" type="float" value="0.46862793"/>
+                    <attribute id="V1" type="float" value="0.04699707"/>
+                    <attribute id="V2" type="float" value="0.06237793"/>
+                </node>
+                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Spell_BallisticSmite"/>
                     <attribute id="U1" type="float" value="0.37512207"/>
                     <attribute id="U2" type="float" value="0.39050293"/>
