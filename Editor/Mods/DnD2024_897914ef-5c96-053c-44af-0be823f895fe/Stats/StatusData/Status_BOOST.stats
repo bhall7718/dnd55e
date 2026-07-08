@@ -1275,6 +1275,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="69695478-c64f-45b0-8ff6-6bc468ac1f4b" />
         <field name="Name" type="NameTableFieldDefinition" value="CACOPHONIC_SHIELD_DAMAGE_RECEIVED" />
         <field name="StackId" type="StringTableFieldDefinition" value="CACOPHONIC_SHIELD_DAMAGE_RECEIVED" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1342,8 +1343,9 @@
         <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'CACOPHONIC_SHIELD_DAMAGE_RECEIVED', 0.1)):DealDamage(3d6,Thunder,Magical);ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
         <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'CACOPHONIC_SHIELD_DAMAGE_RECEIVED', 0.1)):DealDamage(3d6/2,Thunder,Magical);ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
-        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="e04b2226-50e5-47ec-888e-4008193fb9ea" />
-        <field name="StatusEffectOnTurn" type="GuidObjectTableFieldDefinition" value="e04b2226-50e5-47ec-888e-4008193fb9ea" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="80e5c40d-531d-4aa2-8b2c-3eb4dc645892" />
+        <field name="StatusEffectOnTurn" type="GuidObjectTableFieldDefinition" value="80e5c40d-531d-4aa2-8b2c-3eb4dc645892" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="80e5c40d-531d-4aa2-8b2c-3eb4dc645892" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
