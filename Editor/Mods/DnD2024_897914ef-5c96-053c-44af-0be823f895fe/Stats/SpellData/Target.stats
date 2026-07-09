@@ -5885,7 +5885,7 @@
         <field name="Level" type="IntegerTableFieldDefinition" value="2" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_DragonsBreath_Acid;Target_DragonsBreath_Cold;Target_DragonsBreath_Fire;Target_DragonsBreath_Lightning;Target_DragonsBreath_Poison;" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_ACID,100,10);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_FIRE,100,10);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character()" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Dragonborn_BreathWeapon_FireCone" />
@@ -5925,6 +5925,7 @@
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Acid)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsConcentration;IsSpell;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_ACID,100,10);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
