@@ -1335,6 +1335,13 @@
                     <attribute id="V2" type="float" value="0.03112793"/>
                 </node>
                 <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_FireDance"/>
+                    <attribute id="U1" type="float" value="0.60949707"/>
+                    <attribute id="U2" type="float" value="0.62487793"/>
+                    <attribute id="V1" type="float" value="0.04699707"/>
+                    <attribute id="V2" type="float" value="0.06237793"/>
+                </node>
+                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Spell_FireRune"/>
                     <attribute id="U1" type="float" value="0.54699707"/>
                     <attribute id="U2" type="float" value="0.56237793"/>

@@ -2661,6 +2661,35 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AllAbilities);Disadvantage(AttackRoll);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="65796be1-edfa-474f-bf88-95133f00e10b" />
+        <field name="Name" type="NameTableFieldDefinition" value="FIRE_DANCE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a7ed0ab4-1239-477c-a99c-eac8dfda0d87" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3a8c610bga3d0g98a5g372eg5d265e61eef9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35662d22ga130g4004gd1e2g502f46f7dbd4" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_FireDance" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FIRE_DANCE" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Character() and not Dead() and not Ally()):ApplyStatus(FIRE_DANCE_AURA,100,-1)" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="ce5becff-ab36-4fdf-b3e2-692b15d98e6a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="56ba1ffd-9f16-4087-91de-3717b8d6e61c" />
+        <field name="Name" type="NameTableFieldDefinition" value="FIRE_DANCE_AURA" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h39f64ea5gb60eg3361ga734gb5f1af066885" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_FireDance" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FIRE_DANCE_AURA" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Wisdom,15)" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="ApplyStatus(HYPNOTIC_PATTERN,100,1)" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Wisdom,15)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="ApplyStatus(HYPNOTIC_PATTERN,100,1)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a999c096-e824-4644-bac9-5e98d05aa1a0" />
