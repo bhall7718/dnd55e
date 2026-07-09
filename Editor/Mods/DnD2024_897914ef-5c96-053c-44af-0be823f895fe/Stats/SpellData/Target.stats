@@ -6479,6 +6479,46 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6aecceff-aa43-4e80-8559-eb4af572644c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fly" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="797cb094-d02e-4585-9363-f8a300b9235e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(FLY,100,100);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc7b7932cg1da7g2183g00f2g206583dcf7ef" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h285600aag7ea5gc76dg7ee0gf02eee80c3a6" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="386c6c73-a9b0-481b-819e-8721958c5d92" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fly_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6bb280be-d52a-44ca-a3a3-783c52c8d729" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(FLY,100,100);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9de09bd7gc9d1g08d0gcd2fg85f226c678d3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc3d38c0eg2fe4g7216g4d25g664b8ca1c301" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d5d06ec6-7794-4478-8fda-8cec2e9baa24" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fly_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3d7d0520-a726-49e7-9ef8-3833ae2da1cb" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(FLY,100,100);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4e086e1dgb445g00e5g933agb84d51e37356" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h406d239cgf596g3642g0c30g97eb1a38e37a" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9931cc66-a2c6-47f1-b1cd-792879dcd108" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fly_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="444db590-5d42-45a8-9124-c7480a88d273" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(FLY,100,100);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4d6a7f0cg4b59gf232g16f9gaaf7e6aa8dfb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h680a104dg18d0g6bfeg6161ga38f884a1c38" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e39823f4-c4dd-45cb-a029-0aab328c2617" />
         <field name="Name" type="NameTableFieldDefinition" value="MAG_ElementalWeapon" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="acb3f23b-a5b9-4a6b-af9d-a7d79ca63ad1" />
@@ -11040,7 +11080,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8805386a-94d6-4eb1-b290-735ecc1f9975" />
         <field name="Name" type="NameTableFieldDefinition" value="Fly_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="797cb094-d02e-4585-9363-f8a300b9235e" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6aecceff-aa43-4e80-8559-eb4af572644c" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

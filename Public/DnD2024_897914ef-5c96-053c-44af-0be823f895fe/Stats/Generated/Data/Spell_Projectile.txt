@@ -2500,6 +2500,10 @@ data "TooltipDamageList" "DealDamage(8d8,Bludgeoning)"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6;"
 data "PowerLevel" "6"
 
+new entry "Projectile___TRANSMUTATION SLEVEL 3__"
+type "SpellData"
+data "SpellType" "Projectile"
+
 new entry "Projectile_LightningArrow"
 type "SpellData"
 data "SpellType" "Projectile"
