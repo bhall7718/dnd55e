@@ -1453,6 +1453,99 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="09f2caa6-2a57-499d-87ef-be653354b997" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d4e0bd80-1a63-4c03-92dd-07f742eb14d0" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_WOODLAND_AURA" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h94c38ff4g24d8gdff5gf15bg1ec208dddd2d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2b042bbdga167g0335g0c96gd2fc48c2ea13" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureWoodlandBeings" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CONJURE_WOODLAND_AURA" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(CONJURE_WOODLAND,100,-1)" />
+        <field name="AuraFlags" type="EnumerationListTableFieldDefinition" value="ShouldCheckLOS" enumeration_type_name="AuraFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Invisible);UnlockSpell(Shout_Disengage_BonusAction_Temp);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="HasStatus('SANCTUARY')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Wisdom" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(5d8,Force)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;BringIntoCombat" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="257fd8bd-443d-4253-8482-3b90fbad0620" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6fd27cb5-bff5-48b4-a987-ec76c0e8d921" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_WOODLAND_AURA_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d4e0bd80-1a63-4c03-92dd-07f742eb14d0" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(CONJURE_WOODLAND_4,100,-1)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(6d8,Force)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="34bdfb9a-d9d1-4be1-a180-f54f45d90cb1" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_WOODLAND_AURA_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d4e0bd80-1a63-4c03-92dd-07f742eb14d0" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(CONJURE_WOODLAND_5,100,-1)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(7d8,Force)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="126eb254-a73d-4dae-aaeb-924198c2c225" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_WOODLAND" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7a848bcagaa30g63d3g3125g77c908213cd3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haf633c9dg1492gf659gb336g2332cda3f768" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureWoodlandBeings" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Wisdom" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(5d8,Force)" />
+        <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Wisdom,SourceSpellDC())" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):DealDamage(5d8,Force,Magical);IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):ApplyStatus(CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnApplyFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):DealDamage(5d8/2,Force,Magical);IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):ApplyStatus(CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Wisdom,SourceSpellDC())" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):DealDamage(5d8,Force,Magical);IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):ApplyStatus(CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):DealDamage(5d8/2,Force,Magical);IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):ApplyStatus(CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED,100,1)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="7bf288a2-61a1-4e9a-be06-1b31a7e5c204" />
+        <field name="StatusEffectOnTurn" type="GuidObjectTableFieldDefinition" value="c4a3d033-a273-4489-a00c-ba7e52b6f1d5" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="c4a3d033-a273-4489-a00c-ba7e52b6f1d5" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1c1f4c3c-51cb-40f8-929b-3e12d53306b0" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_WOODLAND_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="126eb254-a73d-4dae-aaeb-924198c2c225" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(6d8,Force)" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):DealDamage(6d8,Force,Magical);IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):ApplyStatus(CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnApplyFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):DealDamage(6d8/2,Force,Magical);IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):ApplyStatus(CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):DealDamage(6d8,Force,Magical);IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):ApplyStatus(CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):DealDamage(6d8/2,Force,Magical);IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):ApplyStatus(CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="716eeae4-db48-43aa-8a1b-562a9bf3dcce" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_WOODLAND_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="126eb254-a73d-4dae-aaeb-924198c2c225" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(7d8,Force)" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):DealDamage(7d8,Force,Magical);IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):ApplyStatus(CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnApplyFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):DealDamage(7d8/2,Force,Magical);IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):ApplyStatus(CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):DealDamage(7d8,Force,Magical);IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):ApplyStatus(CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):DealDamage(7d8/2,Force,Magical);IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):ApplyStatus(CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e3194911-53b4-4b28-ae68-213ca23a9912" />
         <field name="Name" type="NameTableFieldDefinition" value="CLOUDKILL" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f1a83df1-2ba0-4e85-be73-00f551f1ec9c" />

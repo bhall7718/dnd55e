@@ -1386,6 +1386,54 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b0b2519f-1352-44e2-9b6d-37edc9d6cadf" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CONJURATION__SLEVEL_4__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e10e35c0-c24b-4386-a4fa-4ba4ce406451" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureWoodlandBeings" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8a0699ab-923a-47f8-a3b3-69ae8309a895" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(CONJURE_WOODLAND_AURA,100,10);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Force)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="68592c7c-20d6-4dad-b53e-89c35962b23b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureWoodlandBeings_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="57458770-908e-4ddc-9183-992c836ba87c" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(CONJURE_WOODLAND_AURA_5,100,10);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Force)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="58efebd4-8a24-48bf-bf37-6d8b105b516b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureWoodlandBeings_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="de558d1a-941f-41f0-b8f2-df251a4cdf90" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(CONJURE_WOODLAND_AURA_6,100,10);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Force)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dc50653c-5d14-45f2-983a-bd124a6cbc51" />
         <field name="Name" type="NameTableFieldDefinition" value="__CONJURATION__SLEVEL_5__" />
       </fields>
