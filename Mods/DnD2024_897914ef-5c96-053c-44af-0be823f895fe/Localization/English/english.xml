@@ -5488,4 +5488,5 @@ In addition, you can take the Disengage action as a Bonus Action for the spellâ€
   <content contentuid="h4016a9a2g8d51g2860gce0aga3dae07e0895" version="2">You attempt to bring a dim-witted creature to heel. A creature with an &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; of 3 or lower must succeed on an &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or become &lt;LSTag Type="Status" Tooltip="AWAKEN"&gt;Dominated&lt;/LSTag&gt; by you until you finish a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
   <content contentuid="h98169436gc6eagd39ag00f1g64c904ff7649" version="2">Awakened</content>
   <content contentuid="h947e61d6g7b1fg7654gbc73g3ec51f29fd5a" version="2">This creature's mind has been bent to its caster's will and obeys their commands without question. The effect ends when the caster finishes a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+  <content contentuid="h36f0d51cg768fg6fcegfd4cg9f24f3efb0a1" version="1">Bloodthirst</content>
 </contentList>
