@@ -5502,4 +5502,12 @@ In addition, you can take the Disengage action as a Bonus Action for the spellâ€
   <content contentuid="h3a8c610bga3d0g98a5g372eg5d265e61eef9" version="1">Fire Dance</content>
   <content contentuid="h35662d22ga130g4004gd1e2g502f46f7dbd4" version="1">You conjure motes of dancing flame that hover and drift around you for the duration. At the start of each of their turns, non-allied creatures within 20 feet of the flames must succeed on a Wisdom saving throw or become charmed until the start of their next turn. While charmed in this way, the creature is incapacitated and has a speed of 0.</content>
   <content contentuid="h39f64ea5gb60eg3361ga734gb5f1af066885" version="1">Fire Dance Aura</content>
+  <content contentuid="h6f008cdbg3350gd976g5f94g72ed94e99398" version="1">Spectral Slash</content>
+  <content contentuid="hc78c376dg616ag7239gb066ga93738880899" version="2">Spectral Slash Weapon Attack</content>
+  <content contentuid="h63ced89eg89ebg0483ga272g25ce1e27bec3" version="1">Spectral Slash Target</content>
+  <content contentuid="h95052719gb237gac57g92e1g14b60980710f" version="1">Spectral Slash Attack</content>
+  <content contentuid="he35c6486g7f21gd1fag785egf414f915b565" version="1">You send forth a spectral copy of yourself to strike down your foe. Make a melee spell attack against a creature within 20 feet of you. On a hit, the target takes [1] damage of your weaponâ€™s damage type.
+
+You can then spend your action to move up to 20 feet in a straight line towards the target, streaking through a spectral trail, and take the Attack action against it. To use this action, you must attack with the melee weapon used for the casting of this spell.</content>
+  <content contentuid="h1baba05fg926fg3fbeg861bg6aa1ecd27bef" version="1">The damage increases by 1d8 and the distance traveled by 10 feet for each spell slot level above 1.</content>
 </contentList>

@@ -24,6 +24,11 @@
                     <attribute id="Text" type="TranslatedString" handle="he725b302g9ad6g038fg90e3g3b6453195180" version="1"/>
                     <attribute id="UUID" type="guid" value="26b974eb-a02f-4c3e-ba37-a33962c7b8a1"/>
                 </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Spectral Slash"/>
+                    <attribute id="Text" type="TranslatedString" handle="h1baba05fg926fg3fbeg861bg6aa1ecd27bef" version="1"/>
+                    <attribute id="UUID" type="guid" value="2d34056c-ad56-4393-8089-dc85b5f9b421"/>
+                </node>
             </children>
         </node>
     </region>
