@@ -600,6 +600,13 @@
                     <attribute id="V2" type="float" value="0.07800293"/>
                 </node>
                 <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_LOOT_SCROLL_CircleOfPower"/>
+                    <attribute id="U1" type="float" value="0.26574707"/>
+                    <attribute id="U2" type="float" value="0.28112793"/>
+                    <attribute id="V1" type="float" value="0.06262207"/>
+                    <attribute id="V2" type="float" value="0.07800293"/>
+                </node>
+                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Item_LOOT_SCROLL_CloakOfShadow"/>
                     <attribute id="U1" type="float" value="0.85949707"/>
                     <attribute id="U2" type="float" value="0.87487793"/>
@@ -626,6 +633,13 @@
                     <attribute id="U2" type="float" value="0.92175293"/>
                     <attribute id="V1" type="float" value="0.03137207"/>
                     <attribute id="V2" type="float" value="0.04675293"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Item_LOOT_SCROLL_DragonsBreath"/>
+                    <attribute id="U1" type="float" value="0.28137207"/>
+                    <attribute id="U2" type="float" value="0.29675293"/>
+                    <attribute id="V1" type="float" value="0.06262207"/>
+                    <attribute id="V2" type="float" value="0.07800293"/>
                 </node>
                 <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Item_LOOT_SCROLL_Dream"/>
@@ -1816,20 +1830,6 @@
                     <attribute id="U2" type="float" value="0.42175293"/>
                     <attribute id="V1" type="float" value="0.01574707"/>
                     <attribute id="V2" type="float" value="0.03112793"/>
-                </node>
-                <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Item_LOOT_SCROLL_CircleOfPower"/>
-                    <attribute id="U1" type="float" value="0.26574707"/>
-                    <attribute id="U2" type="float" value="0.28112793"/>
-                    <attribute id="V1" type="float" value="0.06262207"/>
-                    <attribute id="V2" type="float" value="0.07800293"/>
-                </node>
-                <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Item_LOOT_SCROLL_DragonsBreath"/>
-                    <attribute id="U1" type="float" value="0.28137207"/>
-                    <attribute id="U2" type="float" value="0.29675293"/>
-                    <attribute id="V1" type="float" value="0.06262207"/>
-                    <attribute id="V2" type="float" value="0.07800293"/>
                 </node>
             </children>
         </node>
