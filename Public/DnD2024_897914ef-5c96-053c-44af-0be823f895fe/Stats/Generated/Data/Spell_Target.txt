@@ -10023,3 +10023,7 @@ type "SpellData"
 data "SpellType" "Target"
 using "Target_Enervation"
 
+new entry "Target_DragonsBreath_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_DragonsBreath"

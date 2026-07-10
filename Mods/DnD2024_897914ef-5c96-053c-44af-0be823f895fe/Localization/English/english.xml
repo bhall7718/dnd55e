@@ -5557,4 +5557,8 @@ Whenever the spell deals damage to a target, you regain hit points equal to half
   <content contentuid="hf51361c7g0bdcg49bcga863g2bc73ce22f6e" version="1">Usable Classes: Bard, Cleric, Warlock, Wizard</content>
   <content contentuid="h713b476fg66a5g4653ga065gd0eabad305c9" version="1">Scroll of Enervation</content>
   <content contentuid="h4b7db2ffg085fg4b20g8ed8g4d26a4634f00" version="1">Usable Classes: Sorcerer, Warlock, Wizard</content>
+  <content contentuid="h1fb28cd1g312fg4a30g9c6fg88c9d787974a" version="1">Scroll of Dragon's Breath</content>
+  <content contentuid="h43c7ed41g0c76g4c1cg8555g3622987390d2" version="1">Usable Classes: Artificer, Sorcerer, Wizard</content>
+  <content contentuid="h68f18197gef59g4d42g89d4g359f077b2f65" version="1">Scroll of Circle of Power</content>
+  <content contentuid="h45bfef77gc136g4fcdga0c9g905ed940113b" version="1">Usable Classes: Cleric, Wizard</content>
 </contentList>

@@ -5775,5 +5775,12 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="dd4e2e47-d691-4acd-8cb1-3c1612338dc7" />
       </fields>
     </stat_object>
-  </stat_objects>
+      <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ebef070f-ac0a-4aa0-b90b-2fc31074b89b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shout_CircleOfPower_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5a11e406-fb99-471c-8d6c-063b5ba68beb" />
+      </fields>
+    </stat_object>
+</stat_objects>
 </stats>

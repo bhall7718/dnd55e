@@ -11884,5 +11884,12 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="ea5d1ba3-0c89-4c81-aeb3-36a094388c30" />
       </fields>
     </stat_object>
-  </stat_objects>
+      <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ef6e2243-a42c-45a0-8223-5a04a57b33c1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Target_DragonsBreath_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a8b90ea4-2cbb-4372-80ae-22cd6dfe72a0" />
+      </fields>
+    </stat_object>
+</stat_objects>
 </stats>

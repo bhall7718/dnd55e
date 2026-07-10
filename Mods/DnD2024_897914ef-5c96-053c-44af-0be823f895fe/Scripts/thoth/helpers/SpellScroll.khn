@@ -85,6 +85,7 @@ local SPELL_CLASS_MAP = {
     Projectile_SnowballSwarm_spellscroll = '2 Sorcerer Wizard',
     Target_SummonBeast_spellscroll = '2 Druid Ranger',
     Target_Web_spellscroll = '2 Sorcerer Wizard',
+    Target_DragonsBreath_spellscroll = '2 Artificer Sorcerer Wizard',
 
     Target_AnimateDead_spellscroll = '3 Cleric Warlock Wizard',
     Zone_AstralFlood_spellscroll = '3 Bard Sorcerer Wizard',
@@ -152,6 +153,7 @@ local SPELL_CLASS_MAP = {
     Target_Awaken_spellscroll = '5 Bard Druid',
     Target_Dream_spellscroll = '5 Bard Cleric Warlock Wizard',
     Target_Enervation_spellscroll = '5 Sorcerer Warlock Wizard',
+    Shout_CircleOfPower_spellscroll = '5 Cleric Wizard',
 
     Projectile_ChainLightning_spellscroll = '6 Sorcerer Wizard',
     Target_CircleOfDeath_spellscroll = '6 Sorcerer Warlock Wizard',
@@ -425,4 +427,6 @@ function IsScrollSpell()
 	| SpellId('Target_UmbralTendril_spellscroll')
 	| SpellId('Zone_ElementalExhalation_spellscroll')
 	| SpellId('Zone_LaeralsSilverLance_spellscroll')
+	| SpellId('Shout_CircleOfPower_spellscroll')
+	| SpellId('Target_DragonsBreath_spellscroll')
 end

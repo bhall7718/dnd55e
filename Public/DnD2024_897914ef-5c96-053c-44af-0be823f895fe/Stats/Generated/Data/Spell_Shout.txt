@@ -4850,3 +4850,7 @@ type "SpellData"
 data "SpellType" "Shout"
 using "Shout_FireDance"
 
+new entry "Shout_CircleOfPower_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_CircleOfPower"

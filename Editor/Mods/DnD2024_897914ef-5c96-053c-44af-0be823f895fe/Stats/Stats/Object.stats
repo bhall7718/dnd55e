@@ -593,5 +593,31 @@
         <field name="ValueLevel" type="IntegerTableFieldDefinition" value="10" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4fc5dc36-e0df-4460-8b25-0c85d2d1a784" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_DragonsBreath_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f96a5479-9354-43e0-b4a0-7b7f4de84bf5" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll_2" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f2148257-64e8-4729-83d9-2d4f4e5adfe5" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_CircleOfPower_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d3a42c29-5e8e-4ecc-873b-e3d4355a8673" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll_5" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="10" />
+      </fields>
+    </stat_object>
 </stat_objects>
 </stats>
