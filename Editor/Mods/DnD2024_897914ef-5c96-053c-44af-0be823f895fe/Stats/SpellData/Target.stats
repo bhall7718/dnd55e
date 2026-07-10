@@ -6196,7 +6196,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_FIRE,100,10);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character()" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Dragonborn_BreathWeapon_FireCone" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_DragonsBreath" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he19de47agde53g5b49gd45ag019467942cb7" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0dcdc1c9g2349g6dc5g0490g2bd7268e6913" version="1" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d6,Fire)" />
@@ -11828,7 +11828,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="999c3895-792a-4a03-a9da-580c612b7975" />
       </fields>
     </stat_object>
-      <stat_object is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="fac7132e-a81c-40e7-8078-7797ebc484fa" />
         <field name="Name" type="NameTableFieldDefinition" value="Target_BodyWarpingOfGorgoroth_spellscroll" />
@@ -11884,5 +11884,5 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="ea5d1ba3-0c89-4c81-aeb3-36a094388c30" />
       </fields>
     </stat_object>
-</stat_objects>
+  </stat_objects>
 </stats>

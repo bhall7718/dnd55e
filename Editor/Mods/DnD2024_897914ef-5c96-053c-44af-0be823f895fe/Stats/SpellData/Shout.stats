@@ -774,7 +774,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(CIRCLE_OF_POWER_AURA,100,100);" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="9" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_AuraOfDevotion" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_CircleOfPower" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd212fcfagf0edg6619ga792g36f58b10cd9d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h72f29464ga410gf4f8g9388gc7bc97ac7ac0" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CIRCLE_OF_POWER_AURA,100,100);" />
@@ -5740,7 +5740,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="10ba27a0-0f55-4f06-8145-15fa3e46d88f" />
       </fields>
     </stat_object>
-      <stat_object is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2ae5ace1-4080-4089-b592-26289a602632" />
         <field name="Name" type="NameTableFieldDefinition" value="Shout_HungeringBlade_spellscroll" />
@@ -5775,5 +5775,5 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="dd4e2e47-d691-4acd-8cb1-3c1612338dc7" />
       </fields>
     </stat_object>
-</stat_objects>
+  </stat_objects>
 </stats>

@@ -1230,6 +1230,13 @@
                     <attribute id="V2" type="float" value="0.06237793"/>
                 </node>
                 <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_CircleOfPower"/>
+                    <attribute id="U1" type="float" value="0.76574707"/>
+                    <attribute id="U2" type="float" value="0.78112793"/>
+                    <attribute id="V1" type="float" value="0.04699707"/>
+                    <attribute id="V2" type="float" value="0.06237793"/>
+                </node>
+                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Spell_CloakOfShadow"/>
                     <attribute id="U1" type="float" value="0.57824707"/>
                     <attribute id="U2" type="float" value="0.59362793"/>
@@ -1319,6 +1326,13 @@
                     <attribute id="U2" type="float" value="0.99987793"/>
                     <attribute id="V1" type="float" value="0.00012207031"/>
                     <attribute id="V2" type="float" value="0.01550293"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_DragonsBreath"/>
+                    <attribute id="U1" type="float" value="0.75012207"/>
+                    <attribute id="U2" type="float" value="0.76550293"/>
+                    <attribute id="V1" type="float" value="0.04699707"/>
+                    <attribute id="V2" type="float" value="0.06237793"/>
                 </node>
                 <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Spell_Dream"/>
