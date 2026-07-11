@@ -14,7 +14,7 @@ For gameplay examples, build ideas, and practical references, check the playthro
 
 - [Playthrough Videos](#playthrough-videos)
 - [Rules and Actions](#rules-and-actions)
-- [Character Backgrounds](#character-backgrounds)
+- [Backgrounds](#backgrounds)
 - [Classes](#classes)
 - [Feats](#feats)
 - [Races and Species](#races-and-species)
@@ -31,17 +31,11 @@ For gameplay examples, build ideas, and practical references, check the playthro
 - **Spellcasting**: One Spell Slot Spell per Turn, Spell Scroll Usage Limitation
 - **Equipment and Items**: Heavy Armor Strength Requirement, Heavy Weapon Ability Requirement, Weapon Mastery
 
-## Character Backgrounds
+## Backgrounds
 
-See [Character Background](https://github.com/Yoonmoonsik/dnd55e/wiki/Backgrounds).
+See [Backgrounds](https://github.com/Yoonmoonsik/dnd55e/wiki/Backgrounds).
 
-### Player's Handbook
-
-Acolyte, Charlatan, Criminal, Entertainer, Farmer, Folk Hero, Guide, Guild Artisan, Haunted One, Hermit, Merchant, Noble, Outlander, Sage, Sailor, Scribe, Soldier, Urchin, Wayfarer.
-
-### Forgotten Realms: Heroes of Faerun
-
-Chondathan Freebooter, Dead Magic Dweller, Dragon Cultist, Emerald Enclave Caretaker, Flaming Fist Mercenary, Genie Touched, Harper, Ice Fisher, Knight of the Gauntlet, Lords' Alliance Vassal, Moonwell Pilgrim, Mulhorandi Tomb Raider, Mythalkeeper, Purple Dragon Squire, Rashemi Wanderer, Shadowmasters Exile, Spellfire Initiate, Zhentarim Mercenary.
+40 backgrounds are available. Each grants 2 skill proficiencies and an Origin Feat at character creation: Acolyte, Charlatan, Chondathan Freebooter, Criminal, Dead Magic Dweller, Dragon Cultist, Emerald Enclave Caretaker, Entertainer, Experiment, Farmer, Flaming Fist Mercenary, Folk Hero, Genie Touched, Guide, Guild Artisan, Harper, Haunted One, Hermit, Ice Fisher, Knight of the Gauntlet, Lords' Alliance Vassal, Merchant, Moonwell Pilgrim, Mulhorandi Tomb Raider, Mythalkeeper, Noble, Outlander, Purple Dragon Squire, Rashemi Wanderer, Rest Warden, Sage, Sailor, Scribe, Shadowmasters Exile, Soldier, Spellfire Initiate, Urchin, Wayfarer, Wicker Weaver, Zhentarim Mercenary.
 
 ## Classes
 
@@ -78,7 +72,7 @@ Archery, Blind Fighting, Defense, Dueling, Great Weapon Fighting, Interception, 
 ### Player's Handbook
 
 - Origin Feats: Alert, Lucky, Magic Initiate: Cleric, Magic Initiate: Druid, Magic Initiate: Wizard, Musician, Savage Attacker, Skilled, Tavern Brawler, Tough, Healer.
-- General Feats: Actor, Athlete, Charger, Crossbow Expert, Defensive Duelist, Dual Wielder, Dungeon Delver, Durable, Elemental Adept, Great Weapon Master, Heavily Armored, Heavy Armor Master, Lightly Armored, Mage Slayer, Martial Adept, Medium Armor Master, Polearm Master, Resilient, Ritual Caster, Sentinel, Sharpshooter, Shield Master, Speedy, Spell Sniper, War Caster, Weapon Master, Crusher, Fey Touched, Inspiring Leader, Mounted Combatant, Piercer, Poisoner, Shadow Touched, Skill Expert, Skulker, Slasher.
+- General Feats: Actor, Athlete, Charger, Crossbow Expert, Death Defier, Defensive Duelist, Dual Wielder, Dungeon Delver, Durable, Elemental Adept, Great Weapon Master, Heavily Armored, Heavy Armor Master, Lightly Armored, Mage Slayer, Martial Adept, Medium Armor Master, Moderately Armored, Polearm Master, Resilient, Ritual Caster, Rune Shaper, Sentinel, Sharpshooter, Shield Master, Speedy, Spell Sniper, Swift Witchcraft, War Caster, Weapon Master, Crusher, Fey Touched, Inspiring Leader, Mounted Combatant, Piercer, Poisoner, Shadow Touched, Skill Expert, Skulker, Slasher.
 
 ### Additional Sources
 
