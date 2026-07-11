@@ -4850,3 +4850,23 @@ type "SpellData"
 data "SpellType" "Shout"
 using "Shout_CircleOfPower"
 
+new entry "Shout_SwordBurst_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SwordBurst"
+
+new entry "Shout_Thunderclap_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Thunderclap"
+
+new entry "Shout_WordOfRadiance_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_WordOfRadiance"
+
+new entry "Shout_AuraOfVitality_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_AuraOfVitality"
+

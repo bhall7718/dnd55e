@@ -10104,3 +10104,58 @@ type "SpellData"
 data "SpellType" "Target"
 using "Target_DragonsBreath_Acid"
 
+new entry "Target_BoomingBlade_ClassSpell_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_BoomingBlade_ClassSpell"
+
+new entry "Target_FrightfulStart_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_FrightfulStart"
+
+new entry "Target_GreenFlameBlade_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_GreenFlameBlade"
+
+new entry "Target_Hellfire_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Hellfire"
+
+new entry "Target_HolyWord_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HolyWord"
+
+new entry "Target_MindSliver_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MindSliver"
+
+new entry "Target_SpareTheDying_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SpareTheDying"
+
+new entry "Target_VengefulBlade_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_VengefulBlade"
+
+new entry "Target_PhantomSteed_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_PhantomSteed"
+
+new entry "Target_Hex_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Hex_Wisdom"
+
+new entry "Target_Contagion_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Contagion_Seizure"
+

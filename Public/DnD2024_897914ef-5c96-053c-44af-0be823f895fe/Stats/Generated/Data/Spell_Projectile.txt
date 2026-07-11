@@ -3203,3 +3203,23 @@ type "SpellData"
 data "SpellType" "Projectile"
 using "Projectile_Catapult"
 
+new entry "Projectile_EldritchBlast_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_EldritchBlast"
+
+new entry "Projectile_FingerGuns_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_FingerGuns"
+
+new entry "Projectile_StarryWisp_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_StarryWisp"
+
+new entry "Projectile_SorcerousBurst_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_SorcerousBurst_1"
+

@@ -5775,5 +5775,33 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="5a11e406-fb99-471c-8d6c-063b5ba68beb" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a82844c2-f79a-47bc-a9ef-ef5cf2cf0401" />
+        <field name="Name" type="NameTableFieldDefinition" value="SwordBurst_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4da3d550-119c-40af-93ed-00eacddc4b82" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cdfaa512-2f0a-48f6-824b-d390bcf611d1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Thunderclap_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ee1afee2-62cb-4817-b66c-338eeceb32ff" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="35cf0022-bbab-4559-a2e2-d71475d7be2e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WordOfRadiance_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2b59a89-cbb3-4cb8-ba88-b4275fb6916b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b351a752-a822-4c40-b018-0251ac1fb17c" />
+        <field name="Name" type="NameTableFieldDefinition" value="AuraOfVitality_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9f8ffd01-76c7-4041-b5ef-742411069199" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -607,5 +607,239 @@
         <field name="ValueLevel" type="IntegerTableFieldDefinition" value="10" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="01845d23-442a-4903-97f9-17372582ddce" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_EldritchBlast_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="bc81300a-5d6f-413d-99bf-c64a72be3f90" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="655ee117-fc8f-4e2c-a94a-5808cb742159" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_FingerGuns_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="aa9fcdd7-5f9b-4b97-b40d-360a57b4b2c8" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="567f8dc1-1a43-498e-b114-9642e8d724f2" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_FrightfulStart_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="30f47dde-647e-43a0-89ec-4ceaa7ca87de" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dc10417e-e6ae-45e8-a666-a3e9dffba058" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_GreenFlameBlade_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d8aed534-e57c-4a62-82c3-0f235c7ade4a" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="93d2212b-6fdf-4035-ba0f-2b1a27cf1d1e" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_Hellfire_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a11fc69b-947d-4a8d-b709-360d83e0e22e" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bbe5ed47-a254-4036-9108-df7345564742" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_HolyWord_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="98218de6-fbd5-4446-a7f5-4859b5cfbc05" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ba96e558-c2d4-4079-adff-e1927605b724" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_MindSliver_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e6d3337f-2e34-47c1-a00d-1ad7325d223b" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="69dcec52-8050-43f0-aa37-a66b4d1dc4bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_SpareTheDying_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d8ae262d-6d73-4a9d-8d64-468be51b6e75" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d744a266-306d-4bb6-b5bd-215c092c7e9f" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_StarryWisp_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e17b6534-73dc-4e9c-8637-c08347739b95" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5ec0e9d1-5e93-4ed6-bb80-ad9be90e2122" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_SwordBurst_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="72982793-cdc2-4136-a7de-6e7305e16fa6" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="736b3b8b-1f96-4c84-957d-750d9fbca0c0" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_Thunderclap_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e903ed5b-9fb9-4ec8-973e-621432d5ce83" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="52501636-6d12-4a3b-86e3-1462c0e1eadc" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_VengefulBlade_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="53a95a53-7e93-4821-b8db-6442f6340d30" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3abb1d76-5af9-43f3-b03a-bb24c31f7097" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_WordOfRadiance_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="361e2ec0-cd37-447b-bf7b-e9f811d0f3db" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ef46a9df-6fd0-4c13-b819-988130003640" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_AuraOfVitality_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="77f6458f-b544-47a5-999d-e5391eccb3cf" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll_3" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cae86f86-2e64-4038-9462-7d8e49c7f6b8" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_PhantomSteed_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f05214bc-58ae-4e4d-bbb4-0f15f3cefb14" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll_3" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a597d8f-2c71-4829-92af-a4cfaab154fd" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_BoomingBlade_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b2b57bf4-f43e-4a12-b282-031f92221409" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="23c4169b-1a1f-4830-bc90-58aadc9bb579" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_SorcerousBurst_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="508eeb41-e5a7-41d6-856a-e856962a51f7" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f323e88c-f2b6-4d95-92a7-e27d1daf15d6" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_Hex_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="75ff99bc-00ca-4421-b564-6841f5c65995" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="671e3ce4-623d-43d8-945e-26f873d3485f" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_Contagion_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="eb37fa69-37c9-4714-a609-6c8a9de73b86" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll_5" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="10" />
+      </fields>
+    </stat_object>
 </stat_objects>
 </stats>
