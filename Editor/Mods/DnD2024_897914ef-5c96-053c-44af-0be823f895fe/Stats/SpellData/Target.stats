@@ -8404,6 +8404,102 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="e72cb38e-f92c-481c-b27a-121c54092fcd" />
         <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="942910fa-d929-4d6b-956e-13befd2cab41" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c209eedd-eb24-4683-aa3a-127b35b4c4c5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="08968b96-ddf4-4587-a8ca-ae32dc8ba498" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_MoonlightStep" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d30dd94a-ece1-41df-86a3-7d9430206285" />
+        <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c209eedd-eb24-4683-aa3a-127b35b4c4c5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e86fa011-8330-454d-8e95-326405f122fe" />
+        <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c209eedd-eb24-4683-aa3a-127b35b4c4c5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d73517cd-3c5a-4841-a849-1e883fc840e7" />
+        <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c209eedd-eb24-4683-aa3a-127b35b4c4c5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0963058c-10b9-4998-87d5-18715c0b19df" />
+        <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c209eedd-eb24-4683-aa3a-127b35b4c4c5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="234f2d15-81c7-42c9-b47c-e8ef2dae55b2" />
+        <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_Spell" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c209eedd-eb24-4683-aa3a-127b35b4c4c5" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="2" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;Wildshape" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a12a47e5-b463-4037-9532-50508cb87eb2" />
+        <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_Spell_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="234f2d15-81c7-42c9-b47c-e8ef2dae55b2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_MoonlightStep_Spell" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="80ecd816-3718-4896-b327-d772cd820afc" />
+        <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_Spell_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a12a47e5-b463-4037-9532-50508cb87eb2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e44ce09-d414-4d99-b100-dc421c44cfbf" />
+        <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_Spell_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a12a47e5-b463-4037-9532-50508cb87eb2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7060d465-738b-40b4-8eb0-178f0e2367e7" />
+        <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_Spell_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a12a47e5-b463-4037-9532-50508cb87eb2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -11884,12 +11980,12 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="ea5d1ba3-0c89-4c81-aeb3-36a094388c30" />
       </fields>
     </stat_object>
-      <stat_object is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ef6e2243-a42c-45a0-8223-5a04a57b33c1" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="fa3ca989-39b8-4634-bc17-d261f3de22ee" />
       </fields>
     </stat_object>
-</stat_objects>
+  </stat_objects>
 </stats>
