@@ -4100,6 +4100,12 @@ data "Boosts" "ActionResourceBlock(Movement);"
 data "RemoveConditions" ""
 data "RemoveEvents" ""
 
+new entry "MAGEHAND_REST"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAGEHAND_REST"
+data "Boosts" "ProficiencyBonusOverride(Owner.LevelMapValue(StandardProficiencyBonusScale));ProficiencyBonus(Skill,SleightOfHand);ExpertiseBonus(SleightOfHand);UnlockSpell(Target_MageHand_Pickpocketing);Skill(SleightOfHand, Owner.DexterityModifier);"
+
 new entry "MAGICAL_AMBUSH"
 type "StatusData"
 data "StatusType" "BOOST"

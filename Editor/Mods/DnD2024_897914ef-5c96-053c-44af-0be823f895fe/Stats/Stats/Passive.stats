@@ -4410,6 +4410,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="c3fe07b3-e3d0-425d-b3bd-4b52fb9f77ad" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfa85e2b2g9e54g0b5ag0128gfecef70e4d09" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9103" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h38834643g8993gebb9g329bg7091b7ffff24" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Target_MageHand'),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint),ModifyTooltipDescription());" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

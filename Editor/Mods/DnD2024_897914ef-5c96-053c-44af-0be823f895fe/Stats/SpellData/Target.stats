@@ -702,6 +702,26 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="08d9057f-82db-41e7-8241-ef8bf8a85a58" />
+        <field name="Name" type="NameTableFieldDefinition" value="MageHand" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="77ad0465-858b-4298-af5f-1c219f06386f" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d2c71496-8f00-4ff7-a398-a1892146a87f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MageHand_GithyankiPsionics" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6ac18de3-d07d-4626-befa-e42baf0d8d33" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c1f14f16-ea01-444a-a2a3-ef2f2b5bf997" />
         <field name="Name" type="NameTableFieldDefinition" value="SpectralSlash" />
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
@@ -9663,6 +9683,20 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8f4eaad2-b5e8-4498-9147-f3febbd04f5b" />
+        <field name="Name" type="NameTableFieldDefinition" value="MageHand_Pickpocketing" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Utility" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h92a4c2d5gc8f0g7ee9g69d9gbcc22fbfd18f" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf1072944g3718g45edgace3ga7e816803e30" version="1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character();" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Character();" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="528e2ddd-1ffc-44b4-9d56-3ac20a43b043" />
         <field name="Name" type="NameTableFieldDefinition" value="HairTrigger" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6707901c-81b4-4e77-8b0c-4eb486b44976" />
@@ -12118,7 +12152,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="fbc7d46e-5fd2-438d-a643-1fa6af2002cf" />
         <field name="Name" type="NameTableFieldDefinition" value="MageHand_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="77ad0465-858b-4298-af5f-1c219f06386f" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="08d9057f-82db-41e7-8241-ef8bf8a85a58" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

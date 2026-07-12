@@ -5816,4 +5816,7 @@ While shape-shifted with this trait, you have Advantage on Charisma checks.
 
 You stay in the new form until you take an action to revert to your true form.</content>
   <content contentuid="h91db12d5g8008g270dg0954g09a1733b596c" version="1">Dismiss Shape-Shifter</content>
+  <content contentuid="h92a4c2d5gc8f0g7ee9g69d9gbcc22fbfd18f" version="3">Pickpocketing</content>
+  <content contentuid="h38834643g8993gebb9g329bg7091b7ffff24" version="1">When you cast Mage Hand, you can cast it as a Bonus Action, and you can make the spectral hand Invisible. The hand can also attempt to pick pockets, making a Dexterity (Sleight of Hand) check using your own modifier as the Arcane Trickster.</content>
+  <content contentuid="hf1072944g3718g45edgace3ga7e816803e30" version="1">Reach into the target's pockets and attempt to steal an item. The Dexterity (Sleight of Hand) check uses your own modifier as the Arcane Trickster.</content>
 </contentList>
