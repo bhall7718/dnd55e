@@ -51,7 +51,7 @@ See the [Wiki](https://github.com/Yoonmoonsik/dnd55e/wiki) and each class page f
 | [Fighter](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Fighter) | Arcane Archer, Banneret, Battle Master, Cavalier, Champion, Eldritch Knight, Psi Warrior, Rune Knight, Viking |
 | [Gunslinger](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Gunslinger) | High Roller, Spellslinger, White Hat |
 | [Illrigger](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Illrigger) | Architect of Ruin, Hellspeaker, Painkiller, Sanguine Knight, Shadowmaster |
-| [Monk](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Monk) | Elements, Kensei, Mercy, Open Hand, Shadow |
+| [Monk](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Monk) | Drunken Master, Elements, Kensei, Mercy, Open Hand, Shadow |
 | [Monster Hunter](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Monster-Hunter) | Carver Guild, Devourer Guild, Occultist Guild |
 | [Paladin](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Paladin) | Ancients, Crown, Devotion, Glory, Noble Genies, Vengeance, Oathbreaker |
 | [Ranger](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Ranger) | Beast Master, Fey Wanderer, Gloom Stalker, Hollow Warden, Hunter, Swarm Keeper, Winter Walker |
