@@ -17,7 +17,7 @@ For gameplay examples, build ideas, and practical references, check the playthro
 - [Backgrounds](#backgrounds)
 - [Classes](#classes)
 - [Feats](#feats)
-- [Races and Species](#races-and-species)
+- [Races](#races)
 - [Spells](#spells)
 - [Items](#items)
 - [Creatures](#creatures)
@@ -73,7 +73,7 @@ See [Fighting Styles](https://github.com/Yoonmoonsik/dnd55e/wiki/Fighting-Styles
 
 Archery, Blind Fighting, Defense, Dueling, Great Weapon Fighting, Interception, Protection, Thrown Weapon Fighting, Two-Weapon Fighting, Unarmed Fighting.
 
-## Races and Species
+## Races
 
 See [Race](https://github.com/Yoonmoonsik/dnd55e/wiki/Races).
 
