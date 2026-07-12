@@ -135,6 +135,13 @@
                     <attribute id="Type" type="FixedString" value="Kalashtar"/>
                     <attribute id="UUID" type="guid" value="cd6d923c-951c-4537-b41f-164f66c86917"/>
                 </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h5844527eg5bc7g6d08gb8bdg836fe861ad65" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha27abf3bg3071ga32fgef9ag63d508f82314" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="5a7f3016-7c27-48df-9577-029e3fbed799"/>
+                    <attribute id="Type" type="FixedString" value="Changeling"/>
+                    <attribute id="UUID" type="guid" value="c746e2b0-739e-4474-a650-6af3ebd5ff61"/>
+                </node>
             </children>
         </node>
     </region>

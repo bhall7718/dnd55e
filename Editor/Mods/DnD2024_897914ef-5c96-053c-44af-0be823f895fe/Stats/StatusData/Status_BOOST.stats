@@ -9431,6 +9431,24 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb641ddd6g0950g5b50gf483g681c68224f61" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f7f7ff37-c399-47c2-b597-f8447daf24a7" />
+        <field name="Name" type="NameTableFieldDefinition" value="CHANGELING_SHAPESHIFTER_TARGET" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="096ad9a7-252a-4a59-a752-04326def8f41" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CHANGELING_SHAPESHIFTER_TARGET" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a55ea82c-6325-4b07-8249-df377104563e" />
+        <field name="Name" type="NameTableFieldDefinition" value="CHANGELING_SHAPESHIFTER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="096ad9a7-252a-4a59-a752-04326def8f41" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CHANGELING_SHAPESHIFTER" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Ability, Charisma);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="452a54eb-17df-4763-ab1f-4cf7a0656376" />

@@ -11344,6 +11344,28 @@
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, ManeuverSaveDC())" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5c76295f-2591-4e5b-8044-f3780adfa3df" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShapeShifter" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(CHANGELING_SHAPESHIFTER_TARGET,100,-1);ApplyStatus(SELF,CHANGELING_SHAPESHIFTER,100,-1);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Tagged('HUMANOID');" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Shapechanger" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h45db1baag1a66g5173g7046g451d6c939820" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haddbec72gf9c4g510bg8c8cgba4bcfd87301" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CHANGELING_SHAPESHIFTER_TARGET,100,-1)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Tadpole_AberrantShape_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Summon_InvokeDuplicity_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Tagged('HUMANOID');" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="2f0d97b9-4a1f-4bf3-a3c2-32efb563d601,,;,,;4acb9350-ba51-40c0-8b72-32dc3d50d4a2,,;58711808-db75-47e7-ba95-31e73dcdf9cd,,;57e449b3-b712-4508-afcf-f2e91dc473f6,,;,,;84f3727f-aabc-4e34-bf31-c6cd0160bec9,,;,,;,," />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="54d12e90-23ce-4f2b-af51-c50be6e9c6a9" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1c1b7ee9-54c0-4cc9-8290-0e09240c83c8" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ff7c774f-6f52-4ab5-90a1-e5feb4c15375" />

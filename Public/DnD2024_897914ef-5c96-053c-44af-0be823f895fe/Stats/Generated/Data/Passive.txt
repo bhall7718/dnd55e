@@ -7017,6 +7017,26 @@ data "PriorityOrder" "503"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Shout_CelestialRevelation);"
 
+new entry "__RACE CHANGELING__"
+type "PassiveData"
+
+new entry "Changeling_1_ChangelingInstincts"
+type "PassiveData"
+data "DisplayName" "h3aa8fe16g20f5gd9bcg6b2ag37c43ec4a76a;1"
+data "Description" "he0997113gd8aeg5a32g0cadg6583a1780b19;1"
+data "Icon" "Deception"
+data "PriorityOrder" "503"
+data "Properties" "Highlighted"
+
+new entry "Changeling_1_ShapeShifter"
+type "PassiveData"
+data "DisplayName" "h92492e20g45c0gf0a3g825eg51894d948693;1"
+data "Description" "h842fd89bg0642gf761gc3e7ga95824e9c738;1"
+data "Icon" "PassiveFeature_Shapechanger"
+data "PriorityOrder" "503"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Target_ShapeShifter);UnlockSpell(Shout_ShapeShifterDismiss);"
+
 new entry "__RACE DHAMPIR__"
 type "PassiveData"
 

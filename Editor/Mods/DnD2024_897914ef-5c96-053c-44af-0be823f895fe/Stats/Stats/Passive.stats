@@ -9692,6 +9692,35 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="42ef612d-fa47-4b6f-88f4-5bb1f7cabc22" />
+        <field name="Name" type="NameTableFieldDefinition" value="__RACE CHANGELING__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="67f89d9d-1024-453d-9519-299613ec9a83" />
+        <field name="Name" type="NameTableFieldDefinition" value="Changeling_1_ChangelingInstincts" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3aa8fe16g20f5gd9bcg6b2ag37c43ec4a76a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he0997113gd8aeg5a32g0cadg6583a1780b19" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Deception" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ec8b654a-f02c-42df-ab1d-3d8426615029" />
+        <field name="Name" type="NameTableFieldDefinition" value="Changeling_1_ShapeShifter" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h92492e20g45c0gf0a3g825eg51894d948693" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h842fd89bg0642gf761gc3e7ga95824e9c738" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Shapechanger" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ShapeShifter);UnlockSpell(Shout_ShapeShifterDismiss);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1a9d114a-5733-4457-b939-5f4b1fe56144" />
         <field name="Name" type="NameTableFieldDefinition" value="__RACE DHAMPIR__" />
       </fields>

@@ -8455,6 +8455,15 @@
                     <attribute id="UUID" type="guid" value="c93571e8-743c-49f3-bcbf-68d02e19a0a3"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Changeling"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Changeling_1_ChangelingInstincts;Changeling_1_ShapeShifter"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(6047b351-8440-4334-b0e6-cdbdb11d225a,2);"/>
+                    <attribute id="TableUUID" type="guid" value="5a7f3016-7c27-48df-9577-029e3fbed799"/>
+                    <attribute id="UUID" type="guid" value="f540db8d-1c25-451e-9494-d6174c8a543a"/>
+                </node>
+                <node id="Progression">
                     <attribute id="Name" type="LSString" value="__NPC__"/>
                     <attribute id="UUID" type="guid" value="99597b6a-61a4-4763-85c5-ffe2e0573f7e"/>
                 </node>

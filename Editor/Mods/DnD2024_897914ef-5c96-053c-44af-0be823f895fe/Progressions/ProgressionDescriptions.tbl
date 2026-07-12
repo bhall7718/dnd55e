@@ -192,5 +192,15 @@
         <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="aedab8ae-60c9-4b3a-bc02-1ac7753a3dba" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_15" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c746e2b0-739e-4474-a650-6af3ebd5ff61" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha27abf3bg3071ga32fgef9ag63d508f82314" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5844527eg5bc7g6d08gb8bdg836fe861ad65" version="1" />
+        <field name="Type" type="FixedStringTableFieldDefinition" value="Changeling" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="5a7f3016-7c27-48df-9577-029e3fbed799" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -5615,6 +5615,25 @@
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution,ManeuverSaveDC());" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="56ab0fc3-28aa-45c3-8894-a90202ead139" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShapeShifterDismiss" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(CHANGELING_SHAPESHIFTER);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_Dismiss" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h91db12d5g8008g270dg0954g09a1733b596c" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Tadpole_AberrantShapeDismiss_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="d7745165-66e4-41c4-9e42-d09d95a29491,,;,,;fd5e6365-f314-42e8-a39b-a041dc56b0e7,,;14294166-95db-46c1-b22a-2b780c2c2790,,;ce773016-6fb4-44fe-84db-e037aaa22041,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellActionType" type="EnumerationTableFieldDefinition" value="Dismiss" enumeration_type_name="SpellActionType" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Peaceful" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="c9b186fa-c2e3-4619-abea-f93c01324fdd" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="cae956d5-7450-4c43-9c0b-60eeb83e1c17" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b532ce38-ddaf-43a1-a2a0-2c34db4d8e49" />

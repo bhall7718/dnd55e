@@ -85,5 +85,12 @@
         <field name="Skills" type="StringTableFieldDefinition" value="Athletics, History, Investigation, Medicine, Nature, Perception, Religion, Survival" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6047b351-8440-4334-b0e6-cdbdb11d225a" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Changeling Skill List" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Deception,Insight,Intimidation,Performance,Persuasion" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

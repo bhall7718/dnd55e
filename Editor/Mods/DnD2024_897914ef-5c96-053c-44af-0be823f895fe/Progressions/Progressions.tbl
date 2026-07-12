@@ -10930,6 +10930,18 @@
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Kalashtar_1_DualMind;Kalashtar_1_MentalDiscipline;Kalashtar_1_SeveredFromDreams" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_965" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f540db8d-1c25-451e-9494-d6174c8a543a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="5a7f3016-7c27-48df-9577-029e3fbed799" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Changeling" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Changeling_1_ChangelingInstincts;Changeling_1_ShapeShifter" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(6047b351-8440-4334-b0e6-cdbdb11d225a,2);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_670" />
