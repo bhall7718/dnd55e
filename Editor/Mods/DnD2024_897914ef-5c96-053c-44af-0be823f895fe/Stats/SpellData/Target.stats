@@ -722,6 +722,54 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7f398e18-7161-43bd-821a-b8f47ef95774" />
+        <field name="Name" type="NameTableFieldDefinition" value="EnsnaringStrike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cea580e2-6b97-463f-aa71-507c2547e9b7" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not SavingThrow(Ability.Strength, SourceSpellDC(),AdvantageOnRestrained(),DisadvantageOnRestrained())):ApplyStatus(ENSNARING_STRIKE,100,10);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e86d5824-7bc2-4b4d-9417-b2a81f71ce86" />
+        <field name="Name" type="NameTableFieldDefinition" value="EnsnaringStrike_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d5485c9f-6483-4aac-ace9-3255c1fa7209" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not SavingThrow(Ability.Strength, SourceSpellDC(),AdvantageOnRestrained(),DisadvantageOnRestrained())):ApplyStatus(ENSNARING_STRIKE_2,100,10);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b9e944c6-ce68-4e77-8689-3b9b05bbca90" />
+        <field name="Name" type="NameTableFieldDefinition" value="EnsnaringStrike_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a43517c9-a8ca-4916-88c7-e4e8b4b68e76" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not SavingThrow(Ability.Strength, SourceSpellDC(),AdvantageOnRestrained(),DisadvantageOnRestrained())):ApplyStatus(ENSNARING_STRIKE_3,100,10);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6a71ebae-e7af-4645-8344-97c8e17ba7bd" />
+        <field name="Name" type="NameTableFieldDefinition" value="EnsnaringStrike_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="22bb41c2-80fc-45c7-9e3d-73578ef4c5bd" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not SavingThrow(Ability.Strength, SourceSpellDC(),AdvantageOnRestrained(),DisadvantageOnRestrained())):ApplyStatus(ENSNARING_STRIKE_4,100,10);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="305c5778-8ba5-4890-94d7-5f0d3bab4612" />
+        <field name="Name" type="NameTableFieldDefinition" value="EnsnaringStrike_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="34bb5c1c-1e6e-490c-bd36-7a804665b391" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not SavingThrow(Ability.Strength,SourceSpellDC(),AdvantageOnRestrained(),DisadvantageOnRestrained())):ApplyStatus(ENSNARING_STRIKE_5,100,10);DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b437711a-acff-498e-9fe4-16020c0df62b" />
+        <field name="Name" type="NameTableFieldDefinition" value="EnsnaringStrike_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c1f12faf-64d7-40b1-bc84-5be2b35737ec" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not SavingThrow(Ability.Strength,SourceSpellDC(),AdvantageOnRestrained(),DisadvantageOnRestrained())):ApplyStatus(ENSNARING_STRIKE_6,100,10);DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c1f14f16-ea01-444a-a2a3-ef2f2b5bf997" />
         <field name="Name" type="NameTableFieldDefinition" value="SpectralSlash" />
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
