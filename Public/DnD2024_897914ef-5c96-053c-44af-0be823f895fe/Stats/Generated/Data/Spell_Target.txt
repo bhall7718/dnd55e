@@ -563,6 +563,22 @@ data "TargetRadius" "9"
 data "DescriptionParams" "RegainHitPoints(6d8+SpellCastingAbilityModifier)"
 data "TooltipDamageList" "RegainHitPoints(6d8+SpellCastingAbilityModifier)"
 
+new entry "Target___ABJURATION__SLEVEL_5__"
+type "SpellData"
+data "SpellType" "Target"
+
+new entry "Target_PlanarBinding"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_PlanarBinding"
+data "SpellSuccess" "ApplyStatus(PLANAR_BINDING,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);"
+
+new entry "Target_PlanarBinding_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_PlanarBinding_6"
+data "SpellSuccess" "ApplyStatus(PLANAR_BINDING,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);"
+
 new entry "Target___CONJURATION__"
 type "SpellData"
 data "SpellType" "Target"

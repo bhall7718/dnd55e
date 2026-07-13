@@ -696,6 +696,28 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fd2ab1a3-7ddf-40f5-b598-2802b552aeb6" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ABJURATION__SLEVEL_5__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1561fa83-95d8-417e-ae7d-b30260742f50" />
+        <field name="Name" type="NameTableFieldDefinition" value="PlanarBinding" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="060d9dca-7365-49e4-ba73-8c3a0da10990" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(PLANAR_BINDING,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b401c596-d38c-4d07-b226-465acd2db6b1" />
+        <field name="Name" type="NameTableFieldDefinition" value="PlanarBinding_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f0daf209-1aa8-4bbc-a272-a722c9ac8cb7" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(PLANAR_BINDING,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e3f7b69e-b25c-4f39-b19b-2974cc677bfe" />
         <field name="Name" type="NameTableFieldDefinition" value="__CONJURATION__" />
       </fields>
@@ -12136,7 +12158,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3ceb5c3d-ac0d-45b3-b134-1c5a1e9055a6" />
         <field name="Name" type="NameTableFieldDefinition" value="PlanarBinding_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="060d9dca-7365-49e4-ba73-8c3a0da10990" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1561fa83-95d8-417e-ae7d-b30260742f50" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
