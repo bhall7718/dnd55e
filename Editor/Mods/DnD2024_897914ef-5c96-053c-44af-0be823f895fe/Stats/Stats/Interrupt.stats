@@ -976,6 +976,22 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d6cc484b-3430-489f-a67b-7fcf36e5c148" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_SeekingSpell" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="habd56c76g31abgf710gce13g306dcdaeece5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h28f9a741ga446ga31eg8889g3b0e1ddcb286" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Sorcerer_Passive_Metamagic_TwinnedSpell" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPostRoll" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not Dead(context.Observer) and Self(context.Observer,context.Source) and ((Self(context.Source,context.Observer) and IsSpell() and HasInterruptedAttack() and IsRerollInterruptInteresting(context.Source)) and not AnyEntityIsItem() and not InterruptHasAdvantage());" />
+        <field name="Properties" type="StringTableFieldDefinition" value="SetAdvantage();IF(HasPassive('SpellfireSorcery_3_SpellfireBurst',context.Source)):ApplyStatus(SELF,SPELLFIRE_BURST,100,1);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="SorceryPoint:1;" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="28d29c2e-51a7-40be-81df-a65794526c4f" />
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_TidesOfChaos" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c62b9356-08c4-4783-b4db-a92087a408b1" />
