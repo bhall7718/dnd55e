@@ -2665,7 +2665,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="7c87100c-1e7d-47cd-87f3-e91d937e5ed5" />
         <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL_CHARM,100,0)" />
         <field name="TargetConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="AoEConditions" type="StringTableFieldDefinition" value="not Dead() and Character() and not Ally() and not Tagged('UNDEAD') and not (not Player(context.Source) and IsCrowdControlled(context.Target)) and not IsImmuneToStatus('SLEEP');" />
@@ -2686,7 +2686,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="fc067843-ca91-42d1-be78-d6bb73dd7575" />
         <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL_CHARM,100,0)" />
         <field name="TargetConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="AoEConditions" type="StringTableFieldDefinition" value="not Dead() and Character() and not Ally() and not Tagged('UNDEAD') and not (not Player(context.Source) and IsCrowdControlled(context.Target)) and not IsImmuneToStatus('SLEEP');" />
@@ -2707,7 +2707,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="14934efd-78a2-4924-9e4d-f09b6476ddb9" />
         <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL_CHARM,100,0)" />
         <field name="TargetConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="AoEConditions" type="StringTableFieldDefinition" value="not Dead() and Character() and not Ally() and not Tagged('UNDEAD') and not (not Player(context.Source) and IsCrowdControlled(context.Target)) and not IsImmuneToStatus('SLEEP');" />
@@ -2728,7 +2728,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="9c454d50-8106-41e3-a2cc-d77acb52cb37" />
         <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL_CHARM,100,0)" />
         <field name="TargetConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="AoEConditions" type="StringTableFieldDefinition" value="not Dead() and Character() and not Ally() and not Tagged('UNDEAD') and not (not Player(context.Source) and IsCrowdControlled(context.Target)) and not IsImmuneToStatus('SLEEP');" />
@@ -2749,7 +2749,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="caabe010-7d39-4a9f-9a33-bd902bdd18cc" />
         <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL_CHARM,100,0)" />
         <field name="TargetConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="AoEConditions" type="StringTableFieldDefinition" value="not Dead() and Character() and not Ally() and not Tagged('UNDEAD') and not (not Player(context.Source) and IsCrowdControlled(context.Target)) and not IsImmuneToStatus('SLEEP');" />
@@ -2770,7 +2770,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="068f3e85-0594-4cfb-8233-bcc0536485a6" />
         <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL_CHARM,100,0)" />
         <field name="TargetConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="AoEConditions" type="StringTableFieldDefinition" value="not Dead() and Character() and not Ally() and not Tagged('UNDEAD') and not (not Player(context.Source) and IsCrowdControlled(context.Target)) and not IsImmuneToStatus('SLEEP');" />
@@ -11777,7 +11777,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9f439e79-e79a-4c32-a42c-129467fec54e" />
         <field name="Name" type="NameTableFieldDefinition" value="Sleep_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="7c87100c-1e7d-47cd-87f3-e91d937e5ed5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="86f2c22b-228d-41d2-ae3a-18f58c568361" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
