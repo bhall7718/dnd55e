@@ -6078,6 +6078,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ArcaneWard_Cast_55e" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ef2fc58c-aec6-4a3c-9ad3-f273f939498d" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(ARCANE_WARD_55E,100,SpellPowerLevel*2)" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12103" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6089,6 +6090,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h173a0fccg668ag5a93gc996gfe83b0867a07" version="1" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_ArcaneWard_Ally_1);UnlockInterrupt(Interrupt_ArcaneWard_Ally_2);UnlockInterrupt(Interrupt_ArcaneWard_Ally_3);UnlockInterrupt(Interrupt_ArcaneWard_Ally_4);UnlockInterrupt(Interrupt_ArcaneWard_Ally_5);UnlockInterrupt(Interrupt_ArcaneWard_Ally_6);" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12106" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6100,6 +6102,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9d3fbbaegc6b1gf48egd8c4gef06e95785f3" version="1" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(ARCANE_WARD_55E,100,Target.ClassLevel(Wizard)+Target.IntelligenceModifier)" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;OncePerShortRest" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12110" />
       </fields>
     </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
