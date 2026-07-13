@@ -2076,6 +2076,7 @@
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d6,Fire)" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d6,Fire)" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Constitution,SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
