@@ -5157,7 +5157,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b0fe4fe1-8f3c-45ba-8c2d-bed2ffd5930b" />
         <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Careful" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4934c1a7-4e55-40c1-8d37-7d0d877b9922" />
-        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,-1)" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,1)" />
         <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(USING_METAMAGIC)" />
       </fields>
     </stat_object>
@@ -5166,7 +5166,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="cc81419d-8402-44b4-b0a6-f999a0597da3" />
         <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Distant" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5fae949d-95d0-4d52-980d-093d3641808a" />
-        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,-1)" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,1)" />
         <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(USING_METAMAGIC)" />
       </fields>
     </stat_object>
@@ -5176,7 +5176,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Empowered" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4b1bec57-9505-4015-a519-3ccde0cc970a" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Reroll(Damage,20,false);UnlockSpellVariant(EmpoweredSpellCheck(),ModifyUseCosts(Add,SorceryPoint,1,0));" />
-        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,-1)" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,1)" />
         <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(USING_METAMAGIC)" />
       </fields>
     </stat_object>
@@ -5185,7 +5185,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="29fc84b3-1e6b-499f-bf6a-a43527688f94" />
         <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Extended" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="38afe5df-8cf9-4023-afee-1b72d052e180" />
-        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,-1)" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,1)" />
         <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(USING_METAMAGIC)" />
       </fields>
     </stat_object>
@@ -5197,7 +5197,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(HeightenedSpellCheck(),ModifyUseCosts(Add,SorceryPoint,2,0),ModifySavingThrowDisadvantage());" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="2" />
         <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasActionResource('SorceryPoint', 2, 0, false, false, context.Source);" />
-        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,-1)" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,1)" />
         <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(USING_METAMAGIC)" />
       </fields>
     </stat_object>
@@ -5209,7 +5209,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(QuickenedSpellCheck(),ModifyUseCosts(Add,SorceryPoint,2,0),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="2" />
         <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasActionResource('SorceryPoint', 2, 0, false, false, context.Source);" />
-        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,-1)" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,1)" />
         <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(USING_METAMAGIC)" />
       </fields>
     </stat_object>
@@ -5218,7 +5218,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="23e5a723-1146-447a-b2cd-c1b59cfe92f5" />
         <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Subtle" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ba4b264c-9417-4f24-a409-51ee6d386f42" />
-        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,-1)" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,1)" />
         <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(USING_METAMAGIC)" />
       </fields>
     </stat_object>

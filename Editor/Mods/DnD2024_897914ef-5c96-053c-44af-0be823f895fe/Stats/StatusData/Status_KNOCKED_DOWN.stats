@@ -70,5 +70,13 @@
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn;OnStatusApplied" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e43562e-4fcb-4239-9d5c-2814201d6fdc" />
+        <field name="Name" type="NameTableFieldDefinition" value="HIDEOUS_LAUGHTER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="59bdbebc-ade7-4df6-acb5-9a25c018332f" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Wisdom, SourceSpellDC(), false, DisadvantageOnHeightenedSpell())" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

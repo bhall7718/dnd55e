@@ -6,3 +6,10 @@ function CreateSorceryPoints()
 	 | SpellId('Shout_CreateSorceryPoints_4')
 	 | SpellId('Shout_CreateSorceryPoints_5')
 end
+
+function DisadvantageOnHeightenedSpell(source, target)
+	source = source or context.Source
+	target = target or context.Target
+
+	return HasStatus('HEIGHTENED_TARGET', target)
+end

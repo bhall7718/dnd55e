@@ -51,3 +51,9 @@ using "PRONE"
 data "StackPriority" "1"
 data "RemoveEvents" "OnTurn;OnStatusApplied"
 
+new entry "HIDEOUS_LAUGHTER"
+type "StatusData"
+data "StatusType" "KNOCKED_DOWN"
+using "HIDEOUS_LAUGHTER"
+data "RemoveConditions" "SavingThrow(Ability.Wisdom, SourceSpellDC(), false, DisadvantageOnHeightenedSpell())"
+

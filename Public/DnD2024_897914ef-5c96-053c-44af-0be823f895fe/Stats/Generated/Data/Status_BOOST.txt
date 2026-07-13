@@ -1,3 +1,7 @@
+new entry "HEIGHTENED_TARGET"
+type "StatusData"
+data "StatusType" "BOOST"
+
 new entry "DODGE"
 type "StatusData"
 data "StatusType" "BOOST"
