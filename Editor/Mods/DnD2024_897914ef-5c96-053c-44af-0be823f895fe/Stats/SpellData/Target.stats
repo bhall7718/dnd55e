@@ -3024,6 +3024,12 @@
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a7bd3c46-8e4e-4a71-8b7a-e07cf5737186" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ENCHANTMENT__SLEVEL__4" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4aae5e13-509f-4d71-84ab-322466a78ae7" />
@@ -3051,10 +3057,50 @@
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CONFUSION,100,10)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5332c5c5-c0fd-4549-ba10-4b13256d86e9" />
+        <field name="Name" type="NameTableFieldDefinition" value="DominateBeast" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fe37de55-f00a-488a-a4b1-bba7606a35b4" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(DOMINATE_BEAST,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aa1fc501-52ea-4356-a469-eee747b01687" />
+        <field name="Name" type="NameTableFieldDefinition" value="DominateBeast_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5859394c-e694-418f-b090-a1936242cbeb" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(DOMINATE_BEAST,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c035a02e-96c0-4fbd-be32-f231cc855acb" />
+        <field name="Name" type="NameTableFieldDefinition" value="DominateBeast_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceed99fa-9ef9-4781-97f6-a80db9f54946" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(DOMINATE_BEAST,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f3a2e98b-4995-4a5a-bcf6-d6a492b43fd4" />
         <field name="Name" type="NameTableFieldDefinition" value="__ENCHANTMENT__SLEVEL__5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ad4da469-9c39-44c9-8e28-f49bf597aa43" />
+        <field name="Name" type="NameTableFieldDefinition" value="DominatePerson" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="22f190a7-278a-4166-a57a-a341dd75950e" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(DOMINATE_PERSON,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d45e9b73-7c22-494f-862c-157dab28976b" />
+        <field name="Name" type="NameTableFieldDefinition" value="DominatePerson_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c5987bb8-2e69-444d-9b97-bea28ea0e8c5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(DOMINATE_PERSON,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -11910,7 +11956,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="42588877-9816-4ea7-afe8-14d279f4d71b" />
         <field name="Name" type="NameTableFieldDefinition" value="DominatePerson_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="22f190a7-278a-4166-a57a-a341dd75950e" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ad4da469-9c39-44c9-8e28-f49bf597aa43" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -12470,7 +12516,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5839e4c3-bb3a-4d0f-bd53-ed75cfd4afa5" />
         <field name="Name" type="NameTableFieldDefinition" value="DominateBeast_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="fe37de55-f00a-488a-a4b1-bba7606a35b4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5332c5c5-c0fd-4549-ba10-4b13256d86e9" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

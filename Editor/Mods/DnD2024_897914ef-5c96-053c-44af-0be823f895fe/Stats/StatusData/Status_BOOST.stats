@@ -1707,6 +1707,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="DOMINATE_BEAST" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="22e5714c-c13b-4957-9eb9-906ae38ba0a2" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="LoseControl;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Wisdom, SourceSpellDC(), AdvantageOnCharmed(),DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1715,6 +1716,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="DOMINATE_PERSON" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="54821fa4-01b2-4e7d-912a-581f1aa4a16b" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="LoseControl;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Wisdom, SourceSpellDC(), AdvantageOnCharmed(),DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
