@@ -3029,7 +3029,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4aae5e13-509f-4d71-84ab-322466a78ae7" />
         <field name="Name" type="NameTableFieldDefinition" value="Confusion" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="947ee15a-4931-44ba-bdf6-15efe1785d7a" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CONFUSION,100,10)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CONFUSION,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CONFUSION,100,10)" />
       </fields>
     </stat_object>
@@ -3038,7 +3038,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="71445bd8-fc54-47e0-97d7-e6a73cc5eecf" />
         <field name="Name" type="NameTableFieldDefinition" value="Confusion_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b26a04ec-0ca1-4521-a647-f3eb8ab8cc48" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CONFUSION,100,10)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CONFUSION,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CONFUSION,100,10)" />
       </fields>
     </stat_object>
@@ -3047,7 +3047,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="61c4e666-3bbe-4b9b-9832-1d64c3aaf499" />
         <field name="Name" type="NameTableFieldDefinition" value="Confusion_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d3c9e86f-8938-46cf-804c-575e8095ef52" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CONFUSION,100,10)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CONFUSION,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CONFUSION,100,10)" />
       </fields>
     </stat_object>
@@ -11940,7 +11940,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="49edb88f-8395-4740-ad3c-56a156a28cf1" />
         <field name="Name" type="NameTableFieldDefinition" value="Confusion_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="947ee15a-4931-44ba-bdf6-15efe1785d7a" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4aae5e13-509f-4d71-84ab-322466a78ae7" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

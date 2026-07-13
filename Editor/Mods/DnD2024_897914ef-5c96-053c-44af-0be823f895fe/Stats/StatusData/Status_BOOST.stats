@@ -1666,6 +1666,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="60bd9b9f-247a-41d3-8c6d-9a188f918083" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONFUSION" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="20be0fd5-22da-434f-9dba-3e85a9ce3a8a" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Wisdom,SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f4cb13fa-cc17-4ac3-a182-716b99461f3e" />
         <field name="Name" type="NameTableFieldDefinition" value="CROWN_OF_MADNESS" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="bb5cb102-77f5-4f12-b2f9-728b94f11f1f" />

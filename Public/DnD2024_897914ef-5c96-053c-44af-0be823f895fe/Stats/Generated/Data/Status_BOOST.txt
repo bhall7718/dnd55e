@@ -1327,6 +1327,12 @@ data "StackId" "MIND_SLIVER"
 data "Boosts" "UnlockInterrupt(Interrupt_MindSliver_RemoveStatus);"
 data "StatusGroups" "SG_Condition"
 
+new entry "CONFUSION"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONFUSION"
+data "RemoveConditions" "SavingThrow(Ability.Wisdom,SourceSpellDC(),false,DisadvantageOnHeightenedSpell())"
+
 new entry "CROWN_OF_MADNESS"
 type "StatusData"
 data "StatusType" "BOOST"
