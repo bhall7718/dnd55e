@@ -2946,6 +2946,180 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb9821dc-2f33-4b0c-90b7-b52ee85d20cb" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CONTAGION__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="87a1c7b0-fbd7-4f93-a8b2-eca9c9d06700" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_BLINDING_SICKNESS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39802a75-7a23-4b26-adcb-c1ea96b43ce6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="29f467cb-ea13-4c5c-a77c-66938be2cb4a" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_BLINDING_SICKNESS_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="06c7c53c-c65e-45df-bd54-dd2d2ac8d864" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6a190396-8d1c-416a-9a02-bef2e4f75249" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_BLINDING_SICKNESS_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c4c3425-6b1b-4640-a447-c9f71b5c87cd" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0f73dbe1-3ab3-4139-832a-f0acfb1ab0a3" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_BLINDING_SICKNESS_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="df5acbbc-ce33-46e2-aac5-023677cf9ff5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6b21174e-9695-4b84-b091-3d66e8990a49" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_FILTH_FEVER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9d74a02c-1728-405f-810e-a93aa1370a80" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4e022c6f-e510-4f6e-a0c1-656194dded54" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_FILTH_FEVER_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="10fb8e2f-227d-44bd-82be-2f4e0926216e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="683e6483-806f-474d-a902-dd7c17067938" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_FILTH_FEVER_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e8578ce3-5bae-49c2-8858-af7fbfd3da79" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0c72632d-37f1-4b6d-8836-d4b6f7ec7819" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_FILTH_FEVER_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a6c699cb-088b-4579-a0a1-1c8a4bc0e6a6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="43aba5b0-04eb-4c66-9e99-37587d9d6bbf" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_FLESH_ROT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="69f6fbce-604c-4ae0-add6-7f1c57405b78" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="92be4dcf-634d-4985-9805-89e3e44faaba" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_FLESH_ROT_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ea053b99-118a-46ae-a311-bdec1a5fff09" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ce90dbf6-e491-4baf-864d-5af7633bdfd1" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_FLESH_ROT_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4fa422f0-0f71-40bf-b9b7-1365161e6a4b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fab6c0d7-91d5-4bd6-96eb-061b74b2af5c" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_FLESH_ROT_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8ac0a4f-8e50-4568-83b2-47ff2c978feb" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f0fa979b-ca14-4e94-84fd-584e7ec82f89" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_MINDFIRE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="66ae6bfa-12b5-4831-a919-cb59340653b9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5c589702-edab-4138-a6ef-9f0809a52a94" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_MINDFIRE_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7599a694-4209-4608-9fa2-81b00dde292c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c58074b5-6f58-46ea-a470-f853a4ec8254" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_MINDFIRE_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4796cf16-1ebd-47b5-9200-6fe0ea03fd26" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="897eff97-68d3-4d1c-b827-7b578ba4a86b" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_MINDFIRE_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e6db5171-47b9-482f-9f2e-84cc7464f602" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b11ca8bc-8ac9-474b-8b7e-dcc7dddae0f4" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_SEIZURE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1f59ad94-edab-48a2-99a8-6fc65053b4cc" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f1b4d6e-8033-4fc1-8171-96700a7d47a7" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_SEIZURE_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb6c410b-7216-4bfb-9e37-60f3c667f7bf" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b4070361-e6cd-403d-b5eb-c0ce3d1e8b7a" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_SEIZURE_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="058988f0-506b-4c86-a9b5-e845aed75dc1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b7ecbf97-ae0a-4a87-9f1a-5a52c406c126" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_SEIZURE_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f139fe6-d0a7-400a-9a01-a245fe27c08f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04125626-05cf-4d0d-85dc-308d8e15bcad" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_SLIMY_DOOM" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3746ab69-fa84-4c4d-88a4-162645191728" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9f276cfb-4048-4cd7-804b-a65a98b13407" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_SLIMY_DOOM_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a708665b-3750-4558-8607-3fb4fd34acd9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9e45e243-427b-46e1-b7e9-5192f3bc3d43" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_SLIMY_DOOM_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d3fa56d-25cf-4605-bb6a-f20960097134" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bc242aef-3787-4147-a3fd-72ffcf11d2e4" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTAGION_SLIMY_DOOM_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9687c598-b78b-4123-819a-20ff3b6ca748" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="004d83f8-8a7a-42ed-be19-8e0531a62aa6" />
         <field name="Name" type="NameTableFieldDefinition" value="__TRANSMUTATION__" />
       </fields>

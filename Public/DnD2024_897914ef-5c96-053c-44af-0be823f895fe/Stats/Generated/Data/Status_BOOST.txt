@@ -2396,6 +2396,130 @@ data "StatusType" "BOOST"
 using "ENERVATION_RECAST"
 data "Boosts" "UnlockSpell(Shout_Enervation_6);"
 
+new entry "__CONTAGION__"
+type "StatusData"
+data "StatusType" "BOOST"
+
+new entry "CONTAGION_BLINDING_SICKNESS"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_BLINDING_SICKNESS"
+
+new entry "CONTAGION_BLINDING_SICKNESS_1"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_BLINDING_SICKNESS_1"
+
+new entry "CONTAGION_BLINDING_SICKNESS_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_BLINDING_SICKNESS_2"
+
+new entry "CONTAGION_BLINDING_SICKNESS_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_BLINDING_SICKNESS_3"
+
+new entry "CONTAGION_FILTH_FEVER"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_FILTH_FEVER"
+
+new entry "CONTAGION_FILTH_FEVER_1"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_FILTH_FEVER_1"
+
+new entry "CONTAGION_FILTH_FEVER_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_FILTH_FEVER_2"
+
+new entry "CONTAGION_FILTH_FEVER_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_FILTH_FEVER_3"
+
+new entry "CONTAGION_FLESH_ROT"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_FLESH_ROT"
+
+new entry "CONTAGION_FLESH_ROT_1"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_FLESH_ROT_1"
+
+new entry "CONTAGION_FLESH_ROT_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_FLESH_ROT_2"
+
+new entry "CONTAGION_FLESH_ROT_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_FLESH_ROT_3"
+
+new entry "CONTAGION_MINDFIRE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_MINDFIRE"
+
+new entry "CONTAGION_MINDFIRE_1"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_MINDFIRE_1"
+
+new entry "CONTAGION_MINDFIRE_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_MINDFIRE_2"
+
+new entry "CONTAGION_MINDFIRE_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_MINDFIRE_3"
+
+new entry "CONTAGION_SEIZURE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_SEIZURE"
+
+new entry "CONTAGION_SEIZURE_1"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_SEIZURE_1"
+
+new entry "CONTAGION_SEIZURE_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_SEIZURE_2"
+
+new entry "CONTAGION_SEIZURE_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_SEIZURE_3"
+
+new entry "CONTAGION_SLIMY_DOOM"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_SLIMY_DOOM"
+
+new entry "CONTAGION_SLIMY_DOOM_1"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_SLIMY_DOOM_1"
+
+new entry "CONTAGION_SLIMY_DOOM_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_SLIMY_DOOM_2"
+
+new entry "CONTAGION_SLIMY_DOOM_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CONTAGION_SLIMY_DOOM_3"
+
 new entry "__TRANSMUTATION__"
 type "StatusData"
 data "StatusType" "BOOST"
