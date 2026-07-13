@@ -1221,7 +1221,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fe9323b8-7ab3-483f-9b1d-12b48997a684" />
         <field name="Name" type="NameTableFieldDefinition" value="ENSNARING_STRIKE" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a88d8556-6594-439d-a807-ecfa22363e5b" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(),AdvantageOnRestrained(),DisadvantageOnRestrained() or DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1229,7 +1228,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8be3d2cd-9c9e-4d22-88b0-9bdbd60bf8b3" />
         <field name="Name" type="NameTableFieldDefinition" value="ENSNARING_STRIKE_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="08140624-658a-40cc-816f-9a8d2463b97c" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(),AdvantageOnRestrained(),DisadvantageOnRestrained() or DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1237,7 +1235,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ba01ec27-d5eb-4282-b6eb-afaf1d200940" />
         <field name="Name" type="NameTableFieldDefinition" value="ENSNARING_STRIKE_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f09d8d91-7ab4-4862-8193-4e75fcf940b4" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(),AdvantageOnRestrained(),DisadvantageOnRestrained() or DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1245,7 +1242,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="55544498-46f4-4243-871c-f7206257c951" />
         <field name="Name" type="NameTableFieldDefinition" value="ENSNARING_STRIKE_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0613acf6-87e1-4742-a7b2-5c6ad09eda38" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(),AdvantageOnRestrained(),DisadvantageOnRestrained() or DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1253,7 +1249,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="44bdf1ae-e88d-44ae-941c-3f03e9c23dd7" />
         <field name="Name" type="NameTableFieldDefinition" value="ENSNARING_STRIKE_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="bc6350e2-de84-4d32-83ec-529ea0a0eef6" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(),AdvantageOnRestrained(),DisadvantageOnRestrained() or DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1261,7 +1256,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="33cc43e1-c281-4c1a-80b0-8f1bcf3472c3" />
         <field name="Name" type="NameTableFieldDefinition" value="ENSNARING_STRIKE_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4157d905-d610-429c-86be-aaef457bec28" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(),AdvantageOnRestrained(),DisadvantageOnRestrained() or DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

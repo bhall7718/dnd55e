@@ -13,3 +13,10 @@ function DisadvantageOnHeightenedSpell(source, target)
 
 	return HasStatus('HEIGHTENED_TARGET', target)
 end
+
+function DisadvantageOnRestrained(source, target)
+    source = source or context.Source
+    target = target or context.Target
+
+    return Tagged('RESTRAINED_DISADV', target) | HasPassive('FavoredEnemy_BountyHunter',source) | HasPassive('MAG_RestrainingAdvantage_Passive',source) | HasStatus('HEIGHTENED_TARGET', target)
+end
