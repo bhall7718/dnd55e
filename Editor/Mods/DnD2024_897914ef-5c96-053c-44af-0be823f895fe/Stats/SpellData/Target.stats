@@ -6786,6 +6786,38 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e7203736-0306-4489-b9ad-ce225a23ccf5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Slow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b074ca92-ec78-4e3b-9aad-c656f4beb2f7" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SLOW,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d23e5d7c-67f2-495a-aad6-e64f97ee0ca5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Slow_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2ee24614-d4af-457b-8a40-577b20542e57" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SLOW,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="77a360ed-91dc-49a4-9658-7c370d537023" />
+        <field name="Name" type="NameTableFieldDefinition" value="Slow_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="17a4da9e-27aa-4f8d-83e8-85ecb82caa08" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SLOW,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="021cbcd1-860a-4f47-9792-cd5db1209044" />
+        <field name="Name" type="NameTableFieldDefinition" value="Slow_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a352bf63-5be2-4e63-96c1-cf667b02d285" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SLOW,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6aecceff-aa43-4e80-8559-eb4af572644c" />
         <field name="Name" type="NameTableFieldDefinition" value="Fly" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="797cb094-d02e-4585-9363-f8a300b9235e" />
@@ -11903,7 +11935,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c8a9d5ef-e6dc-4846-9038-c0d20d196e75" />
         <field name="Name" type="NameTableFieldDefinition" value="Slow_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="b074ca92-ec78-4e3b-9aad-c656f4beb2f7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e7203736-0306-4489-b9ad-ce225a23ccf5" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -2409,6 +2409,12 @@ data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndi
 data "StatusGroups" "SG_RemoveOnRespec"
 data "IsUnique" "1"
 
+new entry "SLOW"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SLOW"
+data "RemoveConditions" "SavingThrow(Ability.Wisdom, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())"
+
 new entry "SHILLELAGH"
 type "StatusData"
 data "StatusType" "BOOST"

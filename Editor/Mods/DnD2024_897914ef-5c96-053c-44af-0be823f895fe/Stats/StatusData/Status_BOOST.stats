@@ -2963,6 +2963,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="505ed637-967c-4642-a566-d80d98494ba9" />
+        <field name="Name" type="NameTableFieldDefinition" value="SLOW" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8d50f327-8202-40ad-bcae-7517e8ffb93d" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Wisdom, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="69700b52-5479-4c4c-bb7a-31ba32e5afad" />
         <field name="Name" type="NameTableFieldDefinition" value="SHILLELAGH" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9a4e49b8-c159-438f-b010-77e9ec6a7b47" />
