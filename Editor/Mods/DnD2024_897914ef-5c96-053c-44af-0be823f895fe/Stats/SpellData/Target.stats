@@ -7274,6 +7274,20 @@
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d7d648b2-5f44-47f6-9823-a2409814a150" />
+        <field name="Name" type="NameTableFieldDefinition" value="__TRANSMUTATION__SLEVEL 6__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f912d731-104c-45b1-9649-54a0cf10d93c" />
+        <field name="Name" type="NameTableFieldDefinition" value="FleshToStone" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b22b2ce-9122-41b3-8227-71688d67e4e1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(FLESH_TO_STONE_1,100,1,,,,,true);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d1095f08-ab53-4789-8336-04d066559346" />
@@ -12079,7 +12093,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6e5135d6-7d71-474f-9c15-22dbff6f79b4" />
         <field name="Name" type="NameTableFieldDefinition" value="FleshToStone_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="2b22b2ce-9122-41b3-8227-71688d67e4e1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f912d731-104c-45b1-9649-54a0cf10d93c" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

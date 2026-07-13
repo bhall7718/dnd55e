@@ -3589,6 +3589,30 @@
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="566dbef7-e2b0-40ec-b731-5372c5ff0554" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9d68783b-dd78-4985-80eb-63dffa34253a" />
+        <field name="Name" type="NameTableFieldDefinition" value="FLESH_TO_STONE_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="181cff8d-ab41-4d5b-8e8b-3d5350c825ef" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="64b46c05-f64f-4347-8bdb-422b19f9d365" />
+        <field name="Name" type="NameTableFieldDefinition" value="FLESH_TO_STONE_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a56ab218-f21b-4c71-bdf0-af01a0b118a7" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9a537b33-c120-4d4e-bec7-9fcb73884c6a" />
+        <field name="Name" type="NameTableFieldDefinition" value="FLESH_TO_STONE_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6613ba8b-01d7-4810-b9d8-6b574e88d5e5" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="69ede3eb-5730-413d-b072-32395b13a5fc" />

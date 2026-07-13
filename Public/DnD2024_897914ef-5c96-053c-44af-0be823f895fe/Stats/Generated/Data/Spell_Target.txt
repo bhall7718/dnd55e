@@ -6089,6 +6089,16 @@ using "Target_Awaken"
 data "RootSpellID" "Target_Awaken"
 data "PowerLevel" "6"
 
+new entry "Target___TRANSMUTATION__SLEVEL 6__"
+type "SpellData"
+data "SpellType" "Target"
+
+new entry "Target_FleshToStone"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_FleshToStone"
+data "SpellSuccess" "ApplyStatus(FLESH_TO_STONE_1,100,1,,,,,true);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);"
+
 new entry "Target___BARBARIAN__"
 type "SpellData"
 data "SpellType" "Target"
