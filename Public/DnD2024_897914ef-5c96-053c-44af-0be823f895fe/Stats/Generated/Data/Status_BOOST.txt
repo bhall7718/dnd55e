@@ -1374,6 +1374,12 @@ new entry "__EVOCATION__"
 type "StatusData"
 data "StatusType" "BOOST"
 
+new entry "BLINDING_SMITE_BLINDED"
+type "StatusData"
+data "StatusType" "BOOST"
+using "BLINDING_SMITE_BLINDED"
+data "RemoveConditions" "SavingThrow(Ability.Constitution, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())"
+
 new entry "FRIGHTENED_COLDFIRE"
 type "StatusData"
 data "StatusType" "BOOST"

@@ -4323,6 +4323,44 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="336bfa90-7699-4c50-89fc-c075fff0ca88" />
+        <field name="Name" type="NameTableFieldDefinition" value="__EVOCATION__SLEVEL__3__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1da00a65-182e-40e0-91a2-8f41e292156f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Smite_Blinding" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="08d4ee49-da49-49d7-bf5c-74cdd0b582ab" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(3d8,Radiant,Magical);IF(not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(BLINDING_SMITE_BLINDED,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7f50c667-a7df-474e-a653-02a0ae719381" />
+        <field name="Name" type="NameTableFieldDefinition" value="Smite_Blinding_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="962b9fd6-e3e2-4fa3-8836-19717a4ff39a" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(3d8,Radiant,Magical);IF(not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(BLINDING_SMITE_BLINDED,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="03a61251-7a16-4a76-9082-3bb4887daefe" />
+        <field name="Name" type="NameTableFieldDefinition" value="Smite_Blinding_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="22b2f9f6-bc79-4d5b-83c6-d3364c7b175a" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(3d8,Radiant,Magical);IF(not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(BLINDING_SMITE_BLINDED,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d33f5047-9daa-4333-bf00-544df97edacb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Smite_Blinding_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ac7cdb35-5e53-4907-a6ba-223813d898bd" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(3d8,Radiant,Magical);IF(not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(BLINDING_SMITE_BLINDED,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f78737af-c9f5-4cb4-8477-2823c45a1080" />
         <field name="Name" type="NameTableFieldDefinition" value="__EVOCATION__SLEVEL__4__" />
       </fields>
@@ -12663,7 +12701,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="33bc6d57-f6fb-4060-904d-eefa33044664" />
         <field name="Name" type="NameTableFieldDefinition" value="BlindingSmite_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="08d4ee49-da49-49d7-bf5c-74cdd0b582ab" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1da00a65-182e-40e0-91a2-8f41e292156f" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
