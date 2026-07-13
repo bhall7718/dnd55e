@@ -1620,6 +1620,7 @@
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Force)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent" enumeration_type_name="SpellFlagList" version="1" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h96663848g22b6g4fd3g0749gcca87a42edab" version="2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1634,6 +1635,7 @@
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Force)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent" enumeration_type_name="SpellFlagList" version="1" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfbad83efgcb7cg321ag47a0g402ce027568b" version="2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1648,6 +1650,7 @@
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Force)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent" enumeration_type_name="SpellFlagList" version="1" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc98c1c9egd99agca86ged41g2a76a0c61645" version="2" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
