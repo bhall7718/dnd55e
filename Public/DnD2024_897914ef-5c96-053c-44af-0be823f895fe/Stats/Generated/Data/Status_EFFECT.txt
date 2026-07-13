@@ -14,8 +14,6 @@ new entry "INTERRUPT_PROJECTED_WARD"
 type "StatusData"
 data "StatusType" "EFFECT"
 using "INTERRUPT_PROJECTED_WARD"
-data "Boosts" "TemporaryHP(Cause.ClassLevel(Wizard)*2+Cause.IntelligenceModifier);RedirectDamage(1);"
-data "RemoveEvents" "OnDamage"
 
 new entry "INTERRUPT_SMITE_ELDRITCH_VFX"
 type "StatusData"
