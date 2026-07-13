@@ -219,7 +219,7 @@
   <content contentuid="h3bb1c07ag3913g5b74g9454gdcebc7737556" version="1">신앙의 방패: 전쟁 신의 축복</content>
   <content contentuid="hcaeae1ebgf2c5gb598g6716gb1b7c699916c" version="1">영적 무기: 전쟁 신의 축복</content>
   <content contentuid="h002f5e57g1181g2dbbg226fgf29f606b801c" version="2">강철 바람 일격</content>
-  <content contentuid="h0da58492g230cg424fg00cdg006fb672dd4d" version="2">시전에 사용한 무기를 휘두른 후 바람처럼 사라졌다가, 사거리 내에서 보이는 크리처 옆에 다시 나타나 근접 주문 공격을 가합니다. 이후 계속해서 인근의 적들 사이를 오가며 재차 공격하여, 최대 다섯 명의 서로 다른 크리처를 타격할 수 있습니다. 적중 시 대상은 [1]를 입습니다.</content>
+  <content contentuid="h0da58492g230cg424fg00cdg006fb672dd4d" version="2">시전에 사용한 무기를 휘두른 후 바람처럼 사라졌다가, 사거리 내에서 보이는 크리처 옆에 다시 나타나 근거리 주문 공격을 가합니다. 이후 계속해서 인근의 적들 사이를 오가며 재차 공격하여, 최대 다섯 명의 서로 다른 크리처를 타격할 수 있습니다. 적중 시 대상은 [1]를 입습니다.</content>
   <content contentuid="h84a10acdg5e1fgb4f6g3b55g7f5134f52d10" version="1">정신 쐐기</content>
   <content contentuid="h05f1c3ebg02fcg677cga473g464cac2d584f" version="1">사거리 내에서 보이는 크리처 한 명의 정신에 초능력 에너지 송곳을 박아 넣습니다. 대상은 지혜 내성 굴림을 수행하여, 실패 시 정신 피해를 입고 성공 시 절반의 피해만 입습니다. 내성 굴림 실패 시 주문이 끝날 때까지 대상의 위치를 항상 파악하게 됩니다. 이 지식을 보유하는 동안 대상은 당신으로부터 숨을 수 없으며, 투명 상태이더라도 당신을 상대로는 해당 상태의 이점을 얻지 못합니다.</content>
   <content contentuid="hd666f94dg1a88g5b93g7dcbgfbc951360305" version="1">신경계 교란</content>
@@ -435,7 +435,7 @@
   <content contentuid="h0f7f1f15gc38bgcaeeg96aegf18e8377c301" version="1">피해를 줄이고 이를 공격자에게 다시 되돌립니다.</content>
   <content contentuid="hd8199896gbae1g11ceg6ba1g523b41f8b9ef" version="1">공격 쳐내기: 되돌리기</content>
   <content contentuid="h4487767egdb77g3708g93a8gd0279452056a" version="1">피해를 줄이고 이를 공격자에게 다시 되돌립니다.</content>
-  <content contentuid="ha8c51db9g127cg0f8dgf557g402626436b8c" version="1">4레벨: 낙하 둔화</content>
+  <content contentuid="ha8c51db9g127cg0f8dgf557g402626436b8c" version="1">4레벨: 느린 낙하</content>
   <content contentuid="h726e4c54g614fg70ccg5ebag4c572b51fbe4" version="1">6레벨: 강화된 타격</content>
   <content contentuid="h3eabcb35gf264g4f8ag9c30g123cbc8fd2b8" version="2">맨손 공격이 비마법 및 마법 피해에 대한 &lt;LSTag Tooltip="Resistant"&gt;저항&lt;/LSTag&gt;을 무시합니다.</content>
   <content contentuid="hc6a55712gd62cgd5e7g68d8g0007496a3e1e" version="2">9레벨: 민첩한 이동</content>
@@ -589,7 +589,7 @@
   <content contentuid="hf3f8bd9cg3004g6dbbg08e2g587dc0432a14" version="1">공포의 일격(원거리)</content>
   <content contentuid="h44cf5afdg1bddgc6d5g9577gcc6cc00bfd12" version="1">7레벨: 철의 정신</content>
   <content contentuid="h834d7e4cg19fdgd3acg2b88g50ab0030af80" version="1">정신을 변화시키는 힘에 저항하는 능력을 연마했습니다. 지혜 내성 굴림에 숙련을 얻습니다.</content>
-  <content contentuid="hd3f07304gfb55ge28ega3f7g0cf1292516a3" version="1">11레벨: 추적자의 쇄도</content>
+  <content contentuid="hd3f07304gfb55ge28ega3f7g0cf1292516a3" version="1">11레벨: 추적자의 연타</content>
   <content contentuid="h374216bbgf985gc96cg64b3g959b101fd376" version="1">공포의 일격의 정신 피해가 2d8이 됩니다. 대상은 당신의 주문 내성 난이도에 대항하는 지혜 내성 굴림을 수행해야 합니다. 내성 굴림 실패 시 크리처는 다음 당신의 턴이 시작될 때까지 겁에 질림 상태가 됩니다.
 
 빗나간 공격을 새로운 일격으로 바꿀 수 있을 만큼 신속해집니다. 무기 공격이 빗나갔을 때, 비용 없이 무기 공격을 한 번 더 수행할 수 있습니다.</content>
@@ -616,7 +616,7 @@
   <content contentuid="hd3262b0cgdce0gf4d4g8fc6g529f4ebed5df" version="1">3레벨: 암살: 선제 공격</content>
   <content contentuid="hf4183fbcg8e1dg3584gff57g9ebed1bead51" version="2">선제권 굴림에 유리 보정을 받습니다.</content>
   <content contentuid="he1d36468gaf5dg2d18ge59agffc2c79d636d" version="1">3레벨: 암살: 기습적인 일격</content>
-  <content contentuid="hf357f8d7g161dg5711g5d18gf26bc2d2273f" version="1">각 전투의 첫 번째 라운드 동안 아직 턴을 갖지 않은 모든 크리처를 상대로 한 명중 굴림에 유리 보정을 받습니다. 해당 라운드 동안 암습이 대상을 적중시키면, 대상은 당신의 로그 레벨과 동일한 수치의 무기 유형 추가 피해를 입습니다.</content>
+  <content contentuid="hf357f8d7g161dg5711g5d18gf26bc2d2273f" version="1">각 전투의 첫 번째 라운드 동안 아직 자신의 턴을 진행하지 않은 모든 크리처를 상대로 한 명중 굴림에 유리 보정을 받습니다. 해당 라운드 동안 암습이 대상을 적중시키면, 대상은 당신의 로그 레벨과 동일한 수치의 무기 유형 추가 피해를 입습니다.</content>
   <content contentuid="hc2fcccc7g38b5gff46g5362gc9de3dd4f7ea" version="1">3레벨: 암살자의 도구</content>
   <content contentuid="h1164cde2g07a2g7ecag87dag7b7ebcb49bf2" version="1">변장 도구와 독살 도구를 얻으며 이에 숙련됩니다.</content>
   <content contentuid="hbd7ad3e9g7a42gc5e6gc2fdga2aedc0b75ce" version="2">독살 도구 사용: 독약</content>
@@ -896,7 +896,7 @@
   <content contentuid="hbcff1db6g661fg44b2gaa19ge984fa1cedb3" version="1">마법 입문: 인간형 매혹</content>
   <content contentuid="h32091888g9007g441cgb899gf48ab4745ec0" version="1">마법 입문: 불타는 손길</content>
   <content contentuid="hb964961egd956g43e4gb1f4gbbd5199911f7" version="1">마법 입문: 축복</content>
-  <content contentuid="hcf286fcbga673g4b58g9ca2g7cb218338271" version="1">마법 입문: 액운</content>
+  <content contentuid="hcf286fcbga673g4b58g9ca2g7cb218338271" version="1">마법 입문: 베인</content>
   <content contentuid="h40603322g7144g4076ga600g816c1a3bf347" version="1">마법 입문: 상처 치료</content>
   <content contentuid="h21dc2164g914fg40f1g96f0g6370fd2112f5" version="1">마법 입문: 휘감기</content>
   <content contentuid="h1b472549g17edg4c6bgac27gf0b44463bc4c" version="1">마법 입문: 신속 후퇴</content>
@@ -1230,11 +1230,11 @@
   <content contentuid="h37bdd6afg8377ga414g06b2gd12131f14c73" version="1">6레벨: 광신적 집중</content>
   <content contentuid="h9ac99198g4fe0gd34bg57a0g52acb98ed35f" version="1">10레벨: 열정적인 존재감</content>
   <content contentuid="hfa0367c5gd524g439egbb91gf1d01da462a1" version="4">광신자의 길</content>
-  <content contentuid="h0e363cf3g0162gc215g7872g2aa8512bdbd6" version="1">광신자의 길을 걷는 바바리안들은 신이나 만신전으로부터 축복을 받습니다. 이 바바리안들은 격노를 자신들에게 힘을 불어넣는 신성한 결합의 황홀한 사건으로 경험합니다. 그들은 종종 신이나 만신전의 사제 및 다른 추종자들의 동맹이 됩니다.</content>
+  <content contentuid="h0e363cf3g0162gc215g7872g2aa8512bdbd6" version="1">광신자의 길을 걷는 바바리안들은 신이나 만신전으로부터 축복을 받습니다. 이 바바리안들은 격노를 신성한 존재와 하나가 되어 힘을 얻는 황홀한 순간으로 경험합니다. 그들은 종종 신이나 만신전의 사제 및 다른 추종자들의 동맹이 됩니다.</content>
   <content contentuid="h15b91354gf2d6ga550g86cag97a1796054d7" version="1">일격에 신성한 힘을 실을 수 있습니다. 격노가 활성화된 동안 매 턴마다 무기나 맨손 공격으로 처음 적중시킨 크리처는 1d6 + 바바리안 레벨의 절반(내림)에 해당하는 추가 피해를 입습니다. 추가 피해는 사령 또는 광휘 유형이며, 피해를 입힐 때마다 유형을 선택합니다.</content>
   <content contentuid="hc4c144a0g2e9bg6166g297cg8829f3a2bd83" version="1">신성한 존재가 당신이 전투를 계속할 수 있도록 돕습니다. 자신을 치유하는 데 사용할 수 있는 4개의 d12 주사위를 보유합니다. 보조 행동으로 주사위를 소모하고 굴려 나온 총합만큼 생명력을 회복할 수 있습니다.
 
-주사위는 긴 휴식을 마치면 소모된 모든 주사위를 회복합니다.
+긴 휴식을 마치면 소모된 주사위를 모두 회복합니다.
 
 최대 주사위 수는 바바리안 레벨 6(5개), 12(6개), 17(7개)에 도달할 때마다 하나씩 증가합니다.</content>
   <content contentuid="h9416ea15g9b17g07abg6c06gd6905fe706ed" version="1">격노가 활성화된 동안, 내성 굴림에 격노 피해 보너스와 동일한 보너스를 더합니다.</content>
@@ -1246,7 +1246,7 @@
   <content contentuid="hf168720fgd4dbgc575ge2c3g9a0841c3efc9" version="1">신들의 전사</content>
   <content contentuid="h46ea941fg771dgceb6g2492gb66d8a8c13e0" version="1">신성한 존재가 당신이 전투를 계속할 수 있도록 돕습니다. 자신을 치유하는 데 사용할 수 있는 4개의 d12 주사위를 보유합니다. 보조 행동으로 주사위를 소모하고 굴려 나온 총합만큼 생명력을 회복할 수 있습니다.
 
-주사위는 긴 휴식을 마치면 소모된 모든 주사위를 회복합니다.
+긴 휴식을 마치면 소모된 주사위를 모두 회복합니다.
 
 최대 주사위 수는 바바리안 레벨 6(5개), 12(6개), 17(7개)에 도달할 때마다 하나씩 증가합니다.</content>
   <content contentuid="h9ae5d499g6937g51d5g2d3eg9854133655cd" version="1">신들의 전사</content>
@@ -2024,7 +2024,7 @@
   <content contentuid="hf6fabff6g83a2gbd76gb861g272a6aa3b80c" version="1">3레벨: 치유의 빛</content>
   <content contentuid="hdaeea362gfb80g3de3gfc7bgaaff6ca3e93f" version="1">상처를 치유하기 위해 천상의 에너지를 집중하는 능력을 얻습니다. 이 치유의 동력이 되는 d6 주사위를 보유합니다. 주사위 수는 1 + 워락 레벨과 같습니다.
 
-보조 행동으로 주사위를 소모하여 자신 혹은 18m 이내에 보이는 크리처 한 명을 치유할 수 있습니다. 한 번에 소모할 수 있는 주사위의 최대 개수는 매력 보정치만큼(최소 1개)입니다. 소모한 주사위를 굴려 나온 총합만큼 생명력을 회복시킵니다. 주사위는 긴 휴식을 마치면 소모된 모든 주사위를 회복합니다.</content>
+보조 행동으로 주사위를 소모하여 자신 혹은 18m 이내에 보이는 크리처 한 명을 치유할 수 있습니다. 한 번에 소모할 수 있는 주사위의 최대 개수는 매력 보정치만큼(최소 1개)입니다. 소모한 주사위를 굴려 나온 총합만큼 생명력을 회복시킵니다. 긴 휴식을 마치면 소모된 주사위를 모두 회복합니다.</content>
   <content contentuid="h0c3b5562gfcc3gad99gd963g1df27e943cd2" version="1">6레벨: 찬란한 영혼</content>
   <content contentuid="h870b18d3g13d8ge83dg1253gf5261403acb2" version="1">후견자와의 연결을 통해 광휘 에너지의 통로 역할을 수행할 수 있습니다. 광휘 피해에 저항을 얻습니다. 턴당 한 번 당신이 시전한 주문이 광휘 또는 화염 피해를 입힐 때, 주문의 대상 중 한 명에 대해 해당 주문 피해에 매력 보정치를 더할 수 있습니다.</content>
   <content contentuid="heab6ca12g945dg3d00g4c47g4b04d1d8218e" version="1">10레벨: 천족의 저항력</content>
@@ -2032,7 +2032,7 @@
   <content contentuid="h57173a7egcdf0g4150gbb9eg91bada654a99" version="1">치유의 빛</content>
   <content contentuid="h13ee529eg2e3ag6b49ge487g5564265ef86c" version="1">상처를 치유하기 위해 천상의 에너지를 집중하는 능력을 얻습니다. 이 치유의 동력이 되는 d6 주사위를 보유합니다. 주사위 수는 1 + 워락 레벨과 같습니다.
 
-보조 행동으로 주사위를 소모하여 자신 혹은 18m 이내에 보이는 크리처 한 명을 치유할 수 있습니다. 한 번에 소모할 수 있는 주사위의 최대 개수는 매력 보정치만큼(최소 1개)입니다. 소모한 주사위를 굴려 나온 총합만큼 생명력을 회복시킵니다. 주사위는 긴 휴식을 마치면 소모된 모든 주사위를 회복합니다.</content>
+보조 행동으로 주사위를 소모하여 자신 혹은 18m 이내에 보이는 크리처 한 명을 치유할 수 있습니다. 한 번에 소모할 수 있는 주사위의 최대 개수는 매력 보정치만큼(최소 1개)입니다. 소모한 주사위를 굴려 나온 총합만큼 생명력을 회복시킵니다. 긴 휴식을 마치면 소모된 주사위를 모두 회복합니다.</content>
   <content contentuid="h58ef9ee0gc980ga2beg9382g25dbf67b4b32" version="1">치유의 빛</content>
   <content contentuid="h482a7463gb3a7g35cfgba9fg3f522b1db925" version="1">천족의 저항력</content>
   <content contentuid="h1b6e4734gfe4cg6127g1562gd33af4d185ba" version="1">당신과 9m 이내의 각 아군이 워락 레벨 + 매력 보정치만큼의 임시 생명력을 얻습니다. 이 특성을 한 번 사용하면 짧은 휴식을 마칠 때까지 다시 사용할 수 없습니다.</content>
@@ -2064,9 +2064,9 @@
   <content contentuid="h9adf7805gb424g309ag6e71g53eca41cd8d5" version="1">아래의 위저드 주문 목록에서 다른 하나를 선택하여 소마법을 교체할 수 있습니다. 이 소마법은 &lt;LSTag Tooltip="SpellSlot"&gt;주문 슬롯&lt;/LSTag&gt;을 사용하지 않으며 마음대로 시전할 수 있습니다.</content>
   <content contentuid="h9b697d45g3dd3gf371g2860g7b65899c8fc7" version="1">저항</content>
   <content contentuid="h10997edbg285bg8db6g0718gb2e6c09ff676" version="1">3레벨: 어둠의 축복</content>
-  <content contentuid="h03df3855gb482gdaf5g11f0gbf6d6d9fbb62" version="1">적의 생명력을 0으로 만들면 매력 보정치 + 워락 레벨만큼의 임시 생명력을 얻습니다.(최소 1의 임시 생명력) 당신이 아닌 다른 누군가가 3m 이내의 적을 생명력 0으로 만들어도 이 혜택을 얻습니다.</content>
+  <content contentuid="h03df3855gb482gdaf5g11f0gbf6d6d9fbb62" version="1">적의 생명력을 0으로 만들면 매력 보정치 + 워락 레벨만큼의 임시 생명력(최소 1)을 얻습니다. 당신이 아닌 다른 누군가가 3m 이내의 적을 생명력 0으로 만들어도 이 혜택을 얻습니다.</content>
   <content contentuid="hde74c01eg8bb3gbf23g8416g7da16527c0d5" version="1">어둠의 축복</content>
-  <content contentuid="he0b3dcccga1b5gd89bgf47ag768a98964bc3" version="1">당신이 아닌 다른 누군가가 3m 이내의 크리처를 생명력 0으로 만들면, 매력 보정치 + 워락 레벨만큼의 임시 생명력을 얻습니다.(최소 1의 임시 생명력)</content>
+  <content contentuid="he0b3dcccga1b5gd89bgf47ag768a98964bc3" version="1">당신이 아닌 다른 누군가가 3m 이내의 크리처를 생명력 0으로 만들면, 매력 보정치 + 워락 레벨만큼의 임시 생명력(최소 1)을 얻습니다.</content>
   <content contentuid="hbbedb4f1g60d4g6ed0gb97bg90c73d16c026" version="1">6레벨: 어두운 자의 행운</content>
   <content contentuid="h975e39acg9a17g2ad0g477cgf30fdb0bf07d" version="1">10레벨: 마족의 저항력</content>
   <content contentuid="hbfafa7a4g3ea7g96f1gcfebg2da208843ab2" version="1">3레벨: 필멸의 경종</content>
@@ -2201,13 +2201,13 @@
 손가락 끝에서 넣고 빼는 것이 가능한 발톱이 자라납니다. 발톱을 세우거나 집어넣는 데에는 행동이 소모되지 않습니다. 발톱은 타고난 무기이며, 이를 사용하여 맨손 공격을 할 수 있습니다. 이 발톱을 사용한 맨손 공격이 적중하면 1d4의 참격 피해를 추가로 입힙니다.</content>
   <content contentuid="hff5fa241g78c2g2414gf5caga9f8235efc8d" version="1">재주: 드래곤 가죽</content>
   <content contentuid="h2f58c2a0g1fd8gcbc6g65e4g15015618e4f6" version="1">재주: 드워프의 강건함</content>
-  <content contentuid="haa8d3917gd15fg261dg5b19g07a62de6a88f" version="1">전투 중 회피 행동을 취할 때마다, 생명력 주사위 1개를 소모하여 자신을 치유할 수 있습니다. 주사위를 굴려 건강 보정치를 더한 총합만큼 생명력을 회복합니다.(최소 1)</content>
+  <content contentuid="haa8d3917gd15fg261dg5b19g07a62de6a88f" version="1">전투 중 회피 행동을 취할 때마다, 생명력 주사위 1개를 소모하여 자신을 치유할 수 있습니다. 주사위를 굴려 건강 보정치를 더한 총합만큼 생명력을 회복합니다(최소 1).</content>
   <content contentuid="h399266afg5858g5079g1067g6fd5b17e38ef" version="1">드워프의 강건함</content>
   <content contentuid="h5d6d057fg00c7g16f2g3e29g4815f812225a" version="3">선행 조건: 드워프
 
 혈관에 드워프 영웅의 피가 흐르고 있습니다.
 
-전투 중 회피 행동을 취할 때마다, 생명력 주사위 1개를 소모하여 자신을 치유할 수 있습니다. 주사위를 굴려 건강 보정치를 더한 총합만큼 생명력을 회복합니다.(최소 1)</content>
+전투 중 회피 행동을 취할 때마다, 생명력 주사위 1개를 소모하여 자신을 치유할 수 있습니다. 주사위를 굴려 건강 보정치를 더한 총합만큼 생명력을 회복합니다(최소 1).</content>
   <content contentuid="h59ec731bg946dg1c9eg2b5fg04fb49032eb0" version="1">재주: 엘프의 정밀함</content>
   <content contentuid="h7568c386gf212ga40dg691eg69b66c143ccb" version="1">민첩, 지능, 지혜 또는 매력을 사용하는 명중 굴림에 유리 보정을 받을 때마다, 주사위 중 하나를 한 번 다시 굴릴 수 있습니다.</content>
   <content contentuid="h871574cdg815eg20feg9c4bg90c69f23267f" version="1">엘프의 정밀함</content>
@@ -3080,9 +3080,9 @@
   <content contentuid="hb3ae9e73g81e6g120dg8548g27684eff651f" version="1">구름의 룬 발동</content>
   <content contentuid="hfd1bcc8cg898egba47gb579gfd786513a783" version="1">이 캐릭터를 공격하는 적을 &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;매혹&lt;/LSTag&gt;합니다. 대상은 가능할 경우 새로운 대상을 공격합니다.</content>
   <content contentuid="h3a4d5e28gabe3g3168ge119g17a00c4aa941" version="1">화염의 룬 발동</content>
-  <content contentuid="h80302dc6gefa4ga829g206ag2011c0e0baca" version="2">무기 공격으로 크리처를 적중시켰을 때, 룬을 발동하여 화염의 족쇄를 소환할 수 있습니다. 대상은 2d6의 추가 화염 피해를 입고 1분(10턴) 동안 구속 상태가 됩니다. 족쇄에 구속된 동안 대상은 각 자신의 턴이 시작될 때마다 2d6의 화염 피해를 입습니다. 대상은 각 자신의 턴이 끝날 때마다 내성 굴림을 반복할 수 있으며, 성공 시 족쇄를 없앨 수 있습니다.</content>
+  <content contentuid="h80302dc6gefa4ga829g206ag2011c0e0baca" version="2">무기 공격으로 크리처를 적중시켰을 때, 룬을 발동하여 화염의 족쇄를 소환할 수 있습니다. 대상은 2d6의 추가 화염 피해를 입고 1분(10턴) 동안 구속 상태가 됩니다. 족쇄에 구속된 동안 대상은 자신의 각 턴이 시작될 때마다 2d6의 화염 피해를 입습니다. 대상은 자신의 각 턴이 끝날 때마다 내성 굴림을 반복할 수 있으며, 성공 시 족쇄를 없앨 수 있습니다.</content>
   <content contentuid="h06dee418g7023gcae2g1dd4g7246a7a21faf" version="1">화염의 룬</content>
-  <content contentuid="h0738e060g6dbdgd884ga7eag9103f532652e" version="1">족쇄에 구속된 동안 대상은 각 자신의 턴이 시작될 때마다 2d6의 화염 피해를 입습니다. 대상은 각 자신의 턴이 끝날 때마다 내성 굴림을 반복할 수 있으며, 성공 시 족쇄를 없앨 수 있습니다.</content>
+  <content contentuid="h0738e060g6dbdgd884ga7eag9103f532652e" version="1">족쇄에 구속된 동안 대상은 자신의 각 턴이 시작될 때마다 2d6의 화염 피해를 입습니다. 대상은 자신의 각 턴이 끝날 때마다 내성 굴림을 반복할 수 있으며, 성공 시 족쇄를 없앨 수 있습니다.</content>
   <content contentuid="h99fb6d15gdad4gf9ebgb1f5gfc423b34bdf4" version="1">서리의 룬</content>
   <content contentuid="h61c977efg9e94ga7feg7173g45a085a426e1" version="1">근력 또는 건강을 사용하는 모든 능력치 판정과 내성 굴림에 +2 보너스를 얻습니다.</content>
   <content contentuid="hd49600e9gaa19g5b9bgab38g6740603067eb" version="1">서리의 룬 발동</content>
@@ -3319,7 +3319,7 @@
   <content contentuid="h7403d9e2gd4ffg8c95g6874gba9be784c5c0" version="1">선혈기사</content>
   <content contentuid="h00467a34g3b88g453cg081eg6e394afa8e61" version="1">피의 군주 수테크를 섬기는 선혈기사들은 그들의 마법으로 적의 생명력을 흡수하고, 이렇게 훔친 활력을 지옥의 의식에 쏟아부어 전황을 뒤바꿉니다.
 
-수테크는 피의 도시 나라카를 다스립니다. 지옥 최고의 마법사로 인정받는 그는 대혈제라는 칭호를 지니고 활력의 신전에서 통치합니다. 그는 피의 마법의 거장이며, 그의 측근 사제와 위저드들은 수 세기 전 육신이 재로 변해 응고된 피로 몸을 빚은 언데드 주문 시전자 블러드 리치들입니다.
+수테크는 피의 도시 나라카를 다스립니다. 지옥 최고의 마법사로 인정받는 그는 대혈제라는 칭호를 지니고 활력의 신전에서 통치합니다. 그는 피의 마법의 거장이며, 그의 측근 사제와 위저드들은 블러드 리치라는 언데드 주문 시전자들입니다. 이들은 수 세기 전 육신이 재로 변한 뒤, 응고된 피로 새로 몸을 빚어냈습니다.
 
 수테크의 일리거들은 모두 활력의 성배라는 교단에 속해 있습니다. 성배의 기사들은 적의 정수를 깊이 들이켜 마법의 동력을 얻기 위해 그것을 소모합니다. 모독의 기사단의 다른 구성원들은 선혈기사들이 단순한 수테크의 지옥 왕좌 등극 이상의 것을 노리고 있다고 우려합니다. 일각에서는 성배 교단이 비밀리에 수테크를 신으로 만들려 한다고 속삭입니다. 물론 이것은 반역에 해당합니다.</content>
   <content contentuid="h0fb52a6cg7299ga6c5g1b3cgb4993c55834e" version="1">기만의 계율</content>
@@ -3415,7 +3415,7 @@
   <content contentuid="h474f2848gc11cga707gce0ag47a7c29bf27f" version="2">3레벨: 어둠 속의 일격</content>
   <content contentuid="hc78792c5gf4b3g8f75gc78fge4e46626954f" version="2">당신은 그림자 속에서 공격하는 법을 이해하고 있습니다. 턴당 한 번, 명중 굴림에 유리 보정을 가진 상태에서 근거리 무기 공격으로 금제에 걸린 크리처를 적중시키면, 숙련 보너스만큼 d4 주사위를 굴려 그 총합만큼 추가 피해를 입힐 수 있습니다.</content>
   <content contentuid="h000d2b9cg5e7egc014gf141ga2c0e4d9fc4f" version="2">3레벨: 도망칠 곳은 없다</content>
-  <content contentuid="hd8bb9020gf357g83bfgf655g10311ef27325" version="3">보조 행동으로 크리처의 목에 그림자 올가미를 감아 &lt;LSTag Type="Status" Tooltip="GARROTE_TARGET_HUMANOID"&gt;교살&lt;/LSTag&gt;하기 시작합니다.</content>
+  <content contentuid="hd8bb9020gf357g83bfgf655g10311ef27325" version="3">보조 행동으로 크리처의 목에 그림자 밧줄을 감아 &lt;LSTag Type="Status" Tooltip="GARROTE_TARGET_HUMANOID"&gt;교살&lt;/LSTag&gt;하기 시작합니다.</content>
   <content contentuid="h5b1941eeg9c53g0d48g2159g640b7817db72" version="2">7레벨: 지옥의 암살자</content>
   <content contentuid="h0405792eg3f88g4dbfg0b92gfcb573fe9525" version="3">금제에 걸린 크리처를 상대로 하는 무기 공격의 피해를 결정할 때 주사위 눈이 1이나 2가 나오면, 해당 주사위를 다시 굴릴 수 있습니다.</content>
   <content contentuid="h07d4538fg06e1g87c9geff7gba8b3b97a65f" version="1">그림자 살수</content>
@@ -3438,7 +3438,7 @@
 이동 속도가 3m 증가합니다.
 은신을 위한 민첩(은신) 판정에 유리 보정을 받습니다. 어떤 효과로 인해 절반의 피해만 입기 위해 민첩 내성 굴림을 할 때마다, 내성 굴림에 성공하면 피해를 입지 않고 실패하면 절반의 피해만 입습니다.</content>
   <content contentuid="h2a979e60g8047g338bg7d21g17a10ae143c0" version="2">당신은 그림자 속에서 공격하는 법을 이해하고 있습니다. 턴당 한 번, 명중 굴림에 유리 보정을 가진 상태에서 근거리 무기 공격으로 금제에 걸린 크리처를 적중시키면, 숙련 보너스만큼 d4 주사위를 굴려 그 총합만큼 추가 피해를 입힐 수 있습니다.</content>
-  <content contentuid="h29339e6ag5488gb3c9gf071g0b4a21da192a" version="2">보조 행동으로 크리처의 목에 그림자 올가미를 감아 &lt;LSTag Type="Status" Tooltip="GARROTE_TARGET_HUMANOID"&gt;교살&lt;/LSTag&gt;하기 시작합니다.</content>
+  <content contentuid="h29339e6ag5488gb3c9gf071g0b4a21da192a" version="2">보조 행동으로 크리처의 목에 그림자 밧줄을 감아 &lt;LSTag Type="Status" Tooltip="GARROTE_TARGET_HUMANOID"&gt;교살&lt;/LSTag&gt;하기 시작합니다.</content>
   <content contentuid="hf7851a9dg2c90ga420g9853gd855b8d447bc" version="1">어둠 속의 일격</content>
   <content contentuid="h6185df85g28ceg3fe6g4e39g5afb82fc5604" version="1">도망칠 곳은 없다</content>
   <content contentuid="h581f8d48gd1d3g12bag5dbegf06507357e90" version="1">도망칠 곳은 없다</content>
@@ -3671,7 +3671,7 @@
 
 이 직업의 6레벨과 10레벨에 도달하면, 긴 휴식 종료 시 제작할 수 있는 마법 아이템의 개수가 각각 3개와 4개로 늘어납니다.</content>
   <content contentuid="h37074410gf258g6103g5302g429531067671" version="1">7레벨: 천재적 영감</content>
-  <content contentuid="h470004cfg4199g24dfg3a04ge1085900eaf7" version="2">자신 또는 9m 이내에 보이는 크리처가 내성 굴림에 실패했을 때, 대응을 취해 굴림에 보너스를 더함으로써 실패를 성공으로 바꿀 가능성이 생깁니다. 보너스는 지능 보정치만큼(최소 +1)입니다.
+  <content contentuid="h470004cfg4199g24dfg3a04ge1085900eaf7" version="2">자신 또는 9m 이내에 보이는 크리처가 내성 굴림에 실패했을 때, 대응을 취해 해당 굴림에 보너스를 더하여 성공으로 바꿀 수 있습니다. 보너스는 지능 보정치만큼(최소 +1)입니다.
 
 이 대응을 지능 보정치만큼(최소 1회) 사용할 수 있으며, 긴 휴식을 마치면 소모한 모든 횟수를 회복합니다.</content>
   <content contentuid="h1dd30fd2g8d32g2cf1g4cbdg6df0134f3697" version="1">11레벨: 주문 저장 아이템</content>
@@ -3717,7 +3717,7 @@
   <content contentuid="h0824e195g8da3g869egd6degc36598f5aef9" version="1">착용자는 투명 상태인 크리처를 감지할 수 있습니다.</content>
   <content contentuid="h01a7e7b1gea71g6833g6445g5ed1f1a2308b" version="1">천재적 영감</content>
   <content contentuid="h80f08a5dg837cg81beg15d7g69a6566d7630" version="1">천재적 영감</content>
-  <content contentuid="h19fba472g52a7gb564g247bg818863c03630" version="1">자신 또는 9m 이내에 보이는 크리처가 내성 굴림에 실패했을 때, 대응을 취해 굴림에 보너스를 더함으로써 실패를 성공으로 바꿀 가능성이 생깁니다. 보너스는 지능 보정치만큼(최소 +1)입니다.
+  <content contentuid="h19fba472g52a7gb564g247bg818863c03630" version="1">자신 또는 9m 이내에 보이는 크리처가 내성 굴림에 실패했을 때, 대응을 취해 해당 굴림에 보너스를 더하여 성공으로 바꿀 수 있습니다. 보너스는 지능 보정치만큼(최소 +1)입니다.
 
 이 대응을 지능 보정치만큼(최소 1회) 사용할 수 있으며, 긴 휴식을 마치면 소모한 모든 횟수를 회복합니다.</content>
   <content contentuid="h5c3ca15ege3b3ga7adg9a8fg26776947cb0a" version="1">마법 아이템 복제</content>
@@ -4098,7 +4098,7 @@
   <content contentuid="hf32997c7gc211gb313g3fbcg48944959ce8d" version="1">3레벨: 바다태생</content>
   <content contentuid="hc84e5f2cg37c3g238bgb1b6g73db07b36581" version="1">요동치는 배와 기타 탈것 위에서 생활하는 것에 익숙합니다. 밀려나거나, 넘어짐 상태가 되거나, 기타 자신의 의지에 반해 이동되는 상황을 방지하기 위한 모든 근력 및 민첩 내성 굴림과 판정에 유리 보정을 받습니다.</content>
   <content contentuid="h0365a5ccg5ec9g7487g0f4fga94912c1e111" version="1">3레벨: 바이킹 무기의 달인</content>
-  <content contentuid="h268f496ag5b58g49c9g3c99ga0cd4839f89f" version="1">전투 도끼, 장검 또는 창에 무기 숙련을 보유한 경우, 해당 무기의 피해 굴림에 숙련 보너스를 더할 수 있습니다.</content>
+  <content contentuid="h268f496ag5b58g49c9g3c99ga0cd4839f89f" version="1">전투 도끼, 장검 또는 창에 무기의 달인을 보유한 경우, 해당 무기의 피해 굴림에 숙련 보너스를 더할 수 있습니다.</content>
   <content contentuid="h4fa40dc4g9c70g921bg8267gaeb44665f760" version="1">7레벨: 맹렬한 돌격</content>
   <content contentuid="h06128f4dg8b4fg7ee1gbb06gbcef6e2bdfac" version="1">공격 행동으로 단일 근거리 공격을 가합니다. 공격이 적중하면, 보조 행동으로 달리기 행동을 취할 수 있습니다. 이 달리기 행동으로 부여되는 이동은 허점 공격을 유발하지 않습니다.</content>
   <content contentuid="h765b9461g9506gb734gcb45gfb2796d10549" version="1">맹렬한 돌격</content>
@@ -4331,8 +4331,8 @@
 
 공포스러운 화신. 턴당 한 번 명중 굴림으로 크리처를 적중시켰을 때, 당신의 주문 내성 난이도에 대항하는 지혜 내성 굴림을 수행하도록 강제할 수 있습니다. 내성 굴림 실패 시 대상은 다음 당신의 턴이 끝날 때까지 겁에 질림 상태가 됩니다.</content>
   <content contentuid="hcd558b81gae7eg26dag6eaegf0f7e3dd0197" version="1">3레벨: 언데드 주문</content>
-  <content contentuid="h72a8bf1agc8fbgec94g5bd1g5c0893342c80" version="1">후견자의 마법으로 인해 항상 특정 주문이 준비된 상태가 됩니다. 언데드 주문 표에 명시된 워락 레벨에 도달하면, 다음 주문들이 항상 준비됩니다. 3레벨에는 액운, 실명, 환영력, 독 광선 주문을 배웁니다. 5레벨에는 망자와 대화와 망자 조종 주문을 배웁니다. 7레벨에는 상급 투명과 환영 살해자 주문을 배웁니다. 9레벨에는 죽음의 무도와 죽음 구름 주문을 배웁니다.</content>
-  <content contentuid="h423f4d8eg647cg79b9g302bg9ad97549087a" version="2">3레벨에는 액운, 실명, 환영력, 독 광선 주문을 배웁니다. 5레벨에는 망자와 대화와 망자 조종 주문을 배웁니다. 7레벨에는 상급 투명과 환영 살해자 주문을 배웁니다. 9레벨에는 죽음의 무도와 죽음 구름 주문을 배웁니다.</content>
+  <content contentuid="h72a8bf1agc8fbgec94g5bd1g5c0893342c80" version="1">후견자의 마법으로 인해 항상 특정 주문이 준비된 상태가 됩니다. 언데드 주문 표에 명시된 워락 레벨에 도달하면, 다음 주문들이 항상 준비됩니다. 3레벨에는 베인, 실명, 환영력, 독 광선 주문을 배웁니다. 5레벨에는 망자와 대화와 망자 조종 주문을 배웁니다. 7레벨에는 상급 투명과 환영 살해자 주문을 배웁니다. 9레벨에는 죽음의 무도와 죽음 구름 주문을 배웁니다.</content>
+  <content contentuid="h423f4d8eg647cg79b9g302bg9ad97549087a" version="2">3레벨에는 베인, 실명, 환영력, 독 광선 주문을 배웁니다. 5레벨에는 망자와 대화와 망자 조종 주문을 배웁니다. 7레벨에는 상급 투명과 환영 살해자 주문을 배웁니다. 9레벨에는 죽음의 무도와 죽음 구름 주문을 배웁니다.</content>
   <content contentuid="h51d8435ag421eg4abdg2702ga3868c2dab5c" version="1">6레벨: 무덤의 손길이 닿은 자</content>
   <content contentuid="h9978d0deg7d77g5755g43fbg0caf50e3b407" version="2">후견자의 권능이 당신의 육체와 마법에 심오한 영향을 미쳐 다음 혜택을 제공합니다.
 
@@ -4485,11 +4485,11 @@
   <content contentuid="hdfda798egce43g07bbgc366gf55a071720ff" version="1">인간</content>
   <content contentuid="hc3405af3g4811g97c2gc534g546e8726cc0d" version="1">다중 우주 전역에서 발견되는 인간은 수만큼이나 다양하며, 자신에게 주어진 세월 동안 가능한 한 많은 것을 성취하기 위해 노력합니다. 이들의 야망과 지략은 많은 세계에서 칭송받고, 존경받으며, 두려움의 대상이 됩니다.
 
-인간은 지구의 사람들만큼이나 외모가 다양하며, 많은 신을 섬깁니다. 학자들은 인류의 기원에 대해 논쟁하지만, 가장 초기형태로 알려진 인간의 집회 중 하나는 다중 우주의 중심이자 공용어가 탄생한 도넛 모양의 도시인 시질에서 일어났다고 전해집니다. 그곳에서부터 인간은 문의 도시의 세계주의를 지닌 채 다중 우주의 모든 구석으로 퍼져나갔을 것입니다.</content>
+인간은 지구의 사람들만큼이나 외모가 다양하며, 많은 신을 섬깁니다. 학자들은 인류의 기원에 대해 논쟁하지만, 알려진 것 중 가장 초기의 인간 집회 하나는 다중 우주의 중심이자 공용어가 탄생한 도넛 모양의 도시인 시질에서 일어났다고 전해집니다. 그곳에서부터 인간은 문의 도시의 세계주의를 지닌 채 다중 우주의 모든 구석으로 퍼져나갔을 것입니다.</content>
   <content contentuid="he9f4aef0gbf9dgc383g7636g28f7af45dc34" version="1">인간</content>
   <content contentuid="hf3d6ddebg352bg36d4g9fbbg9ac02f78c004" version="1">다중 우주 전역에서 발견되는 인간은 수만큼이나 다양하며, 자신에게 주어진 세월 동안 가능한 한 많은 것을 성취하기 위해 노력합니다. 이들의 야망과 지략은 많은 세계에서 칭송받고, 존경받으며, 두려움의 대상이 됩니다.
 
-인간은 지구의 사람들만큼이나 외모가 다양하며, 많은 신을 섬깁니다. 학자들은 인류의 기원에 대해 논쟁하지만, 가장 초기형태로 알려진 인간의 집회 중 하나는 다중 우주의 중심이자 공용어가 탄생한 도넛 모양의 도시인 시질에서 일어났다고 전해집니다. 그곳에서부터 인간은 문의 도시의 세계주의를 지닌 채 다중 우주의 모든 구석으로 퍼져나갔을 것입니다.</content>
+인간은 지구의 사람들만큼이나 외모가 다양하며, 많은 신을 섬깁니다. 학자들은 인류의 기원에 대해 논쟁하지만, 알려진 것 중 가장 초기의 인간 집회 하나는 다중 우주의 중심이자 공용어가 탄생한 도넛 모양의 도시인 시질에서 일어났다고 전해집니다. 그곳에서부터 인간은 문의 도시의 세계주의를 지닌 채 다중 우주의 모든 구석으로 퍼져나갔을 것입니다.</content>
   <content contentuid="ha7f411bcg3f6cg64b1gca4eg2a06ea3eb63b" version="1">인간 및 기타</content>
   <content contentuid="h9c1c2999g7b54g854bgfdafg85a366d81a61" version="2">인간</content>
   <content contentuid="h0ab77ea5gdc5bg9766g3e31gd30e3393b12e" version="1">골리앗</content>
@@ -4629,8 +4629,8 @@
   <content contentuid="h1498d59bg1126gb9c5gd9b1ga55c4cbb3816" version="1">턴당 한 번 계약 무기로 크리처를 적중시켰을 때, 계약 마법 주문 슬롯을 소모하여 대상에게 1d8 + 주문 슬롯 레벨당 1d8의 역장 피해를 추가로 입힐 수 있으며, 대상이 거대형 이하 크기라면 넘어짐 상태로 만들 수 있습니다.</content>
   <content contentuid="h91a9a031gbb78g3004g2f6cg6dcdb8f2cea3" version="1">무기에 &lt;LSTag Tooltip="Light"&gt;경량&lt;/LSTag&gt; 특성이 없더라도 쌍수 전투를 사용할 수 있습니다. &lt;LSTag Tooltip="TwoHanded"&gt;양손&lt;/LSTag&gt; 무기는 쌍수로 장착할 수 없습니다.&lt;br&gt;&lt;br&gt;자신의 턴에 공격 행동을 취하고 근거리 무기로 공격할 때, 이후 같은 턴에 보조 행동으로 보조 무기 공격을 한 번 할 수 있습니다. 흠집내기 특성을 보유하고 보조 무기에 흠집내기 무기를 장착한 경우, 턴당 최대 두 번까지 보조 무기 공격을 할 수 있습니다.</content>
   <content contentuid="h7f4aa580ga87dg16dcgfbe8g89f017ded271" version="1">3레벨: 그림자 주문</content>
-  <content contentuid="h822a72b8g17f5g73a6gd5f7g245ac996eb94" version="1">그림자 주문 표에 명시된 소서러 레벨에 도달하면, 다음 주문들이 항상 준비됩니다. 그림자 마법 소서러는 특정 레벨에 도달할 때마다 추가 주문을 얻습니다. 3레벨에는 액운, 어둠, 상처 유발, 신출귀몰 주문을 얻으며, 5레벨에는 하다르의 굶주림과 공포 주문을, 7레벨에는 상급 투명과 환영 살해자 주문을, 9레벨에는 감염과 죽음 구름 주문을 얻습니다.</content>
-  <content contentuid="hce90f19eg2ee2g0ff4g4c21g7ebf85d46c9d" version="1">그림자 마법 소서러는 특정 레벨에 도달할 때마다 추가 주문을 얻습니다. 3레벨에는 액운, 어둠, 상처 유발, 신출귀몰 주문을 얻으며, 5레벨에는 하다르의 굶주림과 공포 주문을, 7레벨에는 상급 투명과 환영 살해자 주문을, 9레벨에는 감염과 죽음 구름 주문을 얻습니다.</content>
+  <content contentuid="h822a72b8g17f5g73a6gd5f7g245ac996eb94" version="1">그림자 주문 표에 명시된 소서러 레벨에 도달하면, 다음 주문들이 항상 준비됩니다. 그림자 마법 소서러는 특정 레벨에 도달할 때마다 추가 주문을 얻습니다. 3레벨에는 베인, 어둠, 상처 유발, 신출귀몰 주문을 얻으며, 5레벨에는 하다르의 굶주림과 공포 주문을, 7레벨에는 상급 투명과 환영 살해자 주문을, 9레벨에는 감염과 죽음 구름 주문을 얻습니다.</content>
+  <content contentuid="hce90f19eg2ee2g0ff4g4c21g7ebf85d46c9d" version="1">그림자 마법 소서러는 특정 레벨에 도달할 때마다 추가 주문을 얻습니다. 3레벨에는 베인, 어둠, 상처 유발, 신출귀몰 주문을 얻으며, 5레벨에는 하다르의 굶주림과 공포 주문을, 7레벨에는 상급 투명과 환영 살해자 주문을, 9레벨에는 감염과 죽음 구름 주문을 얻습니다.</content>
   <content contentuid="h312226b3g88ffg25afg2137g749c468fee54" version="1">3레벨: 어둠의 눈</content>
   <content contentuid="ha1f41cf1g38dagde18ga234gcff8d509b5e3" version="1">3레벨: 무덤의 힘</content>
   <content contentuid="h8169cd0cg492cg6dbeg7bafg507ce72f8ac4" version="1">그림자 마법</content>
@@ -4778,8 +4778,8 @@
   <content contentuid="h06dbb138g6afagfebbg9a03gd5d229bb475e" version="1">기절의 파동</content>
   <content contentuid="h36e08fceg5a47gf889gc415g5a67ba284ba1" version="1">양손에서 역장의 파동이 뿜어져 나와 사정거리 내의 크리처 한 명을 겨냥합니다. 대상은 건강 내성 굴림을 수행해야 합니다. 내성 굴림 실패 시 크리처는 2d6의 역장 피해를 입고 다음 자신의 턴이 끝날 때까지 기절 상태가 됩니다. 내성 굴림 성공 시 크리처는 피해만 입습니다.</content>
   <content contentuid="h1d86fe95gbfdbg4380gabf5g485af2f71992" version="1">3레벨: 그림자 권역 주문</content>
-  <content contentuid="h7b73f5fagb632g4dd6gbb1bg52e10cb075ff" version="1">이 신성한 권역과의 연결로 인해 항상 특정 주문이 준비된 상태가 됩니다. 그림자 권역 주문 표에 명시된 클레릭 레벨에 도달하면, 다음 주문들이 항상 준비됩니다. 그림자 권역은 클레릭 레벨이 상승함에 따라 다음 주문들을 부여합니다. 3레벨에는 액운, 거짓 목숨, 실명, 어둠 주문이 준비되며, 5레벨에는 점멸과 공포 주문이, 7레벨에는 에바드의 검은 촉수와 상급 투명 주문이, 9레벨에는 냉기 분사와 꿈 주문이 준비됩니다.</content>
-  <content contentuid="hb05d9f4bgc914g4d44g95b9ga646b28fd85b" version="1">그림자 권역은 클레릭 레벨이 상승함에 따라 다음 주문들을 부여합니다. 3레벨에는 액운, 거짓 목숨, 실명, 어둠 주문이 준비되며, 5레벨에는 점멸과 공포 주문이, 7레벨에는 에바드의 검은 촉수와 상급 투명 주문이, 9레벨에는 냉기 분사와 꿈 주문이 준비됩니다.</content>
+  <content contentuid="h7b73f5fagb632g4dd6gbb1bg52e10cb075ff" version="1">이 신성한 권역과의 연결로 인해 항상 특정 주문이 준비된 상태가 됩니다. 그림자 권역 주문 표에 명시된 클레릭 레벨에 도달하면, 다음 주문들이 항상 준비됩니다. 그림자 권역은 클레릭 레벨이 상승함에 따라 다음 주문들을 부여합니다. 3레벨에는 베인, 거짓 목숨, 실명, 어둠 주문이 준비되며, 5레벨에는 점멸과 공포 주문이, 7레벨에는 에바드의 검은 촉수와 상급 투명 주문이, 9레벨에는 냉기 분사와 꿈 주문이 준비됩니다.</content>
+  <content contentuid="hb05d9f4bgc914g4d44g95b9ga646b28fd85b" version="1">그림자 권역은 클레릭 레벨이 상승함에 따라 다음 주문들을 부여합니다. 3레벨에는 베인, 거짓 목숨, 실명, 어둠 주문이 준비되며, 5레벨에는 점멸과 공포 주문이, 7레벨에는 에바드의 검은 촉수와 상급 투명 주문이, 9레벨에는 냉기 분사와 꿈 주문이 준비됩니다.</content>
   <content contentuid="h1064bb85gee8cg09fbge5ebg6e90aa761e30" version="1">그림자 권역</content>
   <content contentuid="h904f48b3g5c0bg6e25g75bcg2b014d46c23f" version="1">그림자 권역</content>
   <content contentuid="h034102c0gf054g2c35ga023g5f4e2e8fbffd" version="1">그림자 권역은 만물을 둘러싼 어둠을 수용하고 빛과 어둠을 가르는 일시적인 회색지대를 조작합니다. 그림자 권역의 클레릭은 미묘한 길을 걸으며, 종종 동맹을 바꾸고 보이지 않는 곳에서 행동하는 것을 선호합니다.</content>
@@ -4899,7 +4899,7 @@
 
 긴 휴식을 마칠 때마다, 숙련되어 있으며 관통이나 참격 피해를 입히는 근거리 무기 하나에 의식을 수행하여 축성할 수 있습니다. 해당 무기는 당신의 축성된 검이 되며, 이러한 검은 한 번에 하나만 보유할 수 있습니다. 이 검은 당신에게 기교 특성을 부여하며, 이 무기로 이형체, 마족, 언데드를 상대로 가하는 공격은 피해 저항을 무시합니다.</content>
   <content contentuid="hd4c5ce4dgcb1bg633fg9549gc049d53401cf" version="1">축성된 검</content>
-  <content contentuid="hb8fdcfc4ga498g2b1cg07dfg1712e7560d44" version="1">긴 휴식을 마칠 때마다, 숙련되어 있으며 관통이나 참격 피해를 입히는 근거리 무기 하나에 의식을 수행하여 성화할 수 있습니다. 해당 무기는 당신의 축성된 검이 되며, 이러한 검은 한 번에 하나만 보유할 수 있습니다. 이 검은 당신에게 기교 특성을 부여하며, 이 무기로 이형체, 마족, 언데드를 상대로 가하는 공격은 피해 저항을 무시합니다.</content>
+  <content contentuid="hb8fdcfc4ga498g2b1cg07dfg1712e7560d44" version="1">긴 휴식을 마칠 때마다, 숙련되어 있으며 관통이나 참격 피해를 입히는 근거리 무기 하나에 의식을 수행하여 축성할 수 있습니다. 해당 무기는 당신의 축성된 검이 되며, 이러한 검은 한 번에 하나만 보유할 수 있습니다. 이 검은 당신에게 기교 특성을 부여하며, 이 무기로 이형체, 마족, 언데드를 상대로 가하는 공격은 피해 저항을 무시합니다.</content>
   <content contentuid="h690e847bge185g8948g88e3g81fa0004b7a4" version="1">축성된 검</content>
   <content contentuid="h76a22005g0fd5g7e8bgedc0g71ee16b02cd7" version="1">이 검은 당신에게 기교 특성을 부여하며, 이 무기로 이형체, 마족, 언데드를 상대로 가하는 공격은 피해 저항을 무시합니다.</content>
   <content contentuid="h7a334947g9694gb548gb4e4g4bfde199cc8d" version="1">3레벨: 신성한 축복</content>
@@ -4952,7 +4952,7 @@
   <content contentuid="h534ed7cdg1c82g686bg5c11g853eb4fc79da" version="1">격노의 얼굴: 넘어짐</content>
   <content contentuid="h9ab20eb3gc598g3449gb504g354483f2972b" version="1">격노를 활성화했을 때, 맨손 공격으로 크리처를 적중시키면 크리처에게 건강 내성 굴림(난이도 8 + 근력 보정치 + 숙련 보너스)을 강제할 수 있습니다. 내성 굴림 실패 시 크리처는 넘어짐 상태가 됩니다.</content>
   <content contentuid="hf0667bf6g77dagda24g515cg27017347e947" version="1">광전사의 길</content>
-  <content contentuid="h054c34e8gf7acg1ce5g9297g2f198a57cc90" version="2">광전사의 길을 걷는 바바리안들은 격노를 주로 폭력으로 분출합니다. 그들의 길은 겉잡을 수 없는 분노의 길이며, 격노가 자신을 사로잡고 강화하도록 내맡긴 채 전장의 혼돈 속에서 희열을 느낍니다.</content>
+  <content contentuid="h054c34e8gf7acg1ce5g9297g2f198a57cc90" version="2">광전사의 길을 걷는 바바리안들은 격노를 주로 폭력으로 분출합니다. 그들의 길은 걷잡을 수 없는 분노의 길이며, 격노가 자신을 사로잡고 강화하도록 내맡긴 채 전장의 혼돈 속에서 희열을 느낍니다.</content>
   <content contentuid="hfe2d7a7cg1f66g7b4cg4485g45ffc2e4f8ca" version="1">야생의 심장의 길</content>
   <content contentuid="h0a89d75bg6efag48a6gf526g8742bbe1176f" version="2">야생의 심장의 길을 따르는 바바리안들은 자신을 야수와 동류로 여깁니다. 이 바바리안들은 야수와 대화하는 마법적인 방법을 배우며, 격노 시 초자연적인 힘으로 가득 차면서 야수와의 연결이 더욱 강화됩니다.</content>
   <content contentuid="h20c62466g58aegc458g775bg12619ff97e87" version="1">거인의 길</content>
@@ -5493,7 +5493,7 @@
   <content contentuid="h4016a9a2g8d51g2860gce0aga3dae07e0895" version="2">우둔한 크리처를 복종시키려 시도합니다. &lt;LSTag Tooltip="Intelligence"&gt;지능&lt;/LSTag&gt;이 3 이하인 크리처는 &lt;LSTag Tooltip="Intelligence"&gt;지능&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;내성 굴림&lt;/LSTag&gt;에 성공하지 못하면 당신이 &lt;LSTag Tooltip="LongRest"&gt;긴 휴식&lt;/LSTag&gt;을 마칠 때까지 당신에게 &lt;LSTag Type="Status" Tooltip="AWAKEN"&gt;지배&lt;/LSTag&gt;당합니다.</content>
   <content contentuid="h98169436gc6eagd39ag00f1g64c904ff7649" version="2">각성됨</content>
   <content contentuid="h947e61d6g7b1fg7654gbc73g3ec51f29fd5a" version="2">이 크리처의 정신은 시전자의 의지에 완전히 종속되어 의문 없이 명령에 따릅니다. 시전자가 &lt;LSTag Tooltip="LongRest"&gt;긴 휴식&lt;/LSTag&gt;을 마치면 효과가 종료됩니다.</content>
-  <content contentuid="h36f0d51cg768fg6fcegfd4cg9f24f3efb0a1" version="1">피의 갈증</content>
+  <content contentuid="h36f0d51cg768fg6fcegfd4cg9f24f3efb0a1" version="1">피의 굶주림</content>
   <content contentuid="hc7b7932cg1da7g2183g00f2g206583dcf7ef" version="1">비행</content>
   <content contentuid="h285600aag7ea5gc76dg7ee0gf02eee80c3a6" version="1">동의한 크리처를 접촉합니다. 지속시간 동안 대상은 18m의 비행 속도를 얻으며 공중에 정지할 수 있습니다. 주문이 끝날 때 대상이 여전히 공중에 떠 있다면, 낙하를 막을 수단이 없는 한 떨어집니다.</content>
   <content contentuid="h9de09bd7gc9d1g08d0gcd2fg85f226c678d3" version="1">비행</content>
@@ -5566,7 +5566,7 @@
   <content contentuid="h43c7ed41g0c76g4c1cg8555g3622987390d2" version="1">사용 가능 직업: 아티피서, 소서러, 위저드</content>
   <content contentuid="h68f18197gef59g4d42g89d4g359f077b2f65" version="1">권능의 원 두루마리</content>
   <content contentuid="h45bfef77gc136g4fcdga0c9g905ed940113b" version="1">사용 가능 직업: 클레릭, 위저드</content>
-  <content contentuid="ha0cd15ddg0aabg4626gb9e7g4247772148ba" version="3">표범</content>
+  <content contentuid="ha0cd15ddg0aabg4626gb9e7g4247772148ba" version="3">흑표범</content>
   <content contentuid="hf7fc2047ga596g401dg9482gcb6cc2037cf9" version="3">검치호</content>
   <content contentuid="h7a6dd032g8505g4c5agb68cgdd27768b296f" version="1">섬뜩한 파동 두루마리</content>
   <content contentuid="hb8333042ga43bg4fb8g9ebegc1dc00106cdc" version="1">사용 가능 직업: 워락</content>
@@ -5648,7 +5648,7 @@
   <content contentuid="h5ab42ef9g6590g4406g96c5g85893df14e9d" version="1">사용 가능 직업: 워락</content>
   <content contentuid="h05676470gf169g4cf0g9d65g403316fae14c" version="1">하다르의 팔 두루마리</content>
   <content contentuid="h3911d261g028eg4d6eg81a7g190f0c68e29b" version="1">사용 가능 직업: 워락</content>
-  <content contentuid="hbe0bca25ge643g45e5g8678gfc458da357f4" version="1">액운 두루마리</content>
+  <content contentuid="hbe0bca25ge643g45e5g8678gfc458da357f4" version="1">베인 두루마리</content>
   <content contentuid="h6463c609gb0b9g4640g8d41g75423740e731" version="1">사용 가능 직업: 바드, 클레릭, 워락</content>
   <content contentuid="he3c7d0a6g96b1g42c9g83e1g78c6366800d2" version="1">축복 두루마리</content>
   <content contentuid="hc6a4456cg98a4g45e5g9913g29050df55476" version="1">사용 가능 직업: 클레릭, 팔라딘</content>
@@ -5847,13 +5847,13 @@
   <content contentuid="h28f9a741ga446ga31eg8889g3b0e1ddcb286" version="1">주문을 위한 명중 굴림을 하여 빗나갔을 때, 소서리 포인트 1점을 소모하여 d20을 다시 굴릴 수 있으며, 새로 굴린 값을 사용해야 합니다.
 
 이 주문을 시전하는 동안 다른 변형 마법 옵션을 이미 사용했더라도 탐색 주문을 사용할 수 있습니다.</content>
-  <content contentuid="h96663848g22b6g4fd3g0749gcca87a42edab" version="2">당신은 지속 시간 동안 당신 주위 3m 방사에 자연의 정령들을 소환해 맴돌게 합니다. 방사가 볼 수 있는 크리처의 공간에 들어가거나, 볼 수 있는 크리처가 방사에 들어오거나 그 안에서 자신의 턴을 마칠 때마다, 당신은 그 크리처에게 지혜 내성 굴림을 강제할 수 있습니다. 크리처는 내성에 실패하면 역장 피해를 받고, 성공하면 그 절반의 피해를 받습니다. 크리처는 한 턴에 한 번만 이 내성 굴림을 합니다.
+  <content contentuid="h96663848g22b6g4fd3g0749gcca87a42edab" version="2">당신은 지속 시간 동안 당신 주위 3m 방사에 자연의 정령들을 소환해 맴돌게 합니다. 방사가 볼 수 있는 크리처의 공간에 들어가거나, 볼 수 있는 크리처가 방사에 들어오거나 그 안에서 자신의 턴을 마칠 때마다, 당신은 그 크리처에게 지혜 내성 굴림을 강제할 수 있습니다. 크리처는 내성 굴림에 실패하면 역장 피해를 입고, 성공하면 절반의 피해만 입습니다. 크리처는 한 턴에 한 번만 이 내성 굴림을 합니다.
 
 또한, 당신은 주문의 지속 시간 동안 보조 행동으로 철수 행동을 할 수 있습니다.</content>
-  <content contentuid="hfbad83efgcb7cg321ag47a0g402ce027568b" version="2">당신은 지속 시간 동안 당신 주위 3m 방사에 자연의 정령들을 소환해 맴돌게 합니다. 방사가 볼 수 있는 크리처의 공간에 들어가거나, 볼 수 있는 크리처가 방사에 들어오거나 그 안에서 자신의 턴을 마칠 때마다, 당신은 그 크리처에게 지혜 내성 굴림을 강제할 수 있습니다. 크리처는 내성에 실패하면 역장 피해를 받고, 성공하면 그 절반의 피해를 받습니다. 크리처는 한 턴에 한 번만 이 내성 굴림을 합니다.
+  <content contentuid="hfbad83efgcb7cg321ag47a0g402ce027568b" version="2">당신은 지속 시간 동안 당신 주위 3m 방사에 자연의 정령들을 소환해 맴돌게 합니다. 방사가 볼 수 있는 크리처의 공간에 들어가거나, 볼 수 있는 크리처가 방사에 들어오거나 그 안에서 자신의 턴을 마칠 때마다, 당신은 그 크리처에게 지혜 내성 굴림을 강제할 수 있습니다. 크리처는 내성 굴림에 실패하면 역장 피해를 입고, 성공하면 절반의 피해만 입습니다. 크리처는 한 턴에 한 번만 이 내성 굴림을 합니다.
 
 또한, 당신은 주문의 지속 시간 동안 보조 행동으로 철수 행동을 할 수 있습니다.</content>
-  <content contentuid="hc98c1c9egd99agca86ged41g2a76a0c61645" version="2">당신은 지속 시간 동안 당신 주위 3m 방사에 자연의 정령들을 소환해 맴돌게 합니다. 방사가 볼 수 있는 크리처의 공간에 들어가거나, 볼 수 있는 크리처가 방사에 들어오거나 그 안에서 자신의 턴을 마칠 때마다, 당신은 그 크리처에게 지혜 내성 굴림을 강제할 수 있습니다. 크리처는 내성에 실패하면 역장 피해를 받고, 성공하면 그 절반의 피해를 받습니다. 크리처는 한 턴에 한 번만 이 내성 굴림을 합니다.
+  <content contentuid="hc98c1c9egd99agca86ged41g2a76a0c61645" version="2">당신은 지속 시간 동안 당신 주위 3m 방사에 자연의 정령들을 소환해 맴돌게 합니다. 방사가 볼 수 있는 크리처의 공간에 들어가거나, 볼 수 있는 크리처가 방사에 들어오거나 그 안에서 자신의 턴을 마칠 때마다, 당신은 그 크리처에게 지혜 내성 굴림을 강제할 수 있습니다. 크리처는 내성 굴림에 실패하면 역장 피해를 입고, 성공하면 절반의 피해만 입습니다. 크리처는 한 턴에 한 번만 이 내성 굴림을 합니다.
 
 또한, 당신은 주문의 지속 시간 동안 보조 행동으로 철수 행동을 할 수 있습니다.</content>
 </contentList>
