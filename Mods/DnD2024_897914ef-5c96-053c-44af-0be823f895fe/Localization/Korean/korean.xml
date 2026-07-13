@@ -1433,7 +1433,7 @@
   <content contentuid="h272e8b3fg32bcg9272g86a0g32a43e6b7889" version="1">어둠 재시전</content>
   <content contentuid="h191d3b3cg589agc29bg69e9g143e19f63834" version="1">주문 슬롯을 소모하거나 행동을 사용하지 않고 주문을 재시전할 수 있습니다.</content>
   <content contentuid="hb302549egc54bg5a4dgbcedg1c098cc541f2" version="1">주술</content>
-  <content contentuid="h15d4347egf4adg1955g7c5agb0611504409c" version="1">공격이 대상에게 추가로 [1]를 주고, 선택한 &lt;LSTag Tooltip="Abilities"&gt;능력&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 줍니다.</content>
+  <content contentuid="h15d4347egf4adg1955g7c5agb0611504409c" version="1">공격이 대상에게 추가로 [1] 피해를 주고, 선택한 &lt;LSTag Tooltip="Abilities"&gt;능력&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 줍니다.</content>
   <content contentuid="h1468dc42g4e8bg6f7fg3c71g087f5298ce17" version="1">주문이 종료되기 전에 대상이 사망하면, &lt;LSTag Tooltip="SpellSlot"&gt;주문 슬롯&lt;/LSTag&gt;을 소모하지 않고 새로운 크리처에게 주술을 사용할 수 있습니다.</content>
   <content contentuid="h94cfdb63g5f9bgb908ga1b4g49a999286692" version="1">주술(근력)</content>
   <content contentuid="h7a57f594g5b53g2b67g6e93g91c13a46a6ae" version="1">대상을 공격할 때 추가로 [1]를 입히고 근력 &lt;LSTag Tooltip="AbilityCheck"&gt;판정&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 부여합니다.</content>
@@ -1447,10 +1447,10 @@
   <content contentuid="h99671ac5g1722g6772gd253gca4101371e65" version="1">대상을 공격할 때 추가로 [1]를 입히고 지혜 &lt;LSTag Tooltip="AbilityCheck"&gt;판정&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 부여합니다.</content>
   <content contentuid="hd84f5047g0e76gc836g35b5gbe6d305fb2a7" version="1">주술(매력)</content>
   <content contentuid="hdacc0f70g174fg1d6bgacb2ga2903b808996" version="1">대상을 공격할 때 추가로 [1]를 입히고 매력 &lt;LSTag Tooltip="AbilityCheck"&gt;판정&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 부여합니다.</content>
-  <content contentuid="h996f221agacbcg6efeg993agc53fc989fb21" version="1">공격이 대상에게 추가로 [1]를 주고, 선택한 &lt;LSTag Tooltip="Abilities"&gt;능력&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 줍니다.</content>
+  <content contentuid="h996f221agacbcg6efeg993agc53fc989fb21" version="1">공격이 대상에게 추가로 [1] 피해를 주고, 선택한 &lt;LSTag Tooltip="Abilities"&gt;능력&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 줍니다.</content>
   <content contentuid="hfea5f311gcf97g56f0g0870g033aad6ff8c4" version="1">주문이 종료되기 전에 대상이 사망하면, &lt;LSTag Tooltip="SpellSlot"&gt;주문 슬롯&lt;/LSTag&gt;을 소모하지 않고 새로운 크리처에게 주술을 사용할 수 있습니다.</content>
   <content contentuid="hc1eccf67g50eag9cf5ga136gc2f32f4d87ca" version="1">주술</content>
-  <content contentuid="h986ef392g7cedg2e71g03a9gf9c1687d9521" version="1">공격이 대상에게 추가로 [1]를 주고, 선택한 &lt;LSTag Tooltip="Abilities"&gt;능력&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 줍니다.</content>
+  <content contentuid="h986ef392g7cedg2e71g03a9gf9c1687d9521" version="1">공격이 대상에게 추가로 [1] 피해를 주고, 선택한 &lt;LSTag Tooltip="Abilities"&gt;능력&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 줍니다.</content>
   <content contentuid="hf92ba4c0g7544g31a6gfd25g199230d6f70e" version="1">주문이 종료되기 전에 대상이 사망하면, &lt;LSTag Tooltip="SpellSlot"&gt;주문 슬롯&lt;/LSTag&gt;을 소모하지 않고 새로운 크리처에게 주술을 사용할 수 있습니다.</content>
   <content contentuid="hd19154f9g67bbga673gb1a8g0f17ebdb7005" version="1">주술</content>
   <content contentuid="h25a3dfe9g20e9gf9e2ge187g319f2447e505" version="1">주술 재적용</content>
@@ -1483,10 +1483,10 @@
   <content contentuid="hb33f8a62gdd36gf6d9gacb0ge5a98eab7ecd" version="1">주술 재적용</content>
   <content contentuid="h23e856a5g4d0ag528cgd0fag36230f54235f" version="1">추가 &lt;LSTag Tooltip="SpellSlot"&gt;주문 슬롯&lt;/LSTag&gt;을 소모하지 않고 새로운 크리처를 저주합니다.</content>
   <content contentuid="hfda85d46g3626g88f8gecffg03e1abc1eb12" version="1">저주받은 크리처는 이 캐릭터가 공격할 때마다 추가 피해를 받고, 이 캐릭터가 선택한 &lt;LSTag Tooltip="Ability"&gt;능력&lt;/LSTag&gt;의 &lt;LSTag Tooltip="AbilityCheck"&gt;능력 판정&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 받습니다.</content>
-  <content contentuid="hfd42c4cdg4002g1993ge98ag453cbbdf7684" version="1">공격이 대상에게 추가로 [1]를 주고, 선택한 &lt;LSTag Tooltip="Abilities"&gt;능력&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 줍니다.</content>
+  <content contentuid="hfd42c4cdg4002g1993ge98ag453cbbdf7684" version="1">공격이 대상에게 추가로 [1] 피해를 주고, 선택한 &lt;LSTag Tooltip="Abilities"&gt;능력&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 줍니다.</content>
   <content contentuid="hd4782a03g4747ga790g93f8gb5ba22e3ba1a" version="1">주문이 종료되기 전에 대상이 사망하면, &lt;LSTag Tooltip="SpellSlot"&gt;주문 슬롯&lt;/LSTag&gt;을 소모하지 않고 새로운 크리처에게 주술을 사용할 수 있습니다.</content>
   <content contentuid="h7416be09g20a9ga121g5136g174293a1df26" version="1">주술</content>
-  <content contentuid="h4eb29c67ga49agd6e4g8d5ag46d694f80e9e" version="1">공격이 대상에게 추가로 [1]를 주고, 선택한 &lt;LSTag Tooltip="Abilities"&gt;능력&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 줍니다.</content>
+  <content contentuid="h4eb29c67ga49agd6e4g8d5ag46d694f80e9e" version="1">공격이 대상에게 추가로 [1] 피해를 주고, 선택한 &lt;LSTag Tooltip="Abilities"&gt;능력&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 줍니다.</content>
   <content contentuid="h5fb3e9b6gc371g5c19g6943gfa3f460b2856" version="1">주문이 종료되기 전에 대상이 사망하면, &lt;LSTag Tooltip="SpellSlot"&gt;주문 슬롯&lt;/LSTag&gt;을 소모하지 않고 새로운 크리처에게 주술을 사용할 수 있습니다.</content>
   <content contentuid="h315de182g2122gf2a7g83aagb2576755b5ee" version="1">주술</content>
   <content contentuid="hc904ec1agac4cgacb6g35dfg81038f9c3e4f" version="1">주술(매력)</content>
@@ -1502,7 +1502,7 @@
   <content contentuid="h380fb49dg3e47g7b02gf89dge802681c350e" version="1">주술(근력)</content>
   <content contentuid="h2237238fg8d1fgafb3g32e9ge243c83acb05" version="1">대상을 공격할 때 추가로 [1]를 입히고 근력 &lt;LSTag Tooltip="AbilityCheck"&gt;판정&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 부여합니다.</content>
   <content contentuid="h5d17bbf7gb793g42b6gacefg8a899ba5c4ab" version="1">주술</content>
-  <content contentuid="h65f3ea14g5c79g6cdag91a8g8747542a090c" version="1">공격이 대상에게 추가로 [1]를 주고, 선택한 &lt;LSTag Tooltip="Abilities"&gt;능력&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 줍니다.</content>
+  <content contentuid="h65f3ea14g5c79g6cdag91a8g8747542a090c" version="1">공격이 대상에게 추가로 [1] 피해를 주고, 선택한 &lt;LSTag Tooltip="Abilities"&gt;능력&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 줍니다.</content>
   <content contentuid="hce562dddgafdeg09c2gfcbfgfbdf120f983f" version="1">주문이 종료되기 전에 대상이 사망하면, &lt;LSTag Tooltip="SpellSlot"&gt;주문 슬롯&lt;/LSTag&gt;을 소모하지 않고 새로운 크리처에게 주술을 사용할 수 있습니다.</content>
   <content contentuid="hc421c06eg7266g8444g3e70g03d5b5fcf166" version="2">공격의 명중 여부와 상관없이, 사용 중인 무기나 탄환이 번개 줄기로 변합니다. 공격으로 인한 피해나 기타 효과 대신, 적중 시 대상은 4d8 번개 피해를 입고 빗나갈 경우 절반의 피해를 입습니다. 대상으로부터 3m 이내의 각 크리처는 2d8 번개 피해를 입습니다.</content>
   <content contentuid="hbc4b3cdeg1f95g6b65gad88g180de678c0b5" version="1">공격의 명중 여부와 상관없이, 사용 중인 무기나 탄환이 번개 줄기로 변합니다. 공격으로 인한 피해나 기타 효과 대신, 적중 시 대상은 4d8 번개 피해를 입고 빗나갈 경우 절반의 피해를 입습니다. 대상으로부터 3m 이내의 각 크리처는 2d8 번개 피해를 입습니다.</content>
