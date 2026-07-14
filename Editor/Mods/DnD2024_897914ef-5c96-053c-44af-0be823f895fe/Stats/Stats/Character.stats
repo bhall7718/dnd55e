@@ -87,23 +87,6 @@
         <field name="UnarmedRangedAttackAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="53a5e357-18a5-4741-b3b7-f8ba59f01e29" />
-        <field name="Name" type="NameTableFieldDefinition" value="GiantEagle_2" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="e725476a-2c86-4645-91d7-08bf53f3eca8" />
-        <field name="Level" type="IntegerTableFieldDefinition" value="3" />
-        <field name="Strength" type="IntegerTableFieldDefinition" value="18" />
-        <field name="Dexterity" type="IntegerTableFieldDefinition" value="11" />
-        <field name="Constitution" type="IntegerTableFieldDefinition" value="16" />
-        <field name="Intelligence" type="IntegerTableFieldDefinition" value="4" />
-        <field name="Charisma" type="IntegerTableFieldDefinition" value="5" />
-        <field name="Armor" type="IntegerTableFieldDefinition" value="13" />
-        <field name="Vitality" type="IntegerTableFieldDefinition" value="20" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="IgnoreLeaveAttackRange();ProficiencyBonus(Skill,Perception);BlockRegainHP(Undead;Construct);" />
-        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:9;ReactionActionPoint:1" />
-      </fields>
-    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="24d1e1e6-68f8-48d9-a128-4688a9cf22b4" />
@@ -181,6 +164,22 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4b01c1bb-5868-4488-9107-e441f15cca93" />
         <field name="Name" type="NameTableFieldDefinition" value="__SUMMON SPELL__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="53a5e357-18a5-4741-b3b7-f8ba59f01e29" />
+        <field name="Name" type="NameTableFieldDefinition" value="GiantEagle_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e725476a-2c86-4645-91d7-08bf53f3eca8" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="3" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="18" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="4" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="20" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="IgnoreLeaveAttackRange();ProficiencyBonus(Skill,Perception);BlockRegainHP(Undead;Construct);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -362,7 +361,7 @@
         <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
       </fields>
     </stat_object>
-    <stat_object color="#FF000000" is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="37012991-432a-414e-ab8f-329783f5cb35" />
         <field name="Name" type="NameTableFieldDefinition" value="Companion_Worg" />
@@ -412,7 +411,7 @@
         <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;WorgBite" />
       </fields>
     </stat_object>
-    <stat_object color="#FF000000" is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f5fa649f-addd-475b-b7bd-ab7c9f549514" />
         <field name="Name" type="NameTableFieldDefinition" value="Companion_Wolf" />
@@ -572,7 +571,7 @@
         <field name="Passives" type="StringTableFieldDefinition" value="PackTactics;AttackOfOpportunity;DarknessRules;WolfBite" />
       </fields>
     </stat_object>
-    <stat_object color="#FF000000" is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ef3aed30-b929-4996-8aed-e864559db0b9" />
         <field name="Name" type="NameTableFieldDefinition" value="Bugbear" />
@@ -621,6 +620,44 @@
         <field name="Name" type="NameTableFieldDefinition" value="MOO_BugbearMerchant" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3c723545-c341-4be9-a68e-a9711dd5ec55" />
         <field name="Vitality" type="IntegerTableFieldDefinition" value="65" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e725476a-2c86-4645-91d7-08bf53f3eca8" />
+        <field name="Name" type="NameTableFieldDefinition" value="GiantEagle" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="78ed4b4c-5f20-4e76-bf9b-0b9249fc7d44" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="17" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="44" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="60" />
+        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Clawed" enumeration_type_name="StepsType" version="1" />
+        <field name="Flags" type="EnumerationListTableFieldDefinition" value="Floating;FloatingWhileMoving" enumeration_type_name="AttributeFlags" version="1" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="CRIPPLED" />
+        <field name="UnarmedAttackAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="GameSize" type="EnumerationTableFieldDefinition" value="Large" enumeration_type_name="ObjectSize" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Multiattack_GiantEagle;AttackOfOpportunity" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:12;ReactionActionPoint:1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Perception); BlockRegainHP(Undead;Construct)" />
+        <field name="NecroticResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="RadiantResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8e37427e-49a0-40ac-a02a-b61cf101b48c" />
+        <field name="Name" type="NameTableFieldDefinition" value="CRE_GiantEagle_Chief" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e725476a-2c86-4645-91d7-08bf53f3eca8" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="18" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="62" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY: HEALTHREDUCTION_EASYMODE; STATUS_HARD: HEALTHBOOST_HARDCORE; STATUS_HARD: CRE_GIANTEAGLE_CHIEF_HARDCORE" />
       </fields>
     </stat_object>
   </stat_objects>
