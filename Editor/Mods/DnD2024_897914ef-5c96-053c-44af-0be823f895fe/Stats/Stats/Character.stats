@@ -701,5 +701,147 @@
         <field name="Passives" type="StringTableFieldDefinition" value="PackTactics;AttackOfOpportunity;DarknessRules;Darkvision" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4e166aa8-bfd5-448e-a35d-932d820dd2e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Raven" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4fb97cb0-85eb-43f5-a549-905ca1ad1512" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="6" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="1" />
+        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Clawed" enumeration_type_name="StepsType" version="1" />
+        <field name="Flags" type="EnumerationListTableFieldDefinition" value="Floating" enumeration_type_name="AttributeFlags" version="1" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="CRIPPLED" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill, Perception); BlockRegainHP(Undead;Construct)" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="UnarmedRangedAttackAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:12;ReactionActionPoint:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5eb7df59-8dad-413a-9387-3afc7a1ab6ef" />
+        <field name="Name" type="NameTableFieldDefinition" value="Raven_ShadowCursed" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4e166aa8-bfd5-448e-a35d-932d820dd2e2" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="1" />
+        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="c1d87aaa-7548-44da-b9dd-d17b027a3885" />
+        <field name="Passives" type="StringTableFieldDefinition" value="DarknessRules" />
+        <field name="DarkvisionRange" type="StringTableFieldDefinition" value="0" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="14" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY: HEALTHREDUCTION_EASYMODE; STATUS_HARD: HEALTHBOOST_HARDCORE; STATUS_HARD: SHADOWRAVEN_HARD" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dec0828e-1fcd-46a0-bc7f-76f5b4c2e841" />
+        <field name="Name" type="NameTableFieldDefinition" value="Raven_ShadowCursed_Lakeside" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5eb7df59-8dad-413a-9387-3afc7a1ab6ef" />
+        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="c83d6caa-c5c3-4356-b55c-8d634535976c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cc044ed3-1d55-4a08-8e19-312273ac5cd5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Raven" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cdcad5a6-1ec6-4d29-8a98-74014fd94fbe" />
+        <field name="ProficiencyBonus" type="IntegerTableFieldDefinition" value="0" />
+        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="40806669-8c6b-4068-8bc4-07e4981bb020" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;ShortResting;AttackOfOpportunity;DarknessRules" />
+        <field name="Proficiency Bonus Scaling" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bbe1ed2b-da1e-4935-aece-c95920c3bfec" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Raven_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cc044ed3-1d55-4a08-8e19-312273ac5cd5" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="21" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="ProficiencyBonus" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;ShortResting;CompanionsBond_Creature;AttackOfOpportunity;DarknessRules" />
+        <field name="Proficiency Bonus Scaling" type="GuidObjectTableFieldDefinition" value="265d62c4-9b82-4ed6-9a86-da675b4ef8fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bbc81177-f1e2-41ba-b7b0-0945eac55f89" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Raven_7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bbe1ed2b-da1e-4935-aece-c95920c3bfec" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="13" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21d25e0b-08ab-4336-b284-4d7c5e2f5a5d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Raven_8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bbc81177-f1e2-41ba-b7b0-0945eac55f89" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="32" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="23e301da-4baa-4b44-bc91-294922022f56" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Raven_11" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21d25e0b-08ab-4336-b284-4d7c5e2f5a5d" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="44" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining;BestialFury;ExtraAttack;ThirdEye" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="BLINDED;BLINDED_DARKNESS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21abd7f8-904d-4593-888c-cd4984aaf2cb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Raven_Flock" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cc044ed3-1d55-4a08-8e19-312273ac5cd5" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="BLINDED;BLINDED_DARKNESS" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;ShortResting;ThirdEye" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cdcad5a6-1ec6-4d29-8a98-74014fd94fbe" />
+        <field name="Name" type="NameTableFieldDefinition" value="Raven_Dire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4e166aa8-bfd5-448e-a35d-932d820dd2e2" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="6" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="13" />
+        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Clawed" enumeration_type_name="StepsType" version="1" />
+        <field name="Flags" type="EnumerationListTableFieldDefinition" value="Floating" enumeration_type_name="AttributeFlags" version="1" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="14" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="CRIPPLED" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="7" />
+        <field name="GameSize" type="EnumerationTableFieldDefinition" value="Small" enumeration_type_name="ObjectSize" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f8b5265-8a8d-47eb-bc8c-7b620991ae51" />
+        <field name="Name" type="NameTableFieldDefinition" value="Raven_Dire_Wildshape" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cdcad5a6-1ec6-4d29-8a98-74014fd94fbe" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
