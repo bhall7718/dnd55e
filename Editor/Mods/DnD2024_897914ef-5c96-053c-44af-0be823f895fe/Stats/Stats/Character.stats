@@ -843,5 +843,262 @@
         <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="05a3f181-8033-488b-84f3-d637876815bf" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spider_Tiny" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="42ee9f19-4496-4ac5-9a43-1238b50c63d9" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="6" />
+        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Spider" enumeration_type_name="StepsType" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0.5" />
+        <field name="UnarmedRangedAttackAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b30a2ceb-7e90-4cdd-8882-c9ce89263e0b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spider_Tiny_Underdark" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="05a3f181-8033-488b-84f3-d637876815bf" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="14" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f8a6503-ac38-45e7-b0f9-25f3d77545ed" />
+        <field name="Name" type="NameTableFieldDefinition" value="Familiar_Spider" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="05a3f181-8033-488b-84f3-d637876815bf" />
+        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="40806669-8c6b-4068-8bc4-07e4981bb020" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="DialogueBlock();BlockRegainHP(Undead;Construct)" />
+        <field name="Passives" type="StringTableFieldDefinition" value="SpiderWalk;ShortResting;AttackOfOpportunity;Darkvision;DarknessRules" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="42ee9f19-4496-4ac5-9a43-1238b50c63d9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spider_Giant" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="78ed4b4c-5f20-4e76-bf9b-0b9249fc7d44" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="4" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="32" />
+        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Spider" enumeration_type_name="StepsType" version="1" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="WEB;DIFFICULT_TERRAIN_WEB;SPIDER_INFESTATION" />
+        <field name="PathInfluence" type="StringTableFieldDefinition" value="BloodElectrified,100;BloodFrozen,30;Lava,700;Fire,40;HolyFire,40;Hellfire,100;PoisonCloud,70;WyvernPoison,70;DrowPoisonCloud,70;PurpleWormPoison,70;SerpentVenom,70;InvisibleGithAcid,70;CloudkillCloud,70;MaliceCloud,70;CrawlerMucusCloud,70;WaterElectrified,100;WaterFrozen,30;Grease,30;Vines,40;SporeBlackCloud,100;WaterCloudElectrified,40;SporeGreenCloud,40;Acid,30;CausticBrine,40;DarknessCloud,30;FogCloud,30;Mud,30;Oil,30;Poison,30;SpikeGrowth,40;SporePinkCloud,40;StinkingCloud,40" />
+        <field name="UnarmedAttackAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="SpiderWalk;AttackOfOpportunity;Darkvision;DarknessRules" />
+        <field name="DarkvisionRange" type="StringTableFieldDefinition" value="9" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="ArmorType" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="Skill(Perception, 5); Skill(Stealth, 7); BlockRegainHP(Undead;Construct)" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="120" />
+        <field name="UnarmedRangedAttackAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0372b2a7-1ac6-4704-977a-5319773d621b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_GiantSpider" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="eeba5bfb-4ed7-4e4c-b30c-8e2e1631d779" />
+        <field name="ProficiencyBonus" type="IntegerTableFieldDefinition" value="0" />
+        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="40806669-8c6b-4068-8bc4-07e4981bb020" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;SpiderWalk;ShortResting;AttackOfOpportunity;DarknessRules;Darkvision" />
+        <field name="Proficiency Bonus Scaling" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ee5d02d8-d4c3-4250-9f6e-bced6b9f8e1e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_GiantSpider_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0372b2a7-1ac6-4704-977a-5319773d621b" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="24" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="ProficiencyBonus" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;SpiderWalk;ShortResting;CompanionsBond_Creature;AttackOfOpportunity;Darkvision;DarknessRules" />
+        <field name="Proficiency Bonus Scaling" type="GuidObjectTableFieldDefinition" value="265d62c4-9b82-4ed6-9a86-da675b4ef8fe" />
+        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="40806669-8c6b-4068-8bc4-07e4981bb020" />
+        <field name="SoundSize" type="EnumerationTableFieldDefinition" value="Huge" enumeration_type_name="ObjectSize" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="19630aab-4bf8-49f4-bef9-aecb00c8e860" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_GiantSpider_7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ee5d02d8-d4c3-4250-9f6e-bced6b9f8e1e" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;SpiderWalk;DarknessRules;Darkvision;ShortResting;CompanionsBond_Creature;ExceptionalTraining" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f5406894-ca0a-419c-8d52-9a416987d0dd" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_GiantSpider_8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="19630aab-4bf8-49f4-bef9-aecb00c8e860" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="42" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;SpiderWalk;DarknessRules;Darkvision;ShortResting;CompanionsBond_Creature;ExceptionalTraining" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e591ba89-b241-4ff2-8a52-13dbd3d083bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_GiantSpider_11" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f5406894-ca0a-419c-8d52-9a416987d0dd" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="60" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;SpiderWalk;DarknessRules;Darkvision;CompanionsBond_Creature;EightLeggedWaltz_Spider;BestialFury;ExtraAttack" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="13" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6287b74e-86ef-4c19-ae8c-a26fd8203076" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spider_Giant_Ranged" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="42ee9f19-4496-4ac5-9a43-1238b50c63d9" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="24" />
+        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Spider" enumeration_type_name="StepsType" version="1" />
+        <field name="PathInfluence" type="StringTableFieldDefinition" value="BloodElectrified,100;BloodFrozen,30;Lava,700;Fire,40;HolyFire,40;Hellfire,100;PoisonCloud,70;WyvernPoison,70;DrowPoisonCloud,70;PurpleWormPoison,70;SerpentVenom,70;InvisibleGithAcid,70;CloudkillCloud,70;MaliceCloud,70;CrawlerMucusCloud,70;WaterElectrified,100;WaterFrozen,30;Grease,30;Vines,40;SporeBlackCloud,100;WaterCloudElectrified,40;SporeGreenCloud,40;Acid,30;CausticBrine,40;DarknessCloud,30;FogCloud,30;Mud,30;Oil,30;Poison,30;SpikeGrowth,40;SporePinkCloud,40;StinkingCloud,40" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2b10860c-78eb-4e4a-8454-881715b4c8cd" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spider_Giant_Wildshape" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="42ee9f19-4496-4ac5-9a43-1238b50c63d9" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="20" />
+        <field name="Passives" type="StringTableFieldDefinition" value="SpiderWalk;SpiderFallResistance;AttackOfOpportunity;DarknessRules;Darkvision" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c562dbff-cd25-4111-aec0-576011f71e13" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spider_Giant_Wildshape_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b10860c-78eb-4e4a-8454-881715b4c8cd" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="26" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4693e3bd-0779-4bfc-9395-f62675a725f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spider_Giant_Wildshape_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c562dbff-cd25-4111-aec0-576011f71e13" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="34" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c7d32c7f-0a54-4ee1-94ce-d5e17da70ea7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spider_Giant_Wildshape_8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4693e3bd-0779-4bfc-9395-f62675a725f3" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="44" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="85bfc1dc-48e7-4fa5-957f-33ffc6f5f116" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spider_Giant_Wildshape_10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c7d32c7f-0a54-4ee1-94ce-d5e17da70ea7" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="57" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f77692a-44ac-49c4-8e08-041de6beb3c2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spider_Giant_Wildshape_12" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="85bfc1dc-48e7-4fa5-957f-33ffc6f5f116" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="74" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ee6baed1-761b-4950-8778-b3e447721c6c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spider_Sword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="42ee9f19-4496-4ac5-9a43-1238b50c63d9" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="31" />
+        <field name="Passives" type="StringTableFieldDefinition" value="SpiderWalk;ExtraAttack;AttackOfOpportunity;DarknessRules;Darkvision" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="WEB;ACID;WEB;DIFFICULT_TERRAIN_WEB;SPIDER_INFESTATION" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="Skill(Perception, 5); Skill(Stealth, 7); ProficiencyBonus(SavingThrow, Dexterity); BlockRegainHP(Undead;Construct)" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY: HEALTHREDUCTION_EASYMODE; STATUS_HARD: HEALTHBOOST_HARDCORE; STATUS_HARD: SWORDSPIDER_HARDCORE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eeba5bfb-4ed7-4e4c-b30c-8e2e1631d779" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spider_GiantWolf" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="42ee9f19-4496-4ac5-9a43-1238b50c63d9" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="10" />
+        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Spider" enumeration_type_name="StepsType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cf5d3949-6954-4348-ac82-fe1fa22f853c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spider_Phase_Tiny" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="158d57cf-1031-4c08-94bf-19d1aab880ba" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="6" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="6" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="4" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="4" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="9" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="6" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0.5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="158d57cf-1031-4c08-94bf-19d1aab880ba" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spider_Phase" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="42ee9f19-4496-4ac5-9a43-1238b50c63d9" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="6" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="6" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="45" />
+        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Spider" enumeration_type_name="StepsType" version="1" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="POISONED;WEB;DIFFICULT_TERRAIN_WEB;SPIDER_INFESTATION;ALCH_TOXIN_BASIC_CONDITION" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="90" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY: HEALTHREDUCTION_EASYMODE; STATUS_HARD: HEALTHBOOST_HARDCORE; STATUS_HARD: PHASESPIDER_HARDCORE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="12cff46e-c078-491f-b4a5-f73f89c5a126" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spider_Phase_Queen" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="158d57cf-1031-4c08-94bf-19d1aab880ba" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="125" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="19" />
+        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Spider" enumeration_type_name="StepsType" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="Skill(Perception, 8); Skill(Athletics, 5); BlockRegainHP(Undead;Construct)" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Sight" type="IntegerTableFieldDefinition" value="2000" />
+        <field name="DarkvisionRange" type="StringTableFieldDefinition" value="20" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="250" />
+        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="484393d9-eb7b-4b3b-b69b-5fdbfa940403" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
