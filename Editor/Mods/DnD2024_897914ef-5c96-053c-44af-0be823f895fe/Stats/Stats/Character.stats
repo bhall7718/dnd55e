@@ -1259,5 +1259,40 @@
         <field name="Armor" type="IntegerTableFieldDefinition" value="13" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d3da2f37-a690-4732-8253-bcefdf1e3dae" />
+        <field name="Name" type="NameTableFieldDefinition" value="Drider" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cdfd2fc0-9681-4bca-804c-79fba6697b93" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="19" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="18" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="164" />
+        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="4ee02692-eb98-43a6-803f-2da645364568" />
+        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Spider" enumeration_type_name="StepsType" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow, Dexterity); ProficiencyBonus(Skill, Athletics); DualWielding(true); BlockRegainHP(Undead;Construct)" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Wisdom" enumeration_type_name="Ability" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Multiattack_Drider;ImprovedCritical;SpiderWalk;SunlightSensitivity;AttackOfOpportunity;Darkvision;DarknessRules" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="MartialWeapons;SimpleWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="WEB;DIFFICULT_TERRAIN_WEB" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="150" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:9;ReactionActionPoint:1;SpellSlot:2:2:1;SpellSlot:4:4:3;SpellSlot:4:4:4;" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY: HEALTHREDUCTION_EASYMODE; STATUS_HARD: HEALTHBOOST_HARDCORE; STATUS_HARD: DRIDER_HARDCORE;STATUS_EASY:DRIDER_EASY;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ed58897d-2e53-47c0-aefd-a10019baebc2" />
+        <field name="Name" type="NameTableFieldDefinition" value="SCL_DriderCaravan_Drider" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d3da2f37-a690-4732-8253-bcefdf1e3dae" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="184" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Multiattack_Drider;ImprovedCritical;DarkDevotion;DualWielder_PassiveBonuses;SpiderWalk;Alert;AttackOfOpportunity;SunlightSensitivity;Darkvision;DarknessRules" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY: HEALTHREDUCTION_EASYMODE; STATUS_HARD: HEALTHBOOST_HARDCORE; STATUS_HARD: DRIDER_HARDCORE;STATUS_EASY:DRIDER_EASY;" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
