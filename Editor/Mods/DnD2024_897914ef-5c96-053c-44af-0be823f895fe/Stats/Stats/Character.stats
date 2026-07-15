@@ -1325,5 +1325,28 @@
         <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;SpiderWalk;FOR_BottomlessWell_WebSensePassive;DarknessRules;ExtraAttack" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b6ba0a0e-f29e-40b8-995b-a968394691d9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Harpy" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cdfd2fc0-9681-4bca-804c-79fba6697b93" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="38" />
+        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Clawed" enumeration_type_name="StepsType" version="1" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="PRONE_FALLEN;LURING_SONG;CRIPPLED" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:32;ReactionActionPoint:1" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="ArmorType" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="Flags" type="EnumerationListTableFieldDefinition" value="FloatingWhileMoving" enumeration_type_name="AttributeFlags" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Multiattack_Harpy;AttackOfOpportunity;DarknessRules" />
+        <field name="Sight" type="IntegerTableFieldDefinition" value="2200" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

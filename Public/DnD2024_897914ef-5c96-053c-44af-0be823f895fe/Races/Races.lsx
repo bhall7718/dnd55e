@@ -2916,6 +2916,20 @@
                         </node>
                     </children>
                 </node>
+                <node id="Race">
+                    <attribute id="Description" type="TranslatedString" handle="h9b3f6d84g9d96g983bgdd29g677ab15e8c87" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h9d1db6edgfe03gd1b6g95aeg9d83628a6e5e" version="1"/>
+                    <attribute id="DisplayTypeUUID" type="guid" value="632746dc-dcab-4b16-9e7e-029a04aafb59"/>
+                    <attribute id="Name" type="FixedString" value="Hobgoblin"/>
+                    <attribute id="ParentGuid" type="guid" value="632746dc-dcab-4b16-9e7e-029a04aafb59"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Goblin"/>
+                    <attribute id="UUID" type="guid" value="a234ff21-6324-4ce2-977a-ae921475c046"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="193938c4-ed1c-4648-af3f-f4b59152ec92"/>
+                        </node>
+                    </children>
+                </node>
             </children>
         </node>
     </region>

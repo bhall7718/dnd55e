@@ -178,5 +178,18 @@
         <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="632746dc-dcab-4b16-9e7e-029a04aafb59" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_37" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a234ff21-6324-4ce2-977a-ae921475c046" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="632746dc-dcab-4b16-9e7e-029a04aafb59" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="Hobgoblin" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9d1db6edgfe03gd1b6g95aeg9d83628a6e5e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9b3f6d84g9d96g983bgdd29g677ab15e8c87" version="1" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="193938c4-ed1c-4648-af3f-f4b59152ec92" />
+        <field name="RaceSoundSwitch" type="FixedStringTableFieldDefinition" value="Goblin" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="632746dc-dcab-4b16-9e7e-029a04aafb59" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
