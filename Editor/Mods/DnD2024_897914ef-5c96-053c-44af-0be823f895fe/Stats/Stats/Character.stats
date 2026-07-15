@@ -1411,7 +1411,7 @@
         <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY: HEALTHREDUCTION_EASYMODE; STATUS_HARD: HEALTHBOOST_HARDCORE;STATUS_HARD:HOBGOBLINKING_HARDCORE" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5e2281b3-c02a-4df2-b506-48047c15e3be" />
         <field name="Name" type="NameTableFieldDefinition" value="HookHorror" />
@@ -1430,6 +1430,68 @@
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="Skill(Perception, 3); Skill(Athletics, 2); BlockRegainHP(Undead;Construct)" />
         <field name="Weight" type="FloatTableFieldDefinition" value="252" />
         <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c75ed379-915d-465b-b60e-97f3358d9bd3" />
+        <field name="Name" type="NameTableFieldDefinition" value="_Kobolds" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7f03d35b-37bb-4268-8017-e721af97cff2" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="9" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="35" />
+        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Clawed" enumeration_type_name="StepsType" version="1" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:9;ReactionActionPoint:1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PackTactics;SunlightSensitivity;AttackOfOpportunity;Darkvision;DarknessRules" />
+        <field name="DarkvisionRange" type="StringTableFieldDefinition" value="9" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="SimpleWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY: HEALTHREDUCTION_EASYMODE; STATUS_HARD: HEALTHBOOST_HARDCORE; STATUS_HARD: KOBOLD_HARDCORE" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="UnarmedAttackAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="UnarmedRangedAttackAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="72baa530-03c6-4679-8efb-9f04af17a189" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kobold" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c75ed379-915d-465b-b60e-97f3358d9bd3" />
+        <field name="SoundSize" type="EnumerationTableFieldDefinition" value="Medium" enumeration_type_name="ObjectSize" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="34f2b8fb-2d07-46ef-8985-269ccdcba889" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kobold_Melee" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="72baa530-03c6-4679-8efb-9f04af17a189" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="12" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="acdfd75f-e58b-40d8-b545-3a59e53c6dac" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kobold_Ranger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="72baa530-03c6-4679-8efb-9f04af17a189" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="9" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="AttackSpellOverride(Projectile_StoneThrow_Kobold, Target_UnarmedAttack);BlockRegainHP(Undead;Construct)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90f2cf11-04b9-4a67-b5bf-c11fbf28682c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kobold_Inventor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="72baa530-03c6-4679-8efb-9f04af17a189" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="17" />
       </fields>
     </stat_object>
   </stat_objects>
