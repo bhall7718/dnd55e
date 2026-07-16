@@ -2757,7 +2757,7 @@
   <content contentuid="h971f55edg2fffg4d13geef5ga5900f12d913" version="1">3레벨: 원소 강타</content>
   <content contentuid="haaf829fagd4d2g973eg987ag882a31fcb4ae" version="4">강타 주문을 시전한 직후, 맹세의 권능 1회를 소모해 다음 효과 중 하나를 일으킬 수 있습니다.
 
-다오의 압착. 대상 주위로 땅이 솟아오릅니다. 대상은 구속 상태가 됩니다.
+다오의 짓누르기. 대상 주위로 땅이 솟아오릅니다. 대상은 구속 상태가 됩니다.
 
 진의 탈출. 자신으로부터 9m 이내에 있는 보이는 빈 공간으로 순간이동하며, 반물질 형태를 취합니다. 이 상태는 다음 자신의 턴이 끝날 때까지 지속됩니다. 이 형태인 동안, 타격, 관통, 참격 피해에 저항을 얻으며, 넘어짐과 구속 상태에 면역이 됩니다.
 
@@ -2772,7 +2772,7 @@
 또한 다음 기술 중 하나에 숙련을 얻습니다: 곡예, 협박, 공연, 설득.</content>
   <content contentuid="h1ad2ebf2gb473g88deg2fb9gc419b2fa63cf" version="1">7레벨: 원소 보호의 오라</content>
   <content contentuid="h4ed8c047g25f9g2d20g185eg45a7a0f16ff5" version="1">자신의 보호의 오라 안에 있는 동안, 자신과 아군은 산성, 냉기, 화염, 번개, 천둥 피해에 저항을 얻습니다.</content>
-  <content contentuid="h7ce47465gdfeag71dcgb0bdgeadc0c987cab" version="1">다오의 압착</content>
+  <content contentuid="h7ce47465gdfeag71dcgb0bdgeadc0c987cab" version="1">다오의 짓누르기</content>
   <content contentuid="hb3aa275bga6abgc81agd39bg3d1c211dcc20" version="1">대상 주위로 땅이 솟아오릅니다. 대상은 구속 상태가 됩니다.</content>
   <content contentuid="hd20d93a6g9ec6gc3cdg1890g0e70817191af" version="2">진의 탈출</content>
   <content contentuid="hc2eacb6dgfdd7gb76ag186cgecc6d2ed93b5" version="1">자신으로부터 9m 이내에 있는 보이는 빈 공간으로 순간이동하며, 반물질 형태를 취합니다. 이 상태는 다음 자신의 턴이 끝날 때까지 지속됩니다. 이 형태인 동안, 타격, 관통, 참격 피해에 저항을 얻으며, 넘어짐과 구속 상태에 면역이 됩니다.</content>
