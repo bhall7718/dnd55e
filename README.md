@@ -118,7 +118,7 @@ Bugbear, Displacer Beast, Drider, Ettercap, Giant Eagle, Gnoll, Goblin, Harpy, H
 
 See the [Wiki](https://github.com/Yoonmoonsik/dnd55e/wiki) for full attribution.
 
-- **Korean / Japanese Translation**: [Eolaloe](https://www.nexusmods.com/profile/Eolaloe)
+- **Japanese Translation**: [Eolaloe](https://www.nexusmods.com/profile/Eolaloe)
 - **Spanish / Latin Spanish Translation**: [incolhermex-droid](https://github.com/incolhermex-droid)
 - **French Translation**: CyberBoloss
 - **Brazilian Portuguese Translation**: [ShadowAhJin](https://mod.io/u/shadowahjin)
