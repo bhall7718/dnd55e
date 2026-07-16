@@ -1343,7 +1343,7 @@ new entry "FRIGHTENED"
 type "StatusData"
 data "StatusType" "BOOST"
 using "FRIGHTENED"
-data "Boosts" "Disadvantage(AllAbilities);Disadvantage(AttackRoll);"
+data "Boosts" "Disadvantage(AllAbilities);Disadvantage(AttackRoll);ActionResourceBlock(Movement)"
 data "OnTickRoll" "SavingThrow(Ability.Wisdom, SourceSpellDC())"
 data "OnTickSuccess" "RemoveStatus(FRIGHTENED)"
 
