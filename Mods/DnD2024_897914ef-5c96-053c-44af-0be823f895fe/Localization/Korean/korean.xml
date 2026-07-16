@@ -22,7 +22,7 @@
   <content contentuid="h84f8977cg06ecg1e31gebd6g21e4b7346121" version="2">경량 특성의 추가 공격을 가할 때, 보조 행동 대신 공격 행동의 일부로 가할 수 있습니다. 이 추가 공격은 턴당 한 번만 가할 수 있습니다.</content>
   <content contentuid="h64e7021cg8b69g3f60gde38gd59f3cdc5846" version="2">밀기</content>
   <content contentuid="h694f6a66g0531g98f0ga23eg525e146eb4d7" version="1">이 무기로 크리처를 적중시키면, 대상이 대형 이하일 경우 자신으로부터 [1]만큼 직선으로 밀어낼 수 있습니다.</content>
-  <content contentuid="haf74199bg92cbg93dega0fbgebb535603f83" version="2">무력화</content>
+  <content contentuid="haf74199bg92cbg93dega0fbgebb535603f83" version="2">기력 소모</content>
   <content contentuid="h6846e460g6aecg1e76g52c0g8c751abe8744" version="1">이 무기로 크리처를 적중시키면, 해당 크리처는 다음 자신의 턴이 시작되기 전까지 시도하는 다음 명중 굴림에 불리 보정을 받습니다.</content>
   <content contentuid="hb839de91gb995ge42eg62b9g1dd41fe4da4b" version="2">둔화</content>
   <content contentuid="h7773a857g54d9g0e61gc338g5671eef1378d" version="1">이 무기로 크리처를 적중시켜 피해를 입히면, 다음 자신의 턴이 시작될 때까지 대상의 이동 속도를 [1]만큼 감소시킬 수 있습니다. 크리처가 이 특성을 가진 무기에 여러 번 적중되더라도 이동 속도 감소량은 [1]을 초과하지 않습니다.</content>
@@ -4583,7 +4583,7 @@
   <content contentuid="h3339cd6bg6f73ge757g76cdg991057f97dde" version="2">무기 숙련술: 둔화
 
 이 무기로 크리처를 적중시켜 피해를 입히면, 다음 자신의 턴이 시작될 때까지 그 크리처의 이동 속도를 3m 감소시킬 수 있습니다.</content>
-  <content contentuid="h10007b53gb4bcgbac3g9089g6d911c3cc5d4" version="1">무기 숙련술: 교란
+  <content contentuid="h10007b53gb4bcgbac3g9089g6d911c3cc5d4" version="1">무기 숙련술: 빈틈 노출
 
 이 무기로 크리처를 적중시켜 피해를 입히면, 다음 자신의 턴이 끝나기 전까지 그 크리처에 대한 다음 명중 굴림에 유리 보정을 받습니다.</content>
   <content contentuid="heb62505ag46b9gede3gde91gf79191d5fe3f" version="1">3레벨: 그림자 시야</content>
