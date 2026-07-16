@@ -1052,11 +1052,11 @@
   <content contentuid="h208b7de3g5f3cge001gfe82gdd2940dee59c" version="1">재주: 방어적인 결투가</content>
   <content contentuid="hfd0b3091g52f6g2cd7ga7cbg9c61332d3252" version="1">정밀 무기를 들고 있을 때 다른 크리처가 근접 공격으로 자신을 적중시키면, 대응을 사용해 숙련 보너스를 방어도에 더해 그 공격을 빗나가게 할 수 있습니다. 이 방어도 보너스는 다음 자신의 턴이 시작될 때까지 근접 공격에 대해 유지됩니다.</content>
   <content contentuid="hfa2c5254ge5fag62b7gffb6g392787c61974" version="1">쌍수 전문가</content>
-  <content contentuid="h2d809685g28ffge26ag3e6ag5fa20f63c9e3" version="7">무기가 &lt;LSTag Tooltip="Light"&gt;경량&lt;/LSTag&gt; 특성이 아니어도 쌍수 전투를 사용할 수 있습니다. &lt;LSTag Tooltip="TwoHanded"&gt;양손&lt;/LSTag&gt; 무기는 이도류로 사용할 수 없습니다.&lt;br&gt;&lt;br&gt;자신의 턴에 공격 행동을 취해 근접 무기로 공격할 때, 같은 턴의 이후에 보조 행동으로 보조손 공격을 한 번 가할 수 있습니다. 흠집내기 특성을 마스터했고 보조손에 흠집내기 무기를 장착하고 있다면, 턴당 최대 두 번의 보조손 공격을 가할 수 있습니다.</content>
+  <content contentuid="h2d809685g28ffge26ag3e6ag5fa20f63c9e3" version="7">무기가 &lt;LSTag Tooltip="Light"&gt;경량&lt;/LSTag&gt; 특성이 아니어도 쌍수 전투를 사용할 수 있습니다. &lt;LSTag Tooltip="TwoHanded"&gt;양손&lt;/LSTag&gt; 무기는 이도류로 사용할 수 없습니다.&lt;br&gt;&lt;br&gt;자신의 턴에 공격 행동을 취해 근접 무기로 공격할 때, 같은 턴의 이후에 보조 행동으로 보조 무기 공격을 한 번 가할 수 있습니다. 흠집내기 무기 숙련술을 익혔고 보조 무기로 흠집내기 무기를 장착하고 있다면, 턴당 최대 두 번의 보조 무기 공격을 가할 수 있습니다.</content>
   <content contentuid="h720a62a8g5de9g9909gb1cagf61131cf2df9" version="1">재주: 쌍수 전문가(보조 공격)</content>
-  <content contentuid="h5cc813aagcb96gf7f3g42e4g17b7234b86eb" version="1">행동이나 보조 행동을 소모하지 않고 보조손 공격을 한 번 가할 수 있습니다. 이 이점은 턴당 한 번만 사용할 수 있습니다.</content>
+  <content contentuid="h5cc813aagcb96gf7f3g42e4g17b7234b86eb" version="1">행동이나 보조 행동을 소모하지 않고 보조 무기 공격을 한 번 가할 수 있습니다. 이 이점은 턴당 한 번만 사용할 수 있습니다.</content>
   <content contentuid="h7ed3574cg898aga3cage4bcg72bfa5e60a5c" version="1">재주: 쌍수 전문가</content>
-  <content contentuid="hb2bf6fc5g6c41geefag4186g751dda5c0a20" version="1">보조손 공격(쌍수 전문가)</content>
+  <content contentuid="hb2bf6fc5g6c41geefag4186g751dda5c0a20" version="1">보조 무기 공격(쌍수 전문가)</content>
   <content contentuid="hfba39959g9b2dg1bffgffd6g069588fe122e" version="1">던전 탐구자</content>
   <content contentuid="h9dd8a551g9f01g98dbg64f1ga485e59f0e9d" version="2">숨겨진 물체를 찾기 위한 포착 &lt;LSTag Tooltip="AbilityCheck"&gt;판정&lt;/LSTag&gt;과 함정을 피하거나 저항하기 위한 &lt;LSTag Tooltip="SavingThrow"&gt;내성 굴림&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Advantage"&gt;유리 보정&lt;/LSTag&gt;을 받습니다.
 
@@ -4633,7 +4633,7 @@
   <content contentuid="h93fe573fg6b32g5d47gfaaagd6a9823a5153" version="1">자신의 턴마다 한 번, 계약 무기로 크리처를 적중시키면, 계약 마법 주문 슬롯 하나를 소모해 목표에게 추가로 1d8의 역장 피해를 입히고, 그 주문 슬롯의 레벨당 1d8을 추가로 입힐 수 있으며, 목표가 거대형 이하라면 넘어짐 상태로 만들 수 있습니다.</content>
   <content contentuid="h8d4b8353g4cf2g9edcg051fg3eebf6d08956" version="1">자신의 턴마다 한 번, 계약 무기로 크리처를 적중시키면, 계약 마법 주문 슬롯 하나를 소모해 목표에게 추가로 1d8의 역장 피해를 입히고, 그 주문 슬롯의 레벨당 1d8을 추가로 입힐 수 있으며, 목표가 거대형 이하라면 넘어짐 상태로 만들 수 있습니다.</content>
   <content contentuid="h1498d59bg1126gb9c5gd9b1ga55c4cbb3816" version="1">자신의 턴마다 한 번, 계약 무기로 크리처를 적중시키면, 계약 마법 주문 슬롯 하나를 소모해 목표에게 추가로 1d8의 역장 피해를 입히고, 그 주문 슬롯의 레벨당 1d8을 추가로 입힐 수 있으며, 목표가 거대형 이하라면 넘어짐 상태로 만들 수 있습니다.</content>
-  <content contentuid="h91a9a031gbb78g3004g2f6cg6dcdb8f2cea3" version="1">무기가 &lt;LSTag Tooltip="Light"&gt;가벼움&lt;/LSTag&gt; 속성이 아니어도 쌍수 전투를 사용할 수 있습니다. &lt;LSTag Tooltip="TwoHanded"&gt;양손&lt;/LSTag&gt; 무기는 이도류로 사용할 수 없습니다.&lt;br&gt;&lt;br&gt;자신의 턴에 공격 행동을 취해 근접 무기로 공격할 때, 같은 턴의 이후에 보조 행동으로 보조손 공격을 한 번 가할 수 있습니다. 흠집내기 특성을 마스터했고 보조손에 흠집내기 무기를 장착하고 있다면, 턴당 최대 두 번의 보조손 공격을 가할 수 있습니다.</content>
+  <content contentuid="h91a9a031gbb78g3004g2f6cg6dcdb8f2cea3" version="1">무기가 &lt;LSTag Tooltip="Light"&gt;가벼움&lt;/LSTag&gt; 속성이 아니어도 쌍수 전투를 사용할 수 있습니다. &lt;LSTag Tooltip="TwoHanded"&gt;양손&lt;/LSTag&gt; 무기는 이도류로 사용할 수 없습니다.&lt;br&gt;&lt;br&gt;자신의 턴에 공격 행동을 취해 근접 무기로 공격할 때, 같은 턴의 이후에 보조 행동으로 보조 무기 공격을 한 번 가할 수 있습니다. 흠집내기 무기 숙련술을 익혔고 보조 무기로 흠집내기 무기를 장착하고 있다면, 턴당 최대 두 번의 보조 무기 공격을 가할 수 있습니다.</content>
   <content contentuid="h7f4aa580ga87dg16dcgfbe8g89f017ded271" version="1">3레벨: 그림자 주문</content>
   <content contentuid="h822a72b8g17f5g73a6gd5f7g245ac996eb94" version="1">그림자 주문 표에 명시된 소서러 레벨에 도달하면, 그 이후로는 항상 그 목록의 주문이 준비되어 있습니다. 그림자 마법 소서러는 특정 레벨에서 추가 주문을 얻습니다: 3레벨에 액운, 어둠, 상처 유발, 신출귀몰; 5레벨에 하다르의 굶주림과 공포; 7레벨에 상급 투명과 환영 살해자; 9레벨에 감염과 죽음 구름.</content>
   <content contentuid="hce90f19eg2ee2g0ff4g4c21g7ebf85d46c9d" version="1">그림자 마법 소서러는 특정 레벨에서 추가 주문을 얻습니다: 3레벨에 액운, 어둠, 상처 유발, 신출귀몰; 5레벨에 하다르의 굶주림과 공포; 7레벨에 상급 투명과 환영 살해자; 9레벨에 감염과 죽음 구름.</content>
@@ -4781,8 +4781,8 @@
   <content contentuid="h8756f6c6ga536g0a7agc01agf500547496f2" version="1">근접 무기를 만져 마법 효과를 부여하여, 무기에 새겨진 눈에 보이는 룬을 만듭니다. 발동된 무기로 가하는 공격은 명중 시 추가로 1d8의 화염 피해를 입힙니다.</content>
   <content contentuid="h7db07aaegcba0g874eg8391ge8926782e7f8" version="1">불의 룬</content>
   <content contentuid="h241ed709g7588g2cc5g9cd2gbc1ec16c5753" version="1">발동된 무기로 가하는 공격은 명중 시 추가로 1d8의 화염 피해를 입힙니다.</content>
-  <content contentuid="h06dbb138g6afagfebbg9a03gd5d229bb475e" version="1">현혹의 폭발</content>
-  <content contentuid="h36e08fceg5a47gf889gc415g5a67ba284ba1" version="1">손바닥에서 역장의 파동이 뿜어져 나와 사거리 내의 크리처 하나를 노립니다. 목표는 건강 내성 굴림을 합니다. 실패하면 크리처는 2d6의 역장 피해를 입고 다음 자신의 턴이 끝날 때까지 충격 상태가 됩니다. 성공하면 크리처는 피해만 입습니다.</content>
+  <content contentuid="h06dbb138g6afagfebbg9a03gd5d229bb475e" version="1">기절의 파동</content>
+  <content contentuid="h36e08fceg5a47gf889gc415g5a67ba284ba1" version="1">손바닥에서 역장의 파동이 뿜어져 나와 사거리 내의 크리처 하나를 노립니다. 목표는 건강 내성 굴림을 합니다. 실패하면 크리처는 2d6의 역장 피해를 입고 다음 자신의 턴이 끝날 때까지 기절 상태가 됩니다. 성공하면 크리처는 피해만 입습니다.</content>
   <content contentuid="h1d86fe95gbfdbg4380gabf5g485af2f71992" version="1">3레벨: 그림자 권역 주문</content>
   <content contentuid="h7b73f5fagb632g4dd6gbb1bg52e10cb075ff" version="1">이 신성한 권역과의 연결 덕분에 항상 특정 주문이 준비된 상태가 됩니다. 그림자 권역 주문 표에 명시된 클레릭 레벨에 도달하면, 그 이후로는 항상 그 목록의 주문이 준비되어 있습니다. 그림자 권역은 클레릭 레벨이 오를 때마다 다음 주문을 부여합니다: 3레벨에 액운, 거짓 목숨, 실명, 어둠; 5레벨에 점멸과 공포; 7레벨에 검은 촉수와 상급 투명; 9레벨에 냉기 분사와 꿈.</content>
   <content contentuid="hb05d9f4bgc914g4d44g95b9ga646b28fd85b" version="1">그림자 권역은 클레릭 레벨이 오를 때마다 다음 주문을 부여합니다: 3레벨에 액운, 거짓 목숨, 실명, 어둠; 5레벨에 점멸과 공포; 7레벨에 검은 촉수와 상급 투명; 9레벨에 냉기 분사와 꿈.</content>
@@ -4994,7 +4994,7 @@
   <content contentuid="hfcc54a67g386cg4555g8d89ga075abf80f71" version="1">제압의 파동 두루마리</content>
   <content contentuid="h45d48dd0g0261g469ag929agaf26bcfb4b9a" version="1">아가나자르의 작열 두루마리</content>
   <content contentuid="h4335d661g724ag4efag8e44g360b73743cb6" version="1">암흑 화살 두루마리</content>
-  <content contentuid="h6dc74b36g19fdg40fcgbff7gab2417f68395" version="1">현혹의 폭발 두루마리</content>
+  <content contentuid="h6dc74b36g19fdg40fcgbff7gab2417f68395" version="1">기절의 파동 두루마리</content>
   <content contentuid="h2d0f0f01ga2cfg4ad5ga369g91672fb5295f" version="1">죽음의 갑주 두루마리</content>
   <content contentuid="hfb9ed428ga689g44f4g81abg6451884c102e" version="1">엘민스터의 회피 두루마리</content>
   <content contentuid="h6192e9b5g8977g429cgb010g38af763aba20" version="1">탈것 소환 두루마리</content>
@@ -5345,11 +5345,11 @@
   <content contentuid="hafc90845gfef4gbcabg21e1g4b507cd3aea3" version="1">탄도 강타: 독</content>
   <content contentuid="h56c89b94g9c5cg3e99g2ac5gc5f4723f0a66" version="2">탄도 강타: 천둥</content>
   <content contentuid="h6bd9db98g1e8fg33a3g0a09gadb7f2151497" version="1">흠집내기</content>
-  <content contentuid="h939f5eb1gd3c5g103bg2cdage99686250a71" version="1">이번 턴에 보조 행동을 사용하지 않고 공격 행동의 일환으로 보조손 공격을 가할 수 있습니다.</content>
-  <content contentuid="h5e1086d5gb686g5218gd9b8g8728d0edb265" version="1">흠집내기: 보조손 공격 사용됨</content>
-  <content contentuid="h112fb3e9g734ag7e2dg4366g1a44c9038a26" version="1">이번 턴에 이미 흠집내기로 인한 무료 보조손 공격을 가했으므로 다시 가할 수 없습니다.</content>
-  <content contentuid="h004828cbg6ae4g9d9fgef10g00102cb4f553" version="1">쌍수 전문가: 보조손 공격</content>
-  <content contentuid="h3a446706g6505g19b1g3826gb313d8b63d3f" version="1">이번 턴에 보조 행동으로 추가 보조손 공격을 가할 수 있습니다.</content>
+  <content contentuid="h939f5eb1gd3c5g103bg2cdage99686250a71" version="1">이번 턴에 보조 행동을 사용하지 않고 공격 행동의 일환으로 보조 무기 공격을 가할 수 있습니다.</content>
+  <content contentuid="h5e1086d5gb686g5218gd9b8g8728d0edb265" version="1">흠집내기: 보조 무기 공격 사용됨</content>
+  <content contentuid="h112fb3e9g734ag7e2dg4366g1a44c9038a26" version="1">이번 턴에 이미 흠집내기로 인한 무료 보조 무기 공격을 가했으므로 다시 가할 수 없습니다.</content>
+  <content contentuid="h004828cbg6ae4g9d9fgef10g00102cb4f553" version="1">쌍수 전문가: 보조 무기 공격</content>
+  <content contentuid="h3a446706g6505g19b1g3826gb313d8b63d3f" version="1">이번 턴에 보조 행동으로 추가 보조 무기 공격을 가할 수 있습니다.</content>
   <content contentuid="hf7c771bbgba46g05a3g6c15g9c7c4ebba6b6" version="1">원소 흡수</content>
   <content contentuid="h2127d371g53e2g616ag957cg184d49e115ef" version="1">이 주문이 들어오는 에너지 일부를 붙잡아, 자신에게 미치는 영향을 줄이고 다음 근접 공격을 위해 저장합니다. 다음 자신의 턴이 시작될 때까지, 유발된 피해 유형에 저항을 얻습니다. 또한, 다음 자신의 턴에 근접 공격으로 처음 명중시키면, 목표는 유발된 유형의 추가 [1] 피해를 입고 주문이 종료됩니다.</content>
   <content contentuid="hccbdbb9eg99b6gf54fgce8dg5a4b024a38a8" version="1">원소 흡수</content>
