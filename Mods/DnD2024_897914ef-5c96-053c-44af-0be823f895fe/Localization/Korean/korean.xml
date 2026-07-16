@@ -5396,16 +5396,16 @@
   <content contentuid="hf67f7f88ga42fgb7c6g3526gd17410ea4287" version="1">지속시간 동안 자신을 중심으로 3m 방사에 천둥 같은 잔향이 가득 찹니다. 그 방사가 크리처의 공간으로 들어올 때, 그리고 크리처가 방사 안으로 들어오거나 그 안에서 턴을 마칠 때마다, 그 크리처는 건강 내성 굴림을 합니다. 실패하면 크리처는 천둥 피해를 입습니다. 성공하면 그 절반만큼만 피해를 입습니다. 크리처는 자신의 턴마다 이 내성 굴림을 한 번만 합니다.
 
 또한, 천둥 피해에 저항을 얻으며, 자신에 대한 원거리 명중 굴림은 불리 보정을 받고 이루어집니다.</content>
-  <content contentuid="h96a4fdcdg6eedg4ccdgb453g193837a217e9" version="1">아샤르달론의 활보</content>
+  <content contentuid="h96a4fdcdg6eedg4ccdgb453g193837a217e9" version="1">아샤달론의 활보</content>
   <content contentuid="h9b831d16g0360g4588g8217g0115979d8198" version="1">용의 넘실거리는 화염이 발에서 폭발하듯 뿜어져 나와, 폭발적인 속도를 부여합니다. 지속시간 동안, 자신의 이동 속도가 6m 증가하며, 이동해도 허점 공격을 유발하지 않습니다. 크리처로부터 1.5m 이내로 이동할 때마다, 자신의 열기 자취로 인해 그 크리처는 화염 피해를 입습니다. 크리처는 한 턴에 한 번만 이 피해를 입을 수 있습니다.
 
 상위 레벨에서. 3레벨보다 높은 주문 슬롯 레벨마다 자신의 이동 속도가 1.5m 추가로 증가하고, 화염 피해가 1d6만큼 증가합니다.</content>
-  <content contentuid="h07bf103cg6fe9g48deg90e6g51cda963e2bb" version="1">아샤르달론의 활보 오라</content>
+  <content contentuid="h07bf103cg6fe9g48deg90e6g51cda963e2bb" version="1">아샤달론의 활보 오라</content>
   <content contentuid="h015e6052gbb2eg4bc4g8148gac1a0bbffbf1" version="2">용의 넘실거리는 화염이 발에서 폭발하듯 뿜어져 나와, 폭발적인 속도를 부여합니다. 지속시간 동안, 자신의 이동 속도가 [1]만큼 증가하며, 이동해도 허점 공격을 유발하지 않습니다. 크리처로부터 [2] 이내로 이동할 때마다, 자신의 열기 자취로 인해 그 크리처는 화염 피해를 입습니다. 크리처는 한 턴에 한 번만 이 피해를 입을 수 있습니다.</content>
-  <content contentuid="hefff3653g8439g5d57g7610g02ccec1105b6" version="1">아샤르달론의 활보</content>
+  <content contentuid="hefff3653g8439g5d57g7610g02ccec1105b6" version="1">아샤달론의 활보</content>
   <content contentuid="hc093f34eg734bg4909g8ea8g91e0aff0472a" version="2">용의 넘실거리는 화염이 발에서 폭발하듯 뿜어져 나와, 폭발적인 속도를 부여합니다. 지속시간 동안, 자신의 이동 속도가 [1]만큼 증가하며, 이동해도 허점 공격을 유발하지 않습니다. 크리처로부터 [2] 이내로 이동할 때마다, 자신의 열기 자취로 인해 그 크리처는 화염 피해를 입습니다. 크리처는 한 턴에 한 번만 이 피해를 입을 수 있습니다.</content>
   <content contentuid="he87b5a9cg9c3ag1b7fg2fefg3f7ae0ff3ef9" version="1">4레벨 이상의 주문 슬롯으로 이 주문을 시전하면, 3레벨보다 높은 주문 슬롯 레벨마다 이동 속도가 [1]만큼 증가합니다. 이 주문은 3레벨보다 높은 슬롯 레벨마다 추가로 [2]의 피해를 입힙니다.</content>
-  <content contentuid="hc28f4dcdgd614gc5b0g7be9g946be11c3809" version="1">아샤르달론의 활보</content>
+  <content contentuid="hc28f4dcdgd614gc5b0g7be9g946be11c3809" version="1">아샤달론의 활보</content>
   <content contentuid="h87a45194g95b7g00ceg2f9eg6c288ed38884" version="1">비전의 활력: D6</content>
   <content contentuid="hebba7f87g6370g87ceg8319g29430a465253" version="1">비전의 활력: D8</content>
   <content contentuid="h61c3e42cg02b0g7f38gda65gdc3642939a49" version="1">비전의 활력: D10</content>
@@ -5415,9 +5415,9 @@
   <content contentuid="h2ee464d4g6606g2b85g7008gfc6f4aaa15b0" version="1">사거리 내에서 보이는, 자신과 같은 크기의 인간형 크리처 하나를 선택하십시오. 지속시간 동안 자신의 신체가 물리적으로 변형되어 그 크리처의 정확한 복제품이 됩니다. 철저한 신체검사로도 자신과 목표 사이의 차이를 찾아낼 수 없습니다.</content>
   <content contentuid="h35b9b915g3bf7g0d1dg728fg2be8d9ced715" version="1">고르고로스의 신체 변형</content>
   <content contentuid="hfb5ff22bgbb91g4598ga3acg629a9bc0bbf5" version="1">마법 입문: 고르고로스의 신체 변형</content>
-  <content contentuid="hff8c3953ga42fgb3bfgdad0g52582466fdd5" version="1">투사기</content>
+  <content contentuid="hff8c3953ga42fgb3bfgdad0g52582466fdd5" version="1">투석</content>
   <content contentuid="h33322b0egd4a5g9e80gdabdg3abd5d4b2ddc" version="1">사거리 내에서 착용하거나 소지하지 않은, 무게 0.5~2.3kg의 물체 하나를 선택하십시오. 그 물체는 자신이 선택한 방향으로 최대 18m를 직선으로 날아간 후 땅에 떨어지며, 단단한 표면에 부딪히면 그 전에 멈춥니다. 물체가 크리처에게 명중할 경우, 그 크리처는 민첩 내성 굴림을 해야 합니다. 내성 굴림에 실패하면, 물체는 목표에게 명중해 움직임을 멈춥니다. 물체가 무언가에 명중하면, 그 물체와 명중당한 대상은 각각 타격 피해를 입습니다.</content>
-  <content contentuid="h531eb181g2185g4a8eg9a93g7866406491b2" version="1">마법 입문: 투사기</content>
+  <content contentuid="h531eb181g2185g4a8eg9a93g7866406491b2" version="1">마법 입문: 투석</content>
   <content contentuid="hcee9d863gb64eg2f43gf305g608bc4aa5061" version="1">굶주린 칼날</content>
   <content contentuid="h0f617ea9g5fc5gff42gae8ag41a6861d59c0" version="1">들고 있는 무기나 맨손 공격에 게걸스러운 부정적 에너지를 불어넣습니다. 지속시간 동안, 강화된 무기나 맨손 공격으로 턴에 처음 크리처를 명중시키면, 목표는 자신의 주문 시전 능력치 보정치와 같은 사령 피해를 입으며, 자신은 입힌 사령 피해와 같은 만큼 임시 생명력을 얻습니다.</content>
   <content contentuid="h700ed84bg957fg2a5dg1d50g4d69487d7001" version="1">굶주린 칼날</content>
@@ -5539,7 +5539,7 @@
   <content contentuid="hb8962a55g8344g4835ga773g610c4b802669" version="5">사용 가능한 직업: 아티피서, 팔라딘</content>
   <content contentuid="h3ef06543gb18dg44b9gb236g44997392d5a6" version="1">고르고로스의 신체 변형 두루마리</content>
   <content contentuid="h048e9757gf877g4790g9da6ga7ed07014d56" version="1">사용 가능한 직업: 소서러, 워락, 위저드</content>
-  <content contentuid="h21f28158g6fd4g4f13gaeb5g46ebd693793f" version="1">투사기 두루마리</content>
+  <content contentuid="h21f28158g6fd4g4f13gaeb5g46ebd693793f" version="1">투석 두루마리</content>
   <content contentuid="h36ab8ce6g4ba6g476ag8f30ga885fc028382" version="1">사용 가능한 직업: 아티피서, 소서러, 위저드</content>
   <content contentuid="hb76f98a1gdaddg4951gb182gc6db746c906f" version="1">굶주린 칼날 두루마리</content>
   <content contentuid="h865d57bag46d3g4e6egb4b9g4b2be8c9fa2e" version="1">사용 가능한 직업: 팔라딘, 레인저, 워락</content>
@@ -5553,7 +5553,7 @@
   <content contentuid="h2d081af1g7463g4b13gb75cga2f474f1f345" version="1">사용 가능한 직업: 소서러, 워락, 위저드</content>
   <content contentuid="h365e83bfgbaa3g4ed5g8b43gf8e3cb6b0f1b" version="1">분노의 강타 두루마리</content>
   <content contentuid="h2d010845g555bg4d03g8d82gd5d53c0a75e7" version="1">사용 가능한 직업: 팔라딘</content>
-  <content contentuid="h29012509g9a1ag4f12gb771g80fea8b18f27" version="1">아샤르달론의 활보 두루마리</content>
+  <content contentuid="h29012509g9a1ag4f12gb771g80fea8b18f27" version="1">아샤달론의 활보 두루마리</content>
   <content contentuid="ha87130cag43b6g43aagb72eg9039f36dbbf5" version="1">사용 가능한 직업: 아티피서, 레인저, 소서러, 위저드</content>
   <content contentuid="h1e76b51fg30f1g4826gbff9g56fb7ca775d4" version="1">불협화음의 방패 두루마리</content>
   <content contentuid="hd129c79fg4974g4468gbeccgb1048964db88" version="1">사용 가능한 직업: 바드, 소서러, 위저드</content>
