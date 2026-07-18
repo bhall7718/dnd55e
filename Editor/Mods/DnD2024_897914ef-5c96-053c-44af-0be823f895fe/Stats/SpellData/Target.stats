@@ -6509,6 +6509,147 @@
         <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6c8f8c9d-8969-45bb-bff3-22af192855b9" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateDestroyWater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d8c39ca7-3184-49fb-8361-aea51ddcb0be" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WET,100,1);GROUND:CreateSurface(4,0, Water);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f90b9703-19c3-4a9b-a9c0-3dacddd4004d" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateWater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="18c3f332-5591-4691-ac5c-6f87b15de185" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WET,100,1);GROUND:CreateSurface(4,0, Water);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="232e3500-660c-4707-9a72-8ecedb4dd980" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateWater_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f5a1342-70c1-4da4-aa46-b75936c80ebb" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WET,100,1);GROUND:CreateSurface(5,0, Water);" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fddc9fa5-c8ed-402e-8ec2-ed57b51adfe9" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateWater_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="afa3a80d-178f-461c-a16d-f28c7a58bd49" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WET,100,1);GROUND:CreateSurface(6,0, Water);" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f861ebff-bcc4-458c-8afd-67112af7ca20" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateWater_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9f0ed18b-60c1-486d-ae42-62cec8a61ab9" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WET,100,1);GROUND:CreateSurface(7,0, Water);" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="136b377f-90c4-4cb1-b8c8-cbcb6e85ea50" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateWater_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="82e6c839-6bd4-4138-94d2-08fd4b4f175e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WET,100,1);GROUND:CreateSurface(8,0,Water);" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3cd193e3-9f68-439e-adaf-9404953c8c51" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateWater_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b2f40bff-3324-4422-bef2-d9fd0bf36852" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WET,100,1);GROUND:CreateSurface(9,0,Water);" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ce058e66-52fd-48e5-a4f3-1ea30d761571" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateWater_MinorConjuration" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ec287980-26cc-4b3f-a517-0acaec9f1772" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WET,100,1);GROUND:CreateSurface(4,0, Water);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7e4b4162-daf3-4f4a-a9e3-bef9e977d22a" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateWater_StaffOfRain" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0f237645-029f-4116-b222-8c8c8a05bb1b" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WET,100,1);GROUND:CreateSurface(4,0, Water);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cd61612c-4f1d-4605-a923-155007ca0fb8" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Umberlee_CreateWater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="82180f54-8806-4e39-9778-5d376f4f36ad" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WET,100,1);GROUND:CreateSurface(7,0, Water);" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1ded7c54-0c96-4b77-9011-24e172ab344a" />
+        <field name="Name" type="NameTableFieldDefinition" value="DestroyWater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9d8e70b0-308a-4af1-8025-0bb8b90b6618" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d75937c2-ce00-4536-81ee-4c7dd6848f08" />
+        <field name="Name" type="NameTableFieldDefinition" value="DestroyWater_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="09455558-ba0f-4978-9924-ccd05ad675ec" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c589f27a-01a3-43db-baf7-136c25f09eb2" />
+        <field name="Name" type="NameTableFieldDefinition" value="DestroyWater_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f0e00cb5-d15c-427a-8a54-9a258dc95b23" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2349da81-8208-4225-b87e-b0ab9108855b" />
+        <field name="Name" type="NameTableFieldDefinition" value="DestroyWater_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da6396e1-fee9-48c6-858a-f825473dbee4" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="78a601ad-3446-4e9c-8511-9ccf9c096008" />
+        <field name="Name" type="NameTableFieldDefinition" value="DestroyWater_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3346bc0c-5ced-46fe-b59e-78276a2f4051" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="89a2b3a9-832b-41c5-b6c4-43efe0001550" />
+        <field name="Name" type="NameTableFieldDefinition" value="DestroyWater_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="91a88908-bff6-44f9-81d2-826be15f22fe" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a4ba014-ad17-4ddc-aa31-610fcf5cc2a6" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Umberlee_DestroyWater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb6622be-61a6-4c6d-96c8-ee314b6f5545" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="7" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e24318ca-62e6-41c0-a476-c660098915d9" />
