@@ -5336,6 +5336,7 @@
         <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(UNNERVING_AURA,100,-1)" />
         <field name="AuraFlags" type="EnumerationListTableFieldDefinition" value="ShouldCheckLOS" enumeration_type_name="AuraFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="AC(1);IF(ClassLevelHigherOrEqualThan(11,'Ranger',context.Source)):AC(1);UnlockInterrupt(Interrupt_ProwlingRetribution);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="d2ec72fd-2375-4999-8197-71fefc86cd72" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

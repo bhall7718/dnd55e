@@ -4280,6 +4280,7 @@ data "AuraRadius" "3"
 data "AuraStatuses" "TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(UNNERVING_AURA,100,-1)"
 data "AuraFlags" "ShouldCheckLOS"
 data "Boosts" "AC(1);IF(ClassLevelHigherOrEqualThan(11,'Ranger',context.Source)):AC(1);UnlockInterrupt(Interrupt_ProwlingRetribution);"
+data "StatusEffect" "d2ec72fd-2375-4999-8197-71fefc86cd72"
 
 new entry "UNNERVING_AURA"
 type "StatusData"
