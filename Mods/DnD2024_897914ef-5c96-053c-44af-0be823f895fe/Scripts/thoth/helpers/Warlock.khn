@@ -68,3 +68,11 @@ end
 function HasHexStatusReverse()
     return HasAnyStatus({'HEX_STRENGTH','HEX_DEXTERITY','HEX_CONSTITUTION','HEX_INTELLIGENCE','HEX_WISDOM','HEX_CHARISMA'}, {}, {},context.Source,context.Target)
 end
+
+function CharismaGreaterOrEqualToStrengthAndDexterity(entity)
+	entity = entity or context.Source
+	local chaMod = GetModifier(entity.Charisma)
+	local strMod = GetModifier(entity.Strength)
+	local dexMod = GetModifier(entity.Dexterity)
+	return ConditionResult(chaMod >= strMod and chaMod >= dexMod)
+end

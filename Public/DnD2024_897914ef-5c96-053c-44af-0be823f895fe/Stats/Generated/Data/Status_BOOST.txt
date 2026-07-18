@@ -5904,6 +5904,11 @@ using "BURNING_SEALS_FIRE_TRUENAME"
 data "DisplayName" "h3818e721gc46cgdf03g0154g3b1f329fee61;1"
 data "Icon" "GenericIcon_DamageType_Necrotic"
 
+new entry "PACT_BLADE"
+type "StatusData"
+using "PACT_BLADE"
+data "Boosts" "WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);IF(CharismaGreaterOrEqualToStrengthAndDexterity()):WeaponAttackRollAbilityOverride(Charisma);CannotBeDisarmed()"
+
 new entry "PACT_BLADE_ILLRIGGER_MAINHAND"
 type "StatusData"
 data "StatusType" "BOOST"

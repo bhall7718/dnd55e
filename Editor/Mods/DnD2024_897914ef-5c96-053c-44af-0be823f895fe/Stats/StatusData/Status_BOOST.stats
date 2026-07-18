@@ -7369,6 +7369,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="70c39b02-c74e-4e0f-8b8e-64350af307a9" />
+        <field name="Name" type="NameTableFieldDefinition" value="PACT_BLADE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8b907065-d4e5-4b4b-a470-a7d16e328104" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);IF(CharismaGreaterOrEqualToStrengthAndDexterity()):WeaponAttackRollAbilityOverride(Charisma);CannotBeDisarmed()" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0918e38e-9c5b-42b1-afc9-659c3910c5fb" />
         <field name="Name" type="NameTableFieldDefinition" value="PACT_BLADE_ILLRIGGER_MAINHAND" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8b907065-d4e5-4b4b-a470-a7d16e328104" />
