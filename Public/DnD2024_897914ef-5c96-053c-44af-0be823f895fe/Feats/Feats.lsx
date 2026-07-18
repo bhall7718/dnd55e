@@ -293,13 +293,13 @@
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="MagicInitiateCleric"/>
                     <attribute id="PassivesAdded" type="LSString" value="MagicInitiate_Cleric"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(2f43a103-5bf1-4534-b14f-663decc0c525,2,0,MIClericCantrips,,,AlwaysPrepared,,114e7aee-d1d4-4371-8d90-8a2080592faf);SelectSpells(269d1a3b-eed8-4131-8901-a562238f5289,1,0,MIClericSpells,,,AlwaysPrepared,,114e7aee-d1d4-4371-8d90-8a2080592faf);SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(2f43a103-5bf1-4534-b14f-663decc0c525,2,0,MIClericCantrips,,,AlwaysPrepared,,114e7aee-d1d4-4371-8d90-8a2080592faf);SelectPassives(af60a937-0ecf-4038-9dfa-14e08b9ea75b,1);SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);"/>
                     <attribute id="UUID" type="guid" value="28e5fed3-bd41-4b74-ab48-b8e824ad3443"/>
                 </node>
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="MagicInitiateDruid"/>
                     <attribute id="PassivesAdded" type="LSString" value="MagicInitiate_Druid"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(b8faf12f-ca42-45c0-84f8-6951b526182a,2,0,MIDruidCantrips,,,AlwaysPrepared,,457d0a6e-9da8-4f95-a225-18382f0e94b5);SelectSpells(2cd54137-2fe5-4100-aad3-df64735a8145,1,0,,,,AlwaysPrepared,,457d0a6e-9da8-4f95-a225-18382f0e94b5);SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(b8faf12f-ca42-45c0-84f8-6951b526182a,2,0,MIDruidCantrips,,,AlwaysPrepared,,457d0a6e-9da8-4f95-a225-18382f0e94b5);SelectPassives(6d10deb2-c54f-452c-aa96-4f2e2c9b3991,1);SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);"/>
                     <attribute id="UUID" type="guid" value="1e1a9a4d-38f4-4a05-b080-d32c2b872250"/>
                 </node>
                 <node id="Feat">
@@ -317,7 +317,7 @@
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="MagicInitiateWizard"/>
                     <attribute id="PassivesAdded" type="LSString" value="MagicInitiate_Wizard"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,2,0,MIWizardCantrips,,,AlwaysPrepared,,a865965f-501b-46e9-9eaa-7748e8c04d09);SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,0,MIWizardSpells,,,AlwaysPrepared,,a865965f-501b-46e9-9eaa-7748e8c04d09);SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,2,0,MIWizardCantrips,,,AlwaysPrepared,,a865965f-501b-46e9-9eaa-7748e8c04d09);SelectPassives(9d8e6ce0-f51a-47c4-abc4-af7dec3303dd,1);SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);"/>
                     <attribute id="UUID" type="guid" value="26c6990b-d9f0-41a2-8108-209789fafc18"/>
                 </node>
                 <node id="Feat">

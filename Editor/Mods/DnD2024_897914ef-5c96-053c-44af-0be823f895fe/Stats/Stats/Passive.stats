@@ -9077,6 +9077,622 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5e4c13a7-317c-4ce0-8ba7-08e26648d1e1" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Cleric_Bane" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd00a8e92gfc21g4f3eg9974gf9e0c3d6edbb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b636d62g474cg4604ga98egff95e23fd181" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Bane,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Bane" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0ad5b80c-b07f-4d61-b356-40cd4db3cf30" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Cleric_Bless" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5e4c13a7-317c-4ce0-8ba7-08e26648d1e1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6dafbdc7g7942g4ac3g9634ga623f2f279cc" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Bless,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Bless" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1c175c73-ab4e-4657-913a-cfbd0c1d4b84" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Cleric_Command" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5e4c13a7-317c-4ce0-8ba7-08e26648d1e1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3c573a5dg1db5g476ega866g1b05ba51908d" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Command_Container,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_CommandHalt" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0007d025-7a50-430b-84de-8f1eee467da9" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Cleric_CreateDestroyWater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5e4c13a7-317c-4ce0-8ba7-08e26648d1e1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4d71670dg87d7g4bccga4bbgbf385cea820f" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CreateDestroyWater,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_CreateWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f87eee32-3813-4c91-b325-a45a85abcfc9" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Cleric_CureWounds" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5e4c13a7-317c-4ce0-8ba7-08e26648d1e1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h416d071cgc2fdg4999g885ag8edb4acff79c" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CureWounds,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_CureWounds" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7082199e-e31f-4848-a75c-825944afba70" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Cleric_GuidingBolt" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5e4c13a7-317c-4ce0-8ba7-08e26648d1e1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc9d5d758gd8e4g4619g8e9eg9913b4702ebb" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_GuidingBolt,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_GuidingBolt" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5f6debe7-4029-4557-ab43-1c3f94e7ae94" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Cleric_HealingWord" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5e4c13a7-317c-4ce0-8ba7-08e26648d1e1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8520752dg87bfg4a3agaa29g10bf5539480e" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_HealingWord,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_HealingWord" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1b8caeb3-59ed-4152-ac87-110048e10988" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Cleric_InflictWounds" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5e4c13a7-317c-4ce0-8ba7-08e26648d1e1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3e205f1agd960g4959g948fg29bb942db979" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_InflictWounds,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_InflictWounds" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c8e098ea-b284-4b2a-816f-addf224ac838" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Cleric_ProtectionFromEvilAndGood" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5e4c13a7-317c-4ce0-8ba7-08e26648d1e1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1dcac678ge441g4e18ga33fgbbe5e379795d" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ProtectionFromEvilAndGood,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_ProtectionFromEvilAndGood" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b3ac82e5-90c2-4952-b567-dac60e1c2668" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Cleric_Sanctuary" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5e4c13a7-317c-4ce0-8ba7-08e26648d1e1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7c7f5d5dg08bcg4c63g8114g9f0315f4dcca" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Sanctuary,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_Sanctuary" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aaa5e727-04ff-4136-95c7-5d97ba7b92ce" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Cleric_ShieldOfFaith" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5e4c13a7-317c-4ce0-8ba7-08e26648d1e1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd6d90a0dg68a1g49eagb5afg8d748b721221" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ShieldOfFaith,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_ShieldOfFaith" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5cc7779e-ee19-47b3-9091-0a6648048ba2" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Cleric_Wardaway" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5e4c13a7-317c-4ce0-8ba7-08e26648d1e1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h40188367g58fcg4db9g9794geffb5d03c4ef" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Wardaway,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Wardaway" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f9f7986d-22e7-4c0a-9bb1-495e8eda64f2" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_AbsorbElements" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he4a975ccg5d4fg45f9g97d5g3f061079b267" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b636d62g474cg4604ga98egff95e23fd181" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_AbsorbElements,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_AbsorbElements" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c7982fd5-02cc-4dbc-a172-e72a8e027264" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_AnimalFriendship" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9f7986d-22e7-4c0a-9bb1-495e8eda64f2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h52a19910g3cc7g493eg8fabg8b7f5c9d64ba" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_AnimalFriendship,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_AnimalFriendship" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="330077bb-0d4a-451e-977d-b02e9c6f316a" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_CharmPerson" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9f7986d-22e7-4c0a-9bb1-495e8eda64f2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h996d1b8ega8b2g47c0g96c4gaf6bc2f78055" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CharmPerson,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_CharmPerson" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5ad2aa80-9478-445f-9acb-bcb2db1190d7" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_CreateDestroyWater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9f7986d-22e7-4c0a-9bb1-495e8eda64f2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4d71670dg87d7g4bccga4bbgbf385cea820f" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CreateDestroyWater,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_CreateWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6faf7132-a792-4d3a-877c-14dda95713f2" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_CureWounds" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9f7986d-22e7-4c0a-9bb1-495e8eda64f2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h416d071cgc2fdg4999g885ag8edb4acff79c" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CureWounds,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_CureWounds" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e895264-47fd-49e3-88a6-1a3bbe76b278" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_Jump" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9f7986d-22e7-4c0a-9bb1-495e8eda64f2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h838f68ccgef72g4870ga9e0g4663276becd0" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Jump,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_LongJump" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8e6edf98-a359-4b83-b34f-2c340dbd7f21" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_Entangle" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9f7986d-22e7-4c0a-9bb1-495e8eda64f2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h75a2429eg5e2dg4528g91a9gc3a7fe4ecdc1" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Entangle,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_Entangled" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="13685810-8bd3-4419-9486-363464b20407" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_FaerieFire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9f7986d-22e7-4c0a-9bb1-495e8eda64f2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h115b8b53g622bg479ag9fd7g14390d34dc89" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_FaerieFire,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FaerieFire" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3bf11ead-880e-42d5-a717-ae3e4de76548" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_FogCloud" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9f7986d-22e7-4c0a-9bb1-495e8eda64f2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h06e15584g7b42g42e3g9defgae871657d6f9" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_FogCloud,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FogCloud" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a350dba1-2350-45a1-816a-04e3a97df967" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_Goodberry" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9f7986d-22e7-4c0a-9bb1-495e8eda64f2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he986d9cfge7f4g4d92g9818g7c5d11e3be9a" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Goodberry,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Goodberry" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c34b0914-ccc1-48d6-a24b-d70b6821bb83" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_HealingWord" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9f7986d-22e7-4c0a-9bb1-495e8eda64f2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8520752dg87bfg4a3agaa29g10bf5539480e" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_HealingWord,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_HealingWord" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e6d6e27e-4f10-4b98-adb5-3c70a964e5ec" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_IceKnife" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9f7986d-22e7-4c0a-9bb1-495e8eda64f2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd623321egb083g4f76g8de6g854fb06bd2fa" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_IceKnife,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_IceKnife" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d4743c72-6cde-4e63-9685-f864dadbf085" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_Longstrider" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9f7986d-22e7-4c0a-9bb1-495e8eda64f2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h36704839gee4ag41f3g9e73gc61a6ec696a0" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Longstrider,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Longstrider" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="300d6717-7b92-4c7c-bd90-dac7de8916ad" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_ProtectionFromEvilAndGood" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9f7986d-22e7-4c0a-9bb1-495e8eda64f2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1dcac678ge441g4e18ga33fgbbe5e379795d" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ProtectionFromEvilAndGood,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_ProtectionFromEvilAndGood" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="63afe9b4-fe82-48b5-9bab-75ebc2c7b7a1" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_SpeakWithAnimals" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9f7986d-22e7-4c0a-9bb1-495e8eda64f2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h76a8c640ge73dg4733g817cg19c49fb9c591" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_SpeakWithAnimals,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_SpeakWithAnimals" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="82e2dbeb-bb92-43cc-9881-8bbad0f25d9f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_ThornArmor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9f7986d-22e7-4c0a-9bb1-495e8eda64f2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6eeebe55g29fcg4be9g95cfga37c5a2a251e" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ThornArmor,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_ThornArmor" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1dd7c067-5210-43ed-b20d-fb80b28d10d0" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_Thunderwave" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9f7986d-22e7-4c0a-9bb1-495e8eda64f2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcde29b6bgba06g491agb023g5f000272d40b" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_Thunderwave,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_Thunderwave" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_AbsorbElements" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he4a975ccg5d4fg45f9g97d5g3f061079b267" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b636d62g474cg4604ga98egff95e23fd181" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_AbsorbElements,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_AbsorbElements" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="244ef11d-fd4e-41b5-bdf4-4c1f078fe975" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_BodyWarpingOfGorgoroth" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbda17fc5g7024g467aga87bg388df5baebc3" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_BodyWarpingOfGorgoroth,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_BodyWarpingOfGorgoroth" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="681410ca-e630-4d72-ab38-4a0d47af46ab" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_BurningHands" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7a2fb537g5fc5g43f8gab0cgc2fafe4b4935" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_BurningHands,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_BurningHands" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a2ef87b8-f191-4e5c-9622-84c4112b8964" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_Catapult" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3b3a5fecgf368g4ca4g838dg229fd96a03af" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Catapult,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Catapult" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f4c9b51b-51a2-4e92-b044-aea61a44c39a" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_CharmPerson" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h996d1b8ega8b2g47c0g96c4gaf6bc2f78055" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CharmPerson,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_CharmPerson" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6988dc6c-0574-479a-ab93-bf0f5596452f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_ChromaticOrb" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h15ab5126g2cc1g4af1gba03g00cfda0bb70a" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_ChromaticOrb,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_ChromaticOrb" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="409000ad-5289-4af6-b000-a0501069f3b1" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_CloakOfShadow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h195d1d62g638dg46f4g9ae1g687f458f2200" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_CloakOfShadow,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_CloakOfShadow" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f299a96f-7515-49bc-a8f8-1f984642ecf3" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_ColorSpray" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h77c2c16fg7fa7g45f8g99eeg5093ee84f9d3" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_ColorSpray,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_ColorSpray" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3eb33419-9035-41b3-82bf-f065ba611b32" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_DisguiseSelf" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h470526c7g8652g4997g92f7ga0742432639f" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DisguiseSelf,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_DisguiseSelf" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="afe93f0c-b72f-40b5-84da-5e4673620441" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_Jump" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h838f68ccgef72g4870ga9e0g4663276becd0" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Jump,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_LongJump" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5fdececf-ee75-4be4-a231-e3ad3a1403d7" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_ExpeditiousRetreat" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h616e65feg4aa9g4dabg85c6g0011a08ab3c0" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ExpeditiousRetreat,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_ExpeditiousRetreat" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9cd89e3d-bca6-41b0-aecc-7d1fd5c6b2fd" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_FalseLife" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h452ef02bg8072g459eg855cge264eb47d661" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_FalseLife,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_FalseLife" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="44351e56-36e9-4049-9c0b-96426e00fb1b" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_FeatherFall" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9dc30fd4g3582g480bgba3dg482edb0a6f4e" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_FeatherFall,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FeatherFall" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="94c20170-e6a5-4331-9d9d-6bfb33cd0281" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_FindFamiliar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbcd13d7dgb7f9g4220g85dbg19f9150641ef" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_FindFamiliar,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FindFamiliar" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4286773c-ba32-46ea-bcb0-ad2832394963" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_FogCloud" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h06e15584g7b42g42e3g9defgae871657d6f9" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_FogCloud,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FogCloud" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dbea1587-c85b-4a9b-ab2b-23839dd698e1" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_Grease" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1243bcf0g786ag42b5gb4fbg0cbf8d10bf4e" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Grease,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_Grease" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e14c3d33-3e8f-4bf3-9a65-369e17455bd3" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_HellsLash" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb920e5dbgbbccg4712g9904g35edd94a4d41" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_HellsLash,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_HellsLash" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="80f98813-995d-487c-97bf-638fca257bc6" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_IceKnife" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd623321egb083g4f76g8de6g854fb06bd2fa" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_IceKnife,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_IceKnife" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1c1e7b9c-41a6-4264-88ea-561c2ccb7e6b" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_Longstrider" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h36704839gee4ag41f3g9e73gc61a6ec696a0" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Longstrider,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Longstrider" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="de3bf4cc-db5c-4831-8a8b-aefe42e147ff" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_MageArmor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h67a78096g5504g4397ga7e3g50d4c70ef812" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_MageArmor,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_MageArmor" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1447bf7a-ffb0-4668-88dd-22c6aaa3ac10" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_MagicMissile" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h84567768gbb92g4a5cg94a3ga7549989b4f5" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_MagicMissile,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_MagicMissile" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="52c1b3ae-d2e8-4aba-bc6f-d50636fa852a" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_ProtectionFromEvilAndGood" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1dcac678ge441g4e18ga33fgbbe5e379795d" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ProtectionFromEvilAndGood,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_ProtectionFromEvilAndGood" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="29f43467-040b-4b17-9b2a-aa28b3e52395" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_RayOfSickness" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha143d206g7a9bg470cg83cdgbc966fec394a" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_RayOfSickness,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_RayOfSickness" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c1c000a1-2a78-4e2f-9440-8f44213876ee" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_Shield" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd50a6304ga5b5g49beg8c6fge702b2220079" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Shield_Wizard,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Shield" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="06bb0494-9e49-4e05-b5f9-e06653b0f2b1" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_Sleep" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h48c46a3cg3ed8g4cb8g8a9cgfc211a2c0f09" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Sleep,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Sleep" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b6f45408-396f-41dc-8b27-d42943924240" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_SpellfireFlare" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h64a62e32ge165g4a0bgba51g3a56f6fbc678" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_SpellfireFlare,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_SpellfireFlare" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6234a6ab-d53e-47dd-825c-1f57b66ba148" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_HideousLaughter" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5cfc7c46g0600g459cg9131g7a3b7a33eef5" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_HideousLaughter,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Tasha'sHideousLaughter" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c0c6a966-03bb-4876-a186-2eb1b19cbe42" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_Thunderwave" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcde29b6bgba06g491agb023g5f000272d40b" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_Thunderwave,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_Thunderwave" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90c72662-bdc1-4b4f-a32f-c111a9b8d19f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_TideOfDarkness" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc7c9d88egba6dg4b3dg9f9cgc6db9ab23824" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_TideOfDarkness,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_TideOfDarkness" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="26e290ff-d0da-46d9-af00-16260047bfdf" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_UmbralTendril" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd3f1c3b8gddabg4eb9g9949g8d5cedfb3391" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_UmbralTendril,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_UmbralTendril" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3c3fc315-e34f-4b7c-a75d-f3b5aa423816" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_Wardaway" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h40188367g58fcg4db9g9794geffb5d03c4ef" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Wardaway,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Wardaway" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cc70cf85-c145-46ea-87bf-073a1530e65f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_WitchBolt" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf144efb7g49aeg4bb7ga35fg54d2036d782e" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_WitchBolt,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_WitchBolt" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="63af0edc-5548-4ea2-96ac-17240ef81373" />
         <field name="Name" type="NameTableFieldDefinition" value="StrikeOfTheGiants" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7161b496g15eeg82f5gd23agbcddcc7ddb56" version="1" />
