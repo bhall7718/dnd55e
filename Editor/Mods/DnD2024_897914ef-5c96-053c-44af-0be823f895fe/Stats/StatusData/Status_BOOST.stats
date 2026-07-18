@@ -1122,7 +1122,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_AuraOfDevotion" />
         <field name="StackId" type="StringTableFieldDefinition" value="CIRCLE_OF_POWER_AURA" />
         <field name="AuraRadius" type="IntegerTableFieldDefinition" value="9" />
-        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(not Enemy()):ApplyStatus(CIRCLE_OF_POWER)" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(Character() and not Dead() and not Enemy()):ApplyStatus(CIRCLE_OF_POWER)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="SpellResistance(Resistant);IF(HasSpellFlag(SpellFlags.Spell)):Advantage(AllSavingThrows);" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="eab76c6a-a5a7-445b-8430-bfce0e7bb5ea" />
       </fields>

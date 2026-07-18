@@ -888,7 +888,7 @@ data "Description" "hc52cdfedg87a2g694bg6d16g81bc875203c5;1"
 data "Icon" "Action_Paladin_AuraOfDevotion"
 data "StackId" "CIRCLE_OF_POWER_AURA"
 data "AuraRadius" "9"
-data "AuraStatuses" "IF(not Enemy()):ApplyStatus(CIRCLE_OF_POWER)"
+data "AuraStatuses" "IF(Character() and not Dead() and not Enemy()):ApplyStatus(CIRCLE_OF_POWER)"
 data "Boosts" "SpellResistance(Resistant);IF(HasSpellFlag(SpellFlags.Spell)):Advantage(AllSavingThrows);"
 data "StatusEffect" "eab76c6a-a5a7-445b-8430-bfce0e7bb5ea"
 
