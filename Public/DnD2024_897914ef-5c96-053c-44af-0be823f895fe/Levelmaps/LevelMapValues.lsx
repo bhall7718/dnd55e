@@ -285,6 +285,12 @@
                     <attribute id="PreferredClassUUID" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
                     <attribute id="UUID" type="guid" value="15328eac-27de-4be5-b85e-ea5185583d3e"/>
                 </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d12"/>
+                    <attribute id="Name" type="FixedString" value="DragonShape"/>
+                    <attribute id="PreferredClassUUID" type="guid" value="457d0a6e-9da8-4f95-a225-18382f0e94b5"/>
+                    <attribute id="UUID" type="guid" value="3c1a1586-0c8a-4479-9cc2-89dba678a319"/>
+                </node>
             </children>
         </node>
     </region>

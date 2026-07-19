@@ -25,6 +25,7 @@
         <field name="TemplateID" type="StringTableFieldDefinition" value="7fb257e6-cc4e-474c-9d20-32a2ea966b83" />
         <field name="Rules" type="GuidObjectTableFieldDefinition" value="5273f8cb-c96c-4efb-ac86-b045c32004aa" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Polymorph;SG_Polymorph_BeastShape;SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Acid, Resistant);Resistance(Cold, Resistant);Resistance(Fire, Resistant);Resistance(Lightning, Resistant);Resistance(Poison, Resistant);MonkWeaponDamageDiceOverride(LevelMapValue(DragonShape));" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
