@@ -12920,7 +12920,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8e7a47b8-4084-4757-b667-7c98e4f4d910" />
         <field name="Name" type="NameTableFieldDefinition" value="CreateDestroyWater_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="d8c39ca7-3184-49fb-8361-aea51ddcb0be" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f90b9703-19c3-4a9b-a9c0-3dacddd4004d" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

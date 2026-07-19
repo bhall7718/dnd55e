@@ -10800,7 +10800,7 @@ using "Target_ViciousMockery"
 new entry "Target_CreateDestroyWater_spellscroll"
 type "SpellData"
 data "SpellType" "Target"
-using "Target_CreateDestroyWater"
+using "Target_CreateWater"
 
 new entry "Target_Entangle_spellscroll"
 type "SpellData"
