@@ -3405,6 +3405,7 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6006" />
         <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="ElementalAttunement" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

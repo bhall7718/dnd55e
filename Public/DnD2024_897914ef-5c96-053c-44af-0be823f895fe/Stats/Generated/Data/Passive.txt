@@ -2461,6 +2461,7 @@ data "Description" "h3eabcb35gf264g4f8ag9c30g123cbc8fd2b8;3"
 data "PriorityOrder" "6006"
 data "Properties" "IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar"
 data "Boosts" ""
+data "ToggleGroup" "ElementalAttunement"
 
 new entry "Monk_7_Evasion"
 type "PassiveData"
